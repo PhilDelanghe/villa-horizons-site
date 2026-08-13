@@ -243,6 +243,7 @@ export default {
       { name: 'Collioure (15 min)', desc: 'La Casa Rico et son rooftop vue clocher, Le Neptune au-dessus de la baie, les tapas de Chez Simone sur le Boramar. Et un café tôt le matin en regardant la mer' },
       { name: 'Banyuls (30 min)', desc: 'Le Jardin de Saint-Sébastien (le restaurant du Clos Saint Sebastien, vins au prix cave) et l\'esplanade face à la mer avec ses nombreux restos' },
       { name: 'Hostal Empúries (L\'Escala, 1 h)', desc: 'Le restaurant de l\'hôtel, quasiment sur la plage du Portitxol, à côté des ruines d\'Empúries' },
+      { name: 'Le Bout du Monde (Cerbère, 45 min)', desc: 'Les pieds dans l\'eau dans l\'anse de Peyrefite, au départ du sentier sous-marin de la réserve marine. Idéal après le snorkeling' },
     ],
     spotsEsTitle: 'Et côté Espagne, à environ 1 h de route',
     spotsEs: [

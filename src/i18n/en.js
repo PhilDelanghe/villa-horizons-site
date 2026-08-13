@@ -243,6 +243,7 @@ export default {
       { name: 'Collioure (15 min)', desc: 'La Casa Rico and its rooftop with bell-tower view, Le Neptune above the bay, tapas at Chez Simone on the Boramar. And an early morning coffee looking out to sea' },
       { name: 'Banyuls (30 min)', desc: 'Le Jardin de Saint-Sébastien (the Clos Saint Sebastien\'s restaurant, wines at cellar prices) and the seafront esplanade with its many restaurants' },
       { name: 'Hostal Empúries (L\'Escala, 1 h)', desc: 'The hotel\'s restaurant, practically on the Portitxol beach, next to the Empúries ruins' },
+      { name: 'Le Bout du Monde (Cerbère, 45 min)', desc: 'Feet in the water in the Peyrefite cove, right at the start of the marine reserve\'s underwater trail. Perfect after snorkeling' },
     ],
     spotsEsTitle: 'And across the border, about 1 hour away',
     spotsEs: [
