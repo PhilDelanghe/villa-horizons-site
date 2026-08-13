@@ -411,6 +411,17 @@ export default {
       'We arranged this house as if it were our own, trying to have something for every kind of guest: the musical instruments get played, the library overflows (we gladly lend extra books beyond those in the villa), and the garden is designed for children and dogs to enjoy as much as the parents.',
       'On site, a local concierge service handles welcome and cleaning, and we remain reachable for everything else.',
     ],
+    enjoyTitle: 'What do we enjoy doing here?',
+    enjoy: [
+      'Walk along the coastal path and find empty coves, even in August.',
+      'Book a boat and meet the dolphins and the regular fish of the underwater trail or Taillelauque beach at Cap l\'Abeille.',
+      'Take the car super early and visit Sa Tuna or Palafrugell.',
+      'Lift weights at La Box Imperium in Argelès.',
+      'Run in the mountains.',
+      'Try longe-côte, the local sea-wading workout.',
+      'Have a coffee or a drink in Collioure.',
+      'Discover new wineries.',
+    ],
   },
 
   contact: {

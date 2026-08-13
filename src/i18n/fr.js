@@ -355,6 +355,17 @@ export default {
       'Nous avons arrangé cette maison comme la nôtre, en essayant d\'avoir de quoi satisfaire tous les types de visiteurs : les instruments de musique servent, la bibliothèque déborde (nous prêtons volontiers des livres en plus de ceux de la villa), et le jardin est pensé pour que les enfants et les chiens en profitent autant que les parents.',
       'Sur place, une conciergerie locale assure l\'accueil et le ménage, et nous restons joignables pour tout le reste.',
     ],
+    enjoyTitle: 'Ce qu\'on aime faire ici',
+    enjoy: [
+      'Marcher sur le sentier littoral et trouver des criques désertes, même en août.',
+      'Louer un bateau et croiser les dauphins et les poissons habitués du sentier sous-marin ou de la plage de Taillelauque, au cap l\'Abeille.',
+      'Partir très tôt en voiture pour Sa Tuna ou Palafrugell.',
+      'Soulever de la fonte à La Box Imperium, à Argelès.',
+      'Courir en montagne.',
+      'Faire du longe-côte.',
+      'Prendre un café ou un verre à Collioure.',
+      'Découvrir de nouveaux domaines viticoles.',
+    ],
   },
 
   sport: {
