@@ -420,7 +420,7 @@ export default {
       'Walk along the coastal path and find empty coves, even in August.',
       'Book a boat and meet the dolphins and the regular fish of the underwater trail or Taillelauque beach at Cap l\'Abeille.',
       'Take the car super early and visit Sa Tuna or Palafrugell.',
-      'Lift weights at La Box Imperium in Argelès.',
+      'Lift weights at La Box Imperium in Saint-André.',
       'Run in the mountains.',
       'Try longe-côte, the local sea-wading workout.',
       'Have a coffee or a drink in Collioure.',

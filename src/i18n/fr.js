@@ -364,7 +364,7 @@ export default {
       'Marcher sur le sentier littoral et trouver des criques désertes, même en août.',
       'Louer un bateau et croiser les dauphins et les poissons habitués du sentier sous-marin ou de la plage de Taillelauque, au cap l\'Abeille.',
       'Partir très tôt en voiture pour Sa Tuna ou Palafrugell.',
-      'Soulever de la fonte à La Box Imperium, à Argelès.',
+      'Soulever de la fonte à La Box Imperium, à Saint-André.',
       'Courir en montagne.',
       'Faire du longe-côte.',
       'Prendre un café ou un verre à Collioure.',

@@ -6,7 +6,7 @@ import Cta from './Cta.astro';
 // sections: [{ title, items, maps }] où items = [{name, desc, maps?}] (cartes) ou [string] (liste)
 // section.maps : true ou chaîne de contexte géographique -> lien Google Maps auto sur chaque carte
 // item.maps === false : pas de lien pour cette carte
-const { t, page, title, intro, sections = [], paragraphs = [] } = Astro.props;
+const { t, page, title, intro, sections = [], paragraphs = [], image, imageAlt } = Astro.props;
 
 const mapsUrl = (name, ctx) => {
   const paren = (name.match(/\(([^)]*)\)/) || [])[1] || '';
@@ -25,6 +25,12 @@ const mapsUrl = (name, ctx) => {
     <h1>{title}</h1>
     <p class="intro">{intro}</p>
   </header>
+
+  {image && (
+    <section class="section page-photo">
+      <img src={image} alt={imageAlt} />
+    </section>
+  )}
 
   {paragraphs.length > 0 && (
     <section class="section prose">

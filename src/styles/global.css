@@ -68,6 +68,8 @@ a { color: var(--accent); }
 
 /* Prose (page à propos) */
 .prose p { max-width: 70ch; margin-bottom: 1rem; font-size: 1.05rem; }
+.page-photo { padding-top: 0; padding-bottom: 0; }
+.page-photo img { max-width: min(480px, 100%); border-radius: var(--radius); display: block; box-shadow: 0 2px 10px rgba(31, 42, 51, 0.15); }
 
 /* Buttons */
 .btn {
