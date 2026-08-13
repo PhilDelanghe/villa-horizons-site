@@ -70,6 +70,7 @@ export default {
       'Accès direct à la terrasse ombragée avec coin repas et barbecue.',
       'Salle de douche moderne et WC séparés.',
       'Buanderie avec lave-linge.',
+      'Accès à la cour intérieure fermée : pour étendre le linge, ou s\'assurer qu\'un animal ne disparaisse pas dans la nature.',
     ],
     floorTitle: 'À l\'étage',
     bedrooms: [

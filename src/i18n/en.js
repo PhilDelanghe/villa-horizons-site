@@ -70,6 +70,7 @@ export default {
       'Direct access to a shaded terrace with dining area and barbecue.',
       'Modern shower room and separate toilet.',
       'Laundry room with washing machine.',
+      'Access to the enclosed courtyard: for drying clothes, or making sure a pet does not disappear into the wild.',
     ],
     floorTitle: 'First floor',
     bedrooms: [
