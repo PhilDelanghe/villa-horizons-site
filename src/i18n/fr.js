@@ -77,7 +77,7 @@ export default {
       { name: 'Chambre vue mer', desc: 'Lit queen 160 × 200, accès balcon avec vue mer' },
       { name: 'Chambre double vue mer', desc: 'Lit double 140 × 190, accès balcon avec vue mer' },
       { name: 'Chambre double vue montagne', desc: 'Lit double, accès balcon avec vue montagne' },
-      { name: 'Chambre enfants', desc: 'Trois lits simples, communicante avec la chambre vue mer, idéale pour les enfants' },
+      { name: 'Chambre enfants', desc: 'Un lit superposé et un lit simple (3 couchages), communicante avec la chambre vue mer, idéale pour les enfants' },
     ],
     floorExtras: 'Salle de bains familiale avec baignoire et douche séparée, WC indépendant.',
     lifeTitle: 'La vie dans la villa',
@@ -88,14 +88,14 @@ export default {
       { name: 'Jeux', desc: 'Grande collection de jeux de société et de jeux pour enfants' },
       { name: 'Équipement bébé', desc: 'Lit bébé et chaise haute à disposition' },
       { name: 'Fitness', desc: 'Équipement de musculation : TRX et haltères' },
-      { name: 'Remote work friendly', desc: 'WiFi haut débit, bureau avec écran 27 pouces, et un deuxième écran en prêt sur demande' },
+      { name: 'Remote work friendly', desc: 'WiFi haut débit, bureau dédié avec écran 27 pouces dans le couloir de l\'étage, et un deuxième écran en prêt sur demande' },
     ],
   },
 
   exterieur: {
     title: 'Les extérieurs',
     items: [
-      { name: 'Piscine au sel 4 × 9 m', desc: 'Entretien automatique, pool house avec transats' },
+      { name: 'Piscine au sel 4 × 9 m', desc: 'Entretien automatique, pool house avec transats, et abri télescopique rétractable pour en profiter aussi hors saison' },
       { name: 'Jardin clos de 2 500 m²', desc: 'Oliviers, figuiers, pins et arbres centenaires. Propriété entièrement clôturée avec portail électrique : les chiens peuvent y courir en liberté' },
       { name: 'Cour intérieure fermée', desc: 'Pour étendre le linge, ou laisser un animal dans la propriété en étant certain qu\'il ne peut pas sortir' },
       { name: 'Terrasses multiples', desc: 'Cuisine d\'été, coins repas et apéro, ombre et soleil à toute heure' },
@@ -129,7 +129,7 @@ export default {
     items: [
       {
         q: 'Combien de personnes la villa peut-elle accueillir ?',
-        a: 'La villa accueille jusqu\'à 11 voyageurs dans 5 chambres : deux lits queen 160 × 200, deux lits doubles et trois lits simples dans la chambre enfants.',
+        a: 'La villa accueille jusqu\'à 11 voyageurs dans 5 chambres : deux lits queen 160 × 200, deux lits doubles, et une chambre enfants avec lit superposé et lit simple (3 couchages).',
       },
       {
         q: 'Les animaux sont-ils acceptés ?',
@@ -137,11 +137,11 @@ export default {
       },
       {
         q: 'La piscine est-elle entretenue ?',
-        a: 'La piscine (4 × 9 m) est traitée au sel, plus douce pour la peau et les yeux, avec un entretien automatique. Un robot la nettoie régulièrement.',
+        a: 'La piscine (4 × 9 m) est traitée au sel, plus douce pour la peau et les yeux, avec un entretien automatique et un robot. Son abri télescopique rétractable permet d\'en profiter aussi hors saison.',
       },
       {
         q: 'Peut-on télétravailler depuis la villa ?',
-        a: 'Oui : WiFi haut débit, un bureau avec écran 27 pouces, et un second bureau dans la suite parentale. La climatisation Airzone se règle pièce par pièce.',
+        a: 'Oui : WiFi haut débit, un bureau dédié avec écran 27 pouces dans le couloir de l\'étage (deuxième écran en prêt sur demande), et un second bureau dans la suite parentale. La climatisation Airzone se règle pièce par pièce.',
       },
       {
         q: 'À quelle distance sont les plages ?',
@@ -153,7 +153,7 @@ export default {
       },
       {
         q: 'Comment réserver ?',
-        a: 'La réservation se fait via notre annonce Airbnb pour bénéficier de leurs garanties, ou en direct en nous écrivant. Le calendrier Airbnb fait foi pour les disponibilités.',
+        a: 'La réservation passe par Sud Séjour, notre conciergerie locale : contact@sudsejourconciergerie.com ou +33 6 16 06 63 73, en mentionnant Villa Horizons.',
       },
       {
         q: 'La villa est-elle climatisée ?',
@@ -344,10 +344,10 @@ export default {
   },
 
   contact: {
-    title: 'Réserver ou poser une question',
-    body: 'Le plus simple : réserver via Airbnb. Pour toute question ou demande de séjour longue durée, écrivez-nous.',
-    airbnbCta: 'Réserver sur Airbnb',
-    emailCta: 'Nous écrire',
+    title: 'Réserver',
+    body: 'La réservation et l\'accueil sont assurés par Sud Séjour, notre conciergerie locale. Écrivez-leur en mentionnant Villa Horizons, ou appelez-les directement.',
+    emailCta: 'Écrire à Sud Séjour',
+    phoneCta: 'Appeler le',
   },
 
   footer: {

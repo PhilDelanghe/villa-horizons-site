@@ -9,6 +9,7 @@ const { t } = Astro.props;
 
 const gallery = [
   { src: 'piscine', altFr: 'Piscine au sel 4x9m avec pool house', altEn: 'Saltwater pool with pool house' },
+  { src: 'piscine-abri', altFr: 'Piscine sous son abri télescopique rétractable, utilisable hors saison', altEn: 'Pool under its retractable telescopic cover, usable off season' },
   { src: 'salon', altFr: 'Grand salon lumineux ouvert sur le jardin', altEn: 'Spacious living room opening onto the garden' },
   { src: 'salon-salle-a-manger', altFr: 'Salon et salle à manger', altEn: 'Living and dining area' },
   { src: 'salle-a-manger', altFr: 'Salle à manger avec grande table familiale', altEn: 'Dining room with large family table' },
@@ -47,7 +48,7 @@ const alt = (g) => (t.lang === 'en' ? g.altEn : g.altFr);
       <ul class="badges">
         {t.hero.badges.map((b) => <li>{b}</li>)}
       </ul>
-      <a class="btn" href={villa.airbnbUrl} target="_blank" rel="noopener">{t.hero.cta}</a>
+      <a class="btn" href="#contact">{t.hero.cta}</a>
     </div>
   </div>
 </header>

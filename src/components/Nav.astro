@@ -1,6 +1,4 @@
 ---
-import villa from '../data/villa.json';
-
 const { t, page = 'home', variant = 'solid' } = Astro.props;
 const base = t.lang === 'en' ? '/en' : '';
 const links = [
@@ -18,7 +16,7 @@ const switchHref = t.lang === 'en' ? `/${t.pages[page].path}` : `/en/${t.pages[p
   <a class="nav-brand" href={`${base}/`}>Villa Horizons</a>
   <div class="nav-links">
     {links.map((l) => <a href={l.href}>{t.nav[l.key]}</a>)}
-    <a href={villa.airbnbUrl} target="_blank" rel="noopener" class="nav-cta">{t.nav.reserver}</a>
+    <a href={`${base}/#contact`} class="nav-cta">{t.nav.reserver}</a>
     <a href={switchHref} class="nav-lang">{t.lang === 'en' ? 'FR' : 'EN'}</a>
   </div>
 </nav>

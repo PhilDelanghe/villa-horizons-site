@@ -77,7 +77,7 @@ export default {
       { name: 'Sea-view bedroom', desc: 'Queen bed 160 × 200, balcony with sea view' },
       { name: 'Sea-view double bedroom', desc: 'Double bed 140 × 190, balcony with sea view' },
       { name: 'Mountain-view double bedroom', desc: 'Double bed, balcony with mountain view' },
-      { name: 'Kids\' room', desc: 'Three single beds, connected to the sea-view bedroom, ideal for children' },
+      { name: 'Kids\' room', desc: 'A bunk bed and a single bed (sleeps 3), connected to the sea-view bedroom, ideal for children' },
     ],
     floorExtras: 'Family bathroom with bathtub and separate shower, plus an additional separate toilet.',
     lifeTitle: 'Life in the villa',
@@ -88,14 +88,14 @@ export default {
       { name: 'Games', desc: 'A large collection of board games and children\'s games' },
       { name: 'Baby equipment', desc: 'Baby cot and high chair available' },
       { name: 'Fitness', desc: 'Strength training equipment: TRX and dumbbells' },
-      { name: 'Remote work friendly', desc: 'High-speed WiFi, a desk with a 27-inch monitor, and a second monitor available on loan' },
+      { name: 'Remote work friendly', desc: 'High-speed WiFi, a dedicated desk with a 27-inch monitor in the upstairs hallway, and a second monitor available on loan' },
     ],
   },
 
   exterieur: {
     title: 'Outdoor living',
     items: [
-      { name: 'Saltwater pool, 4 × 9 m', desc: 'Automatic maintenance, pool house with sun loungers' },
+      { name: 'Saltwater pool, 4 × 9 m', desc: 'Automatic maintenance, pool house with sun loungers, and a retractable telescopic cover to enjoy it off season too' },
       { name: 'Fenced 2,500 m² garden', desc: 'Olive, fig and pine trees. The property is fully fenced with an electric gate: dogs can run free, a rarity for a holiday rental' },
       { name: 'Enclosed inner courtyard', desc: 'For drying laundry, or leaving a pet on the property knowing it cannot get out' },
       { name: 'Multiple terraces', desc: 'Summer kitchen, dining and aperitif corners, sun and shade at any hour' },
@@ -129,7 +129,7 @@ export default {
     items: [
       {
         q: 'How many guests can the villa accommodate?',
-        a: 'The villa sleeps up to 11 guests across 5 bedrooms: two queen beds (160 × 200), two double beds, and three single beds in the kids\' room.',
+        a: 'The villa sleeps up to 11 guests across 5 bedrooms: two queen beds (160 × 200), two double beds, and a kids\' room with a bunk bed and a single bed (sleeps 3).',
       },
       {
         q: 'Are pets allowed?',
@@ -137,11 +137,11 @@ export default {
       },
       {
         q: 'Is the pool maintained?',
-        a: 'The 4 × 9 m pool uses saltwater treatment, gentler on skin and eyes, with automatic maintenance and a cleaning robot.',
+        a: 'The 4 × 9 m pool uses saltwater treatment, gentler on skin and eyes, with automatic maintenance and a cleaning robot. Its retractable telescopic cover extends the swimming season beyond summer.',
       },
       {
         q: 'Can I work remotely from the villa?',
-        a: 'Yes: high-speed WiFi, a desk with a 27-inch monitor, a second monitor on loan if needed, and another desk in the master suite. Airzone air conditioning is adjustable room by room.',
+        a: 'Yes: high-speed WiFi, a dedicated desk with a 27-inch monitor in the upstairs hallway (second monitor on loan if needed), and another desk in the master suite. Airzone air conditioning is adjustable room by room.',
       },
       {
         q: 'How far are the beaches?',
@@ -153,7 +153,7 @@ export default {
       },
       {
         q: 'How do I book?',
-        a: 'Book through our Airbnb listing to benefit from their guarantees, or contact us directly. The Airbnb calendar is the reference for availability.',
+        a: 'Bookings go through Sud Séjour, our local concierge service: contact@sudsejourconciergerie.com or +33 6 16 06 63 73, mentioning Villa Horizons.',
       },
       {
         q: 'Is the villa air-conditioned?',
@@ -350,10 +350,10 @@ export default {
   },
 
   contact: {
-    title: 'Book or ask a question',
-    body: 'The easiest way to book is through Airbnb. For questions or long-stay requests, drop us a line.',
-    airbnbCta: 'Book on Airbnb',
-    emailCta: 'Email us',
+    title: 'Book your stay',
+    body: 'Bookings and guest welcome are handled by Sud Séjour, our local concierge service. Email them mentioning Villa Horizons, or give them a call.',
+    emailCta: 'Email Sud Séjour',
+    phoneCta: 'Call',
   },
 
   footer: {
