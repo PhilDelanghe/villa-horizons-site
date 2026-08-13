@@ -3,9 +3,11 @@ import villa from '../data/villa.json';
 import reviews from '../data/reviews.json';
 import '../styles/global.css';
 
-const { t } = Astro.props;
+const { t, page = 'home' } = Astro.props;
+const meta = t.pages[page];
 const isEn = t.lang === 'en';
-const canonical = isEn ? `${villa.url}/en/` : `${villa.url}/`;
+const langBase = isEn ? '/en/' : '/';
+const canonical = `${villa.url}${langBase}${meta.path}`;
 
 const photos = [
   'facade', 'piscine', 'salon', 'terrasse', 'suite-parentale', 'jardin-cedre',
@@ -18,7 +20,7 @@ const jsonLd = {
   url: canonical,
   sameAs: villa.airbnbUrl,
   image: photos,
-  description: t.metaDescription,
+  description: meta.metaDescription,
   address: {
     '@type': 'PostalAddress',
     addressLocality: villa.locality,
@@ -42,9 +44,12 @@ const jsonLd = {
   petsAllowed: true,
   checkinTime: '17:00',
   checkoutTime: '10:00',
+  starRating: { '@type': 'Rating', ratingValue: 3 },
   amenityFeature: [
-    'Saltwater swimming pool', 'Fully fenced garden (2500 m²)', 'Air conditioning (Airzone, per room)',
-    'High-speed WiFi', 'Dedicated workspace with 27-inch monitor', 'Netflix, Canal+, Apple TV',
+    'Saltwater swimming pool', 'Fully fenced garden (2500 m²)', 'Enclosed inner courtyard',
+    'Air conditioning (Airzone, per room)', 'High-speed WiFi', 'Dedicated workspace with 27-inch monitor',
+    'Netflix, Canal+, Apple TV', 'Electric piano', 'Guitars and amp', 'Library (French and English books)',
+    'Board games', 'Baby cot and high chair', 'TRX and dumbbells', 'Inflatable canoe',
     'Fully equipped kitchen', 'Washing machine', 'Free private parking', 'BBQ', 'Pétanque court',
     'Ping-pong table', 'Pet-friendly', 'Electric gate', 'Sea view', 'Mountain view',
   ].map((name) => ({ '@type': 'LocationFeatureSpecification', name, value: true })),
@@ -74,20 +79,20 @@ const faqLd = {
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{t.metaTitle}</title>
-    <meta name="description" content={t.metaDescription} />
+    <title>{meta.metaTitle}</title>
+    <meta name="description" content={meta.metaDescription} />
     <link rel="canonical" href={canonical} />
-    <link rel="alternate" hreflang="fr" href={`${villa.url}/`} />
-    <link rel="alternate" hreflang="en" href={`${villa.url}/en/`} />
-    <link rel="alternate" hreflang="x-default" href={`${villa.url}/`} />
+    <link rel="alternate" hreflang="fr" href={`${villa.url}/${meta.path}`} />
+    <link rel="alternate" hreflang="en" href={`${villa.url}/en/${meta.path}`} />
+    <link rel="alternate" hreflang="x-default" href={`${villa.url}/${meta.path}`} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content={t.metaTitle} />
-    <meta property="og:description" content={t.metaDescription} />
+    <meta property="og:title" content={meta.metaTitle} />
+    <meta property="og:description" content={meta.metaDescription} />
     <meta property="og:image" content={`${villa.url}/photos/piscine.jpg`} />
     <meta property="og:url" content={canonical} />
-    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
-    <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />
+    {page === 'home' && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+    {page === 'home' && <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />}
   </head>
   <body>
     <slot />

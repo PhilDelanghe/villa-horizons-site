@@ -1,6 +1,9 @@
 ---
 import villa from '../data/villa.json';
 import reviews from '../data/reviews.json';
+import Nav from './Nav.astro';
+import Footer from './Footer.astro';
+import Cta from './Cta.astro';
 
 const { t } = Astro.props;
 
@@ -14,7 +17,7 @@ const gallery = [
   { src: 'suite-parentale', altFr: 'Suite parentale avec lit queen 160x200', altEn: 'Master suite with queen bed' },
   { src: 'chambre-vue-mer', altFr: 'Chambre avec vue mer et balcon', altEn: 'Bedroom with sea view and balcony' },
   { src: 'chambre-double', altFr: 'Chambre double', altEn: 'Double bedroom' },
-  { src: 'chambre-enfants', altFr: 'Chambre enfants avec lits superposés', altEn: "Kids' room with bunk beds" },
+  { src: 'chambre-enfants', altFr: 'Chambre enfants', altEn: "Kids' room" },
   { src: 'salle-de-bain', altFr: 'Salle de bains avec baignoire et douche', altEn: 'Bathroom with bathtub and shower' },
   { src: 'balcon-chambres', altFr: 'Balcon des chambres avec vue mer', altEn: 'Bedroom balcony with sea view' },
   { src: 'jardin-cedre', altFr: 'Jardin sous le cèdre centenaire', altEn: 'Garden under the century-old cedar' },
@@ -27,18 +30,7 @@ const alt = (g) => (t.lang === 'en' ? g.altEn : g.altFr);
 <header class="hero">
   <img class="hero-img" src="/photos/facade.jpg" alt={t.lang === 'en' ? 'Villa Horizons front view' : 'Villa Horizons vue de face'} />
   <div class="hero-overlay">
-    <nav class="nav">
-      <span class="nav-brand">{t.hero.title}</span>
-      <div class="nav-links">
-        <a href="#villa">{t.nav.villa}</a>
-        <a href="#exterieurs">{t.nav.exterieur}</a>
-        <a href="#avis">{t.nav.avis}</a>
-        <a href="#region">{t.nav.region}</a>
-        <a href="#faq">{t.nav.faq}</a>
-        <a href="#contact" class="nav-cta">{t.nav.reserver}</a>
-        <a href={t.footer.langSwitchHref} class="nav-lang">{t.lang === 'en' ? 'FR' : 'EN'}</a>
-      </div>
-    </nav>
+    <Nav t={t} page="home" variant="overlay" />
     <div class="hero-text">
       <h1>{t.hero.title}</h1>
       <p class="hero-subtitle">{t.hero.subtitle}</p>
@@ -76,6 +68,19 @@ const alt = (g) => (t.lang === 'en' ? g.altEn : g.altFr);
     </div>
   </section>
 
+  <section id="vie" class="section section-alt">
+    <h2>{t.villa.lifeTitle}</h2>
+    <p class="intro">{t.villa.lifeIntro}</p>
+    <div class="cards">
+      {t.villa.life.map((item) => (
+        <div class="card">
+          <h3>{item.name}</h3>
+          <p>{item.desc}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
   <section class="gallery">
     {gallery.map((g) => (
       <img src={`/photos/${g.src}.jpg`} alt={alt(g)} loading="lazy" />
@@ -94,7 +99,20 @@ const alt = (g) => (t.lang === 'en' ? g.altEn : g.altFr);
     </div>
   </section>
 
-  <section id="avis" class="section section-alt">
+  <section id="services" class="section section-alt">
+    <h2>{t.services.title}</h2>
+    <p class="intro">{t.services.intro}</p>
+    <div class="cards">
+      {t.services.items.map((item) => (
+        <div class="card">
+          <h3>{item.name}</h3>
+          <p>{item.desc}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section id="avis" class="section">
     <h2>{t.avis.title}</h2>
     {reviews.reviewCount > 0 ? (
       <>
@@ -120,25 +138,6 @@ const alt = (g) => (t.lang === 'en' ? g.altEn : g.altFr);
     </p>
   </section>
 
-  <section id="region" class="section">
-    <h2>{t.region.title}</h2>
-    <p class="intro">{t.region.intro}</p>
-    <div class="two-col">
-      <div>
-        <h3>{t.region.distancesTitle}</h3>
-        <ul>
-          {t.region.distances.map((d) => <li>{d}</li>)}
-        </ul>
-      </div>
-      <div>
-        <h3>{t.region.activitiesTitle}</h3>
-        <ul>
-          {t.region.activities.map((a) => <li>{a}</li>)}
-        </ul>
-      </div>
-    </div>
-  </section>
-
   <section id="faq" class="section section-alt">
     <h2>{t.faq.title}</h2>
     <div class="faq">
@@ -158,17 +157,7 @@ const alt = (g) => (t.lang === 'en' ? g.altEn : g.altFr);
     </ul>
   </section>
 
-  <section id="contact" class="section section-contact">
-    <h2>{t.contact.title}</h2>
-    <p class="intro">{t.contact.body}</p>
-    <p class="contact-ctas">
-      <a class="btn" href={villa.airbnbUrl} target="_blank" rel="noopener">{t.contact.airbnbCta}</a>
-      <a class="btn btn-secondary" href={`mailto:${villa.email}`}>{t.contact.emailCta}</a>
-    </p>
-  </section>
+  <Cta t={t} />
 </main>
 
-<footer class="footer">
-  <p>{t.footer.line}</p>
-  <p><a href={t.footer.langSwitchHref}>{t.footer.langSwitch}</a></p>
-</footer>
+<Footer t={t} page="home" />

@@ -58,6 +58,17 @@ a { color: var(--accent); }
   padding: 0.25rem 0.8rem; border-radius: 99px; font-size: 0.9rem; backdrop-filter: blur(4px);
 }
 
+/* Nav solide (sous-pages) */
+.nav-solid { background: var(--accent); position: sticky; top: 0; z-index: 10; }
+.nav-solid .nav-brand { color: var(--white); text-decoration: none; }
+
+/* En-tête de sous-page */
+.page-head { max-width: var(--max); margin: 0 auto; padding: 3.5rem 5vw 0; }
+.page-head h1 { font-size: clamp(2rem, 4.5vw, 3rem); color: var(--accent); margin-bottom: 0.8rem; }
+
+/* Prose (page à propos) */
+.prose p { max-width: 70ch; margin-bottom: 1rem; font-size: 1.05rem; }
+
 /* Buttons */
 .btn {
   display: inline-block; background: var(--accent-warm); color: var(--white);

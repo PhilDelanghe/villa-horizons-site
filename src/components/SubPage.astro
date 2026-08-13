@@ -1,0 +1,47 @@
+---
+import Nav from './Nav.astro';
+import Footer from './Footer.astro';
+import Cta from './Cta.astro';
+
+// sections: [{ title, items }] où items = [{name, desc}] (cartes) ou [string] (liste)
+const { t, page, title, intro, sections = [], paragraphs = [] } = Astro.props;
+---
+
+<Nav t={t} page={page} variant="solid" />
+
+<main>
+  <header class="page-head">
+    <h1>{title}</h1>
+    <p class="intro">{intro}</p>
+  </header>
+
+  {paragraphs.length > 0 && (
+    <section class="section prose">
+      {paragraphs.map((p) => <p>{p}</p>)}
+    </section>
+  )}
+
+  {sections.map((s) => (
+    <section class="section">
+      <h2>{s.title}</h2>
+      {typeof s.items[0] === 'string' ? (
+        <ul>
+          {s.items.map((item) => <li>{item}</li>)}
+        </ul>
+      ) : (
+        <div class="cards">
+          {s.items.map((item) => (
+            <div class="card">
+              <h3>{item.name}</h3>
+              <p>{item.desc}</p>
+            </div>
+          ))}
+        </div>
+      )}
+    </section>
+  ))}
+
+  <Cta t={t} />
+</main>
+
+<Footer t={t} page={page} />

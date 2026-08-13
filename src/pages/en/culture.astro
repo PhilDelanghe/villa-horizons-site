@@ -1,0 +1,9 @@
+---
+import Base from '../../layouts/Base.astro';
+import SubPage from '../../components/SubPage.astro';
+import t from '../../i18n/en.js';
+---
+
+<Base t={t} page="culture">
+  <SubPage t={t} page="culture" title={t.culture.title} intro={t.culture.intro} sections={t.culture.sections} />
+</Base>

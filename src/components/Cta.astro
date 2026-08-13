@@ -1,0 +1,14 @@
+---
+import villa from '../data/villa.json';
+
+const { t } = Astro.props;
+---
+
+<section id="contact" class="section section-contact">
+  <h2>{t.contact.title}</h2>
+  <p class="intro">{t.contact.body}</p>
+  <p class="contact-ctas">
+    <a class="btn" href={villa.airbnbUrl} target="_blank" rel="noopener">{t.contact.airbnbCta}</a>
+    <a class="btn btn-secondary" href={`mailto:${villa.email}`}>{t.contact.emailCta}</a>
+  </p>
+</section>

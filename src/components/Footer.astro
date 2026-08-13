@@ -1,0 +1,9 @@
+---
+const { t, page = 'home' } = Astro.props;
+const switchHref = t.lang === 'en' ? `/${t.pages[page].path}` : `/en/${t.pages[page].path}`;
+---
+
+<footer class="footer">
+  <p>{t.footer.line}</p>
+  <p><a href={switchHref}>{t.footer.langSwitch}</a></p>
+</footer>
