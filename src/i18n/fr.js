@@ -92,6 +92,14 @@ export default {
     ],
   },
 
+  galerie: {
+    exterieur: 'Les extérieurs',
+    sport: 'Piscine, sport et jeux',
+    convivial: 'Terrasses et convivialité',
+    collectif: 'Les pièces à vivre',
+    chambres: 'Chambres et salles de bain',
+  },
+
   exterieur: {
     title: 'Les extérieurs',
     items: [

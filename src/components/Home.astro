@@ -7,33 +7,61 @@ import Cta from './Cta.astro';
 
 const { t } = Astro.props;
 
-const gallery = [
-  { src: 'piscine', altFr: 'Piscine au sel 4x9m avec pool house', altEn: 'Saltwater pool with pool house' },
-  { src: 'piscine-abri', altFr: 'Piscine sous son abri télescopique rétractable, utilisable hors saison', altEn: 'Pool under its retractable telescopic cover, usable off season' },
-  { src: 'salon', altFr: 'Grand salon lumineux ouvert sur le jardin', altEn: 'Spacious living room opening onto the garden' },
-  { src: 'salon-salle-a-manger', altFr: 'Salon et salle à manger', altEn: 'Living and dining area' },
-  { src: 'salle-a-manger', altFr: 'Salle à manger avec grande table familiale', altEn: 'Dining room with large family table' },
-  { src: 'cuisine', altFr: 'Cuisine entièrement équipée avec bar', altEn: 'Fully equipped kitchen with bar' },
-  { src: 'terrasse', altFr: 'Terrasse de la cuisine d\'été avec coin repas', altEn: 'Summer kitchen terrace with dining area' },
-  { src: 'terrasse-salon-jardin', altFr: 'Salon de jardin sur la terrasse', altEn: 'Garden lounge on the terrace' },
-  { src: 'chambre-master', altFr: 'Suite parentale avec lit queen 160x200 et salle de douche privative', altEn: 'Master suite with queen bed and en-suite shower room' },
-  { src: 'chambre-parents', altFr: 'Chambre parents vue mer, communicante avec la chambre enfants', altEn: "Parents' sea-view bedroom, connected to the kids' room" },
-  { src: 'chambre-fer', altFr: 'Chambre double vue mer, lit en fer forgé', altEn: 'Sea-view double bedroom with wrought-iron bed' },
-  { src: 'chambre-verte', altFr: 'Chambre double vue montagne', altEn: 'Mountain-view double bedroom' },
-  { src: 'chambre-enfants', altFr: 'Chambre enfants avec trois couchages', altEn: "Kids' room sleeping three" },
-  { src: 'salle-de-bain', altFr: 'Salle de douche de la suite parentale', altEn: 'Master suite shower room' },
-  { src: 'coin-musique', altFr: 'Coin musique : piano numérique et guitares', altEn: 'Music corner: digital piano and guitars' },
-  { src: 'balcon-chambres', altFr: 'Balcon des chambres avec vue mer', altEn: 'Bedroom balcony with sea view' },
-  { src: 'balcon-arche', altFr: 'Balcon sous l\'arche', altEn: 'Balcony under the arch' },
-  { src: 'ping-pong', altFr: 'Table de ping-pong sous l\'olivier', altEn: 'Ping-pong table under the olive tree' },
-  { src: 'barbecue', altFr: 'Barbecue à charbon', altEn: 'Charcoal barbecue' },
-  { src: 'douche-exterieure', altFr: 'Douche extérieure', altEn: 'Outdoor shower' },
-  { src: 'jardin-figuier', altFr: 'Jardin sous le figuier', altEn: 'Garden under the fig tree' },
-  { src: 'jardin-cedre', altFr: 'Jardin sous le cèdre centenaire', altEn: 'Garden under the century-old cedar' },
-  { src: 'jardin-facade-arriere', altFr: 'Jardin clos de 2500 m²', altEn: 'Fully fenced 2,500 m² garden' },
-  { src: 'portail', altFr: 'Portail d\'entrée sous les pins', altEn: 'Entrance gate under the pines' },
-  { src: 'vue-montagne', altFr: 'Vue sur les Albères', altEn: 'View of the Albères mountains' },
-  { src: 'coucher-soleil', altFr: 'Coucher de soleil sur les Albères', altEn: 'Sunset over the Albères' },
+const galleryGroups = [
+  {
+    key: 'exterieur',
+    photos: [
+      { src: 'facade', altFr: 'Villa Horizons vue de face', altEn: 'Villa Horizons front view' },
+      { src: 'portail', altFr: 'Portail d\'entrée sous les pins', altEn: 'Entrance gate under the pines' },
+      { src: 'jardin-cedre', altFr: 'Jardin sous le cèdre centenaire', altEn: 'Garden under the century-old cedar' },
+      { src: 'jardin-facade-arriere', altFr: 'Jardin clos de 2500 m²', altEn: 'Fully fenced 2,500 m² garden' },
+      { src: 'jardin-figuier', altFr: 'Jardin sous le figuier', altEn: 'Garden under the fig tree' },
+      { src: 'balcon-arche', altFr: 'Balcon sous l\'arche', altEn: 'Balcony under the arch' },
+      { src: 'balcon-chambres', altFr: 'Balcon des chambres avec vue mer', altEn: 'Bedroom balcony with sea view' },
+      { src: 'vue-montagne', altFr: 'Vue sur les Albères', altEn: 'View of the Albères mountains' },
+      { src: 'coucher-soleil', altFr: 'Coucher de soleil sur les Albères', altEn: 'Sunset over the Albères' },
+    ],
+  },
+  {
+    key: 'sport',
+    photos: [
+      { src: 'piscine', altFr: 'Piscine au sel 4x9m avec pool house', altEn: 'Saltwater pool with pool house' },
+      { src: 'piscine-abri', altFr: 'Piscine sous son abri télescopique rétractable, utilisable hors saison', altEn: 'Pool under its retractable telescopic cover, usable off season' },
+      { src: 'ping-pong', altFr: 'Table de ping-pong sous l\'olivier', altEn: 'Ping-pong table under the olive tree' },
+      { src: 'petanque', altFr: 'Boulodrome sous les arbres', altEn: 'Pétanque court under the trees' },
+      { src: 'douche-exterieure', altFr: 'Douche extérieure', altEn: 'Outdoor shower' },
+    ],
+  },
+  {
+    key: 'convivial',
+    photos: [
+      { src: 'terrasse', altFr: 'Terrasse de la cuisine d\'été avec coin repas', altEn: 'Summer kitchen terrace with dining area' },
+      { src: 'terrasse-salon-jardin', altFr: 'Salon de jardin sur la terrasse', altEn: 'Garden lounge on the terrace' },
+      { src: 'barbecue', altFr: 'Barbecue à charbon', altEn: 'Charcoal barbecue' },
+    ],
+  },
+  {
+    key: 'collectif',
+    photos: [
+      { src: 'salon', altFr: 'Grand salon lumineux ouvert sur le jardin', altEn: 'Spacious living room opening onto the garden' },
+      { src: 'salon-vert', altFr: 'Salon télé', altEn: 'TV lounge' },
+      { src: 'salon-salle-a-manger', altFr: 'Salon et salle à manger', altEn: 'Living and dining area' },
+      { src: 'salle-a-manger', altFr: 'Salle à manger avec grande table familiale', altEn: 'Dining room with large family table' },
+      { src: 'cuisine', altFr: 'Cuisine entièrement équipée avec bar', altEn: 'Fully equipped kitchen with bar' },
+      { src: 'coin-musique', altFr: 'Coin musique : piano numérique et guitares', altEn: 'Music corner: digital piano and guitars' },
+    ],
+  },
+  {
+    key: 'chambres',
+    photos: [
+      { src: 'chambre-master', altFr: 'Suite parentale avec lit queen 160x200 et salle de douche privative', altEn: 'Master suite with queen bed and en-suite shower room' },
+      { src: 'chambre-parents', altFr: 'Chambre parents vue mer, communicante avec la chambre enfants', altEn: "Parents' sea-view bedroom, connected to the kids' room" },
+      { src: 'chambre-fer', altFr: 'Chambre double vue mer, lit en fer forgé', altEn: 'Sea-view double bedroom with wrought-iron bed' },
+      { src: 'chambre-verte', altFr: 'Chambre double vue montagne', altEn: 'Mountain-view double bedroom' },
+      { src: 'chambre-enfants', altFr: 'Chambre enfants avec trois couchages', altEn: "Kids' room sleeping three" },
+      { src: 'salle-de-bain', altFr: 'Salle de douche de la suite parentale', altEn: 'Master suite shower room' },
+    ],
+  },
 ];
 const alt = (g) => (t.lang === 'en' ? g.altEn : g.altFr);
 ---
@@ -92,9 +120,16 @@ const alt = (g) => (t.lang === 'en' ? g.altEn : g.altFr);
     </div>
   </section>
 
-  <section class="gallery">
-    {gallery.map((g) => (
-      <img src={`/photos/${g.src}.jpg`} alt={alt(g)} loading="lazy" />
+  <section class="gallery-wrap">
+    {galleryGroups.map((group) => (
+      <div class="gallery-group">
+        <h3>{t.galerie[group.key]}</h3>
+        <div class="gallery">
+          {group.photos.map((g) => (
+            <img src={`/photos/${g.src}.jpg`} alt={alt(g)} loading="lazy" />
+          ))}
+        </div>
+      </div>
     ))}
   </section>
 

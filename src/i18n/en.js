@@ -92,6 +92,14 @@ export default {
     ],
   },
 
+  galerie: {
+    exterieur: 'Outdoors',
+    sport: 'Pool, sports and games',
+    convivial: 'Terraces and good times',
+    collectif: 'Living spaces',
+    chambres: 'Bedrooms and bathrooms',
+  },
+
   exterieur: {
     title: 'Outdoor living',
     items: [
