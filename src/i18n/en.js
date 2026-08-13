@@ -304,6 +304,7 @@ export default {
         maps: true,
         items: [
           { name: 'Romanesque churches and abbeys', maps: false, desc: 'Catalan Romanesque art all around: Saint-Génis-des-Fontaines and its carved lintel, the cloister of Elne.' },
+          { name: 'Madeloc Tower', desc: 'The medieval signal tower perched above Collioure and Port-Vendres: sweeping views over the Côte Vermeille, reached by a vertiginous little road or on foot.' },
           { name: 'Catalan villages', maps: false, desc: 'Laroque\'s medieval old town, Castelnou, Eus: among the most beautiful villages of the Pyrénées-Orientales.' },
         ],
       },
@@ -424,6 +425,7 @@ export default {
       'Run in the mountains.',
       'Try longe-côte, the local sea-wading workout.',
       'Have a coffee or a drink in Collioure.',
+      'Drive the coastal road from Collioure to Port de la Selva, top down.',
       'Discover new wineries.',
     ],
   },

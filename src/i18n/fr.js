@@ -304,6 +304,7 @@ export default {
         maps: true,
         items: [
           { name: 'Églises et abbayes romanes', maps: false, desc: 'L\'art roman catalan tout autour : Saint-Génis-des-Fontaines et son linteau sculpté, le cloître d\'Elne.' },
+          { name: 'Tour de la Madeloc', desc: 'La tour à signaux médiévale perchée au-dessus de Collioure et Port-Vendres : panorama immense sur la Côte Vermeille, par une petite route vertigineuse ou à pied.' },
           { name: 'Villages catalans', maps: false, desc: 'Laroque et son vieux village médiéval, Castelnou, Eus : les plus beaux villages des Pyrénées-Orientales.' },
         ],
       },
@@ -368,6 +369,7 @@ export default {
       'Courir en montagne.',
       'Faire du longe-côte.',
       'Prendre un café ou un verre à Collioure.',
+      'Faire la route de la côte, de Collioure à Port de la Selva, en cabriolet.',
       'Découvrir de nouveaux domaines viticoles.',
     ],
   },
