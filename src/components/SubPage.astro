@@ -3,8 +3,19 @@ import Nav from './Nav.astro';
 import Footer from './Footer.astro';
 import Cta from './Cta.astro';
 
-// sections: [{ title, items }] où items = [{name, desc}] (cartes) ou [string] (liste)
+// sections: [{ title, items, maps }] où items = [{name, desc, maps?}] (cartes) ou [string] (liste)
+// section.maps : true ou chaîne de contexte géographique -> lien Google Maps auto sur chaque carte
+// item.maps === false : pas de lien pour cette carte
 const { t, page, title, intro, sections = [], paragraphs = [] } = Astro.props;
+
+const mapsUrl = (name, ctx) => {
+  const paren = (name.match(/\(([^)]*)\)/) || [])[1] || '';
+  const base = name.replace(/\s*\([^)]*\)/g, '').replace(/^[^:]*:\s*/, '');
+  const loc = paren.replace(/\b\d+\s*(min|mn|h(\s*\d+)?)\b/gi, '').replace(/[,·]/g, ' ').trim();
+  const suffix = typeof ctx === 'string' ? ctx : '';
+  const query = `${base} ${loc} ${suffix}`.replace(/\s+/g, ' ').trim();
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+};
 ---
 
 <Nav t={t} page={page} variant="solid" />
@@ -34,6 +45,11 @@ const { t, page, title, intro, sections = [], paragraphs = [] } = Astro.props;
             <div class="card">
               <h3>{item.name}</h3>
               <p>{item.desc}</p>
+              {s.maps && item.maps !== false && (
+                <p class="maps-link">
+                  <a href={mapsUrl(item.name, s.maps)} target="_blank" rel="noopener">Google Maps ↗</a>
+                </p>
+              )}
             </div>
           ))}
         </div>

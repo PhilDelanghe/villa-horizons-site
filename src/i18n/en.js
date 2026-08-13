@@ -227,7 +227,7 @@ export default {
     ],
     spotsTitle: 'Our favorite spots around',
     spots: [
-      { name: 'Collioure (15 min)', desc: 'Voted France\'s favorite village in 2024. The jewel of the Côte Vermeille: royal castle, iconic bell tower, anchovies and waterfront terraces.' },
+      { name: 'Collioure (15 min)', maps: false, desc: 'Voted France\'s favorite village in 2024. The jewel of the Côte Vermeille: royal castle, iconic bell tower, anchovies and waterfront terraces.' },
       { name: 'Palau-del-Vidre (10 min)', desc: 'The glassblowers\' village: workshops and demonstrations.' },
       { name: 'Céret (20 min)', desc: 'Museum of modern art, century-old plane trees and a great Saturday morning market.' },
       { name: 'La Franqui (40 min)', desc: 'A fantastic wild beach spot, with an excellent seafront restaurant.' },
@@ -239,11 +239,11 @@ export default {
       { name: 'Charcuterie: Boucherie Casenove (Saint-Génis)', desc: 'Three generations of butchers on rue de l\'Église. Admire the abbey\'s Romanesque portal on your way back with the shopping.' },
       { name: 'La Ferme Xadi (Palau-del-Vidre)', desc: 'Family free-range pig farm on the D618, artisanal additive-free charcuterie, farm shop and visits possible.' },
       { name: 'Bread: Maison Castro', desc: 'Le Fournil des Albères, the village\'s essential bakery and pâtisserie. Morning coffee possible.' },
-      { name: 'Fruit and vegetables', desc: 'The grower\'s stand at the Argelès road roundabout, and in season the stall in front of Castro. Table grapes from Domaine Causadias (94 avenue des Baléares) in season.' },
+      { name: 'Fruit and vegetables', maps: false, desc: 'The grower\'s stand at the Argelès road roundabout, and in season the stall in front of Castro. Table grapes from Domaine Causadias (94 avenue des Baléares) in season.' },
       { name: 'Coffee: La Cafetière Catalane (Collioure)', desc: 'Artisan roaster, beans and custom grinds.' },
-      { name: 'Fish', desc: 'The independent fishmonger at the Carrefour des Albères, the fishermen of Argelès and Port-Vendres, and Les Poissonneries de la Côte Catalane at the Port-Vendres fish auction, at the end of the quay (with an oyster bar).' },
+      { name: 'Fish', maps: false, desc: 'The independent fishmonger at the Carrefour des Albères, the fishermen of Argelès and Port-Vendres, and Les Poissonneries de la Côte Catalane at the Port-Vendres fish auction, at the end of the quay (with an oyster bar).' },
       { name: 'Leucate oysters (40 min)', desc: 'Some twenty oyster shacks at the Grau de Leucate: tastings straight from the producer, facing the lagoon. A must.' },
-      { name: 'The markets', desc: 'Laroque on Wednesday mornings, Céret on Saturdays (huge), Collioure on Sundays (parking is tricky).' },
+      { name: 'The markets', maps: false, desc: 'Laroque on Wednesday mornings, Céret on Saturdays (huge), Collioure on Sundays (parking is tricky).' },
     ],
     restosTitle: 'Where we love to eat in the village',
     restos: [
@@ -258,8 +258,8 @@ export default {
     sortiesTitle: 'And when we go out',
     sorties: [
       { name: 'Les Clos de Paulilles (Port-Vendres, 30 min)', desc: 'The Cazes family restaurant in the vineyards, facing the Paulilles beach. Not to be missed.' },
-      { name: 'Collioure (15 min)', desc: 'La Casa Rico and its rooftop with bell-tower view, Le Neptune above the bay, tapas at Chez Simone on the Boramar. And an early morning coffee looking out to sea.' },
-      { name: 'Banyuls (30 min)', desc: 'Le Jardin de Saint-Sébastien (the Clos Saint Sebastien\'s restaurant, wines at cellar prices) and the seafront esplanade with its many restaurants.' },
+      { name: 'Collioure (15 min)', maps: false, desc: 'La Casa Rico and its rooftop with bell-tower view, Le Neptune above the bay, tapas at Chez Simone on the Boramar. And an early morning coffee looking out to sea.' },
+      { name: 'Banyuls (30 min)', maps: false, desc: 'Le Jardin de Saint-Sébastien (the Clos Saint Sebastien\'s restaurant, wines at cellar prices) and the seafront esplanade with its many restaurants.' },
       { name: 'Hostal Empúries (L\'Escala, 1 h)', desc: 'The hotel\'s restaurant, practically on the Portitxol beach, next to the Empúries ruins.' },
       { name: 'Le Bout du Monde (Cerbère, 45 min)', desc: 'Feet in the water in the Peyrefite cove, right at the start of the marine reserve\'s underwater trail. Perfect after snorkeling.' },
     ],
@@ -292,6 +292,7 @@ export default {
     sections: [
       {
         title: 'Art',
+        maps: true,
         items: [
           { name: 'Collioure and Fauvism', desc: 'The Fauvism trail in the footsteps of Matisse and Derain, galleries and the royal castle.' },
           { name: 'Céret museum of modern art', desc: 'Picasso, Braque, Chagall, Soutine: an exceptional collection for a small town.' },
@@ -300,9 +301,10 @@ export default {
       },
       {
         title: 'Heritage',
+        maps: true,
         items: [
-          { name: 'Romanesque churches and abbeys', desc: 'Catalan Romanesque art all around: Saint-Génis-des-Fontaines and its carved lintel, the cloister of Elne.' },
-          { name: 'Catalan villages', desc: 'Laroque\'s medieval old town, Castelnou, Eus: among the most beautiful villages of the Pyrénées-Orientales.' },
+          { name: 'Romanesque churches and abbeys', maps: false, desc: 'Catalan Romanesque art all around: Saint-Génis-des-Fontaines and its carved lintel, the cloister of Elne.' },
+          { name: 'Catalan villages', maps: false, desc: 'Laroque\'s medieval old town, Castelnou, Eus: among the most beautiful villages of the Pyrénées-Orientales.' },
         ],
       },
       {
@@ -386,6 +388,7 @@ export default {
       },
       {
         title: 'Our favorite addresses (non-exhaustive list)',
+        maps: 'Pyrénées-Orientales',
         items: [
           { name: 'La Tête dans le Cru (Laroque, 5 min)', desc: 'The village wine shop, ZA du CD 618. The perfect starting point for a quick tour of local wines before visiting the estates.' },
           { name: 'Les Vignerons des Albères (Saint-Génis, 5 min)', desc: 'The local cooperative winery, some thirty growers from the Albères, 9 avenue des Écoles in Saint-Génis-des-Fontaines.' },

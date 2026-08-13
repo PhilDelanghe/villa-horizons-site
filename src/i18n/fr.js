@@ -227,7 +227,7 @@ export default {
     ],
     spotsTitle: 'Nos spots préférés dans le coin',
     spots: [
-      { name: 'Collioure (15 min)', desc: 'Élu Village préféré des Français en 2024. Le joyau de la Côte Vermeille : château royal, clocher iconique, anchois et terrasses.' },
+      { name: 'Collioure (15 min)', maps: false, desc: 'Élu Village préféré des Français en 2024. Le joyau de la Côte Vermeille : château royal, clocher iconique, anchois et terrasses.' },
       { name: 'Palau-del-Vidre (10 min)', desc: 'Le village des souffleurs de verre : ateliers et démonstrations.' },
       { name: 'Céret (20 min)', desc: 'Musée d\'art moderne, platanes centenaires et grand marché le samedi matin.' },
       { name: 'La Franqui (40 min)', desc: 'Un spot de plage sauvage génial, et un excellent restaurant face à la mer.' },
@@ -239,11 +239,11 @@ export default {
       { name: 'Charcuterie : Boucherie Casenove (Saint-Génis)', desc: 'Trois générations de bouchers-charcutiers rue de l\'Église. Admirez le portail roman de l\'abbaye en ramenant vos courses.' },
       { name: 'La Ferme Xadi (Palau-del-Vidre)', desc: 'Élevage familial de porcs en plein air sur la D618, charcuterie artisanale sans additifs, vente à la ferme et visites possibles.' },
       { name: 'Pain : Maison Castro', desc: 'Le Fournil des Albères, l\'incontournable boulangerie-pâtisserie du village. Petit café possible le matin.' },
-      { name: 'Fruits et légumes', desc: 'Le producteur du rond-point de la route d\'Argelès, et en saison l\'étal devant Castro. Raisin de table du Domaine Causadias (94 avenue des Baléares) en saison.' },
+      { name: 'Fruits et légumes', maps: false, desc: 'Le producteur du rond-point de la route d\'Argelès, et en saison l\'étal devant Castro. Raisin de table du Domaine Causadias (94 avenue des Baléares) en saison.' },
       { name: 'Café : La Cafetière Catalane (Collioure)', desc: 'Torréfacteur artisanal, grains et moutures sur mesure.' },
-      { name: 'Poisson', desc: 'Le poissonnier indépendant du Carrefour des Albères, les pêcheurs d\'Argelès et de Port-Vendres, et Les Poissonneries de la Côte Catalane à la criée de Port-Vendres, au bout du quai (avec bar à huîtres).' },
+      { name: 'Poisson', maps: false, desc: 'Le poissonnier indépendant du Carrefour des Albères, les pêcheurs d\'Argelès et de Port-Vendres, et Les Poissonneries de la Côte Catalane à la criée de Port-Vendres, au bout du quai (avec bar à huîtres).' },
       { name: 'Huîtres de Leucate (40 min)', desc: 'Une vingtaine de cabanes ostréicoles au Grau de Leucate : dégustation directement chez le producteur, face à l\'étang. À tester absolument.' },
-      { name: 'Les marchés', desc: 'Laroque le mercredi matin, Céret le samedi (énorme), Collioure le dimanche (attention au parking).' },
+      { name: 'Les marchés', maps: false, desc: 'Laroque le mercredi matin, Céret le samedi (énorme), Collioure le dimanche (attention au parking).' },
     ],
     restosTitle: 'Où on aime manger au village',
     restos: [
@@ -258,8 +258,8 @@ export default {
     sortiesTitle: 'Et quand on sort',
     sorties: [
       { name: 'Les Clos de Paulilles (Port-Vendres, 30 min)', desc: 'Le restaurant de la Maison Cazes dans les vignes, face à la plage de Paulilles. À ne pas manquer.' },
-      { name: 'Collioure (15 min)', desc: 'La Casa Rico et son rooftop vue clocher, Le Neptune au-dessus de la baie, les tapas de Chez Simone sur le Boramar. Et un café tôt le matin en regardant la mer.' },
-      { name: 'Banyuls (30 min)', desc: 'Le Jardin de Saint-Sébastien (le restaurant du Clos Saint Sebastien, vins au prix cave) et l\'esplanade face à la mer avec ses nombreux restos.' },
+      { name: 'Collioure (15 min)', maps: false, desc: 'La Casa Rico et son rooftop vue clocher, Le Neptune au-dessus de la baie, les tapas de Chez Simone sur le Boramar. Et un café tôt le matin en regardant la mer.' },
+      { name: 'Banyuls (30 min)', maps: false, desc: 'Le Jardin de Saint-Sébastien (le restaurant du Clos Saint Sebastien, vins au prix cave) et l\'esplanade face à la mer avec ses nombreux restos.' },
       { name: 'Hostal Empúries (L\'Escala, 1 h)', desc: 'Le restaurant de l\'hôtel, quasiment sur la plage du Portitxol, à côté des ruines d\'Empúries.' },
       { name: 'Le Bout du Monde (Cerbère, 45 min)', desc: 'Les pieds dans l\'eau dans l\'anse de Peyrefite, au départ du sentier sous-marin de la réserve marine. Idéal après le snorkeling.' },
     ],
@@ -292,6 +292,7 @@ export default {
     sections: [
       {
         title: 'Art',
+        maps: true,
         items: [
           { name: 'Collioure et le fauvisme', desc: 'Le chemin du fauvisme sur les pas de Matisse et Derain, galeries et château royal.' },
           { name: 'Musée d\'art moderne de Céret', desc: 'Picasso, Braque, Chagall, Soutine : une collection exceptionnelle pour un village.' },
@@ -300,9 +301,10 @@ export default {
       },
       {
         title: 'Patrimoine',
+        maps: true,
         items: [
-          { name: 'Églises et abbayes romanes', desc: 'L\'art roman catalan tout autour : Saint-Génis-des-Fontaines et son linteau sculpté, le cloître d\'Elne.' },
-          { name: 'Villages catalans', desc: 'Laroque et son vieux village médiéval, Castelnou, Eus : les plus beaux villages des Pyrénées-Orientales.' },
+          { name: 'Églises et abbayes romanes', maps: false, desc: 'L\'art roman catalan tout autour : Saint-Génis-des-Fontaines et son linteau sculpté, le cloître d\'Elne.' },
+          { name: 'Villages catalans', maps: false, desc: 'Laroque et son vieux village médiéval, Castelnou, Eus : les plus beaux villages des Pyrénées-Orientales.' },
         ],
       },
     ],
@@ -330,6 +332,7 @@ export default {
       },
       {
         title: 'Nos adresses préférées (liste non exhaustive)',
+        maps: 'Pyrénées-Orientales',
         items: [
           { name: 'La Tête dans le Cru (Laroque, 5 min)', desc: 'Le caviste du village, ZA du CD 618. Le bon point de départ pour tester les vins du coin "vite fait" avant d\'aller voir les domaines.' },
           { name: 'Les Vignerons des Albères (Saint-Génis, 5 min)', desc: 'La cave coopérative du massif, une trentaine de vignerons, 9 avenue des Écoles à Saint-Génis-des-Fontaines.' },

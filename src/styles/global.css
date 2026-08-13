@@ -105,6 +105,9 @@ a { color: var(--accent); }
   box-shadow: 0 1px 4px rgba(31, 42, 51, 0.08);
 }
 .card h3 { margin-top: 0; color: var(--accent); font-size: 1.05rem; }
+.card .maps-link { margin-top: 0.6rem; font-size: 0.85rem; }
+.card .maps-link a { color: var(--ink-soft); text-decoration: none; border-bottom: 1px dotted var(--ink-soft); }
+.card .maps-link a:hover { color: var(--accent); }
 .review { font-style: italic; }
 .review footer { font-style: normal; margin-top: 0.8rem; font-size: 0.9rem; color: var(--ink-soft); }
 
