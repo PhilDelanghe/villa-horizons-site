@@ -49,36 +49,84 @@ const galleryGroups = [
       { src: 'terrasse', altFr: 'Terrasse de la cuisine d\'été avec coin repas', altEn: 'Summer kitchen terrace with dining area' },
       { src: 'terrasse-salon-jardin', altFr: 'Salon de jardin sur la terrasse', altEn: 'Garden lounge on the terrace' },
       { src: 'terrasse-cour', altFr: 'La terrasse de la cour, sous l\'arbre', altEn: 'The courtyard terrace, under the tree' },
-      { src: 'sam-vers-terrasse', altFr: 'De la salle à manger vers la terrasse', altEn: 'From the dining room to the terrace' },
       { src: 'barbecue', altFr: 'Barbecue à charbon', altEn: 'Charcoal barbecue' },
     ],
   },
   {
-    key: 'collectif',
+    key: 'cuisine',
     photos: [
-      { src: 'salon', altFr: 'Grand salon lumineux ouvert sur le jardin', altEn: 'Spacious living room opening onto the garden' },
-      { src: 'salon-vert', altFr: 'Salon télé', altEn: 'TV lounge' },
-      { src: 'salon-tapis', altFr: 'Le salon et ses tapis', altEn: 'The living room and its rugs' },
-      { src: 'salon-salle-a-manger', altFr: 'Salon et salle à manger', altEn: 'Living and dining area' },
-      { src: 'salle-a-manger', altFr: 'Salle à manger avec grande table familiale', altEn: 'Dining room with large family table' },
       { src: 'cuisine', altFr: 'Cuisine entièrement équipée avec bar', altEn: 'Fully equipped kitchen with bar' },
       { src: 'cuisine-large', altFr: 'La cuisine ouverte sur la salle à manger', altEn: 'The kitchen opening onto the dining room' },
+      { src: 'cuisine-2', altFr: 'La cuisine côté table', altEn: 'The kitchen, table side' },
+    ],
+  },
+  {
+    key: 'sam',
+    photos: [
+      { src: 'salle-a-manger', altFr: 'Salle à manger avec grande table familiale', altEn: 'Dining room with large family table' },
+      { src: 'salle-a-manger-2', altFr: 'La salle à manger dressée', altEn: 'The dining room, table set' },
+      { src: 'sam-vers-terrasse', altFr: 'De la salle à manger vers la terrasse', altEn: 'From the dining room to the terrace' },
+    ],
+  },
+  {
+    key: 'salon',
+    photos: [
+      { src: 'salon', altFr: 'Grand salon lumineux ouvert sur le jardin', altEn: 'Spacious living room opening onto the garden' },
+      { src: 'salon-tapis', altFr: 'Le salon et ses tapis', altEn: 'The living room and its rugs' },
+      { src: 'salon-salle-a-manger', altFr: 'Salon et salle à manger', altEn: 'Living and dining area' },
+    ],
+  },
+  {
+    key: 'salonTele',
+    photos: [
+      { src: 'salon-vert', altFr: 'Le salon télé', altEn: 'The TV lounge' },
+      { src: 'salon-vert-2', altFr: 'Le salon télé, autre vue', altEn: 'The TV lounge, another view' },
       { src: 'coin-musique', altFr: 'Coin musique : piano numérique et guitares', altEn: 'Music corner: digital piano and guitars' },
       { src: 'jeux-societe', altFr: 'La collection de jeux de société', altEn: 'The board game collection' },
     ],
   },
   {
-    key: 'chambres',
+    key: 'master',
     photos: [
-      { src: 'chambre-master', altFr: 'Suite parentale avec lit queen 160x200 et salle de douche privative', altEn: 'Master suite with queen bed and en-suite shower room' },
+      { src: 'chambre-master', altFr: 'Suite parentale avec lit queen 160x200', altEn: 'Master suite with queen bed' },
       { src: 'chambre-master-2', altFr: 'La suite parentale, autre vue', altEn: 'The master suite, another view' },
+      { src: 'salle-de-bain', altFr: 'La salle de douche privative de la suite', altEn: 'The suite\'s en-suite shower room' },
+    ],
+  },
+  {
+    key: 'parents',
+    photos: [
       { src: 'chambre-parents', altFr: 'Chambre parents vue mer, communicante avec la chambre enfants', altEn: "Parents' sea-view bedroom, connected to the kids' room" },
+      { src: 'chambre-parents-2', altFr: 'La chambre parents, autre vue', altEn: "The parents' bedroom, another view" },
+    ],
+  },
+  {
+    key: 'fer',
+    photos: [
       { src: 'chambre-fer', altFr: 'Chambre double vue mer, lit en fer forgé', altEn: 'Sea-view double bedroom with wrought-iron bed' },
+    ],
+  },
+  {
+    key: 'verte',
+    photos: [
       { src: 'chambre-verte', altFr: 'Chambre double vue montagne', altEn: 'Mountain-view double bedroom' },
+      { src: 'chambre-verte-2', altFr: 'La chambre vue montagne, autre vue', altEn: 'The mountain-view bedroom, another view' },
+    ],
+  },
+  {
+    key: 'enfants',
+    photos: [
       { src: 'chambre-enfants', altFr: 'Chambre enfants avec trois couchages', altEn: "Kids' room sleeping three" },
       { src: 'chambre-enfants-2', altFr: 'La chambre enfants, autre vue', altEn: "The kids' room, another view" },
-      { src: 'salle-de-bain', altFr: 'Salle de douche de la suite parentale', altEn: 'Master suite shower room' },
+      { src: 'chambre-enfants-3', altFr: 'La chambre enfants, lits superposés', altEn: "The kids' room, bunk beds" },
+      { src: 'livres-enfants', altFr: 'Livres pour enfants à disposition', altEn: 'Children\'s books available' },
+    ],
+  },
+  {
+    key: 'sdbFamiliale',
+    photos: [
       { src: 'sdb-baignoire', altFr: 'Salle de bains familiale avec baignoire', altEn: 'Family bathroom with bathtub' },
+      { src: 'sdb-baignoire-2', altFr: 'La salle de bains familiale, autre vue', altEn: 'The family bathroom, another view' },
     ],
   },
 ];
