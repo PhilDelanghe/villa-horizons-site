@@ -202,7 +202,7 @@ export default {
       'Laroque-des-Albères is a lively Catalan village at the foot of the Albères mountains, with genuine year-round local life and an international community. Everything is walkable from the center, and the villa is 5 minutes from the village.',
     lifeTitle: 'Village life',
     life: [
-      { name: 'Shops within walking distance', desc: 'Pharmacy, bakeries, greengrocer, crafts, takeaway pizza, and a butcher crowned 2025 world champion of Catalan sausage' },
+      { name: 'Shops within walking distance', desc: 'Pharmacy, bakeries, greengrocer, crafts, takeaway pizza, and a butcher crowned world champion of Catalan sausage' },
       { name: '11 restaurants', desc: 'Irish pub, fusion Japanese, burgers, traditional French cuisine, tapas, wood-fired pizza' },
       { name: 'Market', desc: 'Wednesday mornings, on the village square' },
       { name: 'Trails from the village', desc: 'The Albères hiking trails start right from the village' },
@@ -213,6 +213,19 @@ export default {
       { name: 'Palau-del-Vidre (10 min)', desc: 'The glassblowers\' village: workshops and demonstrations' },
       { name: 'Céret (20 min)', desc: 'Museum of modern art, century-old plane trees and a great Saturday morning market' },
       { name: 'La Franqui (40 min)', desc: 'A fantastic wild beach spot, with an excellent seafront restaurant' },
+    ],
+    produitsTitle: 'Local produce to experience',
+    produits: [
+      { name: 'Olive oil: Le Moulin du Llevant', desc: 'Literally across the street from the villa (44 bis avenue des Baléares): family-run organic mill, local varieties, gold medals, free tours. And keep exploring, the Albères are full of mills' },
+      { name: 'Catalan sausage: Boucherie Salvi', desc: 'Didier Salvi, world champion of Catalan sausage, the village butcher for over 20 years. Also: Catalan lamb and prize-winning beef raised in the mountain pastures' },
+      { name: 'Charcuterie: Boucherie Casenove (Saint-Génis)', desc: 'Three generations of butchers on rue de l\'Église. Admire the abbey\'s Romanesque portal on your way back with the shopping' },
+      { name: 'La Ferme Xadi (Palau-del-Vidre)', desc: 'Family free-range pig farm on the D618, artisanal additive-free charcuterie, farm shop and visits possible' },
+      { name: 'Bread: Maison Castro', desc: 'Le Fournil des Albères, the village\'s essential bakery and pâtisserie. Morning coffee possible' },
+      { name: 'Fruit and vegetables', desc: 'The grower\'s stand at the Argelès road roundabout, and in season the stall in front of Castro. Table grapes from Domaine Causadias (94 avenue des Baléares) in season' },
+      { name: 'Coffee: La Cafetière Catalane (Collioure)', desc: 'Artisan roaster, beans and custom grinds' },
+      { name: 'Fish', desc: 'The independent fishmonger at the Carrefour des Albères, the fishermen of Argelès and Port-Vendres, and Les Poissonneries de la Côte Catalane at the Port-Vendres fish auction, at the end of the quay (with an oyster bar)' },
+      { name: 'Leucate oysters (40 min)', desc: 'Some twenty oyster shacks at the Grau de Leucate: tastings straight from the producer, facing the lagoon. A must' },
+      { name: 'The markets', desc: 'Laroque on Wednesday mornings, Céret on Saturdays (huge), Collioure on Sundays (parking is tricky)' },
     ],
     restosTitle: 'Where we love to eat in the village',
     restos: [

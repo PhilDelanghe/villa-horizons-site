@@ -202,7 +202,7 @@ export default {
       'Laroque-des-Albères est un village catalan vivant au pied du massif des Albères, avec une vraie vie locale à l\'année et une communauté internationale. Tout se fait à pied depuis le centre, et la villa est à 5 minutes du village.',
     lifeTitle: 'La vie au village',
     life: [
-      { name: 'Commerces à pied', desc: 'Pharmacie, boulangeries, primeur, artisanat, pizza à emporter, et une boucherie championne du monde de saucisse catalane 2025' },
+      { name: 'Commerces à pied', desc: 'Pharmacie, boulangeries, primeur, artisanat, pizza à emporter, et une boucherie championne du monde de la saucisse catalane' },
       { name: '11 restaurants', desc: 'Pub irlandais, japonais fusion, burger, cuisine traditionnelle française, tapas, pizza au feu de bois' },
       { name: 'Marché', desc: 'Le mercredi matin, sur la place du village' },
       { name: 'Sentiers au départ du village', desc: 'Les chemins de randonnée des Albères partent directement du village' },
@@ -213,6 +213,19 @@ export default {
       { name: 'Palau-del-Vidre (10 min)', desc: 'Le village des souffleurs de verre : ateliers et démonstrations' },
       { name: 'Céret (20 min)', desc: 'Musée d\'art moderne, platanes centenaires et grand marché le samedi matin' },
       { name: 'La Franqui (40 min)', desc: 'Un spot de plage sauvage génial, et un excellent restaurant face à la mer' },
+    ],
+    produitsTitle: 'Produits locaux à expérimenter',
+    produits: [
+      { name: 'Huile d\'olive : Le Moulin du Llevant', desc: 'Littéralement en face de la villa (44 bis avenue des Baléares) : moulin familial bio, variétés locales, médailles d\'or, visites gratuites. Et explorez, les moulins ne manquent pas dans les Albères' },
+      { name: 'Saucisse catalane : Boucherie Salvi', desc: 'Didier Salvi, champion du monde de la saucisse catalane, boucher du village depuis plus de 20 ans. Aussi : agneau catalan et bœufs de concours élevés dans les pâturages de montagne' },
+      { name: 'Charcuterie : Boucherie Casenove (Saint-Génis)', desc: 'Trois générations de bouchers-charcutiers rue de l\'Église. Admirez le portail roman de l\'abbaye en ramenant vos courses' },
+      { name: 'La Ferme Xadi (Palau-del-Vidre)', desc: 'Élevage familial de porcs en plein air sur la D618, charcuterie artisanale sans additifs, vente à la ferme et visites possibles' },
+      { name: 'Pain : Maison Castro', desc: 'Le Fournil des Albères, l\'incontournable boulangerie-pâtisserie du village. Petit café possible le matin' },
+      { name: 'Fruits et légumes', desc: 'Le producteur du rond-point de la route d\'Argelès, et en saison l\'étal devant Castro. Raisin de table du Domaine Causadias (94 avenue des Baléares) en saison' },
+      { name: 'Café : La Cafetière Catalane (Collioure)', desc: 'Torréfacteur artisanal, grains et moutures sur mesure' },
+      { name: 'Poisson', desc: 'Le poissonnier indépendant du Carrefour des Albères, les pêcheurs d\'Argelès et de Port-Vendres, et Les Poissonneries de la Côte Catalane à la criée de Port-Vendres, au bout du quai (avec bar à huîtres)' },
+      { name: 'Huîtres de Leucate (40 min)', desc: 'Une vingtaine de cabanes ostréicoles au Grau de Leucate : dégustation directement chez le producteur, face à l\'étang. À tester absolument' },
+      { name: 'Les marchés', desc: 'Laroque le mercredi matin, Céret le samedi (énorme), Collioure le dimanche (attention au parking)' },
     ],
     restosTitle: 'Où on aime manger au village',
     restos: [
