@@ -214,6 +214,23 @@ export default {
       { name: 'Céret (20 min)', desc: 'Musée d\'art moderne, platanes centenaires et grand marché le samedi matin' },
       { name: 'La Franqui (40 min)', desc: 'Un spot de plage sauvage génial, et un excellent restaurant face à la mer' },
     ],
+    restosTitle: 'Où on aime manger au village',
+    restos: [
+      { name: 'Côté Saisons', desc: 'Bib Gourmand au guide Michelin depuis 12 ans, excellent rapport qualité-prix. La table de référence du village, avenue de la Côte Vermeille' },
+      { name: 'Le Catalan', desc: 'L\'incontournable de la place de la République, au pied de l\'église : cuisine catalane de produits frais, très bon rapport qualité-prix (fermé l\'hiver)' },
+      { name: 'Le Refuge du Clocher', desc: 'Superbe maison de maître du XIXe au cœur du vieux village, terrasses en étages, cuisine de saison' },
+      { name: 'Le Café des Artistes', desc: 'Le pub du village : Guinness pression, belle sélection de bières et ambiance des îles britanniques' },
+      { name: 'Albera Burger', desc: 'Burgers frais faits maison, rue François Arago' },
+      { name: 'Aux Saveurs du Monde', desc: 'Les pizzas au feu de bois du village, terrasse ombragée' },
+      { name: 'La Crêperie', desc: 'Crêpes et glaces sur la placette Camille Ferrer, dans le vieux village' },
+    ],
+    sortiesTitle: 'Et quand on sort',
+    sorties: [
+      { name: 'Les Clos de Paulilles (Port-Vendres, 30 min)', desc: 'Le restaurant de la Maison Cazes dans les vignes, face à la plage de Paulilles. À ne pas manquer' },
+      { name: 'Collioure (15 min)', desc: 'La Casa Rico et son rooftop vue clocher, Le Neptune au-dessus de la baie, les tapas de Chez Simone sur le Boramar. Et un café tôt le matin en regardant la mer' },
+      { name: 'Banyuls (30 min)', desc: 'Le Jardin de Saint-Sébastien (le restaurant du Clos Saint Sebastien, vins au prix cave) et l\'esplanade face à la mer avec ses nombreux restos' },
+      { name: 'Hostal Empúries (L\'Escala, 1 h)', desc: 'Le restaurant de l\'hôtel, quasiment sur la plage du Portitxol, à côté des ruines d\'Empúries' },
+    ],
     spotsEsTitle: 'Et côté Espagne, à environ 1 h de route',
     spotsEs: [
       { name: 'Sa Tuna et Aiguablava (Begur)', desc: 'Deux des plus belles criques de la Costa Brava, eaux turquoise et villages de pêcheurs' },

@@ -214,6 +214,23 @@ export default {
       { name: 'Céret (20 min)', desc: 'Museum of modern art, century-old plane trees and a great Saturday morning market' },
       { name: 'La Franqui (40 min)', desc: 'A fantastic wild beach spot, with an excellent seafront restaurant' },
     ],
+    restosTitle: 'Where we love to eat in the village',
+    restos: [
+      { name: 'Côté Saisons', desc: 'A Michelin Bib Gourmand for 12 years running, excellent value. The village\'s reference table, avenue de la Côte Vermeille' },
+      { name: 'Le Catalan', desc: 'The go-to spot on place de la République, at the foot of the church: fresh Catalan cooking, great value (closed in winter)' },
+      { name: 'Le Refuge du Clocher', desc: 'A superb 19th-century mansion in the heart of the old village, tiered terraces, seasonal cooking' },
+      { name: 'Le Café des Artistes', desc: 'The village pub: Guinness on tap, a fine beer selection and a British Isles atmosphere' },
+      { name: 'Albera Burger', desc: 'Fresh homemade burgers, rue François Arago' },
+      { name: 'Aux Saveurs du Monde', desc: 'The village\'s wood-fired pizzas, shaded terrace' },
+      { name: 'La Crêperie', desc: 'Crêpes and ice cream on the placette Camille Ferrer, in the old village' },
+    ],
+    sortiesTitle: 'And when we go out',
+    sorties: [
+      { name: 'Les Clos de Paulilles (Port-Vendres, 30 min)', desc: 'The Cazes family restaurant in the vineyards, facing the Paulilles beach. Not to be missed' },
+      { name: 'Collioure (15 min)', desc: 'La Casa Rico and its rooftop with bell-tower view, Le Neptune above the bay, tapas at Chez Simone on the Boramar. And an early morning coffee looking out to sea' },
+      { name: 'Banyuls (30 min)', desc: 'Le Jardin de Saint-Sébastien (the Clos Saint Sebastien\'s restaurant, wines at cellar prices) and the seafront esplanade with its many restaurants' },
+      { name: 'Hostal Empúries (L\'Escala, 1 h)', desc: 'The hotel\'s restaurant, practically on the Portitxol beach, next to the Empúries ruins' },
+    ],
     spotsEsTitle: 'And across the border, about 1 hour away',
     spotsEs: [
       { name: 'Sa Tuna and Aiguablava (Begur)', desc: 'Two of the Costa Brava\'s most beautiful coves, turquoise water and fishing villages' },
