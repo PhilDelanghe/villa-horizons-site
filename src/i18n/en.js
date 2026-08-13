@@ -129,6 +129,7 @@ export default {
     items: [
       { name: 'Catering', desc: 'Meals prepared at the villa for a cooking-free holiday.' },
       { name: 'Dog-sitter', desc: 'A local dog-sitter with large grounds can pick up your dogs at the villa and bring them back.' },
+      { name: 'In-villa massage and beauty treatments', desc: 'Practitioners who come to the villa, by appointment.' },
       { name: 'E-bike rental', desc: 'A rental shop in the village, contact details provided at booking.' },
       { name: 'Concierge service', desc: 'Welcome, cleaning and assistance during your stay from our local concierge.' },
     ],

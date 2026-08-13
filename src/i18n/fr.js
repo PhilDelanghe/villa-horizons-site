@@ -129,6 +129,7 @@ export default {
     items: [
       { name: 'Traiteur', desc: 'Repas préparés à la villa pour un séjour sans cuisine.' },
       { name: 'Dog-sitter', desc: 'Un dog-sitter local disposant d\'un grand terrain peut prendre vos chiens en charge à la villa et les ramener.' },
+      { name: 'Massage et esthétique à domicile', desc: 'Praticiennes qui se déplacent à la villa, sur rendez-vous.' },
       { name: 'Location de vélos électriques', desc: 'Un loueur au village, coordonnées fournies à la réservation.' },
       { name: 'Conciergerie', desc: 'Accueil, ménage et assistance pendant le séjour par notre conciergerie locale.' },
     ],
