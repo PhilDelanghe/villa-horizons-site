@@ -34,9 +34,9 @@ export default {
     },
     apropos: {
       path: 'a-propos/',
-      metaTitle: 'À propos. Philippe et Susanna, vos hôtes à Villa Horizons',
+      metaTitle: 'À propos. Philippe et Suzana, vos hôtes à Villa Horizons',
       metaDescription:
-        'Villa Horizons est la maison de Philippe et Susanna, installés à Laroque-des-Albères depuis 2021. La famille de Philippe est originaire du village.',
+        'Villa Horizons est la maison de Philippe et Suzana, installés à Laroque-des-Albères depuis 2021. La famille de Philippe est originaire du village.',
     },
   },
 
@@ -339,11 +339,11 @@ export default {
 
   apropos: {
     title: 'À propos de nous',
-    intro: 'Villa Horizons, c\'est notre maison. Nous sommes Philippe et Susanna.',
+    intro: 'Villa Horizons, c\'est notre maison. Nous sommes Philippe et Suzana.',
     paragraphs: [
-      'La famille maternelle de Philippe est originaire de Laroque-des-Albères : c\'est comme ça que nous connaissions le coin bien avant d\'y vivre. En 2021, après vingt ans à Paris, nous avons eu envie de prendre l\'air, et nous nous sommes installés à Laroque.',
-      'Susanna est née au Brésil, a vécu aux États-Unis, a travaillé en Angleterre et vit en France depuis vingt ans. Recevoir des voyageurs qui ne parlent pas français ne nous pose donc aucun problème, c\'est même une habitude.',
-      'Nous avons rénové et aménagé cette maison comme la nôtre, parce que c\'est la nôtre : les instruments de musique servent, la bibliothèque déborde (nous prêtons volontiers des livres en plus de ceux de la villa), et le jardin est pensé pour que les enfants et les chiens en profitent autant que les parents.',
+      'La famille maternelle de Philippe est à Laroque-des-Albères depuis quatre générations : son arrière-arrière-grand-père y avait des ruches, son arrière-grand-père des vignes. C\'est dire si nous connaissions le coin avant d\'y vivre. En 2021, après vingt ans à Paris, nous avons eu envie de prendre l\'air, et nous nous sommes installés à Laroque.',
+      'Suzana est née au Brésil, a vécu aux États-Unis, a travaillé en Angleterre et vit en France depuis vingt ans. Recevoir des voyageurs qui ne parlent pas français ne nous pose donc aucun problème, c\'est même une habitude.',
+      'Nous avons arrangé cette maison comme la nôtre, en essayant d\'avoir de quoi satisfaire tous les types de visiteurs : les instruments de musique servent, la bibliothèque déborde (nous prêtons volontiers des livres en plus de ceux de la villa), et le jardin est pensé pour que les enfants et les chiens en profitent autant que les parents.',
       'Sur place, une conciergerie locale assure l\'accueil et le ménage, et nous restons joignables pour tout le reste.',
     ],
   },

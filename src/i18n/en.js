@@ -34,9 +34,9 @@ export default {
     },
     apropos: {
       path: 'a-propos/',
-      metaTitle: 'About us. Philippe and Susanna, your hosts at Villa Horizons',
+      metaTitle: 'About us. Philippe and Suzana, your hosts at Villa Horizons',
       metaDescription:
-        'Villa Horizons is the home of Philippe and Susanna, based in Laroque-des-Albères since 2021. Philippe\'s family comes from the village.',
+        'Villa Horizons is the home of Philippe and Suzana, based in Laroque-des-Albères since 2021. Philippe\'s family comes from the village.',
     },
   },
 
@@ -395,11 +395,11 @@ export default {
 
   apropos: {
     title: 'About us',
-    intro: 'Villa Horizons is our home. We are Philippe and Susanna.',
+    intro: 'Villa Horizons is our home. We are Philippe and Suzana.',
     paragraphs: [
-      'Philippe\'s mother\'s family comes from Laroque-des-Albères: that\'s how we knew the area long before living here. In 2021, after twenty years in Paris, we needed fresh air and decided to settle in Laroque.',
-      'Susanna was born in Brazil, lived in the United States, worked in England and has lived in France for twenty years. Hosting guests who don\'t speak French is not a problem for us, it\'s a habit.',
-      'We renovated and furnished this house as our own, because it is our own: the musical instruments get played, the library overflows (we gladly lend extra books beyond those in the villa), and the garden is designed for children and dogs to enjoy as much as the parents.',
+      'Philippe\'s mother\'s family has been in Laroque-des-Albères for four generations: his great-great-grandfather kept beehives here, his great-grandfather grew vines. Safe to say we knew the area before living here. In 2021, after twenty years in Paris, we needed fresh air and decided to settle in Laroque.',
+      'Suzana was born in Brazil, lived in the United States, worked in England and has lived in France for twenty years. Hosting guests who don\'t speak French is not a problem for us, it\'s a habit.',
+      'We arranged this house as if it were our own, trying to have something for every kind of guest: the musical instruments get played, the library overflows (we gladly lend extra books beyond those in the villa), and the garden is designed for children and dogs to enjoy as much as the parents.',
       'On site, a local concierge service handles welcome and cleaning, and we remain reachable for everything else.',
     ],
   },
