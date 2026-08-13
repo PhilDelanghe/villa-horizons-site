@@ -213,7 +213,13 @@ export default {
       { name: 'Palau-del-Vidre (10 min)', desc: 'The glassblowers\' village: workshops and demonstrations' },
       { name: 'Céret (20 min)', desc: 'Museum of modern art, century-old plane trees and a great Saturday morning market' },
       { name: 'La Franqui (40 min)', desc: 'A fantastic wild beach spot, with an excellent seafront restaurant' },
-      { name: 'The Costa Brava (1 h)', desc: 'Extraordinary coves, whitewashed villages and Catalan cuisine, one hour\'s drive away' },
+    ],
+    spotsEsTitle: 'And across the border, about 1 hour away',
+    spotsEs: [
+      { name: 'Sa Tuna and Aiguablava (Begur)', desc: 'Two of the Costa Brava\'s most beautiful coves, turquoise water and fishing villages' },
+      { name: 'Palafrugell', desc: 'And its calanques: Calella de Palafrugell, Llafranc, Tamariu' },
+      { name: 'L\'Escala', desc: 'Beaches, anchovies, and the Greco-Roman ruins of Empúries right by the sea' },
+      { name: 'Cadaqués', desc: 'Dalí\'s whitewashed village, magical, but beware of the summer crowds' },
     ],
     distancesTitle: 'Distances',
     distances: [
