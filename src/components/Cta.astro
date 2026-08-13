@@ -2,14 +2,16 @@
 import villa from '../data/villa.json';
 
 const { t } = Astro.props;
-const mailto = `mailto:${villa.bookingEmail}?subject=${encodeURIComponent('Villa Horizons — demande de réservation')}`;
+const bookingUrl = `${villa.superhoteUrl}?lang=${t.lang}`;
+const mailto = `mailto:${villa.bookingEmail}?subject=${encodeURIComponent('Villa Horizons')}`;
 ---
 
 <section id="contact" class="section section-contact">
   <h2>{t.contact.title}</h2>
   <p class="intro">{t.contact.body}</p>
   <p class="contact-ctas">
-    <a class="btn" href={mailto}>{t.contact.emailCta}</a>
+    <a class="btn" href={bookingUrl} target="_blank" rel="noopener">{t.contact.bookCta}</a>
+    <a class="btn btn-secondary" href={mailto}>{t.contact.emailCta}</a>
     <a class="btn btn-secondary" href={`tel:${villa.bookingPhone}`}>{t.contact.phoneCta} {villa.bookingPhoneDisplay}</a>
   </p>
 </section>

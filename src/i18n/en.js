@@ -153,7 +153,7 @@ export default {
       },
       {
         q: 'How do I book?',
-        a: 'Bookings go through Sud Séjour, our local concierge service: contact@sudsejourconciergerie.com or +33 6 16 06 63 73, mentioning Villa Horizons.',
+        a: 'Directly online from this site (Book button): real-time availability and secure payment, through Sud Séjour, our local concierge service. Also by email (contact@sudsejourconciergerie.com) or phone (+33 6 16 06 63 73), mentioning Villa Horizons.',
       },
       {
         q: 'Is the villa air-conditioned?',
@@ -351,7 +351,8 @@ export default {
 
   contact: {
     title: 'Book your stay',
-    body: 'Bookings and guest welcome are handled by Sud Séjour, our local concierge service. Email them mentioning Villa Horizons, or give them a call.',
+    body: 'Book directly online: real-time availability, secure payment, calendar synced across all platforms. On-site welcome is handled by Sud Séjour, our local concierge service, reachable for any question.',
+    bookCta: 'Book online',
     emailCta: 'Email Sud Séjour',
     phoneCta: 'Call',
   },

@@ -153,7 +153,7 @@ export default {
       },
       {
         q: 'Comment réserver ?',
-        a: 'La réservation passe par Sud Séjour, notre conciergerie locale : contact@sudsejourconciergerie.com ou +33 6 16 06 63 73, en mentionnant Villa Horizons.',
+        a: 'Directement en ligne depuis ce site (bouton Réserver) : disponibilités en temps réel et paiement sécurisé, via Sud Séjour, notre conciergerie locale. Aussi par email (contact@sudsejourconciergerie.com) ou téléphone (+33 6 16 06 63 73), en mentionnant Villa Horizons.',
       },
       {
         q: 'La villa est-elle climatisée ?',
@@ -345,7 +345,8 @@ export default {
 
   contact: {
     title: 'Réserver',
-    body: 'La réservation et l\'accueil sont assurés par Sud Séjour, notre conciergerie locale. Écrivez-leur en mentionnant Villa Horizons, ou appelez-les directement.',
+    body: 'Réservez directement en ligne : disponibilités en temps réel, paiement sécurisé, calendrier synchronisé avec toutes les plateformes. L\'accueil sur place est assuré par Sud Séjour, notre conciergerie locale, joignable pour toute question.',
+    bookCta: 'Réserver en ligne',
     emailCta: 'Écrire à Sud Séjour',
     phoneCta: 'Appeler le',
   },

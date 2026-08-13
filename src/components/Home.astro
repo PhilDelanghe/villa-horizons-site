@@ -48,7 +48,7 @@ const alt = (g) => (t.lang === 'en' ? g.altEn : g.altFr);
       <ul class="badges">
         {t.hero.badges.map((b) => <li>{b}</li>)}
       </ul>
-      <a class="btn" href="#contact">{t.hero.cta}</a>
+      <a class="btn" href={`${villa.superhoteUrl}?lang=${t.lang}`} target="_blank" rel="noopener">{t.hero.cta}</a>
     </div>
   </div>
 </header>
