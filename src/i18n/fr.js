@@ -66,7 +66,7 @@ export default {
     groundFloorTitle: 'Rez-de-chaussée',
     groundFloor: [
       'Grand salon lumineux en trois espaces : salon télé (Smart TV avec Netflix, Canal+ et Apple TV), salon détente avec enceintes Bluetooth Parrot design Philippe Starck, salle à manger avec grande table familiale',
-      'Cuisine entièrement équipée : machine espresso (grains + Nespresso), four, micro-ondes, induction, lave-vaisselle, grand réfrigérateur-congélateur, machine à glaçons, SodaStream',
+      'Cuisine entièrement équipée : machine espresso (grains + Nespresso), four, micro-ondes, induction, lave-vaisselle, grand réfrigérateur-congélateur, grille-pain, bouilloire, blender, machine à glaçons, SodaStream',
       'Accès direct à la terrasse ombragée avec coin repas et barbecue',
       'Salle de douche moderne et WC séparés',
       'Buanderie avec lave-linge',
@@ -177,6 +177,25 @@ export default {
     ],
   },
 
+  acces: {
+    title: 'Comment venir',
+    intro: 'La villa est au pied des Albères, proche de la frontière espagnole et de la Méditerranée. On y accède facilement en train, en avion ou en voiture.',
+    items: [
+      {
+        name: 'En train',
+        desc: 'Gare d\'Argelès-sur-Mer à 10 minutes (liaisons locales vers Perpignan, Collioure et Cerbère). Gare TGV de Perpignan à 25 minutes : Paris en 5 h, Lyon en 3 h 30, Barcelone en 1 h 30.',
+      },
+      {
+        name: 'En avion',
+        desc: 'Perpignan-Rivesaltes (PGF) à 35 minutes, Gérone à 55 minutes par l\'AP-7, Barcelone-El Prat à environ 2 h. Location de voitures dans les trois aéroports.',
+      },
+      {
+        name: 'En voiture',
+        desc: 'Autoroute A9 / AP-7, sortie Le Boulou à 15 minutes de la villa. Parking privé, clos et ombragé, dans la propriété.',
+      },
+    ],
+  },
+
   village: {
     title: 'Laroque-des-Albères et ses environs',
     intro:
@@ -204,8 +223,10 @@ export default {
       'Espagne : 15 minutes',
       'Céret : 20 minutes',
       'Perpignan : 25 minutes',
+      'Figueres : 35 minutes',
+      'Gérone : 55 minutes',
       'Font-Romeu : 1 h 30',
-      'Barcelone : 1 h 30',
+      'Barcelone : 2 h en voiture, 1 h 30 en TGV depuis Perpignan',
     ],
   },
 
@@ -219,7 +240,7 @@ export default {
         items: [
           { name: 'Collioure et le fauvisme', desc: 'Le chemin du fauvisme sur les pas de Matisse et Derain, galeries et château royal' },
           { name: 'Musée d\'art moderne de Céret', desc: 'Picasso, Braque, Chagall, Soutine : une collection exceptionnelle pour un village' },
-          { name: 'Musée Dalí à Figueres (45 min)', desc: 'Le théâtre-musée conçu par Dalí lui-même, de l\'autre côté de la frontière' },
+          { name: 'Musée Dalí à Figueres (35 min)', desc: 'Le théâtre-musée conçu par Dalí lui-même, de l\'autre côté de la frontière' },
         ],
       },
       {

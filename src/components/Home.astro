@@ -157,6 +157,19 @@ const alt = (g) => (t.lang === 'en' ? g.altEn : g.altFr);
     </ul>
   </section>
 
+  <section id="acces" class="section section-alt">
+    <h2>{t.acces.title}</h2>
+    <p class="intro">{t.acces.intro}</p>
+    <div class="cards">
+      {t.acces.items.map((item) => (
+        <div class="card">
+          <h3>{item.name}</h3>
+          <p>{item.desc}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
   <Cta t={t} />
 </main>
 

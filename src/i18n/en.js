@@ -66,7 +66,7 @@ export default {
     groundFloorTitle: 'Ground floor',
     groundFloor: [
       'Spacious light-filled living room in three areas: TV room (Smart TV with Netflix, Canal+ and Apple TV), lounge with Parrot Bluetooth speakers designed by Philippe Starck, elegant dining area with a large family table',
-      'Fully equipped kitchen: espresso machine (beans + Nespresso), oven, microwave, induction cooktop, dishwasher, large fridge-freezer, ice maker, SodaStream',
+      'Fully equipped kitchen: espresso machine (beans + Nespresso), oven, microwave, induction cooktop, dishwasher, large fridge-freezer, toaster, kettle, blender, ice maker, SodaStream',
       'Direct access to a shaded terrace with dining area and barbecue',
       'Modern shower room and separate toilet',
       'Laundry room with washing machine',
@@ -177,6 +177,25 @@ export default {
     ],
   },
 
+  acces: {
+    title: 'Getting there',
+    intro: 'The villa sits at the foot of the Albères mountains, close to the Spanish border and the Mediterranean. It is easy to reach by train, plane or car.',
+    items: [
+      {
+        name: 'By train',
+        desc: 'Argelès-sur-Mer station is 10 minutes away (local trains to Perpignan, Collioure and Cerbère). Perpignan TGV station is 25 minutes away: Paris in 5 h, Lyon in 3 h 30, Barcelona in 1 h 30.',
+      },
+      {
+        name: 'By plane',
+        desc: 'Perpignan-Rivesaltes (PGF) 35 minutes away, Girona 55 minutes via the AP-7 motorway, Barcelona-El Prat around 2 hours. Car rentals at all three airports.',
+      },
+      {
+        name: 'By car',
+        desc: 'A9 / AP-7 motorway, Le Boulou exit 15 minutes from the villa. Private gated and shaded parking on the property.',
+      },
+    ],
+  },
+
   village: {
     title: 'Laroque-des-Albères and around',
     intro:
@@ -204,8 +223,10 @@ export default {
       'Spain: 15 minutes',
       'Céret: 20 minutes',
       'Perpignan: 25 minutes',
+      'Figueres: 35 minutes',
+      'Girona: 55 minutes',
       'Font-Romeu: 1 h 30',
-      'Barcelona: 1 h 30',
+      'Barcelona: 2 h by car, 1 h 30 by high-speed train from Perpignan',
     ],
   },
 
@@ -219,7 +240,7 @@ export default {
         items: [
           { name: 'Collioure and Fauvism', desc: 'The Fauvism trail in the footsteps of Matisse and Derain, galleries and the royal castle' },
           { name: 'Céret museum of modern art', desc: 'Picasso, Braque, Chagall, Soutine: an exceptional collection for a small town' },
-          { name: 'Dalí museum in Figueres (45 min)', desc: 'The theatre-museum designed by Dalí himself, just across the border' },
+          { name: 'Dalí museum in Figueres (35 min)', desc: 'The theatre-museum designed by Dalí himself, just across the border' },
         ],
       },
       {
