@@ -1,0 +1,17 @@
+{
+  "name": "Villa Horizons",
+  "url": "https://villa-horizons.fr",
+  "airbnbUrl": "https://www.airbnb.fr/rooms/1474774399883621065",
+  "email": "contact@villa-horizons.fr",
+  "locality": "Laroque-des-Albères",
+  "postalCode": "66740",
+  "region": "Pyrénées-Orientales, Occitanie",
+  "country": "FR",
+  "geo": { "latitude": 42.522, "longitude": 2.938 },
+  "capacity": 11,
+  "bedrooms": 5,
+  "bathrooms": 3,
+  "surface": 210,
+  "terrain": 2500,
+  "poolSize": "4 × 9 m"
+}
