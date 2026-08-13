@@ -15,6 +15,7 @@ const gallery = [
   { src: 'salle-a-manger', altFr: 'Salle à manger avec grande table familiale', altEn: 'Dining room with large family table' },
   { src: 'cuisine', altFr: 'Cuisine entièrement équipée avec bar', altEn: 'Fully equipped kitchen with bar' },
   { src: 'terrasse', altFr: 'Terrasse de la cuisine d\'été avec coin repas', altEn: 'Summer kitchen terrace with dining area' },
+  { src: 'terrasse-salon-jardin', altFr: 'Salon de jardin sur la terrasse', altEn: 'Garden lounge on the terrace' },
   { src: 'suite-parentale', altFr: 'Suite parentale avec lit queen 160x200', altEn: 'Master suite with queen bed' },
   { src: 'chambre-vue-mer', altFr: 'Chambre avec vue mer et balcon', altEn: 'Bedroom with sea view and balcony' },
   { src: 'chambre-double-montagne', altFr: 'Chambre double vue montagne', altEn: 'Mountain-view double bedroom' },
@@ -38,7 +39,7 @@ const alt = (g) => (t.lang === 'en' ? g.altEn : g.altFr);
 ---
 
 <header class="hero">
-  <img class="hero-img" src="/photos/facade.jpg" alt={t.lang === 'en' ? 'Villa Horizons front view' : 'Villa Horizons vue de face'} />
+  <img class="hero-img" src="/photos/facade-bougainvillier.jpg" alt={t.lang === 'en' ? 'Villa Horizons and its bougainvillea' : 'Villa Horizons et son bougainvillier'} />
   <div class="hero-overlay">
     <Nav t={t} page="home" variant="overlay" />
     <div class="hero-text">
