@@ -64,9 +64,16 @@ const mapsUrl = (name, ctx) => {
                 {item.time && <span class="card-time">{item.time}</span>}
               </div>
               <p>{item.desc}</p>
-              {s.maps && item.maps !== false && (
+              {((s.maps && item.maps !== false) || item.url) && (
                 <p class="maps-link">
-                  <a href={mapsUrl(item.name, s.maps)} target="_blank" rel="noopener">Google Maps ↗</a>
+                  {s.maps && item.maps !== false && (
+                    <a href={mapsUrl(item.name, s.maps)} target="_blank" rel="noopener">Google Maps ↗</a>
+                  )}
+                  {item.url && (
+                    <a href={item.url} target="_blank" rel="noopener">
+                      {t.lang === 'en' ? 'Website ↗' : 'Site officiel ↗'}
+                    </a>
+                  )}
                 </p>
               )}
             </div>
