@@ -21,34 +21,64 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/village/"/>
   </url>
   <url>
-    <loc>https://villa-horizons.fr/culture/</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://villa-horizons.fr/culture/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/culture/"/>
+    <loc>https://villa-horizons.fr/voir/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villa-horizons.fr/voir/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/voir/"/>
   </url>
   <url>
-    <loc>https://villa-horizons.fr/en/culture/</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://villa-horizons.fr/culture/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/culture/"/>
+    <loc>https://villa-horizons.fr/en/voir/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villa-horizons.fr/voir/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/voir/"/>
   </url>
   <url>
-    <loc>https://villa-horizons.fr/vin/</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://villa-horizons.fr/vin/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/vin/"/>
+    <loc>https://villa-horizons.fr/manger/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villa-horizons.fr/manger/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/manger/"/>
   </url>
   <url>
-    <loc>https://villa-horizons.fr/en/vin/</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://villa-horizons.fr/vin/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/vin/"/>
+    <loc>https://villa-horizons.fr/en/manger/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villa-horizons.fr/manger/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/manger/"/>
   </url>
   <url>
-    <loc>https://villa-horizons.fr/sport/</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://villa-horizons.fr/sport/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/sport/"/>
+    <loc>https://villa-horizons.fr/boire/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villa-horizons.fr/boire/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/boire/"/>
   </url>
   <url>
-    <loc>https://villa-horizons.fr/en/sport/</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://villa-horizons.fr/sport/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/sport/"/>
+    <loc>https://villa-horizons.fr/en/boire/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villa-horizons.fr/boire/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/boire/"/>
+  </url>
+  <url>
+    <loc>https://villa-horizons.fr/bouger/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villa-horizons.fr/bouger/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/bouger/"/>
+  </url>
+  <url>
+    <loc>https://villa-horizons.fr/en/bouger/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villa-horizons.fr/bouger/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/bouger/"/>
+  </url>
+  <url>
+    <loc>https://villa-horizons.fr/espagne/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villa-horizons.fr/espagne/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/espagne/"/>
+  </url>
+  <url>
+    <loc>https://villa-horizons.fr/en/espagne/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villa-horizons.fr/espagne/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/espagne/"/>
+  </url>
+  <url>
+    <loc>https://villa-horizons.fr/culture-catalane/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villa-horizons.fr/culture-catalane/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/culture-catalane/"/>
+  </url>
+  <url>
+    <loc>https://villa-horizons.fr/en/culture-catalane/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villa-horizons.fr/culture-catalane/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/culture-catalane/"/>
   </url>
   <url>
     <loc>https://villa-horizons.fr/a-propos/</loc>

@@ -4,16 +4,14 @@ import SubPage from '../components/SubPage.astro';
 import t from '../i18n/fr.js';
 
 const sections = [
-  { title: t.village.lifeTitle, items: t.village.life },
-  { title: t.village.produitsTitle, items: t.village.produits, maps: 'Pyrénées-Orientales' },
-  { title: t.village.restosTitle, items: t.village.restos, maps: 'Laroque-des-Albères' },
-  { title: t.village.sortiesTitle, items: t.village.sorties, maps: 'Pyrénées-Orientales' },
-  { title: t.village.spotsTitle, items: t.village.spots, maps: true },
-  { title: t.village.spotsEsTitle, items: t.village.spotsEs, maps: 'Costa Brava' },
+  { title: t.village.aPiedTitle, items: t.village.aPied, maps: 'Laroque-des-Albères' },
+  { title: t.village.voitureTitle, items: t.village.voiture, maps: 'Laroque-des-Albères' },
+  { title: t.village.quinzeTitle, items: t.village.quinze, maps: true },
+  { title: t.village.baladesTitle, items: t.village.balades, maps: 'Laroque-des-Albères' },
   { title: t.village.distancesTitle, items: t.village.distances },
 ];
 ---
 
 <Base t={t} page="village">
-  <SubPage t={t} page="village" title={t.village.title} intro={t.village.intro} sections={sections} />
+  <SubPage t={t} page="village" title={t.village.title} intro={t.village.intro} paragraphs={t.village.paragraphs} sections={sections} />
 </Base>

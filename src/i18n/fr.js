@@ -10,27 +10,45 @@ export default {
     },
     village: {
       path: 'village/',
-      metaTitle: 'Laroque-des-Albères et ses environs. Le village, les commerces, nos spots préférés',
+      metaTitle: 'Laroque-des-Albères. Les commerces à pied, les balades, les distances',
       metaDescription:
-        'Laroque-des-Albères, village catalan au pied des Albères : commerces à pied, 11 restaurants, marché le mercredi. Et nos spots préférés : Collioure, Palau-del-Vidre, La Franqui, Céret, Costa Brava.',
+        'Laroque-des-Albères, village catalan au pied des Albères : les commerces de la place à 5 minutes à pied, ce qui est à moins de 5 minutes en voiture, les balades au départ du village (la tour, les Caranques, la fontaine minérale) et les distances.',
     },
-    culture: {
-      path: 'culture/',
-      metaTitle: 'Activités culturelles autour de Villa Horizons. Art, patrimoine roman, vin',
+    voir: {
+      path: 'voir/',
+      metaTitle: 'Voir. Art, patrimoine roman et villages catalans autour de Villa Horizons',
       metaDescription:
-        'Autour de Laroque-des-Albères : Collioure et le fauvisme, musée d\'art moderne de Céret, musée Dalí à Figueres, abbayes romanes, souffleurs de verre de Palau-del-Vidre, caves et dégustations.',
+        'Autour de Laroque-des-Albères : Collioure et le fauvisme, musée d\'art moderne de Céret, musée Dalí à Figueres, abbayes romanes, souffleurs de verre de Palau-del-Vidre et les plus beaux villages catalans.',
     },
-    sport: {
-      path: 'sport/',
-      metaTitle: 'Activités sportives autour de Villa Horizons. Rando, vélo, golf, mer et montagne',
+    manger: {
+      path: 'manger/',
+      metaTitle: 'Manger. Produits locaux, marchés et restaurants autour de Villa Horizons',
       metaDescription:
-        'Randonnée au départ de la villa, Canigou, sentiers côtiers, 6 golfs dans un rayon de 60 km, CrossFit, équitation, vélos électriques, snorkeling dans la réserve de Cerbère-Banyuls, Costa Brava à 1 h.',
+        'Les produits du coin : saucisse catalane, huile d\'olive du moulin d\'en face, poisson de Port-Vendres, huîtres de Leucate. Les marchés de Laroque, Céret et Collioure. Nos restaurants au village et sur la Côte Vermeille.',
     },
-    vin: {
-      path: 'vin/',
-      metaTitle: 'Vin et viticulture autour de Villa Horizons. Banyuls, Collioure, Roussillon',
+    boire: {
+      path: 'boire/',
+      metaTitle: 'Boire. Le vignoble du Roussillon, Banyuls, Collioure, et nos domaines préférés',
       metaDescription:
-        'Le Roussillon viticole autour de la villa : appellations Collioure et Banyuls, vignes en terrasses sur schiste, caves et dégustations, et nos domaines préférés.',
+        'Le Roussillon viticole autour de la villa : appellations Collioure et Banyuls, vignes en terrasses sur schiste, comment se font les vins doux naturels et les rancios, caves et dégustations.',
+    },
+    bouger: {
+      path: 'bouger/',
+      metaTitle: 'Bouger. Randonnée, vélo, golf, mer et montagne autour de Villa Horizons',
+      metaDescription:
+        'Les randonnées au départ de Laroque : col de l\'Ouillat, tour de la Madeloc, Canigou, sentiers côtiers. Et 6 golfs dans un rayon de 60 km, CrossFit, équitation, vélos électriques, snorkeling à Cerbère-Banyuls.',
+    },
+    espagne: {
+      path: 'espagne/',
+      metaTitle: 'L\'Espagne depuis Villa Horizons. Costa Brava, Gérone, La Jonquera',
+      metaDescription:
+        'La frontière est à 15 minutes : les criques de la Costa Brava, Gérone et sa cathédrale, la cuisine espagnole, La Jonquera et Le Perthus.',
+    },
+    catalan: {
+      path: 'culture-catalane/',
+      metaTitle: 'La culture catalane. Sardane, boles de picolat, cargolade, porró',
+      metaDescription:
+        'Quelques clés pour comprendre la Catalogne nord : la sardane et la cobla, les boles de picolat, la cargolade, les rousquilles, le touron et le porró.',
     },
     apropos: {
       path: 'a-propos/',
@@ -43,9 +61,12 @@ export default {
   nav: {
     villa: 'La villa',
     village: 'Le village',
-    culture: 'Culture',
-    vin: 'Le vin',
-    sport: 'Sport',
+    voir: 'Voir',
+    manger: 'Manger',
+    boire: 'Boire',
+    bouger: 'Bouger',
+    espagne: 'L\'Espagne',
+    catalan: 'Culture catalane',
     apropos: 'À propos',
     reserver: 'Réserver',
   },
@@ -215,27 +236,66 @@ export default {
   },
 
   village: {
-    title: 'Laroque-des-Albères et ses environs',
+    title: 'Laroque-des-Albères',
     intro:
-      'Laroque-des-Albères est un village catalan vivant au pied du massif des Albères, avec une vraie vie locale à l\'année et une communauté internationale. Tout se fait à pied depuis le centre, et la villa est à 5 minutes du village.',
-    lifeTitle: 'La vie au village',
-    life: [
-      { name: 'Commerces à pied', desc: 'Pharmacie, boulangeries, primeur, artisanat, pizza à emporter, et une boucherie championne du monde de la saucisse catalane.' },
-      { name: '11 restaurants', desc: 'Pub irlandais, japonais fusion, burger, cuisine traditionnelle française, tapas, pizza au feu de bois.' },
-      { name: 'Marché', desc: 'Le mercredi matin, sur la place du village.' },
-      { name: 'Sentiers au départ du village', desc: 'Les chemins de randonnée des Albères partent directement du village.' },
+      'Laroque-des-Albères est un village catalan vivant au pied du massif des Albères, avec une vraie vie locale à l\'année et une communauté internationale. La villa est à 5 minutes à pied du centre, et l\'essentiel du quotidien se fait sans reprendre la voiture.',
+    paragraphs: [
+      'Un mot sur le village d\'avant, parce qu\'il a beaucoup changé. Quand j\'étais enfant, dans les années 60 et 70, Laroque était un petit village d\'agriculteurs pauvres. Il n\'y avait pas la télévision : le soir, les anciens sortaient leur chaise devant la porte et prenaient le frais, comme disait mon grand-père, en discutant avec le voisin qui passait. Sinon, on allait aux boules.',
+      'Le quartier où se trouve la villa n\'existait pas encore. En 1970, il n\'y avait ici que des vignes. Nos voisins du dessus ont bâti leur maison en 1975 et se souviennent d\'avoir été seuls au milieu des rangs ; l\'essentiel des maisons autour est sorti de terre dans les années 2000.',
+      'Puis les Anglais sont arrivés, à partir des années 80, séduits par le climat, et ils ont fait venir leurs amis. Aujourd\'hui une dizaine de nationalités vivent à Laroque à l\'année. Le village est devenu franchement cosmopolite, ce qui n\'aurait pas manqué de surprendre mes grands-parents.',
     ],
-    spotsTitle: 'Nos spots préférés dans le coin',
-    spots: [
-      { name: 'Collioure (15 min)', maps: false, desc: 'Élu Village préféré des Français en 2024. Le joyau de la Côte Vermeille : château royal, clocher iconique, anchois et terrasses.' },
-      { name: 'Palau-del-Vidre (10 min)', desc: 'Le village des souffleurs de verre : ateliers et démonstrations.' },
-      { name: 'Céret (20 min)', desc: 'Musée d\'art moderne, platanes centenaires et grand marché le samedi matin.' },
-      { name: 'La Franqui (40 min)', desc: 'Un spot de plage sauvage génial, et un excellent restaurant face à la mer.' },
+    aPiedTitle: 'À pied depuis la villa',
+    aPied: [
+      { name: 'La place du village', maps: false, desc: 'Cinq minutes de marche, et tout le quotidien tient sur une place : pharmacie, boulangerie, primeur, pizza à emporter, boucherie.' },
+      { name: 'Boucherie Salvi', desc: 'Didier Salvi, champion du monde de la saucisse catalane, boucher du village depuis plus de 20 ans. Aussi de l\'agneau catalan et des bœufs de concours élevés dans les pâturages de montagne.' },
+      { name: 'Huile d\'olive : Le Moulin du Llevant', desc: 'Littéralement en face de la villa, 44 bis avenue des Baléares : moulin familial bio, variétés locales, médailles d\'or, visites gratuites. Et explorez, les moulins ne manquent pas dans les Albères.' },
+      { name: 'Le marché', maps: false, desc: 'Le mercredi matin sur la place. Petit, mais c\'est celui où on croise tout le village.' },
+      { name: 'Les restaurants', maps: false, desc: 'Onze restaurants au village, du Bib Gourmand au pub irlandais. Le détail est dans la rubrique Manger.' },
+      { name: 'Les sentiers', maps: false, desc: 'Les chemins de randonnée des Albères partent directement du village, à pied depuis la villa.' },
+      { name: 'Immobilier : Terra Albera', desc: 'Si l\'envie vous prend d\'acheter dans la région, et ça arrive plus souvent qu\'on ne croit, c\'est la référence du secteur : place de la Mairie, juste à côté de la pharmacie.' },
     ],
-    produitsTitle: 'Produits locaux à expérimenter',
+    voitureTitle: 'À moins de 5 minutes en voiture',
+    voiture: [
+      { name: 'Pain : Maison Castro', desc: 'Le Fournil des Albères, l\'incontournable boulangerie-pâtisserie du secteur. Petit café possible le matin, et en saison un étal de fruits et légumes devant.' },
+      { name: 'Raisin de table : Domaine Causadias', desc: 'En saison, le raisin de table du domaine, 94 avenue des Baléares.' },
+      { name: 'Carrefour des Albères', desc: 'Le supermarché du coin, avec un poissonnier indépendant à l\'intérieur.' },
+      { name: 'Caviste : La Tête dans le Cru', desc: 'ZA du CD 618. Le bon point de départ pour goûter les vins du coin avant d\'aller voir les domaines.' },
+      { name: 'Station-service et lavage auto', maps: false, desc: 'Sur la zone du CD 618. À noter pour les voitures qui roulent au superéthanol : l\'E85 n\'est pas distribué à Laroque, la pompe la plus proche est celle de l\'Intermarché de Saint-André, sur la D618.' },
+    ],
+    quinzeTitle: 'À 15 minutes',
+    quinze: [
+      { name: 'Zone commerciale d\'Argelès-sur-Mer', desc: 'Rue des Milans, à l\'entrée d\'Argelès : un immense Intermarché et toutes les enseignes, pour les grosses courses du premier jour.' },
+    ],
+    baladesTitle: 'Les balades incontournables au départ du village',
+    balades: [
+      { name: 'La tour de Laroque, au coucher du soleil', desc: 'On monte par les ruelles du vieux village jusqu\'à la tour, seul vestige du donjon du château féodal, dont le reste s\'est effondré en 1890. C\'était une tour de guet : elle communiquait par signaux avec Elne et les autres tours de la crête des Albères. À son pied, deux tables d\'orientation, une vers la plaine et la mer, l\'autre vers la montagne : le Canigou à l\'ouest, le pic Néoulous au sud, toute la plaine du Roussillon au nord et la Méditerranée à l\'est. En fin de journée, c\'est la balade qu\'on fait faire à tous ceux qui viennent nous voir.' },
+      { name: 'Les Caranques', desc: 'Le sentier remonte la rivière jusqu\'à des vasques naturelles creusées dans la roche, en amont de la prise d\'eau du canal d\'arrosage. Des générations de gamins du village s\'y sont baignées ; la baignade y est aujourd\'hui interdite par arrêté municipal, mais l\'endroit et la marche pour y aller valent largement le détour.' },
+      { name: 'La fontaine minérale', maps: false, desc: 'Un petit sentier mène à une source ferrugineuse et naturellement gazeuse qui sort de la roche. Le goût est franchement métallique, quelque part entre l\'eau pétillante et le clou rouillé : à goûter une fois, pour l\'expérience. On reste sur le sentier, la rive d\'en face est exposée aux chutes de pierres.' },
+    ],
+    distancesTitle: 'Les distances',
+    distances: [
+      'Centre du village : 5 minutes à pied.',
+      'Plages d\'Argelès : 10 minutes en voiture.',
+      'Collioure : 15 minutes.',
+      'Espagne : 15 minutes.',
+      'Céret : 20 minutes.',
+      'Perpignan : 25 minutes.',
+      'Figueres : 35 minutes.',
+      'Gérone : 55 minutes.',
+      'Font-Romeu : 1 h 30.',
+      'Barcelone : 2 h en voiture, 1 h 30 en TGV depuis Perpignan.',
+    ],
+  },
+
+  manger: {
+    title: 'Manger',
+    intro:
+      'C\'est d\'abord une région de produits : la saucisse catalane du boucher du village, l\'huile d\'olive du moulin d\'en face, les anchois de Collioure, le poisson débarqué à Port-Vendres, les huîtres de Leucate. Voici ce qu\'on achète, où on va manger, et ce qu\'il ne faut pas rater.',
+    produitsTitle: 'Les produits d\'ici',
     produits: [
       { name: 'Huile d\'olive : Le Moulin du Llevant', desc: 'Littéralement en face de la villa (44 bis avenue des Baléares) : moulin familial bio, variétés locales, médailles d\'or, visites gratuites. Et explorez, les moulins ne manquent pas dans les Albères.' },
       { name: 'Saucisse catalane : Boucherie Salvi', desc: 'Didier Salvi, champion du monde de la saucisse catalane, boucher du village depuis plus de 20 ans. Aussi : agneau catalan et bœufs de concours élevés dans les pâturages de montagne.' },
+      { name: 'Amandes : La Maison de l\'Amande (Laroque)', desc: 'Christine Llense cultive 7 hectares d\'amandiers bio sur les hauteurs de Laroque, ni irrigués ni traités : ce sont les arbres que l\'on voit depuis la route en allant vers le centre commercial. Amandes fraîches ou en coque, poudre, purée 100 % amande, huile vierge pressée à froid, nougatines. Avenue des Mas Catalans, auto-cueillette en septembre et rendez-vous le reste de l\'année.' },
       { name: 'Charcuterie : Boucherie Casenove (Saint-Génis)', desc: 'Trois générations de bouchers-charcutiers rue de l\'Église. Admirez le portail roman de l\'abbaye en ramenant vos courses.' },
       { name: 'La Ferme Xadi (Palau-del-Vidre)', desc: 'Élevage familial de porcs en plein air sur la D618, charcuterie artisanale sans additifs, vente à la ferme et visites possibles.' },
       { name: 'Pain : Maison Castro', desc: 'Le Fournil des Albères, l\'incontournable boulangerie-pâtisserie du village. Petit café possible le matin.' },
@@ -243,7 +303,12 @@ export default {
       { name: 'Café : La Cafetière Catalane (Collioure)', desc: 'Torréfacteur artisanal, grains et moutures sur mesure.' },
       { name: 'Poisson', maps: false, desc: 'Le poissonnier indépendant du Carrefour des Albères, les pêcheurs d\'Argelès et de Port-Vendres, et Les Poissonneries de la Côte Catalane à la criée de Port-Vendres, au bout du quai (avec bar à huîtres).' },
       { name: 'Huîtres de Leucate (40 min)', desc: 'Une vingtaine de cabanes ostréicoles au Grau de Leucate : dégustation directement chez le producteur, face à l\'étang. À tester absolument.' },
-      { name: 'Les marchés', maps: false, desc: 'Laroque le mercredi matin, Céret le samedi (énorme), Collioure le dimanche (attention au parking).' },
+    ],
+    marchesTitle: 'Les marchés',
+    marches: [
+      { name: 'Laroque-des-Albères', maps: false, desc: 'Le mercredi matin sur la place du village. Petit et local, celui du quotidien.' },
+      { name: 'Céret (20 min)', maps: false, desc: 'Le samedi matin. Énorme, sous les platanes centenaires, un des plus beaux du département.' },
+      { name: 'Collioure (15 min)', maps: false, desc: 'Le dimanche matin, superbe. Attention au parking, il faut arriver tôt.' },
     ],
     restosTitle: 'Où on aime manger au village',
     restos: [
@@ -263,30 +328,10 @@ export default {
       { name: 'Hostal Empúries (L\'Escala, 1 h)', desc: 'Le restaurant de l\'hôtel, quasiment sur la plage du Portitxol, à côté des ruines d\'Empúries.' },
       { name: 'Le Bout du Monde (Cerbère, 45 min)', desc: 'Les pieds dans l\'eau dans l\'anse de Peyrefite, au départ du sentier sous-marin de la réserve marine. Idéal après le snorkeling.' },
     ],
-    spotsEsTitle: 'Et côté Espagne, à environ 1 h de route',
-    spotsEs: [
-      { name: 'Sa Tuna et Aiguablava (Begur)', desc: 'Deux des plus belles criques de la Costa Brava, eaux turquoise et villages de pêcheurs.' },
-      { name: 'Palafrugell', desc: 'Et ses calanques : Calella de Palafrugell, Llafranc, Tamariu.' },
-      { name: 'L\'Escala', desc: 'Plages, anchois, et les ruines gréco-romaines d\'Empúries en bord de mer.' },
-      { name: 'Cadaqués', desc: 'Le village blanc de Dalí, magique, mais attention au monde en été.' },
-    ],
-    distancesTitle: 'Les distances',
-    distances: [
-      'Centre du village : 5 minutes à pied.',
-      'Plages d\'Argelès : 10 minutes en voiture.',
-      'Collioure : 15 minutes.',
-      'Espagne : 15 minutes.',
-      'Céret : 20 minutes.',
-      'Perpignan : 25 minutes.',
-      'Figueres : 35 minutes.',
-      'Gérone : 55 minutes.',
-      'Font-Romeu : 1 h 30.',
-      'Barcelone : 2 h en voiture, 1 h 30 en TGV depuis Perpignan.',
-    ],
   },
 
-  culture: {
-    title: 'Activités culturelles',
+  voir: {
+    title: 'Voir',
     intro:
       'Le coin est un concentré d\'art et de patrimoine catalan : les fauvistes ont inventé la couleur à Collioure, Picasso a séjourné à Céret, Dalí est né à Figueres, et les abbayes romanes jalonnent les Albères.',
     sections: [
@@ -305,14 +350,23 @@ export default {
         items: [
           { name: 'Églises et abbayes romanes', maps: false, desc: 'L\'art roman catalan tout autour : Saint-Génis-des-Fontaines et son linteau sculpté, le cloître d\'Elne.' },
           { name: 'Tour de la Madeloc', desc: 'La tour à signaux médiévale perchée au-dessus de Collioure et Port-Vendres : panorama immense sur la Côte Vermeille, par une petite route vertigineuse ou à pied.' },
-          { name: 'Villages catalans', maps: false, desc: 'Laroque et son vieux village médiéval, Castelnou, Eus : les plus beaux villages des Pyrénées-Orientales.' },
+        ],
+      },
+      {
+        title: 'Les villages',
+        maps: 'Pyrénées-Orientales',
+        items: [
+          { name: 'Collioure (15 min)', maps: false, desc: 'Élu Village préféré des Français en 2024. Le joyau de la Côte Vermeille : château royal, clocher iconique, ruelles et terrasses. À faire tôt le matin ou en fin de journée l\'été.' },
+          { name: 'Palau-del-Vidre (10 min)', desc: 'Le village des souffleurs de verre : ateliers ouverts et démonstrations.' },
+          { name: 'Céret (20 min)', desc: 'Le musée d\'art moderne, les platanes centenaires, et le grand marché du samedi matin.' },
+          { name: 'Laroque, Castelnou et Eus', maps: false, desc: 'Le vieux village médiéval de Laroque juste au-dessus de la villa, et deux des plus beaux villages du département à moins d\'une heure.' },
         ],
       },
     ],
   },
 
-  vin: {
-    title: 'Le vin et la viticulture',
+  boire: {
+    title: 'Boire',
     intro:
       'Le Roussillon est une très grande région de vin, encore méconnue : vignes en terrasses sur schiste entre mer et montagne, vins doux naturels historiques, et une génération de vignerons qui produit des vins remarquables. Depuis la villa, les premières vignes sont à quelques minutes.',
     sections: [
@@ -322,6 +376,14 @@ export default {
           { name: 'Collioure et Banyuls', desc: 'Les vignes en terrasses de la Côte Vermeille, entre mer et schiste : rouges puissants, blancs de caractère et les célèbres vins doux naturels de Banyuls.' },
           { name: 'Côtes du Roussillon et Les Aspres', desc: 'Les appellations de la plaine et des contreforts, à quelques minutes de la villa.' },
           { name: 'Rivesaltes et Maury', desc: 'Les autres grands vins doux naturels du Roussillon, à découvrir chez les vignerons.' },
+        ],
+      },
+      {
+        title: 'Comment se font les vins doux naturels',
+        items: [
+          { name: 'Le mutage', maps: false, desc: 'On arrête la fermentation en cours de route en ajoutant de l\'alcool. Le sucre du raisin n\'a pas eu le temps d\'être transformé, il reste dans le vin : c\'est ce qui fait un vin doux naturel, et ce qui le distingue d\'un liquoreux classique. On en parle beaucoup ici sans jamais dire comment c\'est fait.' },
+          { name: 'Les dames-jeannes au soleil', maps: false, desc: 'Pour les rancios, le vin part ensuite en dames-jeannes, ces grosses bonbonnes de verre de 20 à 60 litres qu\'on laisse dehors, sur les toits des caves ou entre les vignes. Trois ans ou plus de plein soleil, de nuits froides et de chocs thermiques : l\'oxydation s\'emballe, le vin vieillit en accéléré et développe des arômes de noix, de figue sèche et de fruits grillés qu\'on n\'obtiendrait pas autrement.' },
+          { name: 'Le cousin de Madère', maps: false, desc: 'Même intuition qu\'à Madère, où l\'on s\'est aperçu que le vin embarqué vers les Indes revenait bien meilleur qu\'au départ, cuit pendant des mois dans les cales sous les tropiques. On l\'appelait le vinho da roda, et à la fin du XVIIIe siècle les producteurs ont fini par chauffer le vin sur place plutôt que de lui faire faire le voyage. Ici, le soleil fait le travail à la place du bateau.' },
         ],
       },
       {
@@ -363,6 +425,7 @@ export default {
     enjoyTitle: 'Ce qu\'on aime faire ici',
     enjoy: [
       'Marcher sur le sentier littoral et trouver des criques désertes, même en août.',
+      'Pique-niquer sur la plage en fin de journée, une fois la foule repartie : un verre entre amis, une dernière baignade dans les derniers rayons, et le sable pour nous.',
       'Louer un bateau et croiser les dauphins et les poissons habitués du sentier sous-marin ou de la plage de Taillelauque, au cap l\'Abeille.',
       'Partir très tôt en voiture pour Sa Tuna ou Palafrugell.',
       'Soulever de la fonte à La Box Imperium, à Saint-André.',
@@ -374,11 +437,20 @@ export default {
     ],
   },
 
-  sport: {
-    title: 'Activités sportives',
+  bouger: {
+    title: 'Bouger',
     intro:
       'Entre mer et montagne, c\'est le terrain de jeu idéal : randonnée au départ de la villa, plages à 10 minutes, sommets à 2 000 m dans la journée, et l\'Espagne à un quart d\'heure.',
     sections: [
+      {
+        title: 'Les randonnées incontournables au départ de Laroque',
+        maps: 'Pyrénées-Orientales',
+        items: [
+          { name: 'Le col de l\'Ouillat', desc: 'La montée classique du village, à 936 m au-dessus de nous. On part à pied de Laroque et on remonte la rivière jusqu\'à sa source, au col : deux bonnes heures de montée. Les anciens y grimpaient pour faire le repas là-haut sur un feu de sarments, puis la sieste avant de redescendre, et le programme reste valable. Bon plan : monter à pied et se faire récupérer en voiture en haut, à condition que quelqu\'un veuille bien faire le tour par Le Perthus et la D71, la seule route qui monte au col.' },
+          { name: 'Le Chalet de l\'Albère', desc: 'Le refuge du col de l\'Ouillat, sur le GR10 : restaurant, terrasse panoramique sur les Pyrénées, et 24 places pour dormir. Ouvert à l\'année, ce qui en fait une belle arrivée de randonnée.' },
+          { name: 'La tour de la Madeloc depuis le Fort Saint-Elme', desc: 'Pour les jambes solides : au départ de Collioure, la boucle passe par le Fort Saint-Elme puis monte à travers les vignes en terrasses jusqu\'à la tour à signaux médiévale, environ 15 km et 700 m de dénivelé. En haut, toute la plaine, la Côte Vermeille et l\'Espagne d\'un seul regard. Version courte pour les autres : on y monte aussi par la petite route vertigineuse, puis quelques minutes à pied.' },
+        ],
+      },
       {
         title: 'À la villa',
         items: [
@@ -390,7 +462,7 @@ export default {
       {
         title: 'Randonnée et montagne',
         items: [
-          { name: 'Au départ de la villa', desc: 'Pic Néoulous (14 km, 1 000 m de dénivelé), Col de l\'Ouillat, et tout le réseau de sentiers des Albères.' },
+          { name: 'Au départ de la villa', desc: 'Pic Néoulous (14 km, 1 000 m de dénivelé), col de l\'Ouillat, et tout le réseau de sentiers des Albères.' },
           { name: 'Sentiers côtiers', desc: 'Le sentier littoral d\'Argelès à Cerbère : criques tranquilles même en août.' },
           { name: 'Le Canigou', desc: 'L\'ascension de la montagne sacrée des Catalans (2 784 m).' },
           { name: 'Font-Romeu à la journée', desc: 'Randonnées à 2 000 m d\'altitude, à 1 h 30 de route.' },
@@ -406,6 +478,7 @@ export default {
       {
         title: 'Mer',
         items: [
+          { name: 'Les plages', maps: false, desc: 'Argelès à 10 minutes, les criques du sentier littoral entre Collioure et Cerbère, et plus loin La Franqui (40 min), un spot de plage sauvage génial avec un excellent restaurant face à la mer.' },
           { name: 'Snorkeling', desc: 'La première réserve marine de France, entre Cerbère et Banyuls.' },
           { name: 'Planche à voile et kitesurf', desc: 'Les spots de Leucate et du Pont des Basses à 30 minutes.' },
           { name: 'Kayak et paddle', desc: 'Locations sur toutes les plages, canoë gonflable à la villa.' },
@@ -419,6 +492,85 @@ export default {
           { name: 'CrossFit', desc: 'Box à 5 minutes en voiture, drop-ins vacanciers bienvenus, ouverte l\'été.' },
           { name: 'Tennis et padel', desc: 'Clubs à Laroque et dans les villages voisins.' },
           { name: 'Équitation', desc: 'Centres équestres à proximité, balades dans les Albères.' },
+        ],
+      },
+    ],
+  },
+
+  espagne: {
+    title: 'L\'Espagne',
+    intro:
+      'La frontière est à 15 minutes de la villa, et de l\'autre côté ce n\'est pas vraiment un autre pays : c\'est la suite du même massif, la même langue catalane, les mêmes noms de village. Mais une autre cuisine, d\'autres plages et d\'autres prix. On y va à la journée sans y penser.',
+    sections: [
+      {
+        title: 'La Costa Brava (environ 1 h)',
+        maps: 'Costa Brava',
+        items: [
+          { name: 'Sa Tuna et Aiguablava (Begur)', desc: 'Deux des plus belles criques de la Costa Brava, eaux turquoise et anciens villages de pêcheurs. Partir tôt, les parkings sont vite pleins.' },
+          { name: 'Palafrugell', desc: 'Et ses calanques : Calella de Palafrugell, Llafranc, Tamariu.' },
+          { name: 'L\'Escala', desc: 'Plages, anchois, et les ruines gréco-romaines d\'Empúries les pieds dans l\'eau.' },
+          { name: 'Cadaqués', desc: 'Le village blanc de Dalí, magique, mais attention au monde en été.' },
+        ],
+      },
+      {
+        title: 'Gérone (1 h)',
+        maps: 'Girona Espagne',
+        items: [
+          { name: 'La vieille ville', maps: false, desc: 'Une des cités médiévales les mieux conservées de Catalogne : remparts que l\'on parcourt à pied, ruelles étroites, maisons colorées au bord de l\'Onyar. Une journée entière tient facilement dans le centre historique.' },
+          { name: 'La cathédrale', desc: 'On y accède par un escalier de 96 marches, devenu célèbre depuis qu\'il a servi de décor à Game of Thrones. À l\'intérieur, la plus large nef gothique du monde.' },
+          { name: 'Le Call', desc: 'Le quartier juif du XIIIe siècle, un des mieux préservés au monde : un labyrinthe de ruelles, d\'escaliers et de patios.' },
+        ],
+      },
+      {
+        title: 'Manger espagnol',
+        items: [
+          { name: 'Le jamón', maps: false, desc: 'Le serrano pour tous les jours, l\'ibérique de bellota pour les grandes occasions : des porcs élevés en liberté et nourris de glands, un séchage de deux à trois ans. La différence de prix est réelle, la différence de goût aussi.' },
+          { name: 'Le pan con tomate', maps: false, desc: 'La recette tient en une ligne : du pain rassis, une gousse d\'ail frottée dessus, une demi-tomate écrasée sur la mie, un filet d\'huile d\'olive, du poivre. C\'est tout. Et c\'est meilleur avec le pain de la veille qu\'avec du pain frais, ce qui tombe bien.' },
+          { name: 'L\'huile d\'olive', maps: false, desc: 'Nettement moins chère qu\'en France, mais ce n\'est pas le même produit : d\'autres variétés (la picual andalouse domine), d\'autres volumes, d\'autres méthodes. Regardez l\'étiquette, "aceite de oliva" n\'est pas "virgen extra". Pour comparer, le moulin est en face de la villa.' },
+        ],
+      },
+      {
+        title: 'La Jonquera et Le Perthus',
+        maps: true,
+        items: [
+          { name: 'La Jonquera', desc: 'L\'étape obligée des camionneurs de l\'AP-7, et un commerce frontalier assumé : les autocars s\'y arrêtent pour le whisky en bouteilles de cinq litres et les cigarettes à moitié prix. Mais on y trouve aussi tout ce qui manque de l\'autre côté pour cuisiner espagnol : les épices, les conserves, les charcuteries, le riz à paella. À ce titre, ça vaut vraiment le détour.' },
+          { name: 'La Maison del Jamón (La Jonquera)', desc: 'L\'adresse à retenir sur place : une épicerie fine sur la Carretera Nacional II qui vend la charcuterie ibérique en direct du producteur, du serrano d\'entrée de gamme au bellota, plus des vins et de l\'huile d\'olive.' },
+          { name: 'Le Perthus', desc: 'Cet étrange village coupé en deux par la frontière, français d\'un trottoir et espagnol de l\'autre, toujours bondé. C\'est aussi de là que part la D71, la petite route qui grimpe dans les Albères jusqu\'au col de l\'Ouillat et à son refuge.' },
+        ],
+      },
+    ],
+  },
+
+  catalan: {
+    title: 'La culture catalane',
+    intro:
+      'Ici, on est en Catalogne nord. Le Roussillon est français depuis le traité des Pyrénées, en 1659, mais la langue, la cuisine, les fêtes et la fierté sont restées catalanes des deux côtés de la frontière. Quelques clés pour ne pas passer à côté pendant votre séjour.',
+    sections: [
+      {
+        title: 'La sardane',
+        items: [
+          { name: 'La danse', maps: false, desc: 'On se prend par la main en cercle, hommes et femmes alternés, et on danse bras levés pendant tout le morceau. Vu de loin ça paraît paisible ; c\'est en réalité fatigant et nettement plus compliqué qu\'il n\'y paraît, parce que les pas se comptent, en séries de curts (les courts) puis de llargs (les longs), et qu\'une erreur décale tout le cercle.' },
+          { name: 'La cobla', maps: false, desc: 'L\'orchestre qui accompagne la sardane : onze musiciens, et devant tout le monde la tenora, un grand hautbois catalan au timbre nasillard qu\'on n\'oublie pas après l\'avoir entendu une fois. Elle a été inventée à Perpignan en 1849 par le luthier Andreu Toron.' },
+          { name: 'Où en voir', maps: false, desc: 'À peu près toutes les fêtes de village de l\'été, y compris à Laroque. Interdite sous Franco au sud de la frontière, la sardane est restée un marqueur identitaire fort : on la danse encore partout.' },
+          { name: 'Ce que j\'en pense, honnêtement', maps: false, desc: 'J\'ai vu trois générations de Catalanes la danser dans ma famille : ma grand-mère, ma mère, et mes cousines aujourd\'hui. La stridence des instruments et la complexité des pas m\'ont toujours laissé, disons, perplexe. Mais c\'est clairement un incontournable, et ceux qui la pratiquent disent que lorsque c\'est bien fait, quand le cercle fonctionne vraiment, c\'est carrément extatique.' },
+        ],
+      },
+      {
+        title: 'À table',
+        maps: 'Pyrénées-Orientales',
+        items: [
+          { name: 'Les boles de picolat', maps: false, desc: 'Le plat familial par excellence, transmis de génération en génération et jamais tout à fait le même : des boulettes de bœuf, veau et porc hachés, mijotées en sauce avec des olives vertes et des cèpes séchés, souvent servies avec des haricots blancs. Une sorte de cousin catalan du cassoulet, en boulettes. Chaque famille a sa version et chacune est évidemment la bonne.' },
+          { name: 'La cargolade', maps: false, desc: 'Le rituel du dimanche : des escargots gris posés sur la braise d\'un feu de sarments de vigne, du lard, de l\'aïoli, et à côté les côtelettes premières d\'agneau et la saucisse catalane. Ça se mange debout, dehors, avec du monde. En dessous de dix convives, ça n\'a pas d\'intérêt.' },
+          { name: 'La saucisse catalane', desc: 'Longue, fine, roulée en spirale, grillée. Le boucher du village, Didier Salvi, en est champion du monde, ce qui règle la question de savoir où l\'acheter.' },
+          { name: 'Les rousquilles', maps: false, desc: 'De petites couronnes moelleuses sous un glaçage blanc, nées dans le Vallespir. C\'est un pâtissier d\'Amélie-les-Bains, Marius Sèguela, qui a eu l\'idée du glaçage en 1810 ; la maison Touron, à Arles-sur-Tech, a plus tard remplacé l\'anis par le citron. Les deux existent toujours.' },
+          { name: 'Le touron', maps: false, desc: 'Le nougat catalan, pratiqué des deux côtés de la frontière : le turrón espagnol de Jijona et d\'Alicante d\'un côté, le touron catalan de l\'autre. Même famille, recettes différentes, débat sans fin sur lequel est le meilleur.' },
+        ],
+      },
+      {
+        title: 'Le porró',
+        items: [
+          { name: 'Boire sans toucher', maps: false, desc: 'Une carafe de verre ventrue avec un long bec effilé : on la tient à bout de bras, on vise, et on se verse un filet de vin dans la bouche sans jamais que le bec touche les lèvres. C\'est ce qui permettait de faire tourner la même bouteille dans toute une tablée de vendangeurs sans partager autre chose que le vin. La tradition remonte au XIVe siècle. La première tentative finit toujours sur la chemise, c\'est le passage obligé.' },
+          { name: 'Et le rancio', maps: false, desc: 'Pendant qu\'on y est : la façon dont se font les vins doux naturels et les rancios du coin, en dames-jeannes laissées au soleil pendant des années, est expliquée dans la rubrique Boire.' },
         ],
       },
     ],

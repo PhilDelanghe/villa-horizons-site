@@ -1,0 +1,9 @@
+---
+import Base from '../layouts/Base.astro';
+import SubPage from '../components/SubPage.astro';
+import t from '../i18n/fr.js';
+---
+
+<Base t={t} page="bouger">
+  <SubPage t={t} page="bouger" title={t.bouger.title} intro={t.bouger.intro} sections={t.bouger.sections} />
+</Base>

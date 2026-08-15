@@ -24,11 +24,14 @@ Fully renovated 210 m² holiday villa (2025) in Laroque-des-Albères, South of F
 
 - [Accueil (français)](https://villa-horizons.fr/): la villa en détail, photos, avis, FAQ, réservation
 - [Home (English)](https://villa-horizons.fr/en/): full villa presentation, photos, reviews, FAQ, booking
-- [Le village](https://villa-horizons.fr/village/) / [The village](https://villa-horizons.fr/en/village/): Laroque-des-Albères, commerces, restaurants, spots préférés (Collioure, Palau-del-Vidre, La Franqui, Céret, Costa Brava)
-- [Culture](https://villa-horizons.fr/culture/) / [Culture (EN)](https://villa-horizons.fr/en/culture/): fauvisme à Collioure, musée d'art moderne de Céret, musée Dalí, abbayes romanes
-- [Le vin](https://villa-horizons.fr/vin/) / [Wine](https://villa-horizons.fr/en/vin/): appellations Collioure, Banyuls, Côtes du Roussillon, caves et dégustations
-- [Sport](https://villa-horizons.fr/sport/) / [Sports (EN)](https://villa-horizons.fr/en/sport/): randonnée, Canigou, sentiers côtiers, golf, CrossFit, vélo, mer
-- [À propos](https://villa-horizons.fr/a-propos/) / [About us](https://villa-horizons.fr/en/a-propos/): Philippe et Susanna, vos hôtes
+- [Le village](https://villa-horizons.fr/village/) / [The village](https://villa-horizons.fr/en/village/): Laroque-des-Albères, les commerces à pied et à 5 minutes en voiture, les balades au départ du village (la tour, les Caranques, la fontaine minérale), les distances
+- [Voir](https://villa-horizons.fr/voir/) / [See](https://villa-horizons.fr/en/voir/): fauvisme à Collioure, musée d'art moderne de Céret, musée Dalí, abbayes romanes, villages catalans
+- [Manger](https://villa-horizons.fr/manger/) / [Eat](https://villa-horizons.fr/en/manger/): produits locaux, marchés, restaurants du village et de la Côte Vermeille
+- [Boire](https://villa-horizons.fr/boire/) / [Drink](https://villa-horizons.fr/en/boire/): appellations Collioure, Banyuls, Côtes du Roussillon, vins doux naturels et rancios, caves et dégustations
+- [Bouger](https://villa-horizons.fr/bouger/) / [Move](https://villa-horizons.fr/en/bouger/): randonnées au départ de Laroque (col de l'Ouillat, tour de la Madeloc), Canigou, sentiers côtiers, golf, CrossFit, vélo, mer
+- [L'Espagne](https://villa-horizons.fr/espagne/) / [Spain](https://villa-horizons.fr/en/espagne/): Costa Brava, Gérone, cuisine espagnole, La Jonquera et Le Perthus
+- [Culture catalane](https://villa-horizons.fr/culture-catalane/) / [Catalan culture](https://villa-horizons.fr/en/culture-catalane/): sardane et cobla, boles de picolat, cargolade, rousquilles, touron, porró
+- [À propos](https://villa-horizons.fr/a-propos/) / [About us](https://villa-horizons.fr/en/a-propos/): Philippe et Suzana, vos hôtes
 - [Annonce Airbnb / Airbnb listing](https://www.airbnb.fr/rooms/1474774399883621065): calendrier et réservation / calendar and booking
 
 ## Réservation / Booking

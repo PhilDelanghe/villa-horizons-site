@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/Base.astro';
+import SubPage from '../components/SubPage.astro';
+import t from '../i18n/fr.js';
+
+const sections = [
+  { title: t.manger.produitsTitle, items: t.manger.produits, maps: 'Pyrénées-Orientales' },
+  { title: t.manger.marchesTitle, items: t.manger.marches, maps: true },
+  { title: t.manger.restosTitle, items: t.manger.restos, maps: 'Laroque-des-Albères' },
+  { title: t.manger.sortiesTitle, items: t.manger.sorties, maps: 'Pyrénées-Orientales' },
+];
+---
+
+<Base t={t} page="manger">
+  <SubPage t={t} page="manger" title={t.manger.title} intro={t.manger.intro} sections={sections} />
+</Base>

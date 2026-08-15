@@ -4,7 +4,11 @@
   --bg: #fdfbf7;
   --bg-alt: #f3ede2;
   --accent: #1b5e70;
-  --accent-warm: #c4703d;
+  /* Grenat catalan : le rouge des portes peintes et du fer forgé d'ici, pas celui du drapeau */
+  --accent-warm: #8c2230;
+  /* Senyera : or et sang, réservés au liseré d'en-tête */
+  --senyera-or: #fcdd09;
+  --senyera-sang: #da121a;
   --white: #ffffff;
   --max: 1100px;
   --radius: 10px;
@@ -12,6 +16,17 @@
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* Liseré Senyera : 9 bandes, 5 or et 4 sang, comme le drapeau catalan.
+   2 px par bande, en dessous les bandes se mélangent optiquement en orange. */
+.senyera {
+  height: 18px;
+  background: repeating-linear-gradient(
+    to bottom,
+    var(--senyera-or) 0 2px,
+    var(--senyera-sang) 2px 4px
+  );
+}
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
