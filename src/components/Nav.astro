@@ -1,25 +1,60 @@
 ---
 const { t, page = 'home', variant = 'solid' } = Astro.props;
 const base = t.lang === 'en' ? '/en' : '';
-const links = [
-  { key: 'villa', href: `${base}/` },
-  { key: 'village', href: `${base}/village/` },
-  { key: 'voir', href: `${base}/voir/` },
-  { key: 'manger', href: `${base}/manger/` },
-  { key: 'boire', href: `${base}/boire/` },
-  { key: 'bouger', href: `${base}/bouger/` },
-  { key: 'espagne', href: `${base}/espagne/` },
-  { key: 'catalan', href: `${base}/culture-catalane/` },
-  { key: 'apropos', href: `${base}/a-propos/` },
+
+// Nav à 4 entrées : les rubriques de découverte sont regroupées dans un déroulant,
+// pour que la barre reste lisible même en ajoutant des rubriques.
+const primary = [
+  { key: 'villa', href: `${base}/`, page: 'home' },
+  { key: 'village', href: `${base}/village/`, page: 'village' },
 ];
+const discover = [
+  { key: 'voir', href: `${base}/voir/`, page: 'voir' },
+  { key: 'manger', href: `${base}/manger/`, page: 'manger' },
+  { key: 'boire', href: `${base}/boire/`, page: 'boire' },
+  { key: 'bouger', href: `${base}/bouger/`, page: 'bouger' },
+  { key: 'espagne', href: `${base}/espagne/`, page: 'espagne' },
+  { key: 'catalan', href: `${base}/culture-catalane/`, page: 'catalan' },
+  { key: 'pratique', href: `${base}/vie-pratique/`, page: 'pratique' },
+];
+const apropos = { key: 'apropos', href: `${base}/a-propos/`, page: 'apropos' };
+
+const inDiscover = discover.some((l) => l.page === page);
 const switchHref = t.lang === 'en' ? `/${t.pages[page].path}` : `/en/${t.pages[page].path}`;
 ---
 
 <nav class={`nav nav-${variant}`}>
   <a class="nav-brand" href={`${base}/`}>Villa Horizons</a>
   <div class="nav-links">
-    {links.map((l) => <a href={l.href}>{t.nav[l.key]}</a>)}
+    {primary.map((l) => (
+      <a href={l.href} aria-current={l.page === page ? 'page' : undefined}>{t.nav[l.key]}</a>
+    ))}
+
+    <details class="nav-drop">
+      <summary aria-current={inDiscover ? 'page' : undefined}>{t.nav.decouvrir}</summary>
+      <div class="nav-drop-menu">
+        {discover.map((l) => (
+          <a href={l.href} aria-current={l.page === page ? 'page' : undefined}>{t.nav[l.key]}</a>
+        ))}
+      </div>
+    </details>
+
+    <a href={apropos.href} aria-current={apropos.page === page ? 'page' : undefined}>{t.nav[apropos.key]}</a>
     <a href={`${base}/#contact`} class="nav-cta">{t.nav.reserver}</a>
     <a href={switchHref} class="nav-lang">{t.lang === 'en' ? 'FR' : 'EN'}</a>
   </div>
 </nav>
+
+<script>
+  // Le déroulant se ferme au clic extérieur et à la touche Échap.
+  // Sans ce script il reste fonctionnel, il faut juste recliquer sur le titre pour le refermer.
+  const drop = document.querySelector('.nav-drop');
+  if (drop) {
+    document.addEventListener('click', (e) => {
+      if (!drop.contains(e.target)) drop.removeAttribute('open');
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') drop.removeAttribute('open');
+    });
+  }
+</script>

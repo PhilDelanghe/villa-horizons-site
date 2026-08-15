@@ -50,6 +50,12 @@ export default {
       metaDescription:
         'Quelques clés pour comprendre la Catalogne nord : la sardane et la cobla, les boles de picolat, la cargolade, les rousquilles, le touron et le porró.',
     },
+    pratique: {
+      path: 'vie-pratique/',
+      metaTitle: 'Vie pratique à Laroque-des-Albères. Pharmacie, courses, marché, services',
+      metaDescription:
+        'Les adresses utiles autour de la villa : pharmacie, médecin, supermarchés, marché du village, station-service, garagiste, vétérinaire, La Poste et numéros d\'urgence.',
+    },
     apropos: {
       path: 'a-propos/',
       metaTitle: 'À propos. Philippe et Suzana, vos hôtes à Villa Horizons',
@@ -61,12 +67,14 @@ export default {
   nav: {
     villa: 'La villa',
     village: 'Le village',
+    decouvrir: 'Découvrir',
     voir: 'Voir',
     manger: 'Manger',
     boire: 'Boire',
     bouger: 'Bouger',
     espagne: 'L\'Espagne',
     catalan: 'Culture catalane',
+    pratique: 'Vie pratique',
     apropos: 'À propos',
     reserver: 'Réserver',
   },
@@ -571,6 +579,23 @@ export default {
         items: [
           { name: 'Boire sans toucher', maps: false, desc: 'Une carafe de verre ventrue avec un long bec effilé : on la tient à bout de bras, on vise, et on se verse un filet de vin dans la bouche sans jamais que le bec touche les lèvres. C\'est ce qui permettait de faire tourner la même bouteille dans toute une tablée de vendangeurs sans partager autre chose que le vin. La tradition remonte au XIVe siècle. La première tentative finit toujours sur la chemise, c\'est le passage obligé.' },
           { name: 'Et le rancio', maps: false, desc: 'Pendant qu\'on y est : la façon dont se font les vins doux naturels et les rancios du coin, en dames-jeannes laissées au soleil pendant des années, est expliquée dans la rubrique Boire.' },
+        ],
+      },
+    ],
+  },
+
+  pratique: {
+    title: 'Vie pratique',
+    intro:
+      'Les adresses du quotidien autour de la villa : où trouver une pharmacie un dimanche, faire ses courses, prendre de l\'essence ou trouver un vétérinaire. Rien de spectaculaire, juste ce qu\'on cherche quand on en a besoin.',
+    sections: [
+      {
+        title: 'En cas d\'urgence',
+        items: [
+          { name: 'SAMU', desc: 'Le 15. Urgence médicale, à toute heure.' },
+          { name: 'Pompiers', desc: 'Le 18. Accident, incendie, secours.' },
+          { name: 'Police et gendarmerie', desc: 'Le 17.' },
+          { name: 'Numéro d\'urgence européen', desc: 'Le 112, depuis n\'importe quel téléphone, y compris sans carte SIM. À utiliser si vous ne parlez pas français : les opérateurs prennent les appels en anglais.' },
         ],
       },
     ],

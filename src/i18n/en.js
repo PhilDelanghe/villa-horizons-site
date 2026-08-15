@@ -50,6 +50,12 @@ export default {
       metaDescription:
         'A few keys to northern Catalonia: the sardana and the cobla, boles de picolat, the cargolade, rousquilles, touron and the porró.',
     },
+    pratique: {
+      path: 'vie-pratique/',
+      metaTitle: 'Practical information in Laroque-des-Albères. Pharmacy, shops, market, services',
+      metaDescription:
+        'Useful addresses around the villa: pharmacy, doctor, supermarkets, the village market, petrol station, garage, vet, post office and emergency numbers.',
+    },
     apropos: {
       path: 'a-propos/',
       metaTitle: 'About us. Philippe and Suzana, your hosts at Villa Horizons',
@@ -61,12 +67,14 @@ export default {
   nav: {
     villa: 'The villa',
     village: 'The village',
+    decouvrir: 'Discover',
     voir: 'See',
     manger: 'Eat',
     boire: 'Drink',
     bouger: 'Move',
     espagne: 'Spain',
     catalan: 'Catalan culture',
+    pratique: 'Practical',
     apropos: 'About us',
     reserver: 'Book',
   },
@@ -571,6 +579,23 @@ export default {
         items: [
           { name: 'Drinking without touching', maps: false, desc: 'A bulbous glass carafe with a long tapered spout: you hold it at arm\'s length, aim, and pour a thin stream of wine into your mouth without the spout ever touching your lips. That is what let a whole table of grape pickers share one bottle and nothing else. The tradition goes back to the 14th century. The first attempt always ends up on your shirt, it is a rite of passage.' },
           { name: 'And the rancio', maps: false, desc: 'While we are here: how the local fortified sweet wines and rancios are made, in glass demijohns left out in the sun for years, is explained in the Drink section.' },
+        ],
+      },
+    ],
+  },
+
+  pratique: {
+    title: 'Practical information',
+    intro:
+      'The everyday addresses around the villa: where to find a pharmacy on a Sunday, do the shopping, fill up the car or find a vet. Nothing glamorous, just what you look for when you need it.',
+    sections: [
+      {
+        title: 'In an emergency',
+        items: [
+          { name: 'Medical emergencies (SAMU)', desc: 'Dial 15. Round the clock.' },
+          { name: 'Fire and rescue', desc: 'Dial 18. Accident, fire, rescue.' },
+          { name: 'Police', desc: 'Dial 17.' },
+          { name: 'European emergency number', desc: 'Dial 112, from any phone, even without a SIM card. Use this one if you do not speak French: operators take calls in English.' },
         ],
       },
     ],
