@@ -6,7 +6,8 @@ import Cta from './Cta.astro';
 // sections: [{ title, items, maps }] où items = [{name, desc, maps?}] (cartes) ou [string] (liste)
 // section.maps : true ou chaîne de contexte géographique -> lien Google Maps auto sur chaque carte
 // item.maps === false : pas de lien pour cette carte
-const { t, page, title, intro, sections = [], paragraphs = [], image, imageAlt } = Astro.props;
+// postcard: { src, alt, caption } -> carte postale ancienne rendue avec sa légende
+const { t, page, title, intro, sections = [], paragraphs = [], image, imageAlt, postcard } = Astro.props;
 
 const mapsUrl = (name, ctx) => {
   const paren = (name.match(/\(([^)]*)\)/) || [])[1] || '';
@@ -35,6 +36,15 @@ const mapsUrl = (name, ctx) => {
   {paragraphs.length > 0 && (
     <section class="section prose">
       {paragraphs.map((p) => <p>{p}</p>)}
+    </section>
+  )}
+
+  {postcard && (
+    <section class="section postcard-wrap">
+      <figure class="postcard">
+        <img src={postcard.src} alt={postcard.alt} loading="lazy" />
+        <figcaption>{postcard.caption}</figcaption>
+      </figure>
     </section>
   )}
 

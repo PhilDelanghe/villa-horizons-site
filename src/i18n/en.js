@@ -252,6 +252,12 @@ export default {
       'The neighbourhood where the villa stands did not exist yet. In 1970 there was nothing here but vines. Our neighbours up the hill built their house in 1975 and remember being alone in the middle of the rows; most of the houses around went up in the 2000s.',
       'Then the English arrived, from the 1980s onwards, won over by the climate, and they brought their friends. Today around ten nationalities live in Laroque year-round. The village has become genuinely cosmopolitan, which would have thoroughly surprised my grandparents.',
     ],
+    postcard: {
+      src: '/photos/cartes-postales/laroque-vue-generale.jpg',
+      alt: 'Vintage postcard of Laroque-des-Albères, general view of the village at the foot of the Albères',
+      caption:
+        'Laroque-des-Albères, general view. Vintage postcard, Labouche Frères phototype in Toulouse, published by B. Pagès. The village before it spread out, with its terraced vines in the foreground.',
+    },
     aPiedTitle: 'On foot from the villa',
     aPied: [
       { name: 'The village square', maps: false, desc: 'A five-minute walk, and everything you need day to day fits on one square: pharmacy, bakery, greengrocer, takeaway pizza, butcher.' },
@@ -587,15 +593,76 @@ export default {
   pratique: {
     title: 'Practical information',
     intro:
-      'The everyday addresses around the villa: where to find a pharmacy on a Sunday, do the shopping, fill up the car or find a vet. Nothing glamorous, just what you look for when you need it.',
+      'The everyday addresses around the villa: doing the shopping, filling up the car, charging an electric one, getting cash. Nothing glamorous, just what you look for when you need it.',
+    paragraphs: [
+      'A word about opening hours: we publish almost none here. They shift with the seasons, and nothing is more irritating than a website that sends you to a closed door. The only hours given below are the ones we could verify at source. For everything else a phone call is safer, and we are happy to leave a note in the house with the current habits.',
+    ],
     sections: [
       {
         title: 'In an emergency',
         items: [
-          { name: 'Medical emergencies (SAMU)', desc: 'Dial 15. Round the clock.' },
-          { name: 'Fire and rescue', desc: 'Dial 18. Accident, fire, rescue.' },
-          { name: 'Police', desc: 'Dial 17.' },
-          { name: 'European emergency number', desc: 'Dial 112, from any phone, even without a SIM card. Use this one if you do not speak French: operators take calls in English.' },
+          { name: 'Medical emergencies (SAMU)', desc: 'Dial 15. Round the clock.', maps: false },
+          { name: 'Fire and rescue', desc: 'Dial 18. Accident, fire, rescue.', maps: false },
+          { name: 'Police', desc: 'Dial 17.', maps: false },
+          { name: 'European emergency number', desc: 'Dial 112, from any phone, even without a SIM card. Use this one if you do not speak French: operators take calls in English.', maps: false },
+        ],
+      },
+      {
+        title: 'In the village, without taking the car',
+        maps: 'Laroque-des-Albères',
+        items: [
+          { name: 'The market', time: 'On foot', desc: 'Wednesday morning in the centre of the village, all year round. Around twenty stalls in winter, forty in summer.' },
+          { name: 'L\'Épicerie (Carrer del Sol)', time: 'On foot', desc: 'The village grocery, a few steps from the market square.' },
+          { name: 'Le Fournil de Laroque (rue du Stade)', time: 'On foot', desc: 'The village bakery.' },
+          { name: 'The post office (avenue Louis et Michel Soler)', time: 'On foot', desc: 'With a cash machine on the front wall. It is the only one you can reach on foot from the villa.' },
+        ],
+      },
+      {
+        title: 'Shopping by car',
+        maps: 'Pyrénées-Orientales',
+        items: [
+          { name: 'Carrefour Market (centre commercial des Albères, Laroque)', time: '7 min', desc: 'The nearest supermarket, on the Argelès road. Petrol station and cash machine on the same car park, along with the village\'s second bakery, Le Fournil des Albères.' },
+          { name: 'Carrefour Express (Saint-Génis-des-Fontaines)', time: '6 min', desc: 'A small convenience store, closer than the shopping centre if you are coming from the Saint-Génis side.' },
+          { name: 'Proxi (Sorède)', time: '8 min', desc: 'The Sorède convenience store, rue des Micocouliers.' },
+          { name: 'Intermarché (Saint-André)', time: '12 min', desc: 'The most complete stop nearby: supermarket, 24-hour petrol station, launderette, parcel point, cash machine, tyre inflation and car wash. If you remember one address, make it this one.' },
+          { name: 'Intermarché Hyper (Argelès-sur-Mer)', time: '15 min', desc: 'The largest store in the immediate area, rue des Milans.' },
+          { name: 'Biocoop (Argelès-sur-Mer)', time: '15 min', desc: 'For organic produce, avenue des Flamants Roses.' },
+          { name: 'E.Leclerc (Le Boulou)', time: '17 min', desc: 'The only hypermarket in the area. Worth it for the big first-day shop.' },
+        ],
+      },
+      {
+        title: 'Markets around us',
+        maps: 'Pyrénées-Orientales',
+        items: [
+          { name: 'Laroque-des-Albères', time: 'On foot', desc: 'Wednesday morning, in the centre of the village.' },
+          { name: 'Saint-Génis-des-Fontaines', time: '6 min', desc: 'Tuesday and Friday, place Jean Rolland.' },
+          { name: 'Sorède', time: '8 min', desc: 'Friday from 7am to 1pm, place Émile Combes.' },
+          { name: 'Saint-André', time: '12 min', desc: 'Thursday, place Arago.' },
+          { name: 'Palau-del-Vidre', time: '13 min', desc: 'Thursday, in the village centre.' },
+          { name: 'Argelès-sur-Mer', time: '16 min', desc: 'Wednesday and Saturday, rue de la République, in the old village. Down at the harbour, a farmers\' market on Sunday mornings all year round.' },
+          { name: 'Le Boulou', time: '18 min', desc: 'Thursday and Sunday from 8am to 1pm, on the Rambla and place de la Victoire.' },
+          { name: 'Elne', time: '20 min', desc: 'Friday morning.' },
+          { name: 'Collioure', time: '21 min', desc: 'Wednesday and Sunday, place du Maréchal Leclerc.' },
+          { name: 'Céret', time: '27 min', desc: 'Saturday morning. The biggest and the best of them all, under the old plane trees. The one worth getting up early for.' },
+        ],
+      },
+      {
+        title: 'Fuel and electric charging',
+        maps: 'Pyrénées-Orientales',
+        items: [
+          { name: 'Carrefour Market station (Argelès road, Laroque)', time: '7 min', desc: 'Diesel, SP95, E10 and SP98. Monday to Saturday 8.45am to 7pm, closed on Sundays. Note there is no night-time automated pump: some websites wrongly list it as open around the clock.' },
+          { name: 'Intermarché station (Saint-André)', time: '12 min', desc: 'The nearest 24-hour station, with a card-operated pump. Diesel, E10, SP98 and E85.' },
+          { name: 'Rapid charging, Power Dot (Laroque retail park)', time: '7 min', desc: 'Two 100 kW CCS Combo points on the Mr. Bricolage car park, plus a Type 2 socket. Enough to recover most of a battery while you shop.' },
+          { name: 'Slow charging, Révéo (rue du Stade car park)', time: 'On foot', desc: 'In the village itself, Type 2 and domestic sockets. Handy for charging overnight.' },
+        ],
+      },
+      {
+        title: 'Getting cash',
+        maps: 'Laroque-des-Albères',
+        items: [
+          { name: 'The post office (avenue Louis et Michel Soler)', time: 'On foot', desc: 'The only cash machine you can reach on foot from the villa.' },
+          { name: 'Banque Populaire du Sud (centre commercial des Albères)', time: '7 min', desc: 'Branch and cash machine.' },
+          { name: 'Carrefour Market station', time: '7 min', desc: 'Cash machine on the forecourt, during station opening hours.' },
         ],
       },
     ],

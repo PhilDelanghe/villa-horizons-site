@@ -252,6 +252,12 @@ export default {
       'Le quartier où se trouve la villa n\'existait pas encore. En 1970, il n\'y avait ici que des vignes. Nos voisins du dessus ont bâti leur maison en 1975 et se souviennent d\'avoir été seuls au milieu des rangs ; l\'essentiel des maisons autour est sorti de terre dans les années 2000.',
       'Puis les Anglais sont arrivés, à partir des années 80, séduits par le climat, et ils ont fait venir leurs amis. Aujourd\'hui une dizaine de nationalités vivent à Laroque à l\'année. Le village est devenu franchement cosmopolite, ce qui n\'aurait pas manqué de surprendre mes grands-parents.',
     ],
+    postcard: {
+      src: '/photos/cartes-postales/laroque-vue-generale.jpg',
+      alt: 'Carte postale ancienne de Laroque-des-Albères, vue générale du village au pied des Albères',
+      caption:
+        'Laroque-des-Albères, vue générale. Carte postale ancienne, phototypie Labouche Frères à Toulouse, B. Pagès éditeur. Le village avant qu\'il ne s\'étende, avec ses vignes en terrasses au premier plan.',
+    },
     aPiedTitle: 'À pied depuis la villa',
     aPied: [
       { name: 'La place du village', maps: false, desc: 'Cinq minutes de marche, et tout le quotidien tient sur une place : pharmacie, boulangerie, primeur, pizza à emporter, boucherie.' },
@@ -587,15 +593,76 @@ export default {
   pratique: {
     title: 'Vie pratique',
     intro:
-      'Les adresses du quotidien autour de la villa : où trouver une pharmacie un dimanche, faire ses courses, prendre de l\'essence ou trouver un vétérinaire. Rien de spectaculaire, juste ce qu\'on cherche quand on en a besoin.',
+      'Les adresses du quotidien autour de la villa : faire ses courses, prendre de l\'essence, recharger la voiture, retirer de l\'argent. Rien de spectaculaire, juste ce qu\'on cherche quand on en a besoin.',
+    paragraphs: [
+      'Une précision sur les horaires : nous n\'en publions presque aucun ici. Ils changent au fil des saisons, et rien n\'est plus agaçant qu\'un site qui vous envoie devant une porte close. Les seuls horaires indiqués sont ceux que nous avons pu vérifier à la source. Pour le reste, un coup de téléphone reste le plus sûr, et nous laissons volontiers un mot dans la maison avec les habitudes du moment.',
+    ],
     sections: [
       {
         title: 'En cas d\'urgence',
         items: [
-          { name: 'SAMU', desc: 'Le 15. Urgence médicale, à toute heure.' },
-          { name: 'Pompiers', desc: 'Le 18. Accident, incendie, secours.' },
-          { name: 'Police et gendarmerie', desc: 'Le 17.' },
-          { name: 'Numéro d\'urgence européen', desc: 'Le 112, depuis n\'importe quel téléphone, y compris sans carte SIM. À utiliser si vous ne parlez pas français : les opérateurs prennent les appels en anglais.' },
+          { name: 'SAMU', desc: 'Le 15. Urgence médicale, à toute heure.', maps: false },
+          { name: 'Pompiers', desc: 'Le 18. Accident, incendie, secours.', maps: false },
+          { name: 'Police et gendarmerie', desc: 'Le 17.', maps: false },
+          { name: 'Numéro d\'urgence européen', desc: 'Le 112, depuis n\'importe quel téléphone, y compris sans carte SIM. À utiliser si vous ne parlez pas français : les opérateurs prennent les appels en anglais.', maps: false },
+        ],
+      },
+      {
+        title: 'Au village, sans reprendre la voiture',
+        maps: 'Laroque-des-Albères',
+        items: [
+          { name: 'Le marché', time: 'À pied', desc: 'Le mercredi matin, au centre du village, toute l\'année. Une vingtaine d\'exposants l\'hiver, une quarantaine l\'été.' },
+          { name: 'L\'Épicerie (Carrer del Sol)', time: 'À pied', desc: 'L\'épicerie du village, à quelques dizaines de mètres de la place du marché.' },
+          { name: 'Le Fournil de Laroque (rue du Stade)', time: 'À pied', desc: 'La boulangerie du village.' },
+          { name: 'La Poste (avenue Louis et Michel Soler)', time: 'À pied', desc: 'Le bureau de poste, avec un distributeur de billets en façade. C\'est le seul auquel on accède à pied depuis la villa.' },
+        ],
+      },
+      {
+        title: 'Les courses en voiture',
+        maps: 'Pyrénées-Orientales',
+        items: [
+          { name: 'Carrefour Market (centre commercial des Albères, Laroque)', time: '7 min', desc: 'Le supermarché le plus proche, sur la route d\'Argelès. Station-service et distributeur sur le même parking, ainsi que la seconde boulangerie du village, Le Fournil des Albères.' },
+          { name: 'Carrefour Express (Saint-Génis-des-Fontaines)', time: '6 min', desc: 'Une supérette de dépannage, plus proche que le centre commercial si vous venez du côté de Saint-Génis.' },
+          { name: 'Proxi (Sorède)', time: '8 min', desc: 'La supérette de Sorède, rue des Micocouliers.' },
+          { name: 'Intermarché (Saint-André)', time: '12 min', desc: 'Le plus complet des environs immédiats : supermarché, station 24 heures sur 24, laverie automatique, relais colis, distributeur, gonflage et lavage. Si vous ne deviez retenir qu\'une adresse, c\'est celle-là.' },
+          { name: 'Intermarché Hyper (Argelès-sur-Mer)', time: '15 min', desc: 'Le plus grand magasin du secteur proche, rue des Milans.' },
+          { name: 'Biocoop (Argelès-sur-Mer)', time: '15 min', desc: 'Pour les produits biologiques, avenue des Flamants Roses.' },
+          { name: 'E.Leclerc (Le Boulou)', time: '17 min', desc: 'Le seul hypermarché du secteur. À réserver aux grosses courses de début de séjour.' },
+        ],
+      },
+      {
+        title: 'Les marchés autour de nous',
+        maps: 'Pyrénées-Orientales',
+        items: [
+          { name: 'Laroque-des-Albères', time: 'À pied', desc: 'Mercredi matin, au centre du village.' },
+          { name: 'Saint-Génis-des-Fontaines', time: '6 min', desc: 'Mardi et vendredi, place Jean Rolland.' },
+          { name: 'Sorède', time: '8 min', desc: 'Vendredi de 7 h à 13 h, place Émile Combes.' },
+          { name: 'Saint-André', time: '12 min', desc: 'Jeudi, place Arago.' },
+          { name: 'Palau-del-Vidre', time: '13 min', desc: 'Jeudi, au centre du village.' },
+          { name: 'Argelès-sur-Mer', time: '16 min', desc: 'Mercredi et samedi, rue de la République, dans le village. Au port, marché des producteurs le dimanche matin toute l\'année.' },
+          { name: 'Le Boulou', time: '18 min', desc: 'Jeudi et dimanche de 8 h à 13 h, sur la Rambla et la place de la Victoire.' },
+          { name: 'Elne', time: '20 min', desc: 'Vendredi matin.' },
+          { name: 'Collioure', time: '21 min', desc: 'Mercredi et dimanche, place du Maréchal Leclerc.' },
+          { name: 'Céret', time: '27 min', desc: 'Samedi matin. C\'est le plus grand et le plus beau du secteur, sous les platanes centenaires. Celui pour lequel on se lève tôt.' },
+        ],
+      },
+      {
+        title: 'Carburant et recharge électrique',
+        maps: 'Pyrénées-Orientales',
+        items: [
+          { name: 'Station Carrefour Market (route d\'Argelès, Laroque)', time: '7 min', desc: 'Gazole, SP95, E10 et SP98. Du lundi au samedi de 8 h 45 à 19 h, fermée le dimanche. Attention, il n\'y a pas d\'automate la nuit : certains sites indiquent à tort qu\'elle est ouverte en permanence.' },
+          { name: 'Station Intermarché (Saint-André)', time: '12 min', desc: 'La 24 heures sur 24 la plus proche, avec automate à carte bancaire. Gazole, E10, SP98 et E85.' },
+          { name: 'Recharge rapide, Power Dot (zone commerciale de Laroque)', time: '7 min', desc: 'Deux prises Combo CCS de 100 kW sur le parking de Mr. Bricolage, plus une prise Type 2. De quoi récupérer l\'essentiel d\'une batterie pendant les courses.' },
+          { name: 'Recharge lente, Révéo (parking de la rue du Stade)', time: 'À pied', desc: 'Au village même, en prise Type 2 et prise domestique. Pratique pour recharger la nuit.' },
+        ],
+      },
+      {
+        title: 'Retirer de l\'argent',
+        maps: 'Laroque-des-Albères',
+        items: [
+          { name: 'La Poste (avenue Louis et Michel Soler)', time: 'À pied', desc: 'Le seul distributeur accessible à pied depuis la villa.' },
+          { name: 'Banque Populaire du Sud (centre commercial des Albères)', time: '7 min', desc: 'Agence et distributeur.' },
+          { name: 'Station Carrefour Market', time: '7 min', desc: 'Distributeur sur le parking, aux horaires de la station.' },
         ],
       },
     ],
