@@ -483,6 +483,28 @@ export default {
         ],
       },
       {
+        title: 'Beer, because it is not all about wine',
+        maps: 'Pyrénées-Orientales',
+        items: [
+          { name: 'La Pression d\'Archimède (Saint-Génis-des-Fontaines)', time: '7 min', desc: 'A genuine brewpub four kilometres away, set in the village\'s old distillery, where you drink at the foot of the tanks with local tapas and charcuterie. Eleven unfiltered, unpasteurised beers, including a blonde brewed with muscat and another with banyuls: the local sweet wines, in beer. Open Tuesday to Saturday, afternoons and evenings.' },
+          { name: 'La Canya (Saint-André)', time: '14 min', desc: 'A fully organic brewery and distillery with a bar, a shop and sharing boards on site. They built the whole installation with their own hands out of reclaimed milk tanks, and even planted their own hop field before drought forced them to give it up. They also distil Seixanta 6, which they present as the first whisky of Catalan France.' },
+          { name: 'Cap d\'Ona (Céret)', time: '22 min', desc: 'The best known in the department, and deservedly: their Grand Cru Brune was named the world\'s best dark barley wine at the World Beer Awards in 2022.' },
+          { name: 'Mil.lenari, Brasserie Milles (Toulouges)', desc: 'This one cannot be visited, but it is in every supermarket and the story is worth telling. It comes from the Milles family, lemonade makers in Toulouges since 1928, who also produce the Limonette and the Sémillante spring water. The name refers to Toulouges, where the Pau i Treva de Deu, the Truce of God, was signed in 1027: hostilities had to cease from Saturday afternoon to Monday morning. Which means the weekend was invented twenty minutes from here.', maps: false },
+        ],
+      },
+      {
+        title: 'Water, springs and hot baths',
+        maps: 'Pyrénées-Orientales',
+        items: [
+          { name: 'The mineral spring of Laroque', time: 'On foot', desc: 'Our own spring, a favourite walk for generations, with its picnic area and the cargolades of years past. It is sometimes called Font d\'Aram, the copper fountain, after the colour of the surrounding rock, but that is a misnomer: the water is ferruginous, and the tourist board notes that its composition is strikingly close to the thermal waters of Le Boulou. No public analysis exists, so read the sign on site before drinking.' },
+          { name: 'The thermal baths of Le Boulou', time: '15 min', desc: 'Cold water, between 13 and 17 degrees, sodium bicarbonate rich, which is unique in the Pyrenees. The spa treats digestive and cardio-arterial conditions from March to November. The bottled Boulou water disappeared around the year 2000: the old bottling plant is now the spa\'s gym, in industrial loft style.' },
+          { name: 'Amélie-les-Bains', time: '37 min', desc: 'The opposite of Le Boulou: hyperthermal water, 44 to 62 degrees, sulphurous, so rich in sulphur that a thermal plankton develops in it and gives it a silky feel. No prescription needed to try it: a 49-euro taster gives you half a day and four treatments, once a year.' },
+          { name: 'Les bains de Saint-Thomas (Fontpédrouse)', time: '1 hr 30', desc: 'Three open-air pools between 34 and 37 degrees, high in the mountains at 1,156 metres, fed by a 58-degree spring cooled without ever being diluted. Nine euros, no booking, valid all day. A long drive, but in winter under snow it is quite something.' },
+          { name: 'Les bains de Dorres (Cerdagne)', time: '2 hrs', desc: 'The most beautiful and the cheapest, at six euros. Two open-air granite pools at 38 degrees among the trees, with an immense panorama, plus two ancient tubs carved straight out of granite blocks. Set aside the whole day.' },
+          { name: 'Sémillante and Limonette', desc: 'To drink local without alcohol, look for these two labels in the supermarket. Sémillante spring water is drawn from a hundred metres beneath Toulouges, and the Limonette, a sparkling lemon drink, has been dear to Catalan hearts since 1928. One detail that matters: it is spring water, not mineral water. There is no longer any bottled mineral water in the department.', maps: false },
+        ],
+      },
+      {
         title: 'Our favorite addresses (non-exhaustive list)',
         maps: 'Pyrénées-Orientales',
         items: [

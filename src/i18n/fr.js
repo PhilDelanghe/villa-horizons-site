@@ -423,6 +423,28 @@ export default {
         ],
       },
       {
+        title: 'La bière, parce qu\'il n\'y a pas que le vin',
+        maps: 'Pyrénées-Orientales',
+        items: [
+          { name: 'La Pression d\'Archimède (Saint-Génis-des-Fontaines)', time: '7 min', desc: 'Un vrai brewpub à quatre kilomètres, installé dans l\'ancienne distillerie du village, où l\'on boit au pied des cuves avec des tapas et des charcuteries du coin. Onze bières non filtrées et non pasteurisées, dont une blonde au muscat et une blonde au banyuls : les vins doux du pays passés dans la bière. Ouvert du mardi au samedi, en après-midi et en soirée.' },
+          { name: 'La Canya (Saint-André)', time: '14 min', desc: 'Brasserie et distillerie entièrement bio, avec bar, boutique et planches sur place. Ils ont monté leur installation de leurs mains à partir de tanks à lait récupérés, et ont même planté leur houblonnière avant que la sécheresse ne les oblige à y renoncer. Ils distillent aussi le Seixanta 6, qu\'ils présentent comme le premier whisky du Pays Catalan.' },
+          { name: 'Cap d\'Ona (Céret)', time: '22 min', desc: 'La plus connue du département, et pas pour rien : leur Grand Cru Brune a été sacrée meilleure bière du monde dans la catégorie barley wine brun aux World Beer Awards 2022.' },
+          { name: 'Mil.lenari, brasserie Milles (Toulouges)', desc: 'Celle-là ne se visite pas, mais on la trouve partout en grande surface et elle mérite son histoire. C\'est la maison Milles, famille de limonadiers de Toulouges depuis 1928, qui produit aussi la Limonette et l\'eau de source Sémillante. Le nom vient de Toulouges, où fut signée en 1027 la Pau i Treva de Deu, la trêve de Dieu : les hostilités devaient cesser du samedi après-midi au lundi matin. Autrement dit, le week-end est né à vingt minutes d\'ici.', maps: false },
+        ],
+      },
+      {
+        title: 'L\'eau, les sources et les bains',
+        maps: 'Pyrénées-Orientales',
+        items: [
+          { name: 'La source minérale de Laroque', time: 'À pied', desc: 'Notre fontaine, but de promenade depuis toujours, avec son aire de pique-nique et ses cargolades d\'autrefois. On l\'appelle parfois Font d\'Aram, la fontaine de cuivre, à cause de la couleur des roches, mais c\'est une erreur : c\'est une eau ferrugineuse, dont l\'office de tourisme note que la composition se rapproche singulièrement des eaux thermales du Boulou. Aucune analyse publique n\'est disponible, donc fiez-vous au panneau sur place avant d\'y boire.' },
+          { name: 'Les thermes du Boulou', time: '15 min', desc: 'Une eau froide, entre 13 et 17 degrés, bicarbonatée sodique, ce qui est unique dans les Pyrénées. La station soigne le digestif et le cardio-artériel de mars à novembre. L\'eau du Boulou en bouteille, elle, a disparu au tournant des années 2000 : l\'ancienne usine d\'embouteillage est devenue la salle de sport de l\'établissement, en version loft industriel.' },
+          { name: 'Amélie-les-Bains', time: '37 min', desc: 'Tout le contraire du Boulou : une eau hyperthermale, de 44 à 62 degrés, sulfurée, si riche en soufre qu\'il s\'y développe un plancton thermal qui la rend onctueuse. Pas besoin d\'ordonnance pour essayer : la formule découverte à 49 euros donne accès à une demi-journée et quatre soins, une fois par an.' },
+          { name: 'Les bains de Saint-Thomas (Fontpédrouse)', time: '1 h 30', desc: 'Trois bassins de plein air entre 34 et 37 degrés, en pleine montagne à 1 156 mètres, alimentés par une source à 58 degrés refroidie sans jamais être coupée d\'eau froide. Neuf euros l\'entrée, sans réservation, valable la journée. Une grosse journée de route, mais l\'hiver sous la neige, c\'est une expérience.' },
+          { name: 'Les bains de Dorres (Cerdagne)', time: '2 h', desc: 'Les plus beaux et les moins chers, six euros. Deux bassins de granit en plein air à 38 degrés, au milieu des arbres, avec un panorama immense, plus deux antiques baignoires taillées dans des blocs de granit. Il faut vraiment y consacrer la journée.' },
+          { name: 'La Sémillante et la Limonette', desc: 'Si vous voulez boire local sans alcool, cherchez ces deux étiquettes en grande surface. L\'eau de source Sémillante est puisée à cent mètres de profondeur sous Toulouges, et la Limonette, citron pétillant, est chère au coeur des Catalans depuis 1928. Petite précision qui a son importance : c\'est une eau de source, pas une eau minérale. Il n\'existe plus aucune eau minérale embouteillée dans le département.', maps: false },
+        ],
+      },
+      {
         title: 'Nos adresses préférées (liste non exhaustive)',
         maps: 'Pyrénées-Orientales',
         items: [
