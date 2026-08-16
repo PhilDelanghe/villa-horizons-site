@@ -253,10 +253,10 @@ export default {
       'Puis les Anglais sont arrivés, à partir des années 80, séduits par le climat, et ils ont fait venir leurs amis. Aujourd\'hui une dizaine de nationalités vivent à Laroque à l\'année. Le village est devenu franchement cosmopolite, ce qui n\'aurait pas manqué de surprendre mes grands-parents.',
     ],
     postcard: {
-      src: '/photos/cartes-postales/laroque-vue-generale.jpg',
-      alt: 'Carte postale ancienne de Laroque-des-Albères, vue générale du village au pied des Albères',
+      src: '/photos/archives/cp-laroque-vue-saint-sebastien.jpg',
+      alt: 'Carte postale ancienne de Laroque-des-Albères, le vieux village vu depuis Saint-Sébastien',
       caption:
-        'Laroque-des-Albères, vue générale. Carte postale ancienne, phototypie Labouche Frères à Toulouse, B. Pagès éditeur. Le village avant qu\'il ne s\'étende, avec ses vignes en terrasses au premier plan.',
+        'Laroque-des-Albères, vue prise de Saint-Sébastien. Carte postale ancienne de la série Le Roussillon, Pagès éditeur, retrouvée dans les archives de ma famille maternelle, les Prats, installée au village. Le vieux village serré sur son rocher, avant qu\'il ne s\'étende vers la plaine.',
     },
     aPiedTitle: 'À pied depuis la villa',
     aPied: [

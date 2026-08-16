@@ -253,10 +253,10 @@ export default {
       'Then the English arrived, from the 1980s onwards, won over by the climate, and they brought their friends. Today around ten nationalities live in Laroque year-round. The village has become genuinely cosmopolitan, which would have thoroughly surprised my grandparents.',
     ],
     postcard: {
-      src: '/photos/cartes-postales/laroque-vue-generale.jpg',
-      alt: 'Vintage postcard of Laroque-des-Albères, general view of the village at the foot of the Albères',
+      src: '/photos/archives/cp-laroque-vue-saint-sebastien.jpg',
+      alt: 'Vintage postcard of Laroque-des-Albères, the old village seen from Saint-Sébastien',
       caption:
-        'Laroque-des-Albères, general view. Vintage postcard, Labouche Frères phototype in Toulouse, published by B. Pagès. The village before it spread out, with its terraced vines in the foreground.',
+        'Laroque-des-Albères, view taken from Saint-Sébastien. Vintage postcard from the Le Roussillon series, published by Pagès, found in the archives of my mother\'s family, the Prats, who lived in the village. The old village packed onto its rock, before it spread down towards the plain.',
     },
     aPiedTitle: 'On foot from the villa',
     aPied: [

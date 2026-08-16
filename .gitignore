@@ -3,6 +3,5 @@ dist/
 .DS_Store
 .astro/
 
-# Cartes postales anciennes : provenance et droits à vérifier avant publication.
-# Le repo est public, donc un commit vaut publication. À retirer de ce fichier une fois validé.
-public/photos/cartes-postales/
+# Dossier de dépôt des photos brutes avant tri et optimisation. Non publié.
+Photos/
