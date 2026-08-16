@@ -418,6 +418,17 @@ export default {
       'La balade peut commencer chez le caviste, ou le nez au vent. Rien qu\'autour de Laroque, il y a une vingtaine de domaines accessibles, et si l\'on tire vers Collioure et Banyuls, ou qu\'on remonte la vallée de l\'Agly, le choix ne manque pas.',
       'Un dernier mot sur les vins mutés, banyuls, rivesaltes, maury. Les vins se sont modernisés, mais cette tradition-là mérite d\'être redécouverte. On n\'est pas obligé de les boire comme nos grands-parents : on peut oser le très frais, les glaçons, les cocktails. Et il faut au moins une fois avoir vu les bonbonnes de verre posées en plein soleil, qui est la façon officielle d\'élever ces vins en milieu oxydatif. Une explosion d\'arômes qu\'on ne trouve nulle part ailleurs.',
     ],
+    features: [
+      {
+        title: 'Les dames-jeannes au soleil',
+        image: '/photos/lieux/dames-jeannes-rancio.jpg',
+        imageAlt: 'Une rangée de dames-jeannes de vin alignées sur un muret, traversées par la lumière du soleil couchant',
+        paragraphs: [
+          'Pour les rancios, le vin part en dames-jeannes, ces grosses bonbonnes de verre de 20 à 60 litres qu\'on laisse dehors, sur les toits des caves ou entre les vignes. Trois ans ou plus de plein soleil, de nuits froides et de chocs thermiques : l\'oxydation s\'emballe, le vin vieillit en accéléré et développe des arômes de noix, de figue sèche et de fruits grillés qu\'on n\'obtiendrait pas autrement.',
+          'Celles-ci sont au Domaine Lafage, alignées sur un muret face au couchant. C\'est un des rares endroits où l\'on voit encore la chose se faire à ciel ouvert, et ça vaut le détour rien que pour la lumière qui traverse le verre en fin de journée.',
+        ],
+      },
+    ],
     sections: [
       {
         title: 'Les appellations autour de la villa',
@@ -431,7 +442,6 @@ export default {
         title: 'Comment se font les vins doux naturels',
         items: [
           { name: 'Le mutage', maps: false, desc: 'On arrête la fermentation en cours de route en ajoutant de l\'alcool. Le sucre du raisin n\'a pas eu le temps d\'être transformé, il reste dans le vin : c\'est ce qui fait un vin doux naturel, et ce qui le distingue d\'un liquoreux classique. On en parle beaucoup ici sans jamais dire comment c\'est fait.' },
-          { name: 'Les dames-jeannes au soleil', maps: false, desc: 'Pour les rancios, le vin part ensuite en dames-jeannes, ces grosses bonbonnes de verre de 20 à 60 litres qu\'on laisse dehors, sur les toits des caves ou entre les vignes. Trois ans ou plus de plein soleil, de nuits froides et de chocs thermiques : l\'oxydation s\'emballe, le vin vieillit en accéléré et développe des arômes de noix, de figue sèche et de fruits grillés qu\'on n\'obtiendrait pas autrement.' },
           { name: 'Le cousin de Madère', maps: false, desc: 'Même intuition qu\'à Madère, où l\'on s\'est aperçu que le vin embarqué vers les Indes revenait bien meilleur qu\'au départ, cuit pendant des mois dans les cales sous les tropiques. On l\'appelait le vinho da roda, et à la fin du XVIIIe siècle les producteurs ont fini par chauffer le vin sur place plutôt que de lui faire faire le voyage. Ici, le soleil fait le travail à la place du bateau.' },
         ],
       },

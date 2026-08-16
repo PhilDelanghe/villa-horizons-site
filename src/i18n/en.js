@@ -478,6 +478,17 @@ export default {
       'The wandering can start at a wine shop, or with no plan at all. Around Laroque alone there are a good twenty estates open to visitors, and if you head towards Collioure and Banyuls, or up the Agly valley, there is no shortage of choice.',
       'A last word on the fortified wines, banyuls, rivesaltes, maury. Wines have modernised, but this tradition deserves rediscovering. You are not obliged to drink them the way our grandparents did: try them very cold, over ice, in cocktails. And you should at least once see the glass demijohns sitting out in full sun, which is the official way these wines are aged in oxidative conditions. An explosion of aromas you will not find anywhere else.',
     ],
+    features: [
+      {
+        title: 'Demijohns in the sun',
+        image: '/photos/lieux/dames-jeannes-rancio.jpg',
+        imageAlt: 'A row of glass demijohns of wine lined up on a low wall, lit through by the setting sun',
+        paragraphs: [
+          'For the rancios, the wine goes into dames-jeannes, those big 20 to 60 litre glass demijohns, left outside on cellar roofs or among the vines. Three years or more of full sun, cold nights and thermal shocks: oxidation runs away with it, the wine ages at high speed and develops aromas of walnut, dried fig and roasted fruit that you would not get any other way.',
+          'These ones are at Domaine Lafage, lined up on a low wall facing the sunset. It is one of the few places where you can still watch it happen in the open air, and it is worth the detour for the light coming through the glass at the end of the day alone.',
+        ],
+      },
+    ],
     sections: [
       {
         title: 'The appellations around the villa',
@@ -491,7 +502,6 @@ export default {
         title: 'How the fortified sweet wines are made',
         items: [
           { name: 'Mutage', maps: false, desc: 'Fermentation is stopped halfway through by adding alcohol. The grape sugar never gets converted, so it stays in the wine: that is what makes a vin doux naturel, and what sets it apart from a classic dessert wine. Everyone here talks about these wines without ever explaining how they are made.' },
-          { name: 'Demijohns in the sun', maps: false, desc: 'For the rancios, the wine then goes into dames-jeannes, those big 20 to 60 litre glass demijohns, left outside on cellar roofs or among the vines. Three years or more of full sun, cold nights and thermal shocks: oxidation runs away with it, the wine ages at high speed and develops aromas of walnut, dried fig and roasted fruit that you would not get any other way.' },
           { name: 'Madeira\'s cousin', maps: false, desc: 'Same intuition as in Madeira, where people realised that wine shipped out to the Indies came back far better than it left, cooked for months in the hold under tropical heat. They called it vinho da roda, and by the end of the 18th century producers started heating the wine at home rather than sending it on the voyage. Here, the sun does the work instead of the ship.' },
         ],
       },
