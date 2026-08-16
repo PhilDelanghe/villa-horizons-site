@@ -278,6 +278,9 @@ export default {
       { name: 'Boucherie Salvi', desc: 'Didier Salvi, champion du monde de la saucisse catalane, boucher du village depuis plus de 20 ans. Aussi de l\'agneau catalan et des bœufs de concours élevés dans les pâturages de montagne.' },
       { name: 'Huile d\'olive : Le Moulin du Llevant', desc: 'Littéralement en face de la villa, 44 bis avenue des Baléares : moulin familial bio, variétés locales, médailles d\'or, visites gratuites. Et explorez, les moulins ne manquent pas dans les Albères.' },
       { name: 'Le marché', maps: false, desc: 'Le mercredi matin sur la place. Petit, mais c\'est celui où on croise tout le village.' },
+          { name: 'L\'Épicerie (Carrer del Sol)', desc: 'L\'épicerie du village, à quelques dizaines de mètres de la place du marché.' },
+          { name: 'Le Fournil de Laroque (rue du Stade)', desc: 'La boulangerie du village.' },
+          { name: 'La Poste et le distributeur (avenue Louis et Michel Soler)', desc: 'Le bureau de poste, et le seul distributeur de billets qu\'on atteigne à pied depuis la villa. Il est souvent vide : prévoyez, ou retirez au centre commercial des Albères en passant.' },
       { name: 'Les restaurants', maps: false, desc: 'Onze restaurants au village, du Bib Gourmand au pub irlandais. Le détail est dans la rubrique Manger.' },
       { name: 'Les sentiers', maps: false, desc: 'Les chemins de randonnée des Albères partent directement du village, à pied depuis la villa.' },
       { name: 'Immobilier : Terra Albera', desc: 'Si l\'envie vous prend d\'acheter dans la région, et ça arrive plus souvent qu\'on ne croit, c\'est la référence du secteur : place de la Mairie, juste à côté de la pharmacie.' },
@@ -824,16 +827,6 @@ balades: [
         ],
       },
       {
-        title: 'Au village, sans reprendre la voiture',
-        maps: 'Laroque-des-Albères',
-        items: [
-          { name: 'Le marché', time: 'À pied', desc: 'Le mercredi matin, au centre du village, toute l\'année. Une vingtaine d\'exposants l\'hiver, une quarantaine l\'été.' },
-          { name: 'L\'Épicerie (Carrer del Sol)', time: 'À pied', desc: 'L\'épicerie du village, à quelques dizaines de mètres de la place du marché.' },
-          { name: 'Le Fournil de Laroque (rue du Stade)', time: 'À pied', desc: 'La boulangerie du village.' },
-          { name: 'La Poste (avenue Louis et Michel Soler)', time: 'À pied', desc: 'Le bureau de poste, avec un distributeur de billets en façade. C\'est le seul auquel on accède à pied depuis la villa.' },
-        ],
-      },
-      {
         title: 'Les courses en voiture',
         maps: 'Pyrénées-Orientales',
         items: [
@@ -876,7 +869,7 @@ balades: [
         title: 'Retirer de l\'argent',
         maps: 'Laroque-des-Albères',
         items: [
-          { name: 'La Poste (avenue Louis et Michel Soler)', time: 'À pied', desc: 'Le seul distributeur accessible à pied depuis la villa.' },
+          { name: 'La Poste (avenue Louis et Michel Soler)', time: 'À pied', desc: 'Le seul distributeur accessible à pied depuis la villa, et il est souvent vide.' },
           { name: 'Banque Populaire du Sud (centre commercial des Albères)', time: '7 min', desc: 'Agence et distributeur.' },
           { name: 'Station Carrefour Market', time: '7 min', desc: 'Distributeur sur le parking, aux horaires de la station.' },
         ],

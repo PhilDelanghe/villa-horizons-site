@@ -278,6 +278,9 @@ export default {
       { name: 'Boucherie Salvi', desc: 'Didier Salvi, world champion of Catalan sausage, the village butcher for over 20 years. Also Catalan lamb and prize-winning beef raised in the mountain pastures.' },
       { name: 'Olive oil: Le Moulin du Llevant', desc: 'Literally across the street from the villa, 44 bis avenue des Baléares: family-run organic mill, local varieties, gold medals, free tours. And keep exploring, the Albères are full of mills.' },
       { name: 'The market', maps: false, desc: 'Wednesday mornings on the square. Small, but it is the one where you run into the whole village.' },
+          { name: 'L\'Épicerie (Carrer del Sol)', desc: 'The village grocery, a few dozen metres from the market square.' },
+          { name: 'Le Fournil de Laroque (rue du Stade)', desc: 'The village bakery.' },
+          { name: 'The post office and cash machine (avenue Louis et Michel Soler)', desc: 'The post office, and the only cash machine you can reach on foot from the villa. It is often empty: plan ahead, or withdraw at the Albères retail park on your way past.' },
       { name: 'The restaurants', maps: false, desc: 'Eleven restaurants in the village, from a Michelin Bib Gourmand to an Irish pub. Details are in the Eat section.' },
       { name: 'The trails', maps: false, desc: 'The Albères hiking trails start right from the village, on foot from the villa.' },
       { name: 'Property: Terra Albera', desc: 'Should the urge to buy something around here take hold, and it happens more often than you would think, this is the local reference: place de la Mairie, right next to the pharmacy.' },
@@ -824,16 +827,6 @@ balades: [
         ],
       },
       {
-        title: 'In the village, without taking the car',
-        maps: 'Laroque-des-Albères',
-        items: [
-          { name: 'The market', time: 'On foot', desc: 'Wednesday morning in the centre of the village, all year round. Around twenty stalls in winter, forty in summer.' },
-          { name: 'L\'Épicerie (Carrer del Sol)', time: 'On foot', desc: 'The village grocery, a few steps from the market square.' },
-          { name: 'Le Fournil de Laroque (rue du Stade)', time: 'On foot', desc: 'The village bakery.' },
-          { name: 'The post office (avenue Louis et Michel Soler)', time: 'On foot', desc: 'With a cash machine on the front wall. It is the only one you can reach on foot from the villa.' },
-        ],
-      },
-      {
         title: 'Shopping by car',
         maps: 'Pyrénées-Orientales',
         items: [
@@ -876,7 +869,7 @@ balades: [
         title: 'Getting cash',
         maps: 'Laroque-des-Albères',
         items: [
-          { name: 'The post office (avenue Louis et Michel Soler)', time: 'On foot', desc: 'The only cash machine you can reach on foot from the villa.' },
+          { name: 'The post office (avenue Louis et Michel Soler)', time: 'On foot', desc: 'The only cash machine you can reach on foot from the villa, and it is often empty.' },
           { name: 'Banque Populaire du Sud (centre commercial des Albères)', time: '7 min', desc: 'Branch and cash machine.' },
           { name: 'Carrefour Market station', time: '7 min', desc: 'Cash machine on the forecourt, during station opening hours.' },
         ],
