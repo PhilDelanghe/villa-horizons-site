@@ -81,7 +81,23 @@ const mapsUrl = (name, ctx) => {
   {features.map((f) => (
     <section class="section-alt feature-wrap">
       <article class="feature">
-        {f.image && <img class="feature-img" src={f.image} alt={f.imageAlt} loading="lazy" />}
+        {/* f.images : photos supplémentaires sous la principale, dans la même
+            colonne. C'est le bloc qui est collant, pas l'image, sinon la
+            deuxième se décrocherait au défilement. */}
+        {(f.image || f.images) && (
+          <div class="feature-media">
+            {f.image && <img src={f.image} alt={f.imageAlt} />}
+            {/* Pas de lazy, même raison que sur les planches d'archives : sans
+                dimensions déclarées, la figure fait zéro pixel de haut et le
+                chargement ne se déclenche jamais. */}
+            {(f.images || []).map((im) => (
+              <figure class="feature-extra">
+                <img src={im.src} alt={im.alt} />
+                {im.caption && <figcaption>{im.caption}</figcaption>}
+              </figure>
+            ))}
+          </div>
+        )}
         <div class="feature-body">
           <div class="card-head">
             <h2>{f.title}</h2>

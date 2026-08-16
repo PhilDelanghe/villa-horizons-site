@@ -340,7 +340,7 @@ balades: [
     produits: [
       { name: 'Olive oil: Le Moulin du Llevant', desc: 'Literally across the street from the villa (44 bis avenue des Baléares): family-run organic mill, local varieties, gold medals, free tours. And keep exploring, the Albères are full of mills.' },
       { name: 'Catalan sausage: Boucherie Salvi', desc: 'Didier Salvi, world champion of Catalan sausage, the village butcher for over 20 years. Also: Catalan lamb and prize-winning beef raised in the mountain pastures.' },
-      { name: 'Almonds: La Maison de l\'Amande (Laroque)', desc: 'Christine Llense farms 7 hectares of organic almond trees on the heights of Laroque, neither irrigated nor treated: they are the trees you see from the road on the way to the retail park. Fresh and in-shell almonds, ground almonds, 100% almond butter, cold-pressed virgin oil, nougatines. Avenue des Mas Catalans, pick-your-own in September and by appointment the rest of the year.' },
+      { name: 'Almonds: La Maison de l\'Amande (Laroque)', desc: 'The Llense family farms 7 hectares of organic almond trees on the heights of Laroque, neither irrigated nor treated: they are the trees you see from the road on the way to the retail park. Fresh and in-shell almonds, ground almonds, 100% almond butter, cold-pressed virgin oil, nougatines. Avenue des Mas Catalans, pick-your-own in September and by appointment the rest of the year.' },
       { name: 'Charcuterie: Boucherie Casenove (Saint-Génis)', desc: 'Three generations of butchers on rue de l\'Église. Admire the abbey\'s Romanesque portal on your way back with the shopping.' },
       { name: 'La Ferme Xadi (Palau-del-Vidre)', desc: 'Family free-range pig farm on the D618, artisanal additive-free charcuterie, farm shop and visits possible.' },
       { name: 'Bread: Maison Castro', desc: 'Le Fournil des Albères, the village\'s essential bakery and pâtisserie. Morning coffee possible.' },
@@ -385,6 +385,13 @@ balades: [
         time: '30 min',
         image: '/photos/lieux/paulilles-plage.jpg',
         imageAlt: 'The cove of Paulilles between Port-Vendres and Banyuls, the beach with a Catalan boat in the foreground',
+        images: [
+          {
+            src: '/photos/lieux/paulilles-vignes.jpg',
+            alt: 'The terraced vineyards of Paulilles running down to the sea',
+            caption: 'On either side of the cove, the terraced vines run all the way down to the rock.',
+          },
+        ],
         paragraphs: [
           'Between Port-Vendres and Banyuls, the cove of Paulilles looks like an ordinary holiday beach, with its coves and its eucalyptus trees. For more than a century it was an explosives factory.',
           'The plant opened on 5 December 1870, in the middle of the war against Prussia. It was founded by Paul Barbe, who represented Alfred Nobel in France, and Gambetta authorised the site precisely because you could not get any further from the enemy. By 1880 it was producing over five thousand tonnes of dynamite a year, and it would employ as many as three hundred people.',
@@ -411,6 +418,13 @@ balades: [
       },
       {
         title: 'Heritage',
+        archives: [
+          {
+            src: '/photos/lieux/madeloc-vue-plaine.jpg',
+            alt: 'View from the Madeloc tower over terraced vineyards, the coast and the plain under a stormy sky',
+            caption: 'From the Madeloc: the terraced vines, the coast and the whole plain, under a stormy sky.',
+          },
+        ],
         maps: true,
         items: [
           { name: 'Romanesque churches and abbeys', maps: false, desc: 'Catalan Romanesque art all around: Saint-Génis-des-Fontaines and its carved lintel, the cloister of Elne.' },

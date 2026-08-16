@@ -340,7 +340,7 @@ balades: [
     produits: [
       { name: 'Huile d\'olive : Le Moulin du Llevant', desc: 'Littéralement en face de la villa (44 bis avenue des Baléares) : moulin familial bio, variétés locales, médailles d\'or, visites gratuites. Et explorez, les moulins ne manquent pas dans les Albères.' },
       { name: 'Saucisse catalane : Boucherie Salvi', desc: 'Didier Salvi, champion du monde de la saucisse catalane, boucher du village depuis plus de 20 ans. Aussi : agneau catalan et bœufs de concours élevés dans les pâturages de montagne.' },
-      { name: 'Amandes : La Maison de l\'Amande (Laroque)', desc: 'Christine Llense cultive 7 hectares d\'amandiers bio sur les hauteurs de Laroque, ni irrigués ni traités : ce sont les arbres que l\'on voit depuis la route en allant vers le centre commercial. Amandes fraîches ou en coque, poudre, purée 100 % amande, huile vierge pressée à froid, nougatines. Avenue des Mas Catalans, auto-cueillette en septembre et rendez-vous le reste de l\'année.' },
+      { name: 'Amandes : La Maison de l\'Amande (Laroque)', desc: 'La famille Llense cultive 7 hectares d\'amandiers bio sur les hauteurs de Laroque, ni irrigués ni traités : ce sont les arbres que l\'on voit depuis la route en allant vers le centre commercial. Amandes fraîches ou en coque, poudre, purée 100 % amande, huile vierge pressée à froid, nougatines. Avenue des Mas Catalans, auto-cueillette en septembre et rendez-vous le reste de l\'année.' },
       { name: 'Charcuterie : Boucherie Casenove (Saint-Génis)', desc: 'Trois générations de bouchers-charcutiers rue de l\'Église. Admirez le portail roman de l\'abbaye en ramenant vos courses.' },
       { name: 'La Ferme Xadi (Palau-del-Vidre)', desc: 'Élevage familial de porcs en plein air sur la D618, charcuterie artisanale sans additifs, vente à la ferme et visites possibles.' },
       { name: 'Pain : Maison Castro', desc: 'Le Fournil des Albères, l\'incontournable boulangerie-pâtisserie du village. Petit café possible le matin.' },
@@ -385,6 +385,13 @@ balades: [
         time: '30 mn',
         image: '/photos/lieux/paulilles-plage.jpg',
         imageAlt: 'L\'anse de Paulilles entre Port-Vendres et Banyuls, la plage et une barque catalane au premier plan',
+        images: [
+          {
+            src: '/photos/lieux/paulilles-vignes.jpg',
+            alt: 'Les vignes en terrasses de Paulilles descendant jusqu\'à la mer',
+            caption: 'De part et d\'autre de l\'anse, les vignes en terrasses descendent jusqu\'à la roche.',
+          },
+        ],
         paragraphs: [
           'Entre Port-Vendres et Banyuls, l\'anse de Paulilles ressemble à une plage de vacances ordinaire, avec ses criques et ses eucalyptus. Elle a été pendant plus d\'un siècle une usine d\'explosifs.',
           'L\'usine ouvre le 5 décembre 1870, en pleine guerre contre la Prusse. Elle est fondée par Paul Barbe, qui représente Alfred Nobel en France, et Gambetta autorise l\'installation ici précisément parce qu\'on ne pouvait pas être plus loin de l\'ennemi. En 1880 elle produit plus de cinq mille tonnes de dynamite par an, et elle emploiera jusqu\'à trois cents personnes.',
@@ -411,6 +418,13 @@ balades: [
       },
       {
         title: 'Patrimoine',
+        archives: [
+          {
+            src: '/photos/lieux/madeloc-vue-plaine.jpg',
+            alt: 'Vue depuis la tour de la Madeloc sur les vignes en terrasses, la côte et la plaine sous un ciel d\'orage',
+            caption: 'Depuis la Madeloc : les vignes en terrasses, la côte et toute la plaine, sous un ciel d\'orage.',
+          },
+        ],
         maps: true,
         items: [
           { name: 'Églises et abbayes romanes', maps: false, desc: 'L\'art roman catalan tout autour : Saint-Génis-des-Fontaines et son linteau sculpté, le cloître d\'Elne.' },
