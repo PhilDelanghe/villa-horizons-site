@@ -1,3 +1,25 @@
+/* Polices auto-hébergées dans public/fonts/, jamais appelées chez Google : une
+   requête externe de moins, et rien à charger depuis un tiers. Sous-ensemblées
+   au latin étendu, 139 Ko en tout. Licences dans public/fonts/LICENSE.txt.
+   font-display: swap -> le texte s'affiche tout de suite avec la police système,
+   puis bascule. On ne bloque jamais l'affichage pour une police. */
+@font-face {
+  font-family: 'Roboto Condensed'; font-style: normal; font-weight: 400;
+  font-display: swap; src: url('/fonts/roboto-condensed-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Roboto Condensed'; font-style: normal; font-weight: 700;
+  font-display: swap; src: url('/fonts/roboto-condensed-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Playfair Display'; font-style: normal; font-weight: 600;
+  font-display: swap; src: url('/fonts/playfair-600.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Playfair Display'; font-style: italic; font-weight: 400;
+  font-display: swap; src: url('/fonts/playfair-italic-400.woff2') format('woff2');
+}
+
 :root {
   --ink: #1f2a33;
   --ink-soft: #4a5a66;
@@ -28,14 +50,16 @@
   );
 }
 
+/* Le corps est en condensé : à largeur égale il tient plus de mots par ligne,
+   d'où les mesures élargies plus bas (74ch au lieu de 70). */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
   color: var(--ink);
   background: var(--bg);
-  line-height: 1.6;
+  line-height: 1.62;
 }
 
-h1, h2, h3 { font-family: Georgia, 'Times New Roman', serif; font-weight: 600; line-height: 1.2; }
+h1, h2, h3 { font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; font-weight: 600; line-height: 1.2; }
 h2 { font-size: 2rem; margin-bottom: 0.8rem; color: var(--accent); }
 h3 { font-size: 1.2rem; margin: 1.2rem 0 0.5rem; }
 ul { padding-left: 1.2rem; }
@@ -78,7 +102,9 @@ a { color: var(--accent); }
   display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;
   padding: 1rem 5vw; color: var(--white);
 }
-.nav-brand { font-family: Georgia, serif; font-size: 1.3rem; letter-spacing: 0.03em; }
+/* Blanc et sans soulignement dès la base : sur le hero, la marque se posait en
+   bleu souligné par-dessus la photo, illisible. */
+.nav-brand { font-family: 'Playfair Display', Georgia, serif; font-size: 1.3rem; letter-spacing: 0.03em; color: var(--white); text-decoration: none; }
 .nav-links { display: flex; gap: 1.2rem; align-items: center; flex-wrap: wrap; }
 .nav-links a { color: var(--white); text-decoration: none; font-size: 0.95rem; }
 .nav-links a:hover { text-decoration: underline; }
@@ -104,7 +130,7 @@ a { color: var(--accent); }
 .nav-drop-menu [aria-current='page'] { color: var(--accent); font-weight: 600; }
 .hero-text { padding: 3rem 5vw 4rem; color: var(--white); max-width: 750px; }
 .hero-text h1 { font-size: clamp(2.5rem, 6vw, 4rem); }
-.hero-subtitle { font-size: 1.4rem; margin: 0.5rem 0 1rem; font-family: Georgia, serif; font-style: italic; }
+.hero-subtitle { font-size: 1.4rem; margin: 0.5rem 0 1rem; font-family: 'Playfair Display', Georgia, serif; font-style: italic; }
 .hero-tagline { font-size: 1.05rem; margin-bottom: 1.2rem; max-width: 60ch; }
 .badges { display: flex; flex-wrap: wrap; gap: 0.5rem; list-style: none; padding: 0; margin-bottom: 1.5rem; }
 .badges li {
@@ -121,7 +147,7 @@ a { color: var(--accent); }
 .page-head h1 { font-size: clamp(2rem, 4.5vw, 3rem); color: var(--accent); margin-bottom: 0.8rem; }
 
 /* Prose (page à propos) */
-.prose p { max-width: 70ch; margin-bottom: 1rem; font-size: 1.05rem; }
+.prose p { max-width: 74ch; margin-bottom: 1rem; font-size: 1.05rem; }
 .page-photo { padding-top: 0; padding-bottom: 0; }
 .page-photo img { max-width: min(480px, 100%); border-radius: var(--radius); display: block; box-shadow: 0 2px 10px rgba(31, 42, 51, 0.15); }
 
@@ -155,7 +181,7 @@ a { color: var(--accent); }
   position: sticky; top: 5.5rem;
 }
 .feature-body h2 { margin-bottom: 0; }
-.feature-body p { max-width: 65ch; margin-bottom: 0.9rem; }
+.feature-body p { max-width: 70ch; margin-bottom: 0.9rem; }
 .feature-body .card-head { margin-bottom: 0.9rem; }
 @media (max-width: 720px) {
   .feature { grid-template-columns: 1fr; gap: 1.4rem; }
@@ -174,7 +200,7 @@ a { color: var(--accent); }
 .section-alt { max-width: none; background: var(--bg-alt); }
 .section-alt > * { max-width: var(--max); margin-left: auto; margin-right: auto; }
 .section-alt h2, .section-alt .intro, .section-alt .cards, .section-alt .faq, .section-alt p { max-width: var(--max); }
-.intro { font-size: 1.1rem; color: var(--ink-soft); max-width: 70ch; margin-bottom: 1rem; }
+.intro { font-size: 1.1rem; color: var(--ink-soft); max-width: 74ch; margin-bottom: 1rem; }
 .two-col { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
 .bedrooms li { margin-bottom: 0.7rem; }
 
@@ -182,7 +208,7 @@ a { color: var(--accent); }
 .gallery-wrap { max-width: 1400px; margin: 0 auto; padding: 0 5vw; }
 .gallery-group h3 {
   font-size: 1.15rem; color: var(--accent); margin: 1.8rem 0 0.6rem;
-  text-transform: uppercase; letter-spacing: 0.06em; font-family: -apple-system, sans-serif; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.06em; font-weight: 700;
 }
 .gallery {
   display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));

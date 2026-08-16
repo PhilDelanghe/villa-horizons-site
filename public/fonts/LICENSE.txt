@@ -1,0 +1,35 @@
+Polices embarquées sur villa-horizons.fr
+========================================
+
+Les quatre fichiers .woff2 de ce dossier sont des versions sous-ensemblées
+(latin et latin étendu, plus les signes utilisés par le site) de deux familles
+libres, générées depuis les fichiers variables officiels avec fontTools.
+
+Roboto Condensed 400 et 700
+  roboto-condensed-400.woff2, roboto-condensed-700.woff2
+  Instances de Roboto Variable à wdth 75.
+  Copyright 2011 The Roboto Project Authors
+  https://github.com/googlefonts/roboto-classic
+  Dessinée par Christian Robertson.
+
+Playfair Display 600 et Italic 400
+  playfair-600.woff2, playfair-italic-400.woff2
+  Copyright 2017 The Playfair Display Project Authors, avec le nom réservé
+  « Playfair Display ».
+  https://github.com/clauseggers/Playfair-Display
+  Dessinée par Claus Eggers Sørensen.
+
+Licence
+-------
+
+Les deux familles sont distribuées sous la SIL Open Font License version 1.1,
+qui autorise l'usage, la modification et la redistribution, y compris pour un
+site commercial, à condition que les fichiers ne soient pas vendus seuls et que
+cette notice accompagne la police.
+
+Texte intégral de la licence : https://openfontlicense.org
+
+Les fichiers ont été modifiés (sous-ensemblage et instanciation des axes
+variables) mais conservent leur nom d'origine, ce que la licence permet pour
+Roboto. Playfair Display porte un nom réservé : si ces fichiers devaient être
+redistribués hors de ce site, il faudrait les renommer.
