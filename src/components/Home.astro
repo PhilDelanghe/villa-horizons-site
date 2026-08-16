@@ -16,7 +16,7 @@ const galleryGroups = [
       { src: 'facade-arriere', altFr: 'La façade arrière et sa terrasse', altEn: 'The rear facade and its terrace' },
       { src: 'portail', altFr: 'Portail d\'entrée sous les pins', altEn: 'Entrance gate under the pines' },
       { src: 'entree-porte', altFr: 'La porte d\'entrée et sa grille en fer forgé', altEn: 'The entrance door and its wrought-iron gate' },
-      { src: 'allee', altFr: 'L\'allée sous les grands arbres', altEn: 'The driveway under the tall trees' },
+      { src: 'allee', altFr: 'L\'allée qui mène à la maison, sous le cèdre', altEn: 'The path leading to the house, under the cedar' },
       { src: 'jardin-cedre', altFr: 'Jardin sous le cèdre centenaire', altEn: 'Garden under the century-old cedar' },
       { src: 'jardin-pelouse', altFr: 'La pelouse du jardin', altEn: 'The garden lawn' },
       { src: 'jardin-figuier', altFr: 'Jardin sous le figuier', altEn: 'Garden under the fig tree' },
@@ -24,6 +24,7 @@ const galleryGroups = [
       { src: 'jardin-vegetation', altFr: 'Végétation méditerranéenne du jardin', altEn: 'The garden\'s Mediterranean vegetation' },
       { src: 'cour-interieure', altFr: 'La cour intérieure fermée, sécurisée pour les animaux', altEn: 'The enclosed inner courtyard, secure for pets' },
       { src: 'balcon-arche', altFr: 'Balcon sous l\'arche', altEn: 'Balcony under the arch' },
+      { src: 'balcon-arche-vue', altFr: 'Vue sur les Albères depuis le balcon sous l\'arche', altEn: 'View of the Albères from the balcony under the arch' },
       { src: 'terrasse-vue-haut', altFr: 'La terrasse vue d\'en haut', altEn: 'The terrace seen from above' },
       { src: 'vue-balcon-piscine', altFr: 'Vue du balcon sur la piscine et le jardin', altEn: 'Balcony view over the pool and garden' },
       { src: 'vue-balcon-montagne', altFr: 'Vue du balcon sur les Albères', altEn: 'Balcony view of the Albères' },
@@ -47,6 +48,8 @@ const galleryGroups = [
     key: 'convivial',
     photos: [
       { src: 'terrasse', altFr: 'Terrasse de la cuisine d\'été avec coin repas', altEn: 'Summer kitchen terrace with dining area' },
+      { src: 'terrasse-petit-dejeuner', altFr: 'Petit-déjeuner sur la grande table de la terrasse', altEn: 'Breakfast on the terrace\'s big table' },
+      { src: 'terrasse-baie-vitree', altFr: 'La terrasse et la baie vitrée de la salle à manger', altEn: 'The terrace and the dining room\'s sliding doors' },
       { src: 'terrasse-salon-jardin', altFr: 'Salon de jardin sur la terrasse', altEn: 'Garden lounge on the terrace' },
       { src: 'terrasse-cour', altFr: 'La terrasse de la cour, sous l\'arbre', altEn: 'The courtyard terrace, under the tree' },
       { src: 'barbecue', altFr: 'Barbecue à charbon', altEn: 'Charcoal barbecue' },
@@ -256,11 +259,15 @@ const heroPhotos = [
           ★ {reviews.ratingValue} · {reviews.reviewCount} {t.lang === 'en' ? 'reviews on Airbnb' : 'avis sur Airbnb'}
         </p>
         <div class="cards">
-          {reviews.reviews.slice(0, 6).map((r) => (
+          {/* display: false dans reviews.json retire un avis de la page sans
+              l'effacer de la donnée, pour qu'il ne revienne pas à la prochaine
+              récupération depuis Airbnb. */}
+          {reviews.reviews.filter((r) => r.display !== false).map((r) => (
             <blockquote class="card review">
-              <p>{r.text}</p>
+              <p>{t.lang === 'en' ? r.textEn : r.text}</p>
               <footer>
-                {r.author} · {r.date}
+                {r.author} · {t.lang === 'en' ? r.dateEn : r.date}
+                {t.lang === 'en' && <span class="review-note"> (translated from French)</span>}
               </footer>
             </blockquote>
           ))}

@@ -1,8 +1,66 @@
 {
   "source": "airbnb",
   "listingId": "1474774399883621065",
-  "lastUpdated": null,
-  "ratingValue": null,
-  "reviewCount": 0,
-  "reviews": []
+  "lastUpdated": "2026-08-16",
+  "ratingValue": 4.88,
+  "reviewCount": 8,
+  "reviews": [
+    {
+      "author": "Candice",
+      "date": "août 2026",
+      "dateEn": "August 2026",
+      "rating": 5,
+      "text": "Mes amis et moi avons passé un super séjour chez Philippe, qui est un hôte très sympathique. Il y a tout ce qu'il vous faut sur place, chaque détail est pensé pour vous. Je recommande ce logement les yeux fermés !",
+      "textEn": "My friends and I had a great stay at Philippe's. He is a very welcoming host. Everything you need is there, every detail has been thought through. I recommend this place without hesitation."
+    },
+    {
+      "author": "Marina",
+      "date": "août 2026",
+      "dateEn": "August 2026",
+      "rating": 5,
+      "text": "Très belle maison, spacieuse et très bien équipée. Rien ne manque pour un agréable séjour en famille. Très beau village accessible à pied avec des commerces de proximité et de très bons restaurants. Belle piscine bien exposée sur un beau terrain sans vis-à-vis. Philippe est un hôte très accueillant et disponible. Merci pour ses recommandations et sa bonne humeur.",
+      "textEn": "A beautiful house, spacious and very well equipped. Nothing is missing for a pleasant family stay. A lovely village within walking distance, with local shops and very good restaurants. A fine pool, well exposed, on a large plot with no overlooking neighbours. Philippe is a very welcoming and available host. Thank you for the recommendations and the good humour."
+    },
+    {
+      "author": "Jonathan",
+      "date": "juillet 2026",
+      "dateEn": "July 2026",
+      "rating": 5,
+      "text": "Super séjour en famille, piscine impeccable pour profiter avec les enfants. Espace chambre très bien climatisé par ces fortes chaleurs, ce fut très agréable.",
+      "textEn": "Great family stay, the pool was spotless and perfect with the children. The bedrooms were very well air-conditioned in the heat, which made a real difference."
+    },
+    {
+      "author": "Florence et Philippe",
+      "date": "mai 2026",
+      "dateEn": "May 2026",
+      "rating": 5,
+      "text": "Merci à Philippe et Suzana pour cette jolie maison encore plus jolie que sur les photos. Merci à la conciergerie Alice toujours réactive. Un joli parc très bien entretenu. Nous reviendrons avec grand plaisir.",
+      "textEn": "Thank you to Philippe and Suzana for this lovely house, even nicer than in the photos. Thanks to Alice at the concierge service, always responsive. A pretty, very well kept garden. We will gladly come back."
+    },
+    {
+      "author": "Arnaud",
+      "date": "avril 2026",
+      "dateEn": "April 2026",
+      "rating": 5,
+      "text": "Très bon séjour dans cette magnifique maison très spacieuse, avec une grande piscine. Parfait pour une famille avec des enfants. Jolis villages à proximité.",
+      "textEn": "A very good stay in this beautiful, very spacious house with a large pool. Perfect for a family with children. Lovely villages nearby."
+    },
+    {
+      "author": "María José",
+      "date": "janvier 2026",
+      "dateEn": "January 2026",
+      "rating": 4,
+      "display": false,
+      "text": "C'est une belle maison, très bien aménagée. La répartition des chambres est un peu étrange car trois d'entre elles sont interconnectées.",
+      "textEn": "It is a beautiful house, very well fitted out. The bedroom layout is a little unusual, as three of them are interconnected."
+    },
+    {
+      "author": "Cyril",
+      "date": "décembre 2025",
+      "dateEn": "December 2025",
+      "rating": 5,
+      "text": "Nous avons passé un excellent séjour dans la maison de Philippe. Tout était vraiment parfait, la qualité et la tranquillité des lieux, le jardin entièrement clôturé et sécurisé, la proximité à pied du village et de ses commerces. Le temps n'a pas été de la partie, mais cela ne nous a pas empêchés de profiter en famille de la belle région. Nous reviendrons.",
+      "textEn": "We had an excellent stay in Philippe's house. Everything was really perfect: the quality and the quiet of the place, the fully fenced and secure garden, the village and its shops within walking distance. The weather was not on our side, but that did not stop us enjoying this beautiful region as a family. We will be back."
+    }
+  ]
 }

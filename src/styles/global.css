@@ -313,6 +313,7 @@ a { color: var(--accent); }
 .maps-link a:hover { color: var(--accent); }
 .review { font-style: italic; }
 .review footer { font-style: normal; margin-top: 0.8rem; font-size: 0.9rem; color: var(--ink-soft); }
+.review-note { opacity: 0.7; }
 
 /* FAQ */
 .faq details {
