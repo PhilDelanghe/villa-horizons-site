@@ -148,6 +148,24 @@ a { color: var(--accent); }
 
 /* Prose (page à propos) */
 .prose p { max-width: 74ch; margin-bottom: 1rem; font-size: 1.05rem; }
+
+/* Figure intercalée dans le texte : calée à droite et contournée par la prose
+   sur large écran, pleine largeur en dessous de 900 px. */
+.prose-figure {
+  float: right; width: min(340px, 42%); margin: 0.3rem 0 1.2rem 2rem;
+  background: var(--white); padding: 0.6rem 0.6rem 0.1rem; border-radius: 3px;
+  box-shadow: 0 3px 14px rgba(31, 42, 51, 0.2); transform: rotate(0.6deg);
+}
+.prose-figure-imgs { display: grid; gap: 0.4rem; }
+.prose-figure-imgs[data-count='2'] { grid-template-columns: 1fr 1fr; }
+.prose-figure img { width: 100%; display: block; border-radius: 2px; }
+.prose-figure figcaption {
+  font-size: 0.82rem; color: var(--ink-soft); font-style: italic;
+  padding: 0.55rem 0.15rem 0.55rem; line-height: 1.45;
+}
+@media (max-width: 900px) {
+  .prose-figure { float: none; width: 100%; margin: 1.4rem 0 1.6rem; transform: none; }
+}
 .page-photo { padding-top: 0; padding-bottom: 0; }
 .page-photo img { max-width: min(480px, 100%); border-radius: var(--radius); display: block; box-shadow: 0 2px 10px rgba(31, 42, 51, 0.15); }
 

@@ -41,9 +41,19 @@ const mapsUrl = (name, ctx) => {
     </section>
   )}
 
+  {/* Un élément de paragraphs peut être une chaîne, ou un objet
+      { images: [{src, alt}], caption } : une figure qui vient s'intercaler dans
+      le texte, calée à droite sur large écran et pleine largeur sur mobile. */}
   {paragraphs.length > 0 && (
     <section class="section prose">
-      {paragraphs.map((p) => <p>{p}</p>)}
+      {paragraphs.map((p) => typeof p === 'string' ? <p>{p}</p> : (
+        <figure class="prose-figure">
+          <div class="prose-figure-imgs" data-count={p.images.length}>
+            {p.images.map((im) => <img src={im.src} alt={im.alt} />)}
+          </div>
+          {p.caption && <figcaption>{p.caption}</figcaption>}
+        </figure>
+      ))}
     </section>
   )}
 

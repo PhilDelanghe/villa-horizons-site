@@ -455,6 +455,13 @@ balades: [
       'Les Templiers, ces moines soldats qui ont connu une fin aussi brutale que les cathares, ont laissé leur marque dans le paysage. Leur commanderie du Mas Deu, attestée dès 1136, a mené à la fin du XIIe siècle des travaux de drainage comptés parmi les plus importants du Roussillon, avec une vraie politique de développement de la vigne. On leur attribue aussi volontiers les terrasses de Banyuls, mais là, les historiens sont plus prudents : les recherches récentes montrent que ces murettes se sont surtout généralisées au XIXe siècle, avec l\'arrivée du chemin de fer. La belle légende et le travail réel ne se recouvrent pas toujours.',
       'Même histoire pour le mutage, cette technique qui consiste à arrêter la fermentation en ajoutant de l\'alcool, et qu\'on retrouve à Porto et à Madère. La tradition locale l\'attribue à Arnaud de Villeneuve, médecin à la cour de Perpignan, en 1285. C\'est une jolie histoire, mais le traité sur lequel elle repose est aujourd\'hui considéré comme apocryphe, et le procédé lui a probablement préexisté de plusieurs siècles. Ce qui est certain, en revanche, c\'est que les vins doux naturels ont obtenu leur statut fiscal particulier avec la loi Arago de 1872 et la loi Pams de 1898, et qu\'ils comptent parmi les toutes premières appellations d\'origine contrôlées de France, en 1936. Le mutage donne des vins qui se gardent des décennies, parfois davantage.',
       'Le XIXe siècle a aussi vu naître les vins fortifiés aux plantes. Le plus célèbre survivant est le Byrrh, à base d\'écorces de quinquina, créé à Thuir en 1866 par les frères Violet. La cave se visite, elle abrite la plus grande cuve en chêne du monde, un million de litres, et comme Coca-Cola, la maison propose aujourd\'hui sa recette d\'origine à côté de la version modernisée.',
+      {
+        images: [
+          { src: '/photos/archives/pub-byrrh-thuir-recto.jpg', alt: 'Réclame ancienne pour l\'apéritif Byrrh, maison Violet à Thuir' },
+          { src: '/photos/archives/pub-byrrh-thuir-verso.jpg', alt: 'Dos de la réclame Byrrh, texte de présentation et notes manuscrites' },
+        ],
+        caption: 'La réclame de la maison Byrrh, retrouvée dans les archives de la famille : « L. Violet, J. et S. Violet Frères successeurs, à Thuir ». Entrepôts à Port-Vendres, Tautavel et Cases-de-Pène, succursales de Perpignan à Londres et Montréal. Au dos : « Le Byrrh est fait avec des vins vieux et généreux, à base de quinquina de première qualité », qu\'on buvait pur ou allongé d\'eau de Seltz bien fraîche. Quelqu\'un a griffonné des notes dans la marge.',
+      },
       'Pour mesurer ce qui a changé : un Français buvait cent quarante litres de vin par an en 1960. Il en boit quarante aujourd\'hui.',
       'La petite histoire, maintenant. Mon arrière-grand-père avait des vignes et vendait sa récolte une fois l\'an au négociant. Mon grand-père était fonctionnaire, mais il gardait son lopin, qu\'il faisait vendanger par la famille et qu\'il portait à la cave coopérative pour en faire du gros rouge cinq étoiles à bouchon plastique. En échange, il récupérait chaque année du marc à 42 degrés, au titre du privilège des bouilleurs de cru, hors de tout circuit commercial. Il en reste quelques bouteilles dans la maison familiale, auxquelles personne n\'ose toucher. Il reste aussi des dames-jeannes, ces bonbonnes de cinq ou dix litres, et quelques vieux tonneaux. Ma mère, elle, se souvient d\'avoir bu du vin rouge chaud et sucré quand elle avait un rhume, vers cinq ou six ans.',
       'Cette époque est révolue. Le vin a disparu des cantines le midi, la santé publique a fait son travail, et les vignerons ont dû se réinventer pour ne pas disparaître. Tous n\'y sont pas parvenus. Mais on est passé d\'une culture industrielle de masse, avec le sulfatage et la bouillie bordelaise, à des produits nettement plus qualitatifs. Le terroir sort toujours facilement des rouges à quinze ou seize degrés, mais ils sont plus légers qu\'avant, les blancs et les rosés se sont imposés, et le dernier venu est le rosé sans alcool. Cela peut sembler un oxymore, mais ces boissons sont un marché en forte croissance, pendant que le vin poursuit sa rétractation.',
@@ -475,16 +482,6 @@ balades: [
         src: '/photos/archives/facture-syndicat-agricole-1914-avoine.jpg',
         alt: 'Facture de janvier 1914 pour deux cent dix kilos d\'avoine grise',
         caption: 'Le 12 janvier 1914 : deux cent dix kilos d\'avoine grise, les sacs et les droits d\'octroi, pour 51 francs 90. À la vigne s\'ajoutait une bête à nourrir.',
-      },
-      {
-        src: '/photos/archives/pub-byrrh-thuir-recto.jpg',
-        alt: 'Réclame ancienne pour l\'apéritif Byrrh, maison Violet à Thuir',
-        caption: 'La réclame de la maison Byrrh, « L. Violet, J. et S. Violet Frères successeurs, à Thuir ». Entrepôts à Port-Vendres, Tautavel et Cases-de-Pène, succursales de Perpignan à Londres et Montréal. L\'apéritif au quinquina du village d\'à côté s\'exportait loin.',
-      },
-      {
-        src: '/photos/archives/pub-byrrh-thuir-verso.jpg',
-        alt: 'Dos de la réclame Byrrh, avec le texte de présentation et des notes manuscrites',
-        caption: 'Le dos du même imprimé : « Le Byrrh est fait avec des vins vieux et généreux, à base de quinquina de première qualité. » On le buvait pur, ou allongé d\'eau de Seltz bien fraîche avec un trait de cassis ou de sirop de citron. Quelqu\'un a griffonné des notes dans la marge.',
       },
       {
         src: '/photos/archives/cave-grand-pere-bouteilles.jpg',

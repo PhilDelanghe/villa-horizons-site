@@ -515,6 +515,13 @@ balades: [
       'The Templars, those warrior monks who met an end as brutal as the Cathars did, left their mark on the landscape. Their commandery at Mas Deu, recorded as early as 1136, carried out drainage works in the late twelfth century that rank among the most significant in Roussillon, alongside a deliberate policy of planting vines. They are also widely credited with the terraces of Banyuls, but here historians are more cautious: recent research shows those dry-stone walls spread mainly in the nineteenth century, with the arrival of the railway. The handsome legend and the actual labour do not always coincide.',
       'The same goes for mutage, the technique of halting fermentation by adding spirit, also used in Port and Madeira. Local tradition credits Arnaud de Villeneuve, a physician at the court of Perpignan, in 1285. It is a fine story, but the treatise it rests on is now considered apocryphal, and the method most likely predates him by centuries. What is certain is that these sweet wines gained their particular tax status through the Arago law of 1872 and the Pams law of 1898, and that they are among the very first controlled appellations in France, in 1936. Mutage produces wines that keep for decades, sometimes far longer.',
       'The nineteenth century also gave rise to wines fortified with plants. The most famous survivor is Byrrh, based on cinchona bark, created in Thuir in 1866 by the Violet brothers. The cellars can be visited, they hold the largest oak vat in the world at a million litres, and like Coca-Cola the house now offers its original recipe alongside the modernised one.',
+      {
+        images: [
+          { src: '/photos/archives/pub-byrrh-thuir-recto.jpg', alt: 'Vintage advertisement for the Byrrh aperitif, Violet house in Thuir' },
+          { src: '/photos/archives/pub-byrrh-thuir-verso.jpg', alt: 'Back of the Byrrh advertisement, sales text and handwritten notes' },
+        ],
+        caption: 'An advertisement for Byrrh, found in the family archives: "L. Violet, J. and S. Violet Frères successors, in Thuir". Warehouses at Port-Vendres, Tautavel and Cases-de-Pène, branches from Perpignan to London and Montreal. On the back: "Byrrh is made with old and generous wines, on a base of first quality quinine", drunk neat or topped up with chilled soda water. Someone has scribbled notes in the margin.',
+      },
       'To measure what has changed: a French person drank one hundred and forty litres of wine a year in 1960. Today it is forty.',
       'Now the family story. My great-grandfather had vines and sold his harvest once a year to the merchant. My grandfather was a civil servant, but he kept his patch, had the family pick it, and took it to the cooperative to be turned into rough red wine with a plastic cork. In exchange, every year he received marc spirit at 42% alcohol, under the home distiller\'s privilege and outside any commercial circuit. A few bottles remain in the family house, which nobody dares open. So do some dames-jeannes, those five and ten litre demijohns, and a few old barrels. My mother remembers being given hot sweetened red wine for a cold, at the age of five or six.',
       'That era is over. Wine disappeared from school canteens at lunchtime, public health did its work, and growers had to reinvent themselves or vanish. Not all of them managed it. But we have moved from mass industrial farming, with its copper sulphate spraying, to distinctly better wines. The terroir still yields reds at fifteen or sixteen degrees, but they are lighter than they were, whites and rosés have taken their place, and the latest arrival is alcohol-free rosé. It may sound like a contradiction in terms, but these drinks are a fast-growing market, while wine keeps contracting.',
@@ -535,16 +542,6 @@ balades: [
         src: '/photos/archives/facture-syndicat-agricole-1914-avoine.jpg',
         alt: 'A January 1914 invoice for two hundred and ten kilos of grey oats',
         caption: '12 January 1914: two hundred and ten kilos of grey oats, the sacks and the toll duty, for 51 francs 90. Besides the vines, there was an animal to feed.',
-      },
-      {
-        src: '/photos/archives/pub-byrrh-thuir-recto.jpg',
-        alt: 'Vintage advertisement for the Byrrh aperitif, Violet house in Thuir',
-        caption: 'An advertisement for Byrrh, "L. Violet, J. and S. Violet Frères successors, in Thuir". Warehouses at Port-Vendres, Tautavel and Cases-de-Pène, branches from Perpignan to London and Montreal. The quinine aperitif from the next village travelled a long way.',
-      },
-      {
-        src: '/photos/archives/pub-byrrh-thuir-verso.jpg',
-        alt: 'Back of the Byrrh advertisement, with its sales text and handwritten notes',
-        caption: 'The back of the same sheet: "Byrrh is made with old and generous wines, on a base of first quality quinine." You drank it neat, or topped up with chilled soda water and a dash of blackcurrant or lemon syrup. Someone has scribbled notes in the margin.',
       },
       {
         src: '/photos/archives/cave-grand-pere-bouteilles.jpg',
