@@ -501,6 +501,11 @@ export default {
         alt: 'Back of the Byrrh advertisement, with its sales text and handwritten notes',
         caption: 'The back of the same sheet: "Byrrh is made with old and generous wines, on a base of first quality quinine." You drank it neat, or topped up with chilled soda water and a dash of blackcurrant or lemon syrup. Someone has scribbled notes in the margin.',
       },
+      {
+        src: '/photos/archives/cave-grand-pere-bouteilles.jpg',
+        alt: 'Two bottles from the grandfather\'s cellar, a red wine and a marc spirit',
+        caption: 'The product and the wages, side by side. The red is what the harvest became once taken to the cooperative. The 42 proof marc is what Philippe\'s grandfather received every year under the home distiller\'s privilege, outside any commercial circuit.',
+      },
     ],
     features: [
       {
@@ -568,6 +573,18 @@ export default {
       },
       {
         title: 'The water you drink',
+        archives: [
+          {
+            src: '/photos/archives/bouteille-eau-boulou.jpg',
+            alt: 'Vintage bottle of naturally sparkling mineral water from Le Boulou, under a glass dome',
+            caption: 'A bottle of naturally sparkling mineral water from Le Boulou, kept under a glass dome. Bottling stopped around the year 2000, and no mineral water is bottled in the département any more.',
+          },
+          {
+            src: '/photos/lieux/bouteille-vichy-catalan.jpg',
+            alt: 'A bottle of Vichy Catalan standing in front of a cove',
+            caption: 'South of the border, Vichy Catalan is still going. A sparkling water that comes out of the ground warm, heavily mineralised and notably salty, on every table in southern Catalonia.',
+          },
+        ],
         maps: 'Pyrénées-Orientales',
         items: [
           { name: 'The mineral spring of Laroque', time: 'On foot', desc: 'Our own spring, a favourite walk for generations, with its picnic area and the cargolades of years past. It is sometimes called Font d\'Aram, the copper fountain, after the colour of the surrounding rock, but that is a misnomer: the water is ferruginous, and the tourist board notes that its composition is strikingly close to the thermal waters of Le Boulou. No public analysis exists, so read the sign on site before drinking.' },

@@ -126,6 +126,16 @@ const mapsUrl = (name, ctx) => {
           ))}
         </div>
       )}
+      {s.archives && (
+        <div class="archives archives-inline">
+          {s.archives.map((a) => (
+            <figure class="archive">
+              <img src={a.src} alt={a.alt} />
+              <figcaption>{a.caption}</figcaption>
+            </figure>
+          ))}
+        </div>
+      )}
     </section>
   ))}
 

@@ -195,6 +195,8 @@ a { color: var(--accent); }
 .archives {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 2rem 1.6rem; max-width: var(--max); margin: 0 auto;
+  /* chaque pièce garde sa hauteur propre, sinon les cadres s'étirent au plus grand */
+  align-items: start;
 }
 .archive {
   background: var(--white); padding: 0.7rem 0.7rem 0.1rem; border-radius: 3px;
@@ -203,6 +205,9 @@ a { color: var(--accent); }
 }
 .archive:nth-child(even) { transform: rotate(0.7deg); }
 .archive:nth-child(3n) { transform: rotate(-0.25deg); }
+/* Planche posée dans une rubrique, sous ses cartes : colonnes plus étroites,
+   ce sont des objets isolés et pas des documents à lire. */
+.archives-inline { margin-top: 2rem; grid-template-columns: repeat(auto-fit, minmax(190px, 220px)); }
 .archive img { width: 100%; display: block; border-radius: 2px; }
 .archive figcaption {
   font-size: 0.84rem; color: var(--ink-soft); font-style: italic;

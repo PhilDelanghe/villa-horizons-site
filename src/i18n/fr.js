@@ -441,6 +441,11 @@ export default {
         alt: 'Dos de la réclame Byrrh, avec le texte de présentation et des notes manuscrites',
         caption: 'Le dos du même imprimé : « Le Byrrh est fait avec des vins vieux et généreux, à base de quinquina de première qualité. » On le buvait pur, ou allongé d\'eau de Seltz bien fraîche avec un trait de cassis ou de sirop de citron. Quelqu\'un a griffonné des notes dans la marge.',
       },
+      {
+        src: '/photos/archives/cave-grand-pere-bouteilles.jpg',
+        alt: 'Deux bouteilles de la cave du grand-père, un rouge et un marc',
+        caption: 'Le produit et le salaire, côte à côte. Le rouge, c\'est ce que devenait la récolte portée à la coopérative. Le marc à 42 degrés, c\'est ce que le grand-père de Philippe recevait chaque année au titre du privilège des bouilleurs de cru, hors de tout circuit commercial.',
+      },
     ],
     features: [
       {
@@ -508,6 +513,18 @@ export default {
       },
       {
         title: 'L\'eau qu\'on boit',
+        archives: [
+          {
+            src: '/photos/archives/bouteille-eau-boulou.jpg',
+            alt: 'Bouteille ancienne d\'eau minérale naturelle gazeuse du Boulou, sous cloche de verre',
+            caption: 'Une bouteille d\'eau minérale naturelle gazeuse du Boulou, gardée sous cloche. L\'embouteillage s\'est arrêté au tournant des années 2000, et plus aucune eau minérale n\'est mise en bouteille dans le département.',
+          },
+          {
+            src: '/photos/lieux/bouteille-vichy-catalan.jpg',
+            alt: 'Bouteille de Vichy Catalan posée face à une crique',
+            caption: 'De l\'autre côté de la frontière, la Vichy Catalan continue, elle. Une eau gazeuse naturellement chaude à la source, très minéralisée et très salée, qu\'on trouve partout en Catalogne du Sud.',
+          },
+        ],
         maps: 'Pyrénées-Orientales',
         items: [
           { name: 'La source minérale de Laroque', time: 'À pied', desc: 'Notre fontaine, but de promenade depuis toujours, avec son aire de pique-nique et ses cargolades d\'autrefois. On l\'appelle parfois Font d\'Aram, la fontaine de cuivre, à cause de la couleur des roches, mais c\'est une erreur : c\'est une eau ferrugineuse, dont l\'office de tourisme note que la composition se rapproche singulièrement des eaux thermales du Boulou. Aucune analyse publique n\'est disponible, donc fiez-vous au panneau sur place avant d\'y boire.' },
