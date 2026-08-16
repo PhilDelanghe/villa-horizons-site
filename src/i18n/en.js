@@ -306,6 +306,11 @@ export default {
         alt: 'Vintage hand-coloured postcard of the mineral spring of Laroque-des-Albères',
         caption: '"Mineral water fountain of Laroque-des-Albères", Costéja edition. A hand-coloured card, with walkers settled in the bed of the stream. The walk has not changed.',
       },
+      {
+        src: '/photos/lieux/caranques-sentier.jpg',
+        alt: 'The Caranques path at Laroque, running alongside the stone irrigation channel under the trees',
+        caption: 'The path to the Caranques, running alongside the irrigation channel before it climbs the river. The rock pools are upstream of the intake.',
+      },
     ],
 balades: [
       { name: 'The Laroque tower, at sunset', desc: 'You climb up through the lanes of the old village to the tower, the only remaining piece of the feudal castle\'s keep, the rest of which collapsed in 1890. It was a watchtower, signalling to Elne and to the other towers along the Albères ridge. At its foot, two orientation tables, one facing the plain and the sea, the other the mountains: the Canigou to the west, the Pic Néoulous to the south, the whole Roussillon plain to the north and the Mediterranean to the east. Late in the day, it is the walk we take everyone on when they visit.' },

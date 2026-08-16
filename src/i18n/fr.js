@@ -306,6 +306,11 @@ export default {
         alt: 'Carte postale ancienne colorisée de la fontaine d\'eau minérale de Laroque-des-Albères',
         caption: '« Fontaine d\'eau minérale de Laroque-des-Albères », édition Costéja. Une carte colorisée, avec des promeneurs installés dans le lit du ruisseau. Le but de promenade n\'a pas changé.',
       },
+      {
+        src: '/photos/lieux/caranques-sentier.jpg',
+        alt: 'Le sentier des Caranques à Laroque, longeant le canal d\'arrosage en pierre sous les arbres',
+        caption: 'Le sentier des Caranques, qui longe le canal d\'arrosage avant de remonter la rivière. Les vasques sont en amont de la prise d\'eau.',
+      },
     ],
 balades: [
       { name: 'La tour de Laroque, au coucher du soleil', desc: 'On monte par les ruelles du vieux village jusqu\'à la tour, seul vestige du donjon du château féodal, dont le reste s\'est effondré en 1890. C\'était une tour de guet : elle communiquait par signaux avec Elne et les autres tours de la crête des Albères. À son pied, deux tables d\'orientation, une vers la plaine et la mer, l\'autre vers la montagne : le Canigou à l\'ouest, le pic Néoulous au sud, toute la plaine du Roussillon au nord et la Méditerranée à l\'est. En fin de journée, c\'est la balade qu\'on fait faire à tous ceux qui viennent nous voir.' },
