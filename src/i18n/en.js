@@ -36,7 +36,7 @@ export default {
       path: 'bouger/',
       metaTitle: 'Move. Hiking, cycling, golf, sea and mountains around Villa Horizons',
       metaDescription:
-        'The classic hikes from Laroque: Col de l\'Ouillat, Madeloc tower, the Canigou, coastal paths. Plus 6 golf courses within 60 km, CrossFit, horse riding, e-bikes, snorkeling in the Cerbère-Banyuls marine reserve.',
+        'The classic hikes from Laroque: Col de l\'Ouillat, Pic Néoulous, the Canigou, coastal paths. Plus 6 golf courses within 60 km, CrossFit, horse riding, e-bikes, snorkeling in the Cerbère-Banyuls marine reserve.',
     },
     espagne: {
       path: 'espagne/',
@@ -427,8 +427,8 @@ balades: [
         ],
         maps: true,
         items: [
-          { name: 'Romanesque churches and abbeys', maps: false, desc: 'Catalan Romanesque art all around: Saint-Génis-des-Fontaines and its carved lintel, the cloister of Elne.' },
           { name: 'Madeloc Tower', desc: 'The medieval signal tower perched above Collioure and Port-Vendres: sweeping views over the Côte Vermeille, reached by a vertiginous little road or on foot.' },
+          { name: 'Romanesque churches and abbeys', maps: false, desc: 'Catalan Romanesque art all around: Saint-Génis-des-Fontaines and its carved lintel, the cloister of Elne.' },
         ],
       },
       {
@@ -451,11 +451,18 @@ balades: [
     sections: [
       {
         title: 'The classic hikes straight from Laroque',
+        archives: [
+          {
+            src: '/photos/cartes-postales/route-alberes-canigou.jpg',
+            alt: 'Vintage postcard, the Albère road under construction above Le Perthus, the snow-covered Canigou behind',
+            caption: '"Le Perthus, the Albère road, the Canigou behind." Labouche Frères phototype. The road being cut into the mountainside, the navvies and their wheelbarrow, and the snow-covered Canigou in the distance.',
+          },
+        ],
         maps: 'Pyrénées-Orientales',
         items: [
           { name: 'Col de l\'Ouillat', desc: 'The village\'s classic climb, at 936 m right above us. You set off on foot from Laroque and follow the river up to its source, at the pass: a good two hours of climbing. The old-timers went up to cook lunch at the top over a fire of vine cuttings, then nap before heading back down, and the programme still holds. Best trick: walk up and get picked up by car at the top, provided someone is willing to go round via Le Perthus and the D71, the only road up to the pass.' },
+          { name: 'Pic Néoulous', desc: 'The highest point of the Albères at 1,256 m, right on the border: a stone tower and a television relay at the top. The big local walk starts from the church in the old village and goes over the Col de l\'Ouillat, 16.7 km and 1,227 m of climb, seven hours on the sign: a full day out. From the summit, the Roussillon plain and the sea on one side, the Pyrenees to the west, and on the far slope the Ampurdan plain all the way to the bay of Roses.' },
           { name: 'Chalet de l\'Albère', desc: 'The refuge at the Col de l\'Ouillat, on the GR10 long-distance path: restaurant, panoramic terrace over the Pyrenees, and 24 beds. Open all year, which makes it a fine place to end a hike.' },
-          { name: 'The Madeloc tower from Fort Saint-Elme', desc: 'For strong legs: from Collioure, the loop goes past Fort Saint-Elme then climbs through the terraced vineyards to the medieval signal tower, about 15 km and 700 m of elevation gain. From the top, the whole plain, the Côte Vermeille and Spain in a single glance. Short version for everyone else: you can also drive up the vertiginous little road, then walk the last few minutes.' },
         ],
       },
       {
@@ -469,6 +476,7 @@ balades: [
       {
         title: 'Hiking and mountains',
         items: [
+          { name: 'The Madeloc tower from Fort Saint-Elme', desc: 'For strong legs: from Collioure, the loop goes past Fort Saint-Elme then climbs through the terraced vineyards to the medieval signal tower, about 15 km and 700 m of elevation gain. From the top, the whole plain, the Côte Vermeille and Spain in a single glance. Short version for everyone else: you can also drive up the vertiginous little road, then walk the last few minutes.' },
           { name: 'From the villa', desc: 'Pic Néoulous (14 km, 1,000 m elevation gain), Col de l\'Ouillat, and the whole Albères trail network.' },
           { name: 'Coastal paths', desc: 'The coastal trail from Argelès to Cerbère: quiet coves even in August.' },
           { name: 'The Canigou', desc: 'The ascent of the Catalans\' sacred mountain (2,784 m).' },
@@ -696,6 +704,18 @@ balades: [
     sections: [
       {
         title: 'The Costa Brava (about 1 h)',
+        archives: [
+          {
+            src: '/photos/lieux/begur-hameau-crique.jpg',
+            alt: 'Sa Tuna, a handful of fishermen\'s houses at the head of a Costa Brava cove',
+            caption: 'Sa Tuna: a handful of fishermen\'s houses packed into the head of the cove, and nothing else.',
+          },
+          {
+            src: '/photos/lieux/begur-crique-turquoise.jpg',
+            alt: 'The turquoise water of the Aiguablava cove near Begur',
+            caption: 'Aiguablava, literally blue water in Catalan.',
+          },
+        ],
         maps: 'Costa Brava',
         items: [
           { name: 'Sa Tuna and Aiguablava (Begur)', desc: 'Two of the Costa Brava\'s most beautiful coves, turquoise water and former fishing villages. Leave early, the car parks fill fast.' },

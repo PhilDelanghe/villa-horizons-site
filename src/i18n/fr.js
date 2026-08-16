@@ -36,7 +36,7 @@ export default {
       path: 'bouger/',
       metaTitle: 'Bouger. Randonnée, vélo, golf, mer et montagne autour de Villa Horizons',
       metaDescription:
-        'Les randonnées au départ de Laroque : col de l\'Ouillat, tour de la Madeloc, Canigou, sentiers côtiers. Et 6 golfs dans un rayon de 60 km, CrossFit, équitation, vélos électriques, snorkeling à Cerbère-Banyuls.',
+        'Les randonnées au départ de Laroque : col de l\'Ouillat, pic Néoulous, Canigou, sentiers côtiers. Et 6 golfs dans un rayon de 60 km, CrossFit, équitation, vélos électriques, snorkeling à Cerbère-Banyuls.',
     },
     espagne: {
       path: 'espagne/',
@@ -427,8 +427,8 @@ balades: [
         ],
         maps: true,
         items: [
-          { name: 'Églises et abbayes romanes', maps: false, desc: 'L\'art roman catalan tout autour : Saint-Génis-des-Fontaines et son linteau sculpté, le cloître d\'Elne.' },
           { name: 'Tour de la Madeloc', desc: 'La tour à signaux médiévale perchée au-dessus de Collioure et Port-Vendres : panorama immense sur la Côte Vermeille, par une petite route vertigineuse ou à pied.' },
+          { name: 'Églises et abbayes romanes', maps: false, desc: 'L\'art roman catalan tout autour : Saint-Génis-des-Fontaines et son linteau sculpté, le cloître d\'Elne.' },
         ],
       },
       {
@@ -636,11 +636,18 @@ balades: [
     sections: [
       {
         title: 'Les randonnées incontournables au départ de Laroque',
+        archives: [
+          {
+            src: '/photos/cartes-postales/route-alberes-canigou.jpg',
+            alt: 'Carte postale ancienne, la route de l\'Albère en construction au-dessus du Perthus, le Canigou enneigé au fond',
+            caption: '« Le Perthus, route de l\'Albère, au fond le Canigou. » Phototypie Labouche Frères. La route en construction à flanc de montagne, les terrassiers et leur brouette, et le Canigou enneigé derrière.',
+          },
+        ],
         maps: 'Pyrénées-Orientales',
         items: [
           { name: 'Le col de l\'Ouillat', desc: 'La montée classique du village, à 936 m au-dessus de nous. On part à pied de Laroque et on remonte la rivière jusqu\'à sa source, au col : deux bonnes heures de montée. Les anciens y grimpaient pour faire le repas là-haut sur un feu de sarments, puis la sieste avant de redescendre, et le programme reste valable. Bon plan : monter à pied et se faire récupérer en voiture en haut, à condition que quelqu\'un veuille bien faire le tour par Le Perthus et la D71, la seule route qui monte au col.' },
+          { name: 'Le pic Néoulous', desc: 'Le point culminant des Albères, 1 256 m, sur la frontière même : au sommet, une tour de pierre et un relais de télévision. La grande course locale part de l\'église du vieux village et passe par le col de l\'Ouillat, 16,7 km et 1 227 m de dénivelé, sept heures annoncées : c\'est une vraie journée. En haut, la plaine du Roussillon et la mer d\'un côté, la chaîne des Pyrénées à l\'ouest, et sur l\'autre versant la plaine de l\'Ampurdan jusqu\'à la baie de Rosas.' },
           { name: 'Le Chalet de l\'Albère', desc: 'Le refuge du col de l\'Ouillat, sur le GR10 : restaurant, terrasse panoramique sur les Pyrénées, et 24 places pour dormir. Ouvert à l\'année, ce qui en fait une belle arrivée de randonnée.' },
-          { name: 'La tour de la Madeloc depuis le Fort Saint-Elme', desc: 'Pour les jambes solides : au départ de Collioure, la boucle passe par le Fort Saint-Elme puis monte à travers les vignes en terrasses jusqu\'à la tour à signaux médiévale, environ 15 km et 700 m de dénivelé. En haut, toute la plaine, la Côte Vermeille et l\'Espagne d\'un seul regard. Version courte pour les autres : on y monte aussi par la petite route vertigineuse, puis quelques minutes à pied.' },
         ],
       },
       {
@@ -654,6 +661,7 @@ balades: [
       {
         title: 'Randonnée et montagne',
         items: [
+          { name: 'La tour de la Madeloc depuis le Fort Saint-Elme', desc: 'Pour les jambes solides : au départ de Collioure, la boucle passe par le Fort Saint-Elme puis monte à travers les vignes en terrasses jusqu\'à la tour à signaux médiévale, environ 15 km et 700 m de dénivelé. En haut, toute la plaine, la Côte Vermeille et l\'Espagne d\'un seul regard. Version courte pour les autres : on y monte aussi par la petite route vertigineuse, puis quelques minutes à pied.' },
           { name: 'Au départ de la villa', desc: 'Pic Néoulous (14 km, 1 000 m de dénivelé), col de l\'Ouillat, et tout le réseau de sentiers des Albères.' },
           { name: 'Sentiers côtiers', desc: 'Le sentier littoral d\'Argelès à Cerbère : criques tranquilles même en août.' },
           { name: 'Le Canigou', desc: 'L\'ascension de la montagne sacrée des Catalans (2 784 m).' },
@@ -696,6 +704,18 @@ balades: [
     sections: [
       {
         title: 'La Costa Brava (environ 1 h)',
+        archives: [
+          {
+            src: '/photos/lieux/begur-hameau-crique.jpg',
+            alt: 'Sa Tuna, quelques maisons de pêcheurs au fond d\'une crique de la Costa Brava',
+            caption: 'Sa Tuna : quelques maisons de pêcheurs serrées au fond de la crique, et rien d\'autre.',
+          },
+          {
+            src: '/photos/lieux/begur-crique-turquoise.jpg',
+            alt: 'La crique d\'Aiguablava et son eau turquoise, près de Begur',
+            caption: 'Aiguablava, littéralement l\'eau bleue en catalan.',
+          },
+        ],
         maps: 'Costa Brava',
         items: [
           { name: 'Sa Tuna et Aiguablava (Begur)', desc: 'Deux des plus belles criques de la Costa Brava, eaux turquoise et anciens villages de pêcheurs. Partir tôt, les parkings sont vite pleins.' },
