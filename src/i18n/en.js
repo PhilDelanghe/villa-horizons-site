@@ -831,12 +831,13 @@ balades: [
         maps: 'Pyrénées-Orientales',
         items: [
           { name: 'Carrefour Market (centre commercial des Albères, Laroque)', time: '7 min', desc: 'The nearest supermarket, on the Argelès road. Petrol station and cash machine on the same car park, along with the village\'s second bakery, Le Fournil des Albères.' },
-          { name: 'Carrefour Express (Saint-Génis-des-Fontaines)', time: '6 min', desc: 'A small convenience store, closer than the shopping centre if you are coming from the Saint-Génis side.' },
-          { name: 'Proxi (Sorède)', time: '8 min', desc: 'The Sorède convenience store, rue des Micocouliers.' },
+          { name: 'Carrefour Express (Saint-Génis-des-Fontaines)', time: '6 min', desc: 'A small convenience store, closer than the shopping centre if you are coming from the Saint-Génis side. Open 7 am to 8 pm, Sundays included.' },
+          { name: 'Utile (Saint-Génis-des-Fontaines)', time: '6 min', desc: 'The U group store, 61 avenue Maréchal Joffre. Open 7.30 am to 8 pm every day, Sundays included: the widest opening hours around, which often saves the day.' },
           { name: 'Intermarché (Saint-André)', time: '12 min', desc: 'The most complete stop nearby: supermarket, 24-hour petrol station, launderette, parcel point, cash machine, tyre inflation and car wash. If you remember one address, make it this one.' },
           { name: 'Intermarché Hyper (Argelès-sur-Mer)', time: '15 min', desc: 'The largest store in the immediate area, rue des Milans.' },
           { name: 'Biocoop (Argelès-sur-Mer)', time: '15 min', desc: 'For organic produce, avenue des Flamants Roses.' },
-          { name: 'E.Leclerc (Le Boulou)', time: '17 min', desc: 'The only hypermarket in the area. Worth it for the big first-day shop.' },
+          { name: 'E.Leclerc (Le Boulou)', time: '17 min', desc: 'The only hypermarket in the area, for the big first-day shop. The Intermarché Hyper in Argelès does roughly the same job and is closer. The real reason to drive up is the filling station on route de Perpignan: it sells E85 bioethanol.' },
+          { name: 'Grand Frais (Elne), due in 2027', time: '20 min', maps: false, desc: 'A Grand Frais is due to open on route de Latour, on the site of the old garden centre. Until then the nearest one is in Perpignan, for anyone who would rather not change their habits.' },
         ],
       },
       {

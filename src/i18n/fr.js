@@ -831,12 +831,13 @@ balades: [
         maps: 'Pyrénées-Orientales',
         items: [
           { name: 'Carrefour Market (centre commercial des Albères, Laroque)', time: '7 min', desc: 'Le supermarché le plus proche, sur la route d\'Argelès. Station-service et distributeur sur le même parking, ainsi que la seconde boulangerie du village, Le Fournil des Albères.' },
-          { name: 'Carrefour Express (Saint-Génis-des-Fontaines)', time: '6 min', desc: 'Une supérette de dépannage, plus proche que le centre commercial si vous venez du côté de Saint-Génis.' },
-          { name: 'Proxi (Sorède)', time: '8 min', desc: 'La supérette de Sorède, rue des Micocouliers.' },
+          { name: 'Carrefour Express (Saint-Génis-des-Fontaines)', time: '6 min', desc: 'Une supérette de dépannage, plus proche que le centre commercial si vous venez du côté de Saint-Génis. Ouverte de 7 h à 20 h, dimanche compris.' },
+          { name: 'Utile (Saint-Génis-des-Fontaines)', time: '6 min', desc: 'Le magasin du groupe U, 61 avenue Maréchal Joffre. Ouvert de 7 h 30 à 20 h tous les jours, dimanche compris : les horaires les plus larges du secteur, ce qui dépanne souvent.' },
           { name: 'Intermarché (Saint-André)', time: '12 min', desc: 'Le plus complet des environs immédiats : supermarché, station 24 heures sur 24, laverie automatique, relais colis, distributeur, gonflage et lavage. Si vous ne deviez retenir qu\'une adresse, c\'est celle-là.' },
           { name: 'Intermarché Hyper (Argelès-sur-Mer)', time: '15 min', desc: 'Le plus grand magasin du secteur proche, rue des Milans.' },
           { name: 'Biocoop (Argelès-sur-Mer)', time: '15 min', desc: 'Pour les produits biologiques, avenue des Flamants Roses.' },
-          { name: 'E.Leclerc (Le Boulou)', time: '17 min', desc: 'Le seul hypermarché du secteur. À réserver aux grosses courses de début de séjour.' },
+          { name: 'E.Leclerc (Le Boulou)', time: '17 min', desc: 'Le seul hypermarché du secteur, pour les grosses courses de début de séjour. L\'Intermarché Hyper d\'Argelès rend à peu près le même service et il est plus près. La vraie raison d\'y monter, c\'est la station, route de Perpignan : elle distribue le superéthanol E85.' },
+          { name: 'Grand Frais (Elne), annoncé pour 2027', time: '20 min', maps: false, desc: 'Un Grand Frais doit ouvrir route de Latour, sur le terrain de l\'ancienne jardinerie. En attendant, le plus proche est à Perpignan, pour qui ne veut pas changer ses habitudes.' },
         ],
       },
       {
