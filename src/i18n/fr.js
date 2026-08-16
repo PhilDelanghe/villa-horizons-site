@@ -418,8 +418,8 @@ export default {
       'La balade peut commencer chez le caviste, ou le nez au vent. Rien qu\'autour de Laroque, il y a une vingtaine de domaines accessibles, et si l\'on tire vers Collioure et Banyuls, ou qu\'on remonte la vallée de l\'Agly, le choix ne manque pas.',
       'Un dernier mot sur les vins mutés, banyuls, rivesaltes, maury. Les vins se sont modernisés, mais cette tradition-là mérite d\'être redécouverte. On n\'est pas obligé de les boire comme nos grands-parents : on peut oser le très frais, les glaçons, les cocktails. Et il faut au moins une fois avoir vu les bonbonnes de verre posées en plein soleil, qui est la façon officielle d\'élever ces vins en milieu oxydatif. Une explosion d\'arômes qu\'on ne trouve nulle part ailleurs.',
     ],
-    archivesTitle: 'Les papiers de l\'arrière-grand-père',
-    archivesIntro: 'Deux factures retrouvées dans les archives familiales, adressées à Laroque-des-Albères par le Syndicat Professionnel Agricole des Pyrénées-Orientales, à Perpignan.',
+    archivesTitle: 'Les papiers de famille',
+    archivesIntro: 'Quelques pièces sorties du tiroir des Prats, à Laroque-des-Albères. Les factures sont celles de l\'arrière-grand-père de Philippe, qui portait le même prénom que son fils, Pierre : sur ces papiers, le nom est le même à trente ans d\'écart.',
     archives: [
       {
         src: '/photos/archives/facture-syndicat-agricole-1913-pressoir.jpg',
@@ -430,6 +430,16 @@ export default {
         src: '/photos/archives/facture-syndicat-agricole-1914-avoine.jpg',
         alt: 'Facture de janvier 1914 pour deux cent dix kilos d\'avoine grise',
         caption: 'Le 12 janvier 1914 : deux cent dix kilos d\'avoine grise, les sacs et les droits d\'octroi, pour 51 francs 90. À la vigne s\'ajoutait une bête à nourrir.',
+      },
+      {
+        src: '/photos/archives/pub-byrrh-thuir-recto.jpg',
+        alt: 'Réclame ancienne pour l\'apéritif Byrrh, maison Violet à Thuir',
+        caption: 'La réclame de la maison Byrrh, « L. Violet, J. et S. Violet Frères successeurs, à Thuir ». Entrepôts à Port-Vendres, Tautavel et Cases-de-Pène, succursales de Perpignan à Londres et Montréal. L\'apéritif au quinquina du village d\'à côté s\'exportait loin.',
+      },
+      {
+        src: '/photos/archives/pub-byrrh-thuir-verso.jpg',
+        alt: 'Dos de la réclame Byrrh, avec le texte de présentation et des notes manuscrites',
+        caption: 'Le dos du même imprimé : « Le Byrrh est fait avec des vins vieux et généreux, à base de quinquina de première qualité. » On le buvait pur, ou allongé d\'eau de Seltz bien fraîche avec un trait de cassis ou de sirop de citron. Quelqu\'un a griffonné des notes dans la marge.',
       },
     ],
     features: [

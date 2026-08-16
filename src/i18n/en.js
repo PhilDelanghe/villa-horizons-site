@@ -478,8 +478,8 @@ export default {
       'The wandering can start at a wine shop, or with no plan at all. Around Laroque alone there are a good twenty estates open to visitors, and if you head towards Collioure and Banyuls, or up the Agly valley, there is no shortage of choice.',
       'A last word on the fortified wines, banyuls, rivesaltes, maury. Wines have modernised, but this tradition deserves rediscovering. You are not obliged to drink them the way our grandparents did: try them very cold, over ice, in cocktails. And you should at least once see the glass demijohns sitting out in full sun, which is the official way these wines are aged in oxidative conditions. An explosion of aromas you will not find anywhere else.',
     ],
-    archivesTitle: 'The great-grandfather\'s paperwork',
-    archivesIntro: 'Two invoices found in the family archives, sent to Laroque-des-Albères by the Pyrénées-Orientales farmers\' union in Perpignan.',
+    archivesTitle: 'Family paperwork',
+    archivesIntro: 'A few pieces out of the Prats family drawer in Laroque-des-Albères. The invoices are Philippe\'s great-grandfather\'s, who shared his first name, Pierre, with his son: the same name appears on these papers thirty years apart.',
     archives: [
       {
         src: '/photos/archives/facture-syndicat-agricole-1913-pressoir.jpg',
@@ -490,6 +490,16 @@ export default {
         src: '/photos/archives/facture-syndicat-agricole-1914-avoine.jpg',
         alt: 'A January 1914 invoice for two hundred and ten kilos of grey oats',
         caption: '12 January 1914: two hundred and ten kilos of grey oats, the sacks and the toll duty, for 51 francs 90. Besides the vines, there was an animal to feed.',
+      },
+      {
+        src: '/photos/archives/pub-byrrh-thuir-recto.jpg',
+        alt: 'Vintage advertisement for the Byrrh aperitif, Violet house in Thuir',
+        caption: 'An advertisement for Byrrh, "L. Violet, J. and S. Violet Frères successors, in Thuir". Warehouses at Port-Vendres, Tautavel and Cases-de-Pène, branches from Perpignan to London and Montreal. The quinine aperitif from the next village travelled a long way.',
+      },
+      {
+        src: '/photos/archives/pub-byrrh-thuir-verso.jpg',
+        alt: 'Back of the Byrrh advertisement, with its sales text and handwritten notes',
+        caption: 'The back of the same sheet: "Byrrh is made with old and generous wines, on a base of first quality quinine." You drank it neat, or topped up with chilled soda water and a dash of blackcurrant or lemon syrup. Someone has scribbled notes in the margin.',
       },
     ],
     features: [
