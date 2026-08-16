@@ -860,7 +860,7 @@ balades: [
         title: 'Carburant et recharge électrique',
         maps: 'Pyrénées-Orientales',
         items: [
-          { name: 'Station Carrefour Market (route d\'Argelès, Laroque)', time: '7 min', desc: 'Gazole, SP95, E10 et SP98. Du lundi au samedi de 8 h 45 à 19 h, fermée le dimanche. Attention, il n\'y a pas d\'automate la nuit : certains sites indiquent à tort qu\'elle est ouverte en permanence.' },
+          { name: 'Station Carrefour Market (route d\'Argelès, Laroque)', time: '7 min', desc: 'La station la plus proche de la villa. Gazole, SP95, E10 et SP98. La caisse est tenue du lundi au samedi de 8 h 45 à 19 h, mais l\'automate à carte bancaire fonctionne en permanence, la nuit et le dimanche compris.' },
           { name: 'Station Intermarché (Saint-André)', time: '12 min', desc: 'La 24 heures sur 24 la plus proche, avec automate à carte bancaire. Gazole, E10, SP98 et E85.' },
           { name: 'Recharge rapide, Power Dot (zone commerciale de Laroque)', time: '7 min', desc: 'Deux prises Combo CCS de 100 kW sur le parking de Mr. Bricolage, plus une prise Type 2. De quoi récupérer l\'essentiel d\'une batterie pendant les courses.' },
           { name: 'Recharge lente, Révéo (parking de la rue du Stade)', time: 'À pied', desc: 'Au village même, en prise Type 2 et prise domestique. Pratique pour recharger la nuit.' },

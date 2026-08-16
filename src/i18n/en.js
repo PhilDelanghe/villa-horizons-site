@@ -860,7 +860,7 @@ balades: [
         title: 'Fuel and electric charging',
         maps: 'Pyrénées-Orientales',
         items: [
-          { name: 'Carrefour Market station (Argelès road, Laroque)', time: '7 min', desc: 'Diesel, SP95, E10 and SP98. Monday to Saturday 8.45am to 7pm, closed on Sundays. Note there is no night-time automated pump: some websites wrongly list it as open around the clock.' },
+          { name: 'Carrefour Market station (Argelès road, Laroque)', time: '7 min', desc: 'The closest station to the villa. Diesel, SP95, E10 and SP98. The kiosk is staffed Monday to Saturday from 8.45am to 7pm, but the card-operated pump runs around the clock, nights and Sundays included.' },
           { name: 'Intermarché station (Saint-André)', time: '12 min', desc: 'The nearest 24-hour station, with a card-operated pump. Diesel, E10, SP98 and E85.' },
           { name: 'Rapid charging, Power Dot (Laroque retail park)', time: '7 min', desc: 'Two 100 kW CCS Combo points on the Mr. Bricolage car park, plus a Type 2 socket. Enough to recover most of a battery while you shop.' },
           { name: 'Slow charging, Révéo (rue du Stade car park)', time: 'On foot', desc: 'In the village itself, Type 2 and domestic sockets. Handy for charging overnight.' },
