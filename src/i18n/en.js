@@ -450,7 +450,7 @@ balades: [
   bouger: {
     title: 'Move',
     intro:
-      'Between sea and mountains, this is the perfect playground: hiking from the villa, beaches 10 minutes away, 2,000 m peaks within a day, and Spain a quarter of an hour away.',
+      'You could get the impression that this region is all about lazing on the beach and sipping rosé by the pool. You can do that too, and do it very well. But for anyone who wants to move, the range is enormous: hiking, trail running, road cycling and mountain biking, tennis and padel, horse riding, watersports including paddleboarding, snorkelling, diving and e-foiling, golf, CrossFit, and canyoning. In winter, skiing and snowshoeing. If you want to burn a few calories, Laroque is an excellent base camp.',
     sections: [
       {
         title: 'The classic hikes straight from Laroque',
@@ -500,14 +500,20 @@ balades: [
           { name: 'Snorkeling', desc: 'France\'s first marine reserve, between Cerbère and Banyuls.' },
           { name: 'Windsurfing and kitesurfing', desc: 'The Leucate and Pont des Basses spots, 30 minutes away.' },
           { name: 'Kayak and paddle', desc: 'Rentals on every beach, inflatable canoe at the villa.' },
+          { name: 'E-foiling with PWR-Foil', url: 'https://pwrfoil.com/fr/', desc: 'The electric foil, the board that lifts off and flies above the water, is built right here: PWR-Foil is based in Canet-en-Roussillon, where the brand has its factory and its test centre. You can try the board on site, with the team that makes it. The cost of the test session is deducted if you leave with one.' },
           { name: 'Boating', desc: 'Motorboat rental in Port-Vendres to explore the Costa Brava from the sea and meet the dolphins.' },
         ],
       },
       {
-        title: 'Golf, CrossFit and more',
+        title: 'CrossFit',
+        items: [
+          { name: 'La box Imperium', url: 'https://labox-imperium.fr', desc: 'The gym where I train when I am in Laroque, five minutes away by car: chemin de la Carrerasse, in the Saint-André industrial zone. WOD, weightlifting, gymnastics, cardio, and personalised programming if you are working towards something. Open Monday to Friday from 9 am to 8 pm, and Saturday morning from 10 am to noon. For a single session during your stay, call them before you turn up.' },
+        ],
+      },
+      {
+        title: 'Golf, tennis and horse riding',
         items: [
           { name: 'Golf', desc: '6 courses within 60 km, in France and Spain: Saint-Cyprien, Falgos, Peralada, and PGA Catalunya, Spain\'s #1 course.' },
-          { name: 'CrossFit', desc: 'A box 5 minutes away by car, holiday drop-ins welcome, open in summer.' },
           { name: 'Tennis and padel', desc: 'Clubs in Laroque and the neighboring villages.' },
           { name: 'Horse riding', desc: 'Riding centers nearby, treks in the Albères.' },
         ],

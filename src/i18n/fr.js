@@ -635,7 +635,7 @@ balades: [
   bouger: {
     title: 'Bouger',
     intro:
-      'Entre mer et montagne, c\'est le terrain de jeu idéal : randonnée au départ de la villa, plages à 10 minutes, sommets à 2 000 m dans la journée, et l\'Espagne à un quart d\'heure.',
+      'On peut avoir l\'impression que la région se résume à farnienter sur la plage et siroter un rosé au bord de la piscine. On peut faire ça aussi, et très bien. Mais pour qui veut bouger, les possibilités sont énormes : rando, trail, vélo de route et VTT, tennis et padel, équitation, sports d\'eau dont paddle, snorkeling, plongée et e-foil, golf, CrossFit, sans oublier le canyoning. Et l\'hiver, ski et raquettes. Si vous voulez brûler quelques calories, Laroque est une excellente base arrière.',
     sections: [
       {
         title: 'Les randonnées incontournables au départ de Laroque',
@@ -685,14 +685,20 @@ balades: [
           { name: 'Snorkeling', desc: 'La première réserve marine de France, entre Cerbère et Banyuls.' },
           { name: 'Planche à voile et kitesurf', desc: 'Les spots de Leucate et du Pont des Basses à 30 minutes.' },
           { name: 'Kayak et paddle', desc: 'Locations sur toutes les plages, canoë gonflable à la villa.' },
+          { name: 'E-foil chez PWR-Foil', url: 'https://pwrfoil.com/fr/', desc: 'Le foil électrique, la planche qui décolle et vole au-dessus de l\'eau, est fabriqué ici : PWR-Foil est installé à Canet-en-Roussillon, où la marque a monté son usine et son centre de test. On peut y essayer la planche sur place, avec l\'équipe qui la construit. Le prix de la session d\'essai est déduit si vous repartez avec.' },
           { name: 'Bateau', desc: 'Location de hors-bord à Port-Vendres pour explorer la Costa Brava côté mer et croiser les dauphins.' },
         ],
       },
       {
-        title: 'Golf, CrossFit et plus',
+        title: 'CrossFit',
+        items: [
+          { name: 'La box Imperium', url: 'https://labox-imperium.fr', desc: 'La salle où je m\'entraîne quand je suis à Laroque, à cinq minutes en voiture : chemin de la Carrerasse, dans la zone artisanale de Saint-André. WOD, haltérophilie, gymnastique, cardio, et de la programmation personnalisée si vous préparez quelque chose. Ouvert du lundi au vendredi de 9 h à 20 h, et le samedi matin de 10 h à 12 h. Pour une séance à l\'unité pendant votre séjour, appelez-les avant de passer.' },
+        ],
+      },
+      {
+        title: 'Golf, tennis et équitation',
         items: [
           { name: 'Golf', desc: '6 parcours dans un rayon de 60 km, en France et en Espagne : Saint-Cyprien, Falgos, Peralada, et PGA Catalunya, n°1 en Espagne.' },
-          { name: 'CrossFit', desc: 'Box à 5 minutes en voiture, drop-ins vacanciers bienvenus, ouverte l\'été.' },
           { name: 'Tennis et padel', desc: 'Clubs à Laroque et dans les villages voisins.' },
           { name: 'Équitation', desc: 'Centres équestres à proximité, balades dans les Albères.' },
         ],
