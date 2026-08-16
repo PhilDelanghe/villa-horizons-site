@@ -252,6 +252,20 @@ export default {
       'Le quartier où se trouve la villa n\'existait pas encore. En 1970, il n\'y avait ici que des vignes. Nos voisins du dessus ont bâti leur maison en 1975 et se souviennent d\'avoir été seuls au milieu des rangs ; l\'essentiel des maisons autour est sorti de terre dans les années 2000.',
       'Puis les Anglais sont arrivés, à partir des années 80, séduits par le climat, et ils ont fait venir leurs amis. Aujourd\'hui une dizaine de nationalités vivent à Laroque à l\'année. Le village est devenu franchement cosmopolite, ce qui n\'aurait pas manqué de surprendre mes grands-parents.',
     ],
+    archivesTitle: 'Les entrées du village, autrefois',
+    archivesIntro: 'Deux cartes anciennes prises aux entrées de Laroque. La seconde vient des archives de la famille de Philippe.',
+    archives: [
+      {
+        src: '/photos/cartes-postales/laroque-vue-generale-brun.jpg',
+        alt: 'Carte postale ancienne, entrée de Laroque avec un poteau indicateur et trois passants',
+        caption: '« Pyrénées-Orientales, 11. Vue générale de Laroque », Librairie Brun frères, rue des Augustins à Perpignan. Une route en terre, trois passants et un chien, et un poteau indicateur qui pointe vers Villelongue, Montesquieu, Sorède et Argelès. Les mêmes directions qu\'aujourd\'hui.',
+      },
+      {
+        src: '/photos/archives/cp-laroque-route-sorede.jpg',
+        alt: 'Carte postale ancienne, l\'entrée de Laroque et la route de Sorède bordée de platanes',
+        caption: '« Laroque des Albères, entrée et route de Sorède. » L\'allée de platanes, les promeneurs du dimanche, la montagne au fond. Cette carte-là est dans les archives de la famille, et pour cause : la maison du grand-père de Philippe est au bout de la rue.',
+      },
+    ],
     postcard: {
       src: '/photos/archives/cp-laroque-vue-saint-sebastien.jpg',
       alt: 'Carte postale ancienne de Laroque-des-Albères, le vieux village vu depuis Saint-Sébastien',
@@ -260,7 +274,7 @@ export default {
     },
     aPiedTitle: 'À pied depuis la villa',
     aPied: [
-      { name: 'La place du village', maps: false, desc: 'Cinq minutes de marche, et tout le quotidien tient sur une place : pharmacie, boulangerie, primeur, pizza à emporter, boucherie.' },
+      { name: 'La place du village', maps: false, to: { href: '/manger/', label: 'Où on aime manger' }, desc: 'Cinq minutes de marche, et tout le quotidien tient sur une place : pharmacie, boulangerie, primeur, boucherie, pizza à emporter, la presse et le tabac, l\'office de tourisme, et une terrasse pour le café du matin, ou la première bière selon l\'heure.' },
       { name: 'Boucherie Salvi', desc: 'Didier Salvi, champion du monde de la saucisse catalane, boucher du village depuis plus de 20 ans. Aussi de l\'agneau catalan et des bœufs de concours élevés dans les pâturages de montagne.' },
       { name: 'Huile d\'olive : Le Moulin du Llevant', desc: 'Littéralement en face de la villa, 44 bis avenue des Baléares : moulin familial bio, variétés locales, médailles d\'or, visites gratuites. Et explorez, les moulins ne manquent pas dans les Albères.' },
       { name: 'Le marché', maps: false, desc: 'Le mercredi matin sur la place. Petit, mais c\'est celui où on croise tout le village.' },
@@ -281,7 +295,19 @@ export default {
       { name: 'Zone commerciale d\'Argelès-sur-Mer', desc: 'Rue des Milans, à l\'entrée d\'Argelès : un immense Intermarché et toutes les enseignes, pour les grosses courses du premier jour.' },
     ],
     baladesTitle: 'Les balades incontournables au départ du village',
-    balades: [
+        baladesArchives: [
+      {
+        src: '/photos/archives/cp-laroque-la-tour.jpg',
+        alt: 'Carte postale ancienne de la tour de Laroque au-dessus du vieux village',
+        caption: '« Laroque-des-Albères, La Tour. » Une tour élancée, coiffée d\'un ouvrage ajouré, au-dessus du vieux village. Ce n\'est pas ce qu\'on voit aujourd\'hui : après l\'effondrement de 1890, les ruines n\'ont été partiellement restaurées qu\'en 2006.',
+      },
+      {
+        src: '/photos/archives/cp-laroque-fontaine-eau-minerale.jpg',
+        alt: 'Carte postale ancienne colorisée de la fontaine d\'eau minérale de Laroque-des-Albères',
+        caption: '« Fontaine d\'eau minérale de Laroque-des-Albères », édition Costéja. Une carte colorisée, avec des promeneurs installés dans le lit du ruisseau. Le but de promenade n\'a pas changé.',
+      },
+    ],
+balades: [
       { name: 'La tour de Laroque, au coucher du soleil', desc: 'On monte par les ruelles du vieux village jusqu\'à la tour, seul vestige du donjon du château féodal, dont le reste s\'est effondré en 1890. C\'était une tour de guet : elle communiquait par signaux avec Elne et les autres tours de la crête des Albères. À son pied, deux tables d\'orientation, une vers la plaine et la mer, l\'autre vers la montagne : le Canigou à l\'ouest, le pic Néoulous au sud, toute la plaine du Roussillon au nord et la Méditerranée à l\'est. En fin de journée, c\'est la balade qu\'on fait faire à tous ceux qui viennent nous voir.' },
       { name: 'Les Caranques', desc: 'Le sentier remonte la rivière jusqu\'à des vasques naturelles creusées dans la roche, en amont de la prise d\'eau du canal d\'arrosage. Des générations de gamins du village s\'y sont baignées ; la baignade y est aujourd\'hui interdite par arrêté municipal, mais l\'endroit et la marche pour y aller valent largement le détour.' },
       { name: 'La fontaine minérale', maps: false, desc: 'Un petit sentier mène à une source ferrugineuse et naturellement gazeuse qui sort de la roche. Le goût est franchement métallique, quelque part entre l\'eau pétillante et le clou rouillé : à goûter une fois, pour l\'expérience. On reste sur le sentier, la rive d\'en face est exposée aux chutes de pierres.' },

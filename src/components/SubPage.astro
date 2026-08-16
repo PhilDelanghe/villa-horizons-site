@@ -13,6 +13,10 @@ import Cta from './Cta.astro';
 //   de famille, chaque pièce dans son cadre avec sa légende.
 const { t, page, title, intro, sections = [], paragraphs = [], image, imageAlt, postcard, features = [], archives } = Astro.props;
 
+// item.to : { href, label } -> lien vers une autre page du site. Le href s'écrit
+// depuis la racine de la langue ('/manger/'), le préfixe /en est ajouté ici.
+const base = t.lang === 'en' ? '/en' : '';
+
 const mapsUrl = (name, ctx) => {
   const paren = (name.match(/\(([^)]*)\)/) || [])[1] || '';
   const base = name.replace(/\s*\([^)]*\)/g, '').replace(/^[^:]*:\s*/, '');
@@ -110,7 +114,7 @@ const mapsUrl = (name, ctx) => {
                 {item.time && <span class="card-time">{item.time}</span>}
               </div>
               <p>{item.desc}</p>
-              {((s.maps && item.maps !== false) || item.url) && (
+              {((s.maps && item.maps !== false) || item.url || item.to) && (
                 <p class="maps-link">
                   {s.maps && item.maps !== false && (
                     <a href={mapsUrl(item.name, s.maps)} target="_blank" rel="noopener">Google Maps ↗</a>
@@ -120,6 +124,7 @@ const mapsUrl = (name, ctx) => {
                       {t.lang === 'en' ? 'Website ↗' : 'Site officiel ↗'}
                     </a>
                   )}
+                  {item.to && <a href={`${base}${item.to.href}`}>{item.to.label} →</a>}
                 </p>
               )}
             </div>

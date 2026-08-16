@@ -252,6 +252,20 @@ export default {
       'The neighbourhood where the villa stands did not exist yet. In 1970 there was nothing here but vines. Our neighbours up the hill built their house in 1975 and remember being alone in the middle of the rows; most of the houses around went up in the 2000s.',
       'Then the English arrived, from the 1980s onwards, won over by the climate, and they brought their friends. Today around ten nationalities live in Laroque year-round. The village has become genuinely cosmopolitan, which would have thoroughly surprised my grandparents.',
     ],
+    archivesTitle: 'The ways into the village, back then',
+    archivesIntro: 'Two old postcards taken at the entrances to Laroque. The second comes from Philippe\'s family archives.',
+    archives: [
+      {
+        src: '/photos/cartes-postales/laroque-vue-generale-brun.jpg',
+        alt: 'Vintage postcard, the entrance to Laroque with a signpost and three passers-by',
+        caption: '"Pyrénées-Orientales, 11. General view of Laroque", Librairie Brun frères, rue des Augustins in Perpignan. A dirt road, three passers-by and a dog, and a signpost pointing to Villelongue, Montesquieu, Sorède and Argelès. The same directions as today.',
+      },
+      {
+        src: '/photos/archives/cp-laroque-route-sorede.jpg',
+        alt: 'Vintage postcard, the entrance to Laroque and the plane-lined road to Sorède',
+        caption: '"Laroque des Albères, entrance and road to Sorède." The avenue of plane trees, the Sunday strollers, the mountain behind. This one is in the family archives, and for good reason: Philippe\'s grandfather\'s house stands at the end of the street.',
+      },
+    ],
     postcard: {
       src: '/photos/archives/cp-laroque-vue-saint-sebastien.jpg',
       alt: 'Vintage postcard of Laroque-des-Albères, the old village seen from Saint-Sébastien',
@@ -260,7 +274,7 @@ export default {
     },
     aPiedTitle: 'On foot from the villa',
     aPied: [
-      { name: 'The village square', maps: false, desc: 'A five-minute walk, and everything you need day to day fits on one square: pharmacy, bakery, greengrocer, takeaway pizza, butcher.' },
+      { name: 'The village square', maps: false, to: { href: '/manger/', label: 'Where we like to eat' }, desc: 'A five-minute walk, and everything you need day to day fits on one square: pharmacy, bakery, greengrocer, butcher, takeaway pizza, the newsagent and tobacconist, the tourist office, and a terrace for your morning coffee, or your first beer depending on the hour.' },
       { name: 'Boucherie Salvi', desc: 'Didier Salvi, world champion of Catalan sausage, the village butcher for over 20 years. Also Catalan lamb and prize-winning beef raised in the mountain pastures.' },
       { name: 'Olive oil: Le Moulin du Llevant', desc: 'Literally across the street from the villa, 44 bis avenue des Baléares: family-run organic mill, local varieties, gold medals, free tours. And keep exploring, the Albères are full of mills.' },
       { name: 'The market', maps: false, desc: 'Wednesday mornings on the square. Small, but it is the one where you run into the whole village.' },
@@ -281,7 +295,19 @@ export default {
       { name: 'Argelès-sur-Mer retail park', desc: 'Rue des Milans, at the entrance to Argelès: a huge Intermarché and every chain store, for the big first-day shop.' },
     ],
     baladesTitle: 'The walks you should not miss, straight from the village',
-    balades: [
+        baladesArchives: [
+      {
+        src: '/photos/archives/cp-laroque-la-tour.jpg',
+        alt: 'Vintage postcard of the tower of Laroque above the old village',
+        caption: '"Laroque-des-Albères, La Tour." A slender tower topped with an openwork crown, above the old village. It is not what you see today: after the collapse of 1890, the ruins were only partly restored in 2006.',
+      },
+      {
+        src: '/photos/archives/cp-laroque-fontaine-eau-minerale.jpg',
+        alt: 'Vintage hand-coloured postcard of the mineral spring of Laroque-des-Albères',
+        caption: '"Mineral water fountain of Laroque-des-Albères", Costéja edition. A hand-coloured card, with walkers settled in the bed of the stream. The walk has not changed.',
+      },
+    ],
+balades: [
       { name: 'The Laroque tower, at sunset', desc: 'You climb up through the lanes of the old village to the tower, the only remaining piece of the feudal castle\'s keep, the rest of which collapsed in 1890. It was a watchtower, signalling to Elne and to the other towers along the Albères ridge. At its foot, two orientation tables, one facing the plain and the sea, the other the mountains: the Canigou to the west, the Pic Néoulous to the south, the whole Roussillon plain to the north and the Mediterranean to the east. Late in the day, it is the walk we take everyone on when they visit.' },
       { name: 'Les Caranques', desc: 'The path follows the river up to natural basins carved into the rock, just above the irrigation canal intake. Generations of village kids swam here; swimming is now prohibited by municipal order, but the place and the walk up to it are well worth it.' },
       { name: 'The mineral spring', maps: false, desc: 'A short trail leads to an iron-rich, naturally sparkling spring coming straight out of the rock. The taste is frankly metallic, somewhere between fizzy water and a rusty nail: worth trying once, for the experience. Stay on the path, the far bank is exposed to falling rocks.' },

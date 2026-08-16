@@ -7,11 +7,11 @@ const sections = [
   { title: t.village.aPiedTitle, items: t.village.aPied, maps: 'Laroque-des-Albères' },
   { title: t.village.voitureTitle, items: t.village.voiture, maps: 'Laroque-des-Albères' },
   { title: t.village.quinzeTitle, items: t.village.quinze, maps: true },
-  { title: t.village.baladesTitle, items: t.village.balades, maps: 'Laroque-des-Albères' },
+  { title: t.village.baladesTitle, items: t.village.balades, maps: 'Laroque-des-Albères', archives: t.village.baladesArchives },
   { title: t.village.distancesTitle, items: t.village.distances },
 ];
 ---
 
 <Base t={t} page="village">
-  <SubPage t={t} page="village" title={t.village.title} intro={t.village.intro} paragraphs={t.village.paragraphs} postcard={t.village.postcard} sections={sections} />
+  <SubPage t={t} page="village" title={t.village.title} intro={t.village.intro} paragraphs={t.village.paragraphs} postcard={t.village.postcard} archives={{ title: t.village.archivesTitle, intro: t.village.archivesIntro, items: t.village.archives }} sections={sections} />
 </Base>
