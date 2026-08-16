@@ -676,7 +676,7 @@ balades: [
       {
         src: '/photos/archives/enveloppe-prats-1944.jpg',
         alt: 'Envelope addressed to Monsieur Prats Pierre at Laroque-des-Albères, posted in Paris in February 1944',
-        caption: 'A letter for Monsieur Prats Pierre, at Laroque-des-Albères, posted in Paris on 28 February 1944. Philippe\'s grandfather, during the war.',
+        caption: 'A letter for Monsieur Prats Pierre, at Laroque-des-Albères, posted in Paris on 28 February 1944 at 11.45 am, from the avenue de Laumière office. This is the wartime correspondence between Philippe\'s grandfather and his wife, who had stayed in Paris, avenue Ambroise-Rendu. Two details worth a look: the 60 centime stamp carries Pétain\'s profile, and the address gives no street at all. The name and the village were enough.',
       },
     ],
     paragraphs: [

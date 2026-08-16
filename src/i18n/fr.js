@@ -608,7 +608,7 @@ balades: [
       {
         src: '/photos/archives/enveloppe-prats-1944.jpg',
         alt: 'Enveloppe adressée à Monsieur Prats Pierre à Laroque-des-Albères, postée à Paris en février 1944',
-        caption: 'Une lettre pour Monsieur Prats Pierre, à Laroque-des-Albères, postée à Paris le 28 février 1944. Le grand-père de Philippe, pendant la guerre.',
+        caption: 'Une lettre pour Monsieur Prats Pierre, à Laroque-des-Albères, postée à Paris le 28 février 1944 à 11 h 45, bureau de l\'avenue de Laumière. C\'est la correspondance de guerre du grand-père de Philippe avec sa femme, restée à Paris, avenue Ambroise-Rendu. Deux détails valent le coup d\'œil : le timbre de 60 centimes porte l\'effigie de Pétain, et l\'adresse ne comporte aucune rue. Le nom et le village suffisaient.',
       },
     ],
     paragraphs: [
