@@ -4,4 +4,7 @@ dist/
 .astro/
 
 # Dossier de dépôt des photos brutes avant tri et optimisation. Non publié.
-Photos/
+# Barre oblique initiale obligatoire : sans elle, le motif attrape aussi
+# public/photos/ (le disque macOS est insensible à la casse) et toute nouvelle
+# photo du site est ignorée en silence.
+/Photos/
