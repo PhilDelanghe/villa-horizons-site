@@ -348,6 +348,26 @@ export default {
     title: 'See',
     intro:
       'This corner of Catalonia is packed with art and heritage: the Fauvists invented color in Collioure, Picasso stayed in Céret, Dalí was born in Figueres, and Romanesque abbeys dot the Albères.',
+    features: [
+      {
+        title: 'Paulilles, a beach that used to be a dynamite factory',
+        time: '30 min',
+        image: '/photos/lieux/paulilles-plage.jpg',
+        imageAlt: 'The cove of Paulilles between Port-Vendres and Banyuls, the beach with a Catalan boat in the foreground',
+        paragraphs: [
+          'Between Port-Vendres and Banyuls, the cove of Paulilles looks like an ordinary holiday beach, with its coves and its eucalyptus trees. For more than a century it was an explosives factory.',
+          'The plant opened on 5 December 1870, in the middle of the war against Prussia. It was founded by Paul Barbe, who represented Alfred Nobel in France, and Gambetta authorised the site precisely because you could not get any further from the enemy. By 1880 it was producing over five thousand tonnes of dynamite a year, and it would employ as many as three hundred people.',
+          'What moves me in this story is who worked there. A local workforce, often farmers and fishermen who kept tending their vines and olive trees on the side, with a great many women on the shop floor. People came down to make sticks of dynamite to put a little butter on the bread, between one fishing season and the next harvest.',
+          'Some paid dearly for it. On 24 January 1882 an explosion killed twenty people. Another killed five in April 1885, and three more in the mid-1930s. During the First World War, around ten conscripted Annamese workers died here too. A plaque on the site commemorates the workers killed at the factory.',
+          'Production stopped in 1984 and the last activities in 1991. The Conservatoire du littoral bought the thirty-two hectares of wasteland in 1998, and the site reopened to the public in June 2008, decontaminated and given back to the sea. The visitor centre, which is free to enter, tells the whole story, and you can also see the workshop where Catalan boats are restored.',
+          'That is what makes the place worth half a day. You visit the exhibition, taste next door at Les Clos de Paulilles, the estate the Cazes family owns in the cove, have a drink looking at the sea, then head off along the coastal path, which some call the customs officers\' path and others the smugglers\' path, until you find a quiet cove. It is four kilometres to Cap Béar. And you end the day thinking about the people who came here to make explosives, some of them at the cost of their lives.',
+        ],
+        links: [
+          { label: 'Paulilles visitor centre', url: 'https://www.tourisme-pyreneesorientales.com/destination/maison-du-site-de-lanse-de-paulilles-port-vendres-fr-5743194/' },
+          { label: 'Les Clos de Paulilles', url: 'https://www.lesclosdepaulilles.com/' },
+        ],
+      },
+    ],
     sections: [
       {
         title: 'Art',

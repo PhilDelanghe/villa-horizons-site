@@ -348,6 +348,26 @@ export default {
     title: 'Voir',
     intro:
       'Le coin est un concentré d\'art et de patrimoine catalan : les fauvistes ont inventé la couleur à Collioure, Picasso a séjourné à Céret, Dalí est né à Figueres, et les abbayes romanes jalonnent les Albères.',
+    features: [
+      {
+        title: 'Paulilles, une plage qui était une usine de dynamite',
+        time: '30 mn',
+        image: '/photos/lieux/paulilles-plage.jpg',
+        imageAlt: 'L\'anse de Paulilles entre Port-Vendres et Banyuls, la plage et une barque catalane au premier plan',
+        paragraphs: [
+          'Entre Port-Vendres et Banyuls, l\'anse de Paulilles ressemble à une plage de vacances ordinaire, avec ses criques et ses eucalyptus. Elle a été pendant plus d\'un siècle une usine d\'explosifs.',
+          'L\'usine ouvre le 5 décembre 1870, en pleine guerre contre la Prusse. Elle est fondée par Paul Barbe, qui représente Alfred Nobel en France, et Gambetta autorise l\'installation ici précisément parce qu\'on ne pouvait pas être plus loin de l\'ennemi. En 1880 elle produit plus de cinq mille tonnes de dynamite par an, et elle emploiera jusqu\'à trois cents personnes.',
+          'Ce qui me touche dans cette histoire, c\'est qui travaillait là. Une main d\'œuvre du pays, souvent des paysans et des pêcheurs qui continuaient à côté leurs vignes et leurs oliviers, avec beaucoup de femmes à l\'atelier. On descendait fabriquer des bâtons de dynamite pour mettre du beurre dans les épinards, entre deux campagnes de pêche et deux vendanges.',
+          'Certains l\'ont payé cher. Le 24 janvier 1882, une explosion tue vingt personnes. Une autre en fait cinq en avril 1885, trois encore au milieu des années trente. Pendant la Première Guerre mondiale, une dizaine de travailleurs annamites réquisitionnés meurent ici aussi. Une plaque commémore sur le site les ouvriers morts à la dynamiterie.',
+          'La production s\'arrête en 1984, les dernières activités en 1991. Le Conservatoire du littoral rachète les trente-deux hectares de friche en 1998, et le site rouvre au public en juin 2008, dépollué et rendu à la mer. La Maison du site, dont l\'entrée est libre, raconte tout cela, et on y voit aussi l\'atelier où sont restaurées les barques catalanes.',
+          'C\'est ce qui fait de l\'endroit une bonne demi-journée. On visite l\'exposition, on va déguster à côté aux Clos de Paulilles, le domaine que la maison Cazes possède dans l\'anse, on prend l\'apéro face à la mer, puis on part crapahuter sur le sentier du littoral, celui que les uns appellent sentier des douaniers et les autres sentier des contrebandiers, jusqu\'à trouver une crique tranquille. Il y a quatre kilomètres jusqu\'au cap Béar. Et on finit la journée en pensant à ceux qui venaient ici fabriquer des explosifs, pour certains au prix de leur vie.',
+        ],
+        links: [
+          { label: 'Maison du site de Paulilles', url: 'https://www.tourisme-pyreneesorientales.com/destination/maison-du-site-de-lanse-de-paulilles-port-vendres-fr-5743194/' },
+          { label: 'Les Clos de Paulilles', url: 'https://www.lesclosdepaulilles.com/' },
+        ],
+      },
+    ],
     sections: [
       {
         title: 'Art',

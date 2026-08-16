@@ -7,7 +7,9 @@ import Cta from './Cta.astro';
 // section.maps : true ou chaîne de contexte géographique -> lien Google Maps auto sur chaque carte
 // item.maps === false : pas de lien pour cette carte
 // postcard: { src, alt, caption } -> carte postale ancienne rendue avec sa légende
-const { t, page, title, intro, sections = [], paragraphs = [], image, imageAlt, postcard } = Astro.props;
+// features: [{ title, time, image, imageAlt, paragraphs, links }] -> encart illustré sur fond
+//   clair, pour un sujet qui mérite un texte suivi et pas une carte de lieu.
+const { t, page, title, intro, sections = [], paragraphs = [], image, imageAlt, postcard, features = [] } = Astro.props;
 
 const mapsUrl = (name, ctx) => {
   const paren = (name.match(/\(([^)]*)\)/) || [])[1] || '';
@@ -47,6 +49,26 @@ const mapsUrl = (name, ctx) => {
       </figure>
     </section>
   )}
+
+  {features.map((f) => (
+    <section class="section-alt feature-wrap">
+      <article class="feature">
+        {f.image && <img class="feature-img" src={f.image} alt={f.imageAlt} loading="lazy" />}
+        <div class="feature-body">
+          <div class="card-head">
+            <h2>{f.title}</h2>
+            {f.time && <span class="card-time">{f.time}</span>}
+          </div>
+          {f.paragraphs.map((p) => <p>{p}</p>)}
+          {f.links && (
+            <p class="maps-link">
+              {f.links.map((l) => <a href={l.url} target="_blank" rel="noopener">{l.label} ↗</a>)}
+            </p>
+          )}
+        </div>
+      </article>
+    </section>
+  ))}
 
   {sections.map((s) => (
     <section class="section">

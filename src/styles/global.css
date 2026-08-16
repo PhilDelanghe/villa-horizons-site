@@ -140,6 +140,27 @@ a { color: var(--accent); }
   padding: 0.7rem 0.2rem 0.6rem; line-height: 1.45;
 }
 
+/* Encart illustré : un sujet qui demande un texte suivi, posé sur fond clair pour
+   qu'on le distingue des cartes de lieux. L'image passe au-dessus en une colonne. */
+.feature-wrap { padding: 3.5rem 5vw; }
+.feature {
+  display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 2.2rem;
+  align-items: start; max-width: var(--max); margin: 0 auto;
+}
+/* L'image accompagne la lecture plutôt que de laisser un vide : le texte d'un
+   encart est bien plus haut qu'elle. Sous la barre de nav collante, d'où le top. */
+.feature-img {
+  width: 100%; border-radius: var(--radius); display: block;
+  box-shadow: 0 3px 16px rgba(31, 42, 51, 0.18);
+  position: sticky; top: 5.5rem;
+}
+.feature-body h2 { margin-bottom: 0; }
+.feature-body p { max-width: 65ch; margin-bottom: 0.9rem; }
+.feature-body .card-head { margin-bottom: 0.9rem; }
+@media (max-width: 720px) {
+  .feature { grid-template-columns: 1fr; gap: 1.4rem; }
+}
+
 /* Buttons */
 .btn {
   display: inline-block; background: var(--accent-warm); color: var(--white);
