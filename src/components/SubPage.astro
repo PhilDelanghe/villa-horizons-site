@@ -9,7 +9,9 @@ import Cta from './Cta.astro';
 // postcard: { src, alt, caption } -> carte postale ancienne rendue avec sa légende
 // features: [{ title, time, image, imageAlt, paragraphs, links }] -> encart illustré sur fond
 //   clair, pour un sujet qui mérite un texte suivi et pas une carte de lieu.
-const { t, page, title, intro, sections = [], paragraphs = [], image, imageAlt, postcard, features = [] } = Astro.props;
+// archives: { title, intro, items: [{ src, alt, caption }] } -> planche de documents
+//   de famille, chaque pièce dans son cadre avec sa légende.
+const { t, page, title, intro, sections = [], paragraphs = [], image, imageAlt, postcard, features = [], archives } = Astro.props;
 
 const mapsUrl = (name, ctx) => {
   const paren = (name.match(/\(([^)]*)\)/) || [])[1] || '';
@@ -47,6 +49,28 @@ const mapsUrl = (name, ctx) => {
         <img src={postcard.src} alt={postcard.alt} loading="lazy" />
         <figcaption>{postcard.caption}</figcaption>
       </figure>
+    </section>
+  )}
+
+  {archives && (
+    <section class="section-alt archives-wrap">
+      <div class="archives-head">
+        <h2>{archives.title}</h2>
+        {archives.intro && <p class="intro">{archives.intro}</p>}
+      </div>
+      <div class="archives">
+        {/* Pas de loading="lazy" ici : les documents ont des formats très
+            différents, donc pas de dimensions déclarées, donc une hauteur nulle
+            avant chargement. Toute la grille s'effondrait à quelques pixels et
+            le navigateur ne déclenchait jamais le chargement. Deux ou trois
+            images par page, on peut les charger franchement. */}
+        {archives.items.map((a) => (
+          <figure class="archive">
+            <img src={a.src} alt={a.alt} />
+            <figcaption>{a.caption}</figcaption>
+          </figure>
+        ))}
+      </div>
     </section>
   )}
 

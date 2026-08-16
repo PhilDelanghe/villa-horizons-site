@@ -411,12 +411,26 @@ export default {
       'Même histoire pour le mutage, cette technique qui consiste à arrêter la fermentation en ajoutant de l\'alcool, et qu\'on retrouve à Porto et à Madère. La tradition locale l\'attribue à Arnaud de Villeneuve, médecin à la cour de Perpignan, en 1285. C\'est une jolie histoire, mais le traité sur lequel elle repose est aujourd\'hui considéré comme apocryphe, et le procédé lui a probablement préexisté de plusieurs siècles. Ce qui est certain, en revanche, c\'est que les vins doux naturels ont obtenu leur statut fiscal particulier avec la loi Arago de 1872 et la loi Pams de 1898, et qu\'ils comptent parmi les toutes premières appellations d\'origine contrôlées de France, en 1936. Le mutage donne des vins qui se gardent des décennies, parfois davantage.',
       'Le XIXe siècle a aussi vu naître les vins fortifiés aux plantes. Le plus célèbre survivant est le Byrrh, à base d\'écorces de quinquina, créé à Thuir en 1866 par les frères Violet. La cave se visite, elle abrite la plus grande cuve en chêne du monde, un million de litres, et comme Coca-Cola, la maison propose aujourd\'hui sa recette d\'origine à côté de la version modernisée.',
       'Pour mesurer ce qui a changé : un Français buvait cent quarante litres de vin par an en 1960. Il en boit quarante aujourd\'hui.',
-      'La petite histoire, maintenant. Mon arrière-grand-père avait des vignes et vendait sa récolte une fois l\'an au négociant. Mon grand-père était fonctionnaire, mais il gardait son lopin, qu\'il faisait vendanger par la famille et qu\'il portait à la cave coopérative pour en faire du gros rouge cinq étoiles à bouchon plastique. En échange, il récupérait un peu de gnôle à 96 degrés. Il en reste quelques bouteilles dans la maison familiale, auxquelles personne n\'ose toucher. Il reste aussi des marie-jeannes, ces bonbonnes de cinq ou dix litres, et quelques vieux tonneaux. Ma mère, elle, se souvient d\'avoir bu du vin rouge chaud et sucré quand elle avait un rhume, vers cinq ou six ans.',
+      'La petite histoire, maintenant. Mon arrière-grand-père avait des vignes et vendait sa récolte une fois l\'an au négociant. Mon grand-père était fonctionnaire, mais il gardait son lopin, qu\'il faisait vendanger par la famille et qu\'il portait à la cave coopérative pour en faire du gros rouge cinq étoiles à bouchon plastique. En échange, il récupérait un peu de gnôle à 96 degrés. Il en reste quelques bouteilles dans la maison familiale, auxquelles personne n\'ose toucher. Il reste aussi des dames-jeannes, ces bonbonnes de cinq ou dix litres, et quelques vieux tonneaux. Ma mère, elle, se souvient d\'avoir bu du vin rouge chaud et sucré quand elle avait un rhume, vers cinq ou six ans.',
       'Cette époque est révolue. Le vin a disparu des cantines le midi, la santé publique a fait son travail, et les vignerons ont dû se réinventer pour ne pas disparaître. Tous n\'y sont pas parvenus. Mais on est passé d\'une culture industrielle de masse, avec le sulfatage et la bouillie bordelaise, à des produits nettement plus qualitatifs. Le terroir sort toujours facilement des rouges à quinze ou seize degrés, mais ils sont plus légers qu\'avant, les blancs et les rosés se sont imposés, et le dernier venu est le rosé sans alcool. Cela peut sembler un oxymore, mais ces boissons sont un marché en forte croissance, pendant que le vin poursuit sa rétractation.',
       'C\'est pour cela qu\'on croise régulièrement des vignes abandonnées au bord des routes. Et en regardant celles qui sont encore cultivées, on imagine sans peine la difficulté du travail : pas question de mécaniser quoi que ce soit sur des pentes à vingt ou trente degrés, où la vendange se fait à dos d\'homme en plein cagnard. Il devient d\'ailleurs de plus en plus difficile de trouver des volontaires pour ce travail noble et ingrat. Les surfaces du département ont perdu cinq mille hectares en dix ans.',
       'La bonne nouvelle, pour l\'amateur, c\'est qu\'il reste une quantité incroyable de domaines et de produits à explorer. Et que les vignerons sont en général des passionnés qui adorent parler de ce qu\'ils font, pour peu qu\'on leur accorde un peu d\'attention. Autre bonne nouvelle : près d\'un tiers du vignoble est aujourd\'hui en bio, ce qui place le Roussillon parmi les régions les plus engagées de France.',
       'La balade peut commencer chez le caviste, ou le nez au vent. Rien qu\'autour de Laroque, il y a une vingtaine de domaines accessibles, et si l\'on tire vers Collioure et Banyuls, ou qu\'on remonte la vallée de l\'Agly, le choix ne manque pas.',
       'Un dernier mot sur les vins mutés, banyuls, rivesaltes, maury. Les vins se sont modernisés, mais cette tradition-là mérite d\'être redécouverte. On n\'est pas obligé de les boire comme nos grands-parents : on peut oser le très frais, les glaçons, les cocktails. Et il faut au moins une fois avoir vu les bonbonnes de verre posées en plein soleil, qui est la façon officielle d\'élever ces vins en milieu oxydatif. Une explosion d\'arômes qu\'on ne trouve nulle part ailleurs.',
+    ],
+    archivesTitle: 'Les papiers de l\'arrière-grand-père',
+    archivesIntro: 'Deux factures retrouvées dans les archives familiales, adressées à Laroque-des-Albères par le Syndicat Professionnel Agricole des Pyrénées-Orientales, à Perpignan.',
+    archives: [
+      {
+        src: '/photos/archives/facture-syndicat-agricole-1913-pressoir.jpg',
+        alt: 'Facture de 1913 pour un pressoir Marmonier et une pompe à balancier',
+        caption: 'Le 11 octobre 1913 : un pressoir Marmonier numéro 3, une pompe à balancier, des tuyaux de caoutchouc et des raccords de cuivre, pour 811 francs et 10 centimes. On équipait la cave.',
+      },
+      {
+        src: '/photos/archives/facture-syndicat-agricole-1914-avoine.jpg',
+        alt: 'Facture de janvier 1914 pour deux cent dix kilos d\'avoine grise',
+        caption: 'Le 12 janvier 1914 : deux cent dix kilos d\'avoine grise, les sacs et les droits d\'octroi, pour 51 francs 90. À la vigne s\'ajoutait une bête à nourrir.',
+      },
     ],
     features: [
       {
@@ -506,6 +520,25 @@ export default {
   apropos: {
     title: 'À propos de nous',
     intro: 'Villa Horizons, c\'est notre maison. Nous sommes Philippe et Suzana.',
+    archivesTitle: 'Ce qui reste dans les tiroirs',
+    archivesIntro: 'Quatre générations à Laroque, ça laisse des papiers. Voici trois pièces sorties des archives de la famille maternelle de Philippe, les Prats.',
+    archives: [
+      {
+        src: '/photos/archives/cp-laroque-pounet-pinous-miel.jpg',
+        alt: 'Carte postale ancienne, Pounet Pinous devant ses ruches à Laroque-des-Albères',
+        caption: '« Pounet Pinous, l\'Ami des Abeilles, le plus grand producteur de miel du Roussillon. » D\'après la famille, ce serait l\'arrière-arrière-grand-père de Philippe, celui qui avait les ruches.',
+      },
+      {
+        src: '/photos/archives/photo-orchestre-village.jpg',
+        alt: 'Photographie ancienne d\'un orchestre de village, mandoline et violons',
+        caption: 'Un orchestre de village : une mandoline, deux violons, et de quoi tenir le rythme. Un grand-oncle de Philippe est sur la photo.',
+      },
+      {
+        src: '/photos/archives/enveloppe-prats-1944.jpg',
+        alt: 'Enveloppe adressée à Monsieur Prats Pierre à Laroque-des-Albères, postée à Paris en février 1944',
+        caption: 'Une lettre pour Monsieur Prats Pierre, à Laroque-des-Albères, postée à Paris le 28 février 1944. Le grand-père de Philippe, pendant la guerre.',
+      },
+    ],
     paragraphs: [
       'La famille maternelle de Philippe est à Laroque-des-Albères depuis quatre générations : son arrière-arrière-grand-père y avait des ruches, son arrière-grand-père des vignes. C\'est dire si nous connaissions le coin avant d\'y vivre. En 2021, après vingt ans à Paris, nous avons eu envie de prendre l\'air, et nous nous sommes installés à Laroque.',
       'Suzana est née au Brésil, a vécu aux États-Unis, a travaillé en Angleterre et vit en France depuis vingt ans. Recevoir des voyageurs qui ne parlent pas français ne nous pose donc aucun problème, c\'est même une habitude.',

@@ -187,6 +187,28 @@ a { color: var(--accent); }
   .feature { grid-template-columns: 1fr; gap: 1.4rem; }
 }
 
+/* Planche d'archives : chaque pièce dans son cadre blanc, légèrement inclinée,
+   comme des documents posés sur une table. Même parti pris que .postcard, en
+   grille. Les inclinaisons alternent pour que ça ne fasse pas gabarit. */
+.archives-wrap { padding: 3.5rem 5vw; }
+.archives-head { max-width: var(--max); margin: 0 auto 2rem; }
+.archives {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem 1.6rem; max-width: var(--max); margin: 0 auto;
+}
+.archive {
+  background: var(--white); padding: 0.7rem 0.7rem 0.1rem; border-radius: 3px;
+  box-shadow: 0 3px 14px rgba(31, 42, 51, 0.2);
+  transform: rotate(-0.6deg);
+}
+.archive:nth-child(even) { transform: rotate(0.7deg); }
+.archive:nth-child(3n) { transform: rotate(-0.25deg); }
+.archive img { width: 100%; display: block; border-radius: 2px; }
+.archive figcaption {
+  font-size: 0.84rem; color: var(--ink-soft); font-style: italic;
+  padding: 0.6rem 0.2rem 0.6rem; line-height: 1.45;
+}
+
 /* Buttons */
 .btn {
   display: inline-block; background: var(--accent-warm); color: var(--white);

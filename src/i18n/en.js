@@ -471,12 +471,26 @@ export default {
       'The same goes for mutage, the technique of halting fermentation by adding spirit, also used in Port and Madeira. Local tradition credits Arnaud de Villeneuve, a physician at the court of Perpignan, in 1285. It is a fine story, but the treatise it rests on is now considered apocryphal, and the method most likely predates him by centuries. What is certain is that these sweet wines gained their particular tax status through the Arago law of 1872 and the Pams law of 1898, and that they are among the very first controlled appellations in France, in 1936. Mutage produces wines that keep for decades, sometimes far longer.',
       'The nineteenth century also gave rise to wines fortified with plants. The most famous survivor is Byrrh, based on cinchona bark, created in Thuir in 1866 by the Violet brothers. The cellars can be visited, they hold the largest oak vat in the world at a million litres, and like Coca-Cola the house now offers its original recipe alongside the modernised one.',
       'To measure what has changed: a French person drank one hundred and forty litres of wine a year in 1960. Today it is forty.',
-      'Now the family story. My great-grandfather had vines and sold his harvest once a year to the merchant. My grandfather was a civil servant, but he kept his patch, had the family pick it, and took it to the cooperative to be turned into rough red wine with a plastic cork. In exchange he received a little 96-proof spirit. A few bottles remain in the family house, which nobody dares open. So do some marie-jeannes, those five and ten litre demijohns, and a few old barrels. My mother remembers being given hot sweetened red wine for a cold, at the age of five or six.',
+      'Now the family story. My great-grandfather had vines and sold his harvest once a year to the merchant. My grandfather was a civil servant, but he kept his patch, had the family pick it, and took it to the cooperative to be turned into rough red wine with a plastic cork. In exchange he received a little 96-proof spirit. A few bottles remain in the family house, which nobody dares open. So do some dames-jeannes, those five and ten litre demijohns, and a few old barrels. My mother remembers being given hot sweetened red wine for a cold, at the age of five or six.',
       'That era is over. Wine disappeared from school canteens at lunchtime, public health did its work, and growers had to reinvent themselves or vanish. Not all of them managed it. But we have moved from mass industrial farming, with its copper sulphate spraying, to distinctly better wines. The terroir still yields reds at fifteen or sixteen degrees, but they are lighter than they were, whites and rosés have taken their place, and the latest arrival is alcohol-free rosé. It may sound like a contradiction in terms, but these drinks are a fast-growing market, while wine keeps contracting.',
       'That is why you regularly pass abandoned vines by the roadside. And looking at the ones still worked, the difficulty is easy to imagine: nothing can be mechanised on slopes of twenty or thirty degrees, where the harvest is carried on people\'s backs in full sun. Finding volunteers for that noble, thankless work gets harder every year. The department has lost five thousand hectares of vines in ten years.',
       'The good news, for anyone who enjoys wine, is that a staggering number of estates and styles remain to be explored. And that growers are, as a rule, enthusiasts who love talking about what they do, provided you give them a little attention. Another piece of good news: nearly a third of the vineyard is now farmed organically, which puts Roussillon among the most committed regions in France.',
       'The wandering can start at a wine shop, or with no plan at all. Around Laroque alone there are a good twenty estates open to visitors, and if you head towards Collioure and Banyuls, or up the Agly valley, there is no shortage of choice.',
       'A last word on the fortified wines, banyuls, rivesaltes, maury. Wines have modernised, but this tradition deserves rediscovering. You are not obliged to drink them the way our grandparents did: try them very cold, over ice, in cocktails. And you should at least once see the glass demijohns sitting out in full sun, which is the official way these wines are aged in oxidative conditions. An explosion of aromas you will not find anywhere else.',
+    ],
+    archivesTitle: 'The great-grandfather\'s paperwork',
+    archivesIntro: 'Two invoices found in the family archives, sent to Laroque-des-Albères by the Pyrénées-Orientales farmers\' union in Perpignan.',
+    archives: [
+      {
+        src: '/photos/archives/facture-syndicat-agricole-1913-pressoir.jpg',
+        alt: 'A 1913 invoice for a Marmonier wine press and a rocker pump',
+        caption: '11 October 1913: a Marmonier number 3 wine press, a rocker pump, rubber hose and copper fittings, for 811 francs and 10 centimes. The cellar was being kitted out.',
+      },
+      {
+        src: '/photos/archives/facture-syndicat-agricole-1914-avoine.jpg',
+        alt: 'A January 1914 invoice for two hundred and ten kilos of grey oats',
+        caption: '12 January 1914: two hundred and ten kilos of grey oats, the sacks and the toll duty, for 51 francs 90. Besides the vines, there was an animal to feed.',
+      },
     ],
     features: [
       {
@@ -566,6 +580,25 @@ export default {
   apropos: {
     title: 'About us',
     intro: 'Villa Horizons is our home. We are Philippe and Suzana.',
+    archivesTitle: 'What is left in the drawers',
+    archivesIntro: 'Four generations in Laroque leaves a paper trail. Here are three pieces from the archives of Philippe\'s mother\'s family, the Prats.',
+    archives: [
+      {
+        src: '/photos/archives/cp-laroque-pounet-pinous-miel.jpg',
+        alt: 'Vintage postcard, Pounet Pinous in front of his beehives at Laroque-des-Albères',
+        caption: '"Pounet Pinous, the Bees\' Friend, the biggest honey producer in Roussillon." Family lore has it that this is Philippe\'s great-great-grandfather, the one with the hives.',
+      },
+      {
+        src: '/photos/archives/photo-orchestre-village.jpg',
+        alt: 'Old photograph of a village band with mandolin and violins',
+        caption: 'A village band: a mandolin, two violins and enough to keep time. One of Philippe\'s great-uncles is in the picture.',
+      },
+      {
+        src: '/photos/archives/enveloppe-prats-1944.jpg',
+        alt: 'Envelope addressed to Monsieur Prats Pierre at Laroque-des-Albères, posted in Paris in February 1944',
+        caption: 'A letter for Monsieur Prats Pierre, at Laroque-des-Albères, posted in Paris on 28 February 1944. Philippe\'s grandfather, during the war.',
+      },
+    ],
     paragraphs: [
       'Philippe\'s mother\'s family has been in Laroque-des-Albères for four generations: his great-great-grandfather kept beehives here, his great-grandfather grew vines. Safe to say we knew the area before living here. In 2021, after twenty years in Paris, we needed fresh air and decided to settle in Laroque.',
       'Suzana was born in Brazil, lived in the United States, worked in England and has lived in France for twenty years. Hosting guests who don\'t speak French is not a problem for us, it\'s a habit.',
