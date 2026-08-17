@@ -537,7 +537,8 @@ balades: [
       {
         title: 'CrossFit',
         items: [
-          { name: 'La box Imperium', url: 'https://labox-imperium.fr', desc: 'The gym where I train when I am in Laroque, five minutes away by car: chemin de la Carrerasse, in the Saint-André industrial zone. The owner is my coach, and a friend. WOD, weightlifting, gymnastics, cardio, and personalised programming if you are working towards something. Holiday drop-ins are welcome, just let them know you are coming. Open Monday to Friday from 9 am to 8 pm, and Saturday morning from 10 am to noon.' },
+          { name: 'La box Imperium', url: 'https://labox-imperium.fr', desc: 'The gym where I train when I am in Laroque, five minutes away by car: chemin de la Carrerasse, in the Saint-André industrial zone. WOD, weightlifting, gymnastics, cardio, and personalised programming if you are working towards something. Holiday drop-ins are welcome, just let them know you are coming. Open Monday to Friday from 9 am to 8 pm, and Saturday morning from 10 am to noon.' },
+          { name: 'Jaison Longearet', url: 'https://labox-imperium.fr/jaison-longearet/', desc: 'The owner of the box is also my personal coach, and a friend. Above all he is an elite athlete: 7th in France and 45th in Europe at the 2023 Open, then 37th at the European semi-finals, and 1st in France at the 2024 Open. In May 2025 he went to take on the world\'s best at the World Fitness Project in Indianapolis, three days and eight events. So if you want to work on something specific during your stay, you have come to the right place.' },
         ],
       },
       {

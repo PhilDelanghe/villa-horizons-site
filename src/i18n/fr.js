@@ -722,7 +722,8 @@ balades: [
       {
         title: 'CrossFit',
         items: [
-          { name: 'La box Imperium', url: 'https://labox-imperium.fr', desc: 'La salle où je m\'entraîne quand je suis à Laroque, à cinq minutes en voiture : chemin de la Carrerasse, dans la zone artisanale de Saint-André. Le patron est mon coach, et un ami. WOD, haltérophilie, gymnastique, cardio, et de la programmation personnalisée si vous préparez quelque chose. Les séances à l\'unité pour les vacanciers sont les bienvenues, prévenez-les de votre passage. Ouvert du lundi au vendredi de 9 h à 20 h, et le samedi matin de 10 h à 12 h.' },
+          { name: 'La box Imperium', url: 'https://labox-imperium.fr', desc: 'La salle où je m\'entraîne quand je suis à Laroque, à cinq minutes en voiture : chemin de la Carrerasse, dans la zone artisanale de Saint-André. WOD, haltérophilie, gymnastique, cardio, et de la programmation personnalisée si vous préparez quelque chose. Les séances à l\'unité pour les vacanciers sont les bienvenues, prévenez-les de votre passage. Ouvert du lundi au vendredi de 9 h à 20 h, et le samedi matin de 10 h à 12 h.' },
+          { name: 'Jaison Longearet', url: 'https://labox-imperium.fr/jaison-longearet/', desc: 'Le patron de la box est aussi mon coach personnel, et un ami. C\'est surtout un athlète élite : 7e en France et 45e en Europe à l\'Open 2023, puis 37e aux demi-finales européennes, et 1er en France à l\'Open 2024. En mai 2025 il est parti se mesurer à l\'élite mondiale au World Fitness Project, à Indianapolis, trois jours et huit épreuves. Autant dire que si vous voulez travailler quelque chose de précis pendant votre séjour, vous êtes tombé au bon endroit.' },
         ],
       },
       {
