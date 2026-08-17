@@ -127,6 +127,10 @@ const mapsUrl = (name, ctx) => {
   {sections.map((s) => (
     <section class="section">
       <h2>{s.title}</h2>
+      {/* s.intro : chapeau facultatif au-dessus des cartes, même rôle que
+          archives.intro, pour les rubriques qui ont besoin d'être présentées
+          avant d'être listées. */}
+      {s.intro && <p class="intro">{s.intro}</p>}
       {typeof s.items[0] === 'string' ? (
         <ul>
           {s.items.map((item) => <li>{item}</li>)}

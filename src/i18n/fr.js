@@ -672,6 +672,35 @@ balades: [
         ],
       },
       {
+        title: 'Courses, trail et swimrun',
+        intro:
+          'Venir courir ici est une très bonne façon de découvrir la région : on traverse en une matinée des paysages qu\'on mettrait des jours à trouver en voiture. Et il y en a vraiment pour tous les goûts, de la balade découverte de 10 km et 500 m de dénivelé à l\'ultra de 175 km. Les épreuves en montagne se concentrent sur l\'été.',
+        items: [
+          { name: '100 Miles Pyrénées Méditerranée', url: 'https://www.100miles-pyrenees-mediterranee.org/', desc: 'La grande traversée du département, de Bolquère à Argelès-sur-Mer, de la montagne à la mer. Toutes les arrivées sont jugées au château de Valmy, à dix minutes de la villa. Quatre formats : 175 km et 7 670 m de dénivelé pour le 100 Miles, 117 km et 5 566 m pour la Grande Traversée, 73 km et 3 600 m pour la Traversée, et 36 km et 1 700 m pour les Foulées des Albères. Édition 2026 du 2 au 4 octobre.' },
+          { name: 'Swimrun Côte Vermeille', url: 'https://www.swimruncotevermeille.com/', desc: 'Le premier swimrun de France : on alterne nage en mer et course à pied le long de la Côte Vermeille, entre Cerbère, Banyuls, Port-Vendres, Collioure et Argelès. Le départ est donné à l\'anse de Paulilles. Sept épreuves, de la Kids à l\'Ultra Ötillö, en équipes. Édition 2026 les 12 et 13 juin.' },
+          { name: 'Running 66', url: 'https://www.running66.com/calendrier-1/', desc: 'Le calendrier des courses du département, toutes distances et toutes saisons.' },
+          { name: 'Trails des Pyrénées-Orientales', url: 'https://pyrenees-orientales.trails.courses', desc: 'Le calendrier spécialisé trail, avec les distances et les dénivelés de chaque épreuve.' },
+          { name: 'Le calendrier du sportif', url: 'https://www.calendrier.dusportif.fr/trail-pyrenees-orientales-66-4', desc: 'Un troisième calendrier, utile pour recouper les dates quand on cale ses vacances sur une épreuve.' },
+        ],
+      },
+      {
+        title: 'Canyoning',
+        intro:
+          'Les canyons des Albères, du Canigou et de Galamus se descendent d\'avril à septembre, en rappel sous les cascades, en toboggans naturels et en sauts (toujours facultatifs). Trois bureaux de guides du département, à vous de choisir selon le canyon et le format.',
+        items: [
+          { name: 'Esprit Canyon', url: 'https://www.esprit-canyon.fr/', desc: 'Basé à Ille-sur-Têt, 20 rue Louis Boyer. Galamus, Molitg, le Llech et Taurinya, en six formules qui vont de « Plaisir » à « Adrénaline ». Ils proposent aussi un canyon en eaux chaudes l\'hiver, ce qui est une curiosité locale.' },
+          { name: 'Terre de canyoning', url: 'https://terredecanyoning.com/', desc: 'Le catalogue le plus large du département : Molitg, Thuès en eaux chaudes, Galamus, les Baoussous, le Llech, Mas Calsan, le Salt del Pi, le Cady, Taurinya, Saint-Vincent. En demi-journée, petite journée ou grande journée. À partir de 7 ans, et ils le disent clairement : pas besoin d\'être un sportif de haut niveau.' },
+          { name: 'Pyrénées Canyoning by Max & Lola', url: 'https://pyreneescanyoning.fr/', desc: 'Deux guides installés à Perpignan, rue de l\'Albère, qui connaissent bien les canyons des Pyrénées-Orientales.' },
+        ],
+      },
+      {
+        title: 'L\'hiver : ski et raquettes',
+        items: [
+          { name: 'Les stations des Pyrénées catalanes', desc: 'À environ 1 h 30 de route, la même distance que pour aller randonner à Font-Romeu l\'été. La villa est chauffée et la piscine a son abri télescopique, donc l\'hiver ici n\'a rien d\'une saison morte.' },
+          { name: 'Itinéraires en raquettes', url: 'https://www.rando-marche.fr/_28228_randonnees-pyr%C3%A9n%C3%A9es-orientales', desc: 'Huit topos de raquettes à neige dans le département, du Puig Péric au Madres en passant par le pic du Canigou, le pic de la Mine et la Tossa Rodona. Le même site recense les randonnées pédestres pour le reste de l\'année.' },
+        ],
+      },
+      {
         title: 'Vélo',
         items: [
           { name: 'Route et VTT', desc: 'L\'EuroVélo 8 passe à proximité, cols des Albères pour les grimpeurs, prêt de VTT possible.' },
@@ -685,14 +714,15 @@ balades: [
           { name: 'Snorkeling', desc: 'La première réserve marine de France, entre Cerbère et Banyuls.' },
           { name: 'Planche à voile et kitesurf', desc: 'Les spots de Leucate et du Pont des Basses à 30 minutes.' },
           { name: 'Kayak et paddle', desc: 'Locations sur toutes les plages, canoë gonflable à la villa.' },
-          { name: 'E-foil chez PWR-Foil', url: 'https://pwrfoil.com/fr/', desc: 'Le foil électrique, la planche qui décolle et vole au-dessus de l\'eau, est fabriqué ici : PWR-Foil est installé à Canet-en-Roussillon, où la marque a monté son usine et son centre de test. On peut y essayer la planche sur place, avec l\'équipe qui la construit. Le prix de la session d\'essai est déduit si vous repartez avec.' },
+          { name: 'Plongée à Port-Vendres', url: 'https://www.plongee66.com/', desc: 'Le Centre d\'Activité Plongée Port-Vendres prend tous les niveaux : baptêmes et randonnées palmées pour ceux qui n\'ont jamais mis la tête sous l\'eau, formations enfants à partir de 8 ans, explorations et épaves pour les brevetés, et jusqu\'aux formations tek et recycleur. Location de matériel et gonflage sur place.' },
+          { name: 'Paddle et e-foil, fabriqués ici', url: 'https://redwoodpaddle.com/fr/', desc: 'Les paddles Redwoodpaddle et les foils électriques PWR-Foil sortent de la même maison, fondée par Chris Defrance et installée au pôle nautique de Canet-en-Roussillon. Le showroom est au 4 rue Pen Duick, et la marque tient sur place son centre de test : on peut essayer le e-foil, cette planche qui décolle et vole au-dessus de l\'eau, là où elle est construite et avec l\'équipe qui la fabrique. Le prix de la session d\'essai est déduit si vous repartez avec une planche.' },
           { name: 'Bateau', desc: 'Location de hors-bord à Port-Vendres pour explorer la Costa Brava côté mer et croiser les dauphins.' },
         ],
       },
       {
         title: 'CrossFit',
         items: [
-          { name: 'La box Imperium', url: 'https://labox-imperium.fr', desc: 'La salle où je m\'entraîne quand je suis à Laroque, à cinq minutes en voiture : chemin de la Carrerasse, dans la zone artisanale de Saint-André. WOD, haltérophilie, gymnastique, cardio, et de la programmation personnalisée si vous préparez quelque chose. Ouvert du lundi au vendredi de 9 h à 20 h, et le samedi matin de 10 h à 12 h. Pour une séance à l\'unité pendant votre séjour, appelez-les avant de passer.' },
+          { name: 'La box Imperium', url: 'https://labox-imperium.fr', desc: 'La salle où je m\'entraîne quand je suis à Laroque, à cinq minutes en voiture : chemin de la Carrerasse, dans la zone artisanale de Saint-André. Le patron est mon coach, et un ami. WOD, haltérophilie, gymnastique, cardio, et de la programmation personnalisée si vous préparez quelque chose. Les séances à l\'unité pour les vacanciers sont les bienvenues, prévenez-les de votre passage. Ouvert du lundi au vendredi de 9 h à 20 h, et le samedi matin de 10 h à 12 h.' },
         ],
       },
       {

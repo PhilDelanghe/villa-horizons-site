@@ -487,6 +487,35 @@ balades: [
         ],
       },
       {
+        title: 'Races, trail running and swimrun',
+        intro:
+          'Coming here to race is a very good way to discover the region: in one morning you cross landscapes it would take days to find by car. And there really is something for everyone, from a 10 km discovery run with 500 m of climbing to a 175 km ultra. Mountain races cluster in the summer.',
+        items: [
+          { name: '100 Miles Pyrénées Méditerranée', url: 'https://www.100miles-pyrenees-mediterranee.org/', desc: 'The full crossing of the department, from Bolquère to Argelès-sur-Mer, mountain to sea. Every finish is judged at Château de Valmy, ten minutes from the villa. Four formats: 175 km and 7,670 m of climbing for the 100 Miles, 117 km and 5,566 m for the Grande Traversée, 73 km and 3,600 m for the Traversée, and 36 km and 1,700 m for the Foulées des Albères. 2026 edition, 2 to 4 October.' },
+          { name: 'Swimrun Côte Vermeille', url: 'https://www.swimruncotevermeille.com/', desc: 'France\'s first swimrun: you alternate open-water swimming and running along the Côte Vermeille, through Cerbère, Banyuls, Port-Vendres, Collioure and Argelès. The start is given at the Anse de Paulilles. Seven races, from the Kids to the Ötillö Ultra, in teams. 2026 edition, 12 and 13 June.' },
+          { name: 'Running 66', url: 'https://www.running66.com/calendrier-1/', desc: 'The department\'s race calendar, every distance and every season.' },
+          { name: 'Trails des Pyrénées-Orientales', url: 'https://pyrenees-orientales.trails.courses', desc: 'The trail-specific calendar, with distance and elevation for each race.' },
+          { name: 'Le calendrier du sportif', url: 'https://www.calendrier.dusportif.fr/trail-pyrenees-orientales-66-4', desc: 'A third calendar, handy for cross-checking dates when you are planning a holiday around a race.' },
+        ],
+      },
+      {
+        title: 'Canyoning',
+        intro:
+          'The canyons of the Albères, the Canigou and Galamus run from April to September: abseiling under waterfalls, natural water slides and jumps (always optional). Three guiding outfits in the department, pick one by canyon and by format.',
+        items: [
+          { name: 'Esprit Canyon', url: 'https://www.esprit-canyon.fr/', desc: 'Based in Ille-sur-Têt, 20 rue Louis Boyer. Galamus, Molitg, the Llech and Taurinya, in six formats running from "Plaisir" to "Adrénaline". They also run a warm-water canyon in winter, which is a local curiosity.' },
+          { name: 'Terre de canyoning', url: 'https://terredecanyoning.com/', desc: 'The widest catalogue in the department: Molitg, Thuès in warm water, Galamus, the Baoussous, the Llech, Mas Calsan, the Salt del Pi, the Cady, Taurinya, Saint-Vincent. Half days, short days or long days. From age 7, and they say it plainly: you do not need to be an athlete.' },
+          { name: 'Pyrénées Canyoning by Max & Lola', url: 'https://pyreneescanyoning.fr/', desc: 'Two guides based in Perpignan, rue de l\'Albère, who know the canyons of the Pyrénées-Orientales well.' },
+        ],
+      },
+      {
+        title: 'Winter: skiing and snowshoeing',
+        items: [
+          { name: 'The Catalan Pyrenees ski resorts', desc: 'About 1 hr 30 by road, the same distance as going hiking at Font-Romeu in summer. The villa is heated and the pool has its telescopic cover, so winter here is not a dead season.' },
+          { name: 'Snowshoe routes', url: 'https://www.rando-marche.fr/_28228_randonnees-pyr%C3%A9n%C3%A9es-orientales', desc: 'Eight snowshoe route guides in the department, from the Puig Péric to the Madres by way of the Canigou, the Pic de la Mine and the Tossa Rodona. The same site lists walking routes for the rest of the year.' },
+        ],
+      },
+      {
         title: 'Cycling',
         items: [
           { name: 'Road and mountain biking', desc: 'The EuroVelo 8 route passes nearby, Albères climbs for the climbers, mountain bikes available on loan.' },
@@ -500,14 +529,15 @@ balades: [
           { name: 'Snorkeling', desc: 'France\'s first marine reserve, between Cerbère and Banyuls.' },
           { name: 'Windsurfing and kitesurfing', desc: 'The Leucate and Pont des Basses spots, 30 minutes away.' },
           { name: 'Kayak and paddle', desc: 'Rentals on every beach, inflatable canoe at the villa.' },
-          { name: 'E-foiling with PWR-Foil', url: 'https://pwrfoil.com/fr/', desc: 'The electric foil, the board that lifts off and flies above the water, is built right here: PWR-Foil is based in Canet-en-Roussillon, where the brand has its factory and its test centre. You can try the board on site, with the team that makes it. The cost of the test session is deducted if you leave with one.' },
+          { name: 'Diving in Port-Vendres', url: 'https://www.plongee66.com/', desc: 'The Centre d\'Activité Plongée Port-Vendres takes every level: first dives and snorkelling treks for anyone who has never put their head under, courses for children from age 8, wreck and reef dives for certified divers, and all the way up to tek and rebreather training. Equipment hire and tank filling on site.' },
+          { name: 'Paddleboards and e-foils, built here', url: 'https://redwoodpaddle.com/fr/', desc: 'Redwoodpaddle boards and PWR-Foil electric foils come from the same house, founded by Chris Defrance and based at the Canet-en-Roussillon marina quarter. The showroom is at 4 rue Pen Duick, and the brand runs its test centre on site: you can try the e-foil, the board that lifts off and flies above the water, where it is built and with the team that builds it. The cost of the test session is deducted if you leave with a board.' },
           { name: 'Boating', desc: 'Motorboat rental in Port-Vendres to explore the Costa Brava from the sea and meet the dolphins.' },
         ],
       },
       {
         title: 'CrossFit',
         items: [
-          { name: 'La box Imperium', url: 'https://labox-imperium.fr', desc: 'The gym where I train when I am in Laroque, five minutes away by car: chemin de la Carrerasse, in the Saint-André industrial zone. WOD, weightlifting, gymnastics, cardio, and personalised programming if you are working towards something. Open Monday to Friday from 9 am to 8 pm, and Saturday morning from 10 am to noon. For a single session during your stay, call them before you turn up.' },
+          { name: 'La box Imperium', url: 'https://labox-imperium.fr', desc: 'The gym where I train when I am in Laroque, five minutes away by car: chemin de la Carrerasse, in the Saint-André industrial zone. The owner is my coach, and a friend. WOD, weightlifting, gymnastics, cardio, and personalised programming if you are working towards something. Holiday drop-ins are welcome, just let them know you are coming. Open Monday to Friday from 9 am to 8 pm, and Saturday morning from 10 am to noon.' },
         ],
       },
       {
