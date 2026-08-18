@@ -636,9 +636,22 @@ balades: [
     title: 'Bouger',
     intro:
       'On peut avoir l\'impression que la région se résume à farnienter sur la plage et siroter un rosé au bord de la piscine. On peut faire ça aussi, et très bien. Mais pour qui veut bouger, les possibilités sont énormes : rando, trail, vélo de route et VTT, tennis et padel, équitation, sports d\'eau dont paddle, snorkeling, plongée et e-foil, golf, CrossFit, sans oublier le canyoning. Et l\'hiver, ski et raquettes. Si vous voulez brûler quelques calories, Laroque est une excellente base arrière.',
+    // Ordre d'affichage des onglets, indépendant de l'ordre des rubriques
+    // dans ce fichier : on range par mode de déplacement, pas par historique.
+    tabs: ['À la villa', 'À pied', 'À vélo', 'Dans l\'eau', 'Golf', 'CrossFit', 'Aventure', 'Tennis et cheval', 'L\'hiver'],
     sections: [
       {
+        title: 'À la villa',
+        tab: 'À la villa',
+        items: [
+          { name: 'Fitness', desc: 'TRX et haltères sur place.' },
+          { name: 'Piscine, ping-pong, pétanque', desc: 'Piscine au sel 4 × 9 m, table de ping-pong et boulodrome sous les arbres.' },
+          { name: 'Canoë gonflable', desc: 'À disposition pour les sorties mer et rivière.' },
+        ],
+      },
+      {
         title: 'Les randonnées incontournables au départ de Laroque',
+        tab: 'À pied',
         archives: [
           {
             src: '/photos/cartes-postales/route-alberes-canigou.jpg',
@@ -654,15 +667,8 @@ balades: [
         ],
       },
       {
-        title: 'À la villa',
-        items: [
-          { name: 'Fitness', desc: 'TRX et haltères sur place.' },
-          { name: 'Piscine, ping-pong, pétanque', desc: 'Piscine au sel 4 × 9 m, table de ping-pong et boulodrome sous les arbres.' },
-          { name: 'Canoë gonflable', desc: 'À disposition pour les sorties mer et rivière.' },
-        ],
-      },
-      {
         title: 'Randonnée et montagne',
+        tab: 'À pied',
         items: [
           { name: 'La tour de la Madeloc depuis le Fort Saint-Elme', desc: 'Pour les jambes solides : au départ de Collioure, la boucle passe par le Fort Saint-Elme puis monte à travers les vignes en terrasses jusqu\'à la tour à signaux médiévale, environ 15 km et 700 m de dénivelé. En haut, toute la plaine, la Côte Vermeille et l\'Espagne d\'un seul regard. Version courte pour les autres : on y monte aussi par la petite route vertigineuse, puis quelques minutes à pied.' },
           { name: 'Au départ de la villa', desc: 'Pic Néoulous (14 km, 1 000 m de dénivelé), col de l\'Ouillat, et tout le réseau de sentiers des Albères.' },
@@ -673,6 +679,7 @@ balades: [
       },
       {
         title: 'Courses, trail et swimrun',
+        tab: 'À pied',
         intro:
           'Venir courir ici est une très bonne façon de découvrir la région : on traverse en une matinée des paysages qu\'on mettrait des jours à trouver en voiture. Et il y en a vraiment pour tous les goûts, de la balade découverte de 10 km et 500 m de dénivelé à l\'ultra de 175 km. Les épreuves en montagne se concentrent sur l\'été.',
         items: [
@@ -685,6 +692,7 @@ balades: [
       },
       {
         title: 'Canyoning',
+        tab: 'Aventure',
         intro:
           'Les canyons des Albères, du Canigou et de Galamus se descendent d\'avril à septembre, en rappel sous les cascades, en toboggans naturels et en sauts (toujours facultatifs). Trois bureaux de guides du département, à vous de choisir selon le canyon et le format.',
         items: [
@@ -695,6 +703,7 @@ balades: [
       },
       {
         title: 'L\'hiver : ski et raquettes',
+        tab: 'L\'hiver',
         items: [
           { name: 'Les stations des Pyrénées catalanes', desc: 'À environ 1 h 30 de route, la même distance que pour aller randonner à Font-Romeu l\'été. La villa est chauffée et la piscine a son abri télescopique, donc l\'hiver ici n\'a rien d\'une saison morte.' },
           { name: 'Itinéraires en raquettes', url: 'https://www.rando-marche.fr/_28228_randonnees-pyr%C3%A9n%C3%A9es-orientales', desc: 'Huit topos de raquettes à neige dans le département, du Puig Péric au Madres en passant par le pic du Canigou, le pic de la Mine et la Tossa Rodona. Le même site recense les randonnées pédestres pour le reste de l\'année.' },
@@ -702,6 +711,7 @@ balades: [
       },
       {
         title: 'Vélo',
+        tab: 'À vélo',
         items: [
           { name: 'Route et VTT', desc: 'L\'EuroVélo 8 passe à proximité, cols des Albères pour les grimpeurs, prêt de VTT possible.' },
           { name: 'Vélos électriques', desc: 'Un loueur au village, coordonnées fournies à la réservation.' },
@@ -709,6 +719,7 @@ balades: [
       },
       {
         title: 'Mer',
+        tab: 'Dans l\'eau',
         items: [
           { name: 'Les plages', maps: false, desc: 'Argelès à 10 minutes, les criques du sentier littoral entre Collioure et Cerbère, et plus loin La Franqui (40 min), un spot de plage sauvage génial avec un excellent restaurant face à la mer.' },
           { name: 'Snorkeling', desc: 'La première réserve marine de France, entre Cerbère et Banyuls.' },
@@ -721,15 +732,23 @@ balades: [
       },
       {
         title: 'CrossFit',
+        tab: 'CrossFit',
         items: [
           { name: 'La box Imperium', url: 'https://labox-imperium.fr', desc: 'La salle où je m\'entraîne quand je suis à Laroque, à cinq minutes en voiture : chemin de la Carrerasse, dans la zone artisanale de Saint-André. WOD, haltérophilie, gymnastique, cardio, et de la programmation personnalisée si vous préparez quelque chose. Les séances à l\'unité pour les vacanciers sont les bienvenues, prévenez-les de votre passage. Ouvert du lundi au vendredi de 9 h à 20 h, et le samedi matin de 10 h à 12 h.' },
           { name: 'Jaison Longearet', url: 'https://labox-imperium.fr/jaison-longearet/', desc: 'Le patron de la box est aussi mon coach personnel, et un ami. C\'est surtout un athlète élite : 7e en France et 45e en Europe à l\'Open 2023, puis 37e aux demi-finales européennes, et 1er en France à l\'Open 2024. En mai 2025 il est parti se mesurer à l\'élite mondiale au World Fitness Project, à Indianapolis, trois jours et huit épreuves. Autant dire que si vous voulez travailler quelque chose de précis pendant votre séjour, vous êtes tombé au bon endroit.' },
         ],
       },
       {
-        title: 'Golf, tennis et équitation',
+        title: 'Golf',
+        tab: 'Golf',
         items: [
-          { name: 'Golf', desc: '6 parcours dans un rayon de 60 km, en France et en Espagne : Saint-Cyprien, Falgos, Peralada, et PGA Catalunya, n°1 en Espagne.' },
+          { name: 'Six parcours dans un rayon de 60 km', maps: false, to: { href: '/golf/', label: 'Voir la page golf' }, desc: 'En France et en Espagne : Saint-Cyprien, Falgos, Peralada, et PGA Catalunya, classé n°1 en Espagne. Le détail de chaque parcours est sur la page golf.' },
+        ],
+      },
+      {
+        title: 'Tennis, padel et équitation',
+        tab: 'Tennis et cheval',
+        items: [
           { name: 'Tennis et padel', desc: 'Clubs à Laroque et dans les villages voisins.' },
           { name: 'Équitation', desc: 'Centres équestres à proximité, balades dans les Albères.' },
         ],

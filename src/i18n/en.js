@@ -451,9 +451,22 @@ balades: [
     title: 'Move',
     intro:
       'You could get the impression that this region is all about lazing on the beach and sipping rosé by the pool. You can do that too, and do it very well. But for anyone who wants to move, the range is enormous: hiking, trail running, road cycling and mountain biking, tennis and padel, horse riding, watersports including paddleboarding, snorkelling, diving and e-foiling, golf, CrossFit, and canyoning. In winter, skiing and snowshoeing. If you want to burn a few calories, Laroque is an excellent base camp.',
+    // Ordre d'affichage des onglets, indépendant de l'ordre des rubriques
+    // dans ce fichier : on range par mode de déplacement, pas par historique.
+    tabs: ['At the villa', 'On foot', 'By bike', 'In the water', 'Golf', 'CrossFit', 'Adventure', 'Tennis and horses', 'Winter'],
     sections: [
       {
+        title: 'At the villa',
+        tab: 'At the villa',
+        items: [
+          { name: 'Fitness', desc: 'TRX and dumbbells on site.' },
+          { name: 'Pool, ping-pong, pétanque', desc: 'Saltwater pool (4 × 9 m), ping-pong table and a boules court under the trees.' },
+          { name: 'Inflatable canoe', desc: 'Available for sea and river outings.' },
+        ],
+      },
+      {
         title: 'The classic hikes straight from Laroque',
+        tab: 'On foot',
         archives: [
           {
             src: '/photos/cartes-postales/route-alberes-canigou.jpg',
@@ -469,15 +482,8 @@ balades: [
         ],
       },
       {
-        title: 'At the villa',
-        items: [
-          { name: 'Fitness', desc: 'TRX and dumbbells on site.' },
-          { name: 'Pool, ping-pong, pétanque', desc: 'Saltwater pool (4 × 9 m), ping-pong table and a boules court under the trees.' },
-          { name: 'Inflatable canoe', desc: 'Available for sea and river outings.' },
-        ],
-      },
-      {
         title: 'Hiking and mountains',
+        tab: 'On foot',
         items: [
           { name: 'The Madeloc tower from Fort Saint-Elme', desc: 'For strong legs: from Collioure, the loop goes past Fort Saint-Elme then climbs through the terraced vineyards to the medieval signal tower, about 15 km and 700 m of elevation gain. From the top, the whole plain, the Côte Vermeille and Spain in a single glance. Short version for everyone else: you can also drive up the vertiginous little road, then walk the last few minutes.' },
           { name: 'From the villa', desc: 'Pic Néoulous (14 km, 1,000 m elevation gain), Col de l\'Ouillat, and the whole Albères trail network.' },
@@ -488,6 +494,7 @@ balades: [
       },
       {
         title: 'Races, trail running and swimrun',
+        tab: 'On foot',
         intro:
           'Coming here to race is a very good way to discover the region: in one morning you cross landscapes it would take days to find by car. And there really is something for everyone, from a 10 km discovery run with 500 m of climbing to a 175 km ultra. Mountain races cluster in the summer.',
         items: [
@@ -500,6 +507,7 @@ balades: [
       },
       {
         title: 'Canyoning',
+        tab: 'Adventure',
         intro:
           'The canyons of the Albères, the Canigou and Galamus run from April to September: abseiling under waterfalls, natural water slides and jumps (always optional). Three guiding outfits in the department, pick one by canyon and by format.',
         items: [
@@ -510,6 +518,7 @@ balades: [
       },
       {
         title: 'Winter: skiing and snowshoeing',
+        tab: 'Winter',
         items: [
           { name: 'The Catalan Pyrenees ski resorts', desc: 'About 1 hr 30 by road, the same distance as going hiking at Font-Romeu in summer. The villa is heated and the pool has its telescopic cover, so winter here is not a dead season.' },
           { name: 'Snowshoe routes', url: 'https://www.rando-marche.fr/_28228_randonnees-pyr%C3%A9n%C3%A9es-orientales', desc: 'Eight snowshoe route guides in the department, from the Puig Péric to the Madres by way of the Canigou, the Pic de la Mine and the Tossa Rodona. The same site lists walking routes for the rest of the year.' },
@@ -517,6 +526,7 @@ balades: [
       },
       {
         title: 'Cycling',
+        tab: 'By bike',
         items: [
           { name: 'Road and mountain biking', desc: 'The EuroVelo 8 route passes nearby, Albères climbs for the climbers, mountain bikes available on loan.' },
           { name: 'E-bikes', desc: 'A rental shop in the village, contact details provided at booking.' },
@@ -524,6 +534,7 @@ balades: [
       },
       {
         title: 'Sea',
+        tab: 'In the water',
         items: [
           { name: 'The beaches', maps: false, desc: 'Argelès 10 minutes away, the coves along the coastal path between Collioure and Cerbère, and further out La Franqui (40 min), a fantastic wild beach spot with an excellent seafront restaurant.' },
           { name: 'Snorkeling', desc: 'France\'s first marine reserve, between Cerbère and Banyuls.' },
@@ -536,15 +547,23 @@ balades: [
       },
       {
         title: 'CrossFit',
+        tab: 'CrossFit',
         items: [
           { name: 'La box Imperium', url: 'https://labox-imperium.fr', desc: 'The gym where I train when I am in Laroque, five minutes away by car: chemin de la Carrerasse, in the Saint-André industrial zone. WOD, weightlifting, gymnastics, cardio, and personalised programming if you are working towards something. Holiday drop-ins are welcome, just let them know you are coming. Open Monday to Friday from 9 am to 8 pm, and Saturday morning from 10 am to noon.' },
           { name: 'Jaison Longearet', url: 'https://labox-imperium.fr/jaison-longearet/', desc: 'The owner of the box is also my personal coach, and a friend. Above all he is an elite athlete: 7th in France and 45th in Europe at the 2023 Open, then 37th at the European semi-finals, and 1st in France at the 2024 Open. In May 2025 he went to take on the world\'s best at the World Fitness Project in Indianapolis, three days and eight events. So if you want to work on something specific during your stay, you have come to the right place.' },
         ],
       },
       {
-        title: 'Golf, tennis and horse riding',
+        title: 'Golf',
+        tab: 'Golf',
         items: [
-          { name: 'Golf', desc: '6 courses within 60 km, in France and Spain: Saint-Cyprien, Falgos, Peralada, and PGA Catalunya, Spain\'s #1 course.' },
+          { name: 'Six courses within 60 km', maps: false, to: { href: '/golf/', label: 'See the golf page' }, desc: 'In France and Spain: Saint-Cyprien, Falgos, Peralada, and PGA Catalunya, ranked number one in Spain. Each course is detailed on the golf page.' },
+        ],
+      },
+      {
+        title: 'Tennis, padel and horse riding',
+        tab: 'Tennis and horses',
+        items: [
           { name: 'Tennis and padel', desc: 'Clubs in Laroque and the neighboring villages.' },
           { name: 'Horse riding', desc: 'Riding centers nearby, treks in the Albères.' },
         ],
