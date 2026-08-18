@@ -476,6 +476,7 @@ balades: [
         title: 'Hiking and mountains',
         tab: 'On foot',
         items: [
+          { name: 'Rando 66, the department\'s portal', maps: false, url: 'https://rando66.fr/', desc: 'The first-hand source for planning a walk: the department lists its waymarked GR, GRP and PR routes here, along with the bridleways and mountain-bike circuits, across the 800 km of marked trails it maintains. Free to use.' },
           { name: 'The Madeloc tower from Fort Saint-Elme', desc: 'For strong legs: from Collioure, the loop goes past Fort Saint-Elme then climbs through the terraced vineyards to the medieval signal tower, about 15 km and 700 m of elevation gain. From the top, the whole plain, the Côte Vermeille and Spain in a single glance. Short version for everyone else: you can also drive up the vertiginous little road, then walk the last few minutes.' },
           { name: 'From the villa', desc: 'Pic Néoulous (14 km, 1,000 m elevation gain), Col de l\'Ouillat, and the whole Albères trail network.' },
           { name: 'Coastal paths', desc: 'The coastal trail from Argelès to Cerbère: quiet coves even in August.' },

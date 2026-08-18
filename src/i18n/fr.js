@@ -661,6 +661,7 @@ balades: [
         title: 'Randonnée et montagne',
         tab: 'À pied',
         items: [
+          { name: 'Rando 66, le portail du Département', maps: false, url: 'https://rando66.fr/', desc: 'La source de première main pour préparer une sortie : le Département recense là ses itinéraires labellisés GR, GRP et PR, ainsi que les circuits équestres et VTT, sur un réseau de plus de 800 km de sentiers balisés qu\'il entretient. En accès libre.' },
           { name: 'La tour de la Madeloc depuis le Fort Saint-Elme', desc: 'Pour les jambes solides : au départ de Collioure, la boucle passe par le Fort Saint-Elme puis monte à travers les vignes en terrasses jusqu\'à la tour à signaux médiévale, environ 15 km et 700 m de dénivelé. En haut, toute la plaine, la Côte Vermeille et l\'Espagne d\'un seul regard. Version courte pour les autres : on y monte aussi par la petite route vertigineuse, puis quelques minutes à pied.' },
           { name: 'Au départ de la villa', desc: 'Pic Néoulous (14 km, 1 000 m de dénivelé), col de l\'Ouillat, et tout le réseau de sentiers des Albères.' },
           { name: 'Sentiers côtiers', desc: 'Le sentier littoral d\'Argelès à Cerbère : criques tranquilles même en août.' },
