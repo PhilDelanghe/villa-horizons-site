@@ -453,17 +453,8 @@ balades: [
       'You could get the impression that this region is all about lazing on the beach and sipping rosé by the pool. You can do that too, and do it very well. But for anyone who wants to move, the range is enormous: hiking, trail running, road cycling and mountain biking, tennis and padel, horse riding, watersports including paddleboarding, snorkelling, diving and e-foiling, golf, CrossFit, and canyoning. In winter, skiing and snowshoeing. If you want to burn a few calories, Laroque is an excellent base camp.',
     // Ordre d'affichage des onglets, indépendant de l'ordre des rubriques
     // dans ce fichier : on range par mode de déplacement, pas par historique.
-    tabs: ['At the villa', 'On foot', 'By bike', 'In the water', 'Golf', 'CrossFit', 'Adventure', 'Tennis and horses', 'Winter'],
+    tabs: ['On foot', 'By bike', 'In the water', 'Golf', 'CrossFit', 'Adventure', 'Tennis and horses', 'Winter'],
     sections: [
-      {
-        title: 'At the villa',
-        tab: 'At the villa',
-        items: [
-          { name: 'Fitness', desc: 'TRX and dumbbells on site.' },
-          { name: 'Pool, ping-pong, pétanque', desc: 'Saltwater pool (4 × 9 m), ping-pong table and a boules court under the trees.' },
-          { name: 'Inflatable canoe', desc: 'Available for sea and river outings.' },
-        ],
-      },
       {
         title: 'The classic hikes straight from Laroque',
         tab: 'On foot',
@@ -527,9 +518,15 @@ balades: [
       {
         title: 'Cycling',
         tab: 'By bike',
+        intro:
+          'The Pyrénées-Orientales have a mild climate and a population markedly older than the national average: 27% of residents are 65 or over, six points above the national figure. The retiree who moved south for the sun is not just a cliché. And a retiree who cares about staying fit looks for a low-impact, sociable sport, which leads fairly directly to road cycling, with the landscape thrown in. Hence the clusters of riders of respectable age you meet on every back road. If you think it is late to start, Robert Marchand took the over-100 hour record at 102, covering 26.927 km. So you can go. And there is something for every taste, from the flat of EuroVelo 8 to the ramps of the Madeloc, which would not look out of place in a Tour stage.',
         items: [
-          { name: 'Road and mountain biking', desc: 'The EuroVelo 8 route passes nearby, Albères climbs for the climbers, mountain bikes available on loan.' },
-          { name: 'E-bikes', desc: 'A rental shop in the village, contact details provided at booking.' },
+          { name: 'The waymarked climbs', maps: false, url: 'https://www.tourisme-pyreneesorientales.com/activites/velos/trouvez-la-sortie-velo-quil-vous-faut/cols-jalonnes-des-pyrenees-orientales/', desc: 'The department has waymarked its climbs: each marker gives the altitude, the distance and the gradient, which turns the ascent into a measurable effort rather than blind suffering. The departmental tourist board lists the routes, from rolling to brutal.' },
+          { name: 'Tour Madeloc, from Banyuls', desc: '9.62 km for 647 m of climbing, 6.73% average and pitches at 20%, up to 656 m at the foot of the medieval signal tower. A first-category climb, with the whole Côte Vermeille beneath your wheels. Note that the climb starts from Banyuls, not from Laroque.' },
+          { name: 'Col de l\'Ouillat', desc: 'The D71 from Le Perthus, the only road up to the pass, at 936 m. At the top, the Chalet de l\'Albère and its panoramic terrace to refuel before the descent.' },
+          { name: 'EuroVelo 8', maps: false, desc: 'The Mediterranean cycle route passes nearby: flat riding, family friendly, without ever looking up at a pass.' },
+          { name: 'Mountain biking', desc: 'The whole network of tracks and trails in the Albères, straight from the village. Bikes can be lent.' },
+          { name: 'Electric bikes', desc: 'A rental shop in the village, details provided on booking.' },
         ],
       },
       {

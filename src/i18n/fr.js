@@ -638,17 +638,8 @@ balades: [
       'On peut avoir l\'impression que la région se résume à farnienter sur la plage et siroter un rosé au bord de la piscine. On peut faire ça aussi, et très bien. Mais pour qui veut bouger, les possibilités sont énormes : rando, trail, vélo de route et VTT, tennis et padel, équitation, sports d\'eau dont paddle, snorkeling, plongée et e-foil, golf, CrossFit, sans oublier le canyoning. Et l\'hiver, ski et raquettes. Si vous voulez brûler quelques calories, Laroque est une excellente base arrière.',
     // Ordre d'affichage des onglets, indépendant de l'ordre des rubriques
     // dans ce fichier : on range par mode de déplacement, pas par historique.
-    tabs: ['À la villa', 'À pied', 'À vélo', 'Dans l\'eau', 'Golf', 'CrossFit', 'Aventure', 'Tennis et cheval', 'L\'hiver'],
+    tabs: ['À pied', 'À vélo', 'Dans l\'eau', 'Golf', 'CrossFit', 'Aventure', 'Tennis et cheval', 'L\'hiver'],
     sections: [
-      {
-        title: 'À la villa',
-        tab: 'À la villa',
-        items: [
-          { name: 'Fitness', desc: 'TRX et haltères sur place.' },
-          { name: 'Piscine, ping-pong, pétanque', desc: 'Piscine au sel 4 × 9 m, table de ping-pong et boulodrome sous les arbres.' },
-          { name: 'Canoë gonflable', desc: 'À disposition pour les sorties mer et rivière.' },
-        ],
-      },
       {
         title: 'Les randonnées incontournables au départ de Laroque',
         tab: 'À pied',
@@ -712,8 +703,14 @@ balades: [
       {
         title: 'Vélo',
         tab: 'À vélo',
+        intro:
+          'Les Pyrénées-Orientales ont un climat clément et une population nettement plus âgée que la moyenne : 27 % des habitants ont 65 ans ou plus, six points au-dessus du niveau national. Le retraité venu chercher le soleil n\'est pas qu\'un cliché. Et le retraité soucieux de sa forme cherche un sport peu traumatisant et convivial, ce qui mène assez logiquement au vélo de route, avec le paysage en prime. D\'où ces grappes de cyclistes d\'âge respectable qu\'on croise sur toutes les petites routes. Si vous trouvez qu\'il est tard pour s\'y mettre, sachez que Robert Marchand a battu le record de l\'heure des plus de 100 ans à 102 ans, avec 26,927 km au compteur. Donc on peut y aller. Et il y en a pour tous les goûts, du plat de l\'EuroVelo 8 aux rampes de la Madeloc, qui ne dépareraient pas dans une étape du Tour.',
         items: [
-          { name: 'Route et VTT', desc: 'L\'EuroVélo 8 passe à proximité, cols des Albères pour les grimpeurs, prêt de VTT possible.' },
+          { name: 'Les cols jalonnés', maps: false, url: 'https://www.tourisme-pyreneesorientales.com/activites/velos/trouvez-la-sortie-velo-quil-vous-faut/cols-jalonnes-des-pyrenees-orientales/', desc: 'Le département a jalonné ses montées : chaque borne donne l\'altitude, la distance et le pourcentage, ce qui transforme l\'ascension en effort mesurable au lieu d\'une souffrance à l\'aveugle. L\'office de tourisme départemental recense les itinéraires, du roulant au sévère.' },
+          { name: 'La tour Madeloc, depuis Banyuls', desc: '9,62 km pour 647 m de dénivelé, 6,73 % de moyenne et des passages à 20 %, jusqu\'à 656 m au pied de la tour à signaux. Une première catégorie, avec toute la Côte Vermeille sous les roues. À noter que la montée part de Banyuls, pas de Laroque.' },
+          { name: 'Le col de l\'Ouillat', desc: 'La D71 depuis Le Perthus, la seule route qui mène au col, à 936 m. En haut, le Chalet de l\'Albère et sa terrasse panoramique pour se refaire avant de redescendre.' },
+          { name: 'L\'EuroVelo 8', maps: false, desc: 'La véloroute de la Méditerranée passe à proximité : de quoi rouler à plat, en famille, sans jamais lever les yeux vers un col.' },
+          { name: 'VTT', desc: 'Tout le réseau de pistes et de sentiers des Albères, au départ du village. Prêt de VTT possible.' },
           { name: 'Vélos électriques', desc: 'Un loueur au village, coordonnées fournies à la réservation.' },
         ],
       },
