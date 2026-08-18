@@ -350,3 +350,28 @@ a { color: var(--accent); }
   .nav-drop-menu a:hover { background: rgba(255, 255, 255, 0.12); }
   .nav-drop-menu [aria-current='page'] { color: var(--white); }
 }
+
+/* Onglets des pages à rubriques nombreuses (Bouger). La barre est masquée par
+   défaut : sans JavaScript la page reste une suite de rubriques lisibles, et on
+   n'affiche jamais des boutons qui ne feraient rien. Le script ajoute .tabs-on. */
+.tablist { display: none; }
+.tabs-on .tablist {
+  display: flex; flex-wrap: wrap; gap: 0.4rem;
+  max-width: var(--wide, 1100px); margin: 2rem auto 0; padding: 0 1.2rem;
+  border-bottom: 1px solid var(--bg-alt);
+}
+.tabs-on .tab {
+  font: inherit; font-size: 0.95rem; cursor: pointer;
+  background: none; border: 0; border-bottom: 3px solid transparent;
+  color: var(--ink-soft); padding: 0.55rem 0.9rem; margin-bottom: -1px;
+  border-radius: 4px 4px 0 0;
+}
+.tabs-on .tab:hover { color: var(--accent); background: var(--bg-alt); }
+.tabs-on .tab[aria-selected='true'] {
+  color: var(--accent); border-bottom-color: var(--accent-warm); font-weight: 700;
+}
+.tabs-on .tab:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+/* Le panneau actif ouvre la page, il n'a donc pas besoin de la marge haute
+   habituelle d'une rubrique : la barre d'onglets fait déjà la séparation. */
+.tabs-on .tabpanel { padding-top: 1.2rem; }
+.tabs-on .tabpanel > h2:first-child { margin-top: 0; }

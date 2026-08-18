@@ -1,0 +1,61 @@
+---
+// Une rubrique de page interne : un titre, un chapeau facultatif, puis soit une
+// liste simple, soit une grille de cartes de lieux. Extrait de SubPage.astro le
+// 18/08/2026 pour être posé à deux endroits, à plat et dans un panneau d'onglet.
+const { t, s, base } = Astro.props;
+
+const mapsUrl = (name, ctx) => {
+  const paren = (name.match(/\(([^)]*)\)/) || [])[1] || '';
+  const stem = name.replace(/\s*\([^)]*\)/g, '').replace(/^[^:]*:\s*/, '');
+  const loc = paren.replace(/\b\d+\s*(min|mn|h(\s*\d+)?)\b/gi, '').replace(/[,·]/g, ' ').trim();
+  const suffix = typeof ctx === 'string' ? ctx : '';
+  const query = `${stem} ${loc} ${suffix}`.replace(/\s+/g, ' ').trim();
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+};
+---
+
+<h2>{s.title}</h2>
+{/* s.intro : chapeau facultatif au-dessus des cartes, même rôle que
+    archives.intro, pour les rubriques qui ont besoin d'être présentées
+    avant d'être listées. */}
+{s.intro && <p class="intro">{s.intro}</p>}
+{typeof s.items[0] === 'string' ? (
+  <ul>
+    {s.items.map((item) => <li>{item}</li>)}
+  </ul>
+) : (
+  <div class="cards">
+    {s.items.map((item) => (
+      <div class="card">
+        <div class="card-head">
+          <h3>{item.name}</h3>
+          {item.time && <span class="card-time">{item.time}</span>}
+        </div>
+        <p>{item.desc}</p>
+        {((s.maps && item.maps !== false) || item.url || item.to) && (
+          <p class="maps-link">
+            {s.maps && item.maps !== false && (
+              <a href={mapsUrl(item.name, s.maps)} target="_blank" rel="noopener">Google Maps ↗</a>
+            )}
+            {item.url && (
+              <a href={item.url} target="_blank" rel="noopener">
+                {t.lang === 'en' ? 'Website ↗' : 'Site officiel ↗'}
+              </a>
+            )}
+            {item.to && <a href={`${base}${item.to.href}`}>{item.to.label} →</a>}
+          </p>
+        )}
+      </div>
+    ))}
+  </div>
+)}
+{s.archives && (
+  <div class="archives archives-inline">
+    {s.archives.map((a) => (
+      <figure class="archive">
+        <img src={a.src} alt={a.alt} />
+        <figcaption>{a.caption}</figcaption>
+      </figure>
+    ))}
+  </div>
+)}

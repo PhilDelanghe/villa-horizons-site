@@ -2,6 +2,7 @@
 import Nav from './Nav.astro';
 import Footer from './Footer.astro';
 import Cta from './Cta.astro';
+import Section from './Section.astro';
 
 // sections: [{ title, items, maps }] où items = [{name, desc, maps?}] (cartes) ou [string] (liste)
 // section.maps : true ou chaîne de contexte géographique -> lien Google Maps auto sur chaque carte
@@ -17,14 +18,34 @@ const { t, page, title, intro, sections = [], paragraphs = [], image, imageAlt, 
 // depuis la racine de la langue ('/manger/'), le préfixe /en est ajouté ici.
 const base = t.lang === 'en' ? '/en' : '';
 
-const mapsUrl = (name, ctx) => {
-  const paren = (name.match(/\(([^)]*)\)/) || [])[1] || '';
-  const base = name.replace(/\s*\([^)]*\)/g, '').replace(/^[^:]*:\s*/, '');
-  const loc = paren.replace(/\b\d+\s*(min|mn|h(\s*\d+)?)\b/gi, '').replace(/[,·]/g, ' ').trim();
-  const suffix = typeof ctx === 'string' ? ctx : '';
-  const query = `${base} ${loc} ${suffix}`.replace(/\s+/g, ' ').trim();
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
-};
+// section.tab : libellé d'onglet. Dès qu'une rubrique en porte un, la page se
+// range en onglets et les rubriques qui partagent un libellé finissent dans le
+// même panneau. Sans JavaScript, tous les panneaux restent visibles à la suite,
+// donc le contenu est là pour les moteurs comme pour un navigateur sans script.
+const slug = (s) =>
+  s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
+   .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+const tabGroups = [];
+for (const s of sections) {
+  if (!s.tab) continue;
+  let g = tabGroups.find((x) => x.label === s.tab);
+  if (!g) {
+    g = { label: s.tab, id: slug(s.tab), sections: [] };
+    tabGroups.push(g);
+  }
+  g.sections.push(s);
+}
+// t.<page>.tabs : ordre d'affichage voulu. Un onglet absent de la liste passe
+// à la fin, pour qu'une rubrique nouvelle ne disparaisse jamais en silence.
+const tabOrder = Astro.props.tabs || [];
+tabGroups.sort((a, b) => {
+  const ia = tabOrder.indexOf(a.label), ib = tabOrder.indexOf(b.label);
+  return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+});
+const hasTabs = tabGroups.length > 1;
+const plainSections = hasTabs ? sections.filter((s) => !s.tab) : sections;
+
 ---
 
 <Nav t={t} page={page} variant="solid" />
@@ -124,57 +145,75 @@ const mapsUrl = (name, ctx) => {
     </section>
   ))}
 
-  {sections.map((s) => (
+  {plainSections.map((s) => (
     <section class="section">
-      <h2>{s.title}</h2>
-      {/* s.intro : chapeau facultatif au-dessus des cartes, même rôle que
-          archives.intro, pour les rubriques qui ont besoin d'être présentées
-          avant d'être listées. */}
-      {s.intro && <p class="intro">{s.intro}</p>}
-      {typeof s.items[0] === 'string' ? (
-        <ul>
-          {s.items.map((item) => <li>{item}</li>)}
-        </ul>
-      ) : (
-        <div class="cards">
-          {s.items.map((item) => (
-            <div class="card">
-              <div class="card-head">
-                <h3>{item.name}</h3>
-                {item.time && <span class="card-time">{item.time}</span>}
-              </div>
-              <p>{item.desc}</p>
-              {((s.maps && item.maps !== false) || item.url || item.to) && (
-                <p class="maps-link">
-                  {s.maps && item.maps !== false && (
-                    <a href={mapsUrl(item.name, s.maps)} target="_blank" rel="noopener">Google Maps ↗</a>
-                  )}
-                  {item.url && (
-                    <a href={item.url} target="_blank" rel="noopener">
-                      {t.lang === 'en' ? 'Website ↗' : 'Site officiel ↗'}
-                    </a>
-                  )}
-                  {item.to && <a href={`${base}${item.to.href}`}>{item.to.label} →</a>}
-                </p>
-              )}
-            </div>
-          ))}
-        </div>
-      )}
-      {s.archives && (
-        <div class="archives archives-inline">
-          {s.archives.map((a) => (
-            <figure class="archive">
-              <img src={a.src} alt={a.alt} />
-              <figcaption>{a.caption}</figcaption>
-            </figure>
-          ))}
-        </div>
-      )}
+      <Section t={t} s={s} base={base} />
     </section>
   ))}
+
+  {hasTabs && (
+    <div class="tabs" data-tabs>
+      <div class="tablist" role="tablist" aria-label={t.lang === 'en' ? 'Sports' : 'Les sports'}>
+        {tabGroups.map((g, i) => (
+          <button
+            class="tab"
+            role="tab"
+            type="button"
+            id={`tab-${g.id}`}
+            aria-controls={`panel-${g.id}`}
+            aria-selected={i === 0 ? 'true' : 'false'}
+          >{g.label}</button>
+        ))}
+      </div>
+      {tabGroups.map((g) => (
+        <section class="section tabpanel" role="tabpanel" id={`panel-${g.id}`} aria-labelledby={`tab-${g.id}`}>
+          {g.sections.map((s) => <Section t={t} s={s} base={base} />)}
+        </section>
+      ))}
+    </div>
+  )}
 
   <Cta t={t} />
 </main>
 
 <Footer t={t} page={page} />
+
+<script>
+  // Onglets : sans ce script la page reste une suite de rubriques et la barre
+  // d'onglets est masquée en CSS, donc pas de boutons morts. Le script l'allume,
+  // n'en laisse qu'un panneau visible, et gère le clavier et l'ancre d'URL.
+  const box = document.querySelector('[data-tabs]');
+  if (box) {
+    const tabs = [...box.querySelectorAll('[role="tab"]')];
+    const panels = tabs.map((t) => document.getElementById(t.getAttribute('aria-controls')));
+
+    const select = (i, { focus = false, push = false } = {}) => {
+      tabs.forEach((t, k) => {
+        t.setAttribute('aria-selected', k === i ? 'true' : 'false');
+        t.tabIndex = k === i ? 0 : -1;
+        panels[k].hidden = k !== i;
+      });
+      if (focus) tabs[i].focus();
+      // replaceState et pas de saut : changer d'onglet ne doit pas faire défiler
+      // la page ni empiler des entrées dans l'historique du navigateur.
+      if (push) history.replaceState(null, '', '#' + panels[i].id.replace(/^panel-/, ''));
+    };
+
+    tabs.forEach((t, i) => {
+      t.addEventListener('click', () => select(i, { push: true }));
+      t.addEventListener('keydown', (e) => {
+        const step = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+        if (step) {
+          e.preventDefault();
+          select((i + step + tabs.length) % tabs.length, { focus: true, push: true });
+        }
+      });
+    });
+
+    // Une URL du genre /bouger/#canyoning ouvre directement le bon onglet.
+    const wanted = decodeURIComponent(location.hash.replace(/^#(panel-)?/, ''));
+    const start = Math.max(0, panels.findIndex((p) => p.id === 'panel-' + wanted));
+    box.classList.add('tabs-on');
+    select(start);
+  }
+</script>
