@@ -61,6 +61,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/bouger/"/>
   </url>
   <url>
+    <loc>https://villa-horizons.fr/golf/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villa-horizons.fr/golf/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/golf/"/>
+  </url>
+  <url>
+    <loc>https://villa-horizons.fr/en/golf/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villa-horizons.fr/golf/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/golf/"/>
+  </url>
+  <url>
     <loc>https://villa-horizons.fr/espagne/</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://villa-horizons.fr/espagne/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/espagne/"/>
@@ -79,6 +89,16 @@
     <loc>https://villa-horizons.fr/en/culture-catalane/</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://villa-horizons.fr/culture-catalane/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/culture-catalane/"/>
+  </url>
+  <url>
+    <loc>https://villa-horizons.fr/vie-pratique/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villa-horizons.fr/vie-pratique/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/vie-pratique/"/>
+  </url>
+  <url>
+    <loc>https://villa-horizons.fr/en/vie-pratique/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://villa-horizons.fr/vie-pratique/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://villa-horizons.fr/en/vie-pratique/"/>
   </url>
   <url>
     <loc>https://villa-horizons.fr/a-propos/</loc>

@@ -38,6 +38,12 @@ export default {
       metaDescription:
         'The classic hikes from Laroque: Col de l\'Ouillat, Pic Néoulous, the Canigou, coastal paths. Plus 6 golf courses within 60 km, CrossFit, horse riding, e-bikes, snorkeling in the Cerbère-Banyuls marine reserve.',
     },
+    golf: {
+      path: 'golf/',
+      metaTitle: 'Golf. Six courses between sea and mountains around Villa Horizons',
+      metaDescription:
+        'Six courses within an hour of Laroque-des-Albères, in France and Catalonia: Saint-Cyprien and its 27 seaside holes, Montescot, Peralada among the vineyards, the Stadium Course at Camiral (Spain\'s #1), Falgos at 1,100 m and Font-Romeu, the oldest mountain course in France.',
+    },
     espagne: {
       path: 'espagne/',
       metaTitle: 'Spain from Villa Horizons. Costa Brava, Girona, La Jonquera',
@@ -72,6 +78,7 @@ export default {
     manger: 'Eat',
     boire: 'Drink',
     bouger: 'Move',
+    golf: 'Golf',
     espagne: 'Spain',
     catalan: 'Catalan culture',
     pratique: 'Practical',
@@ -447,6 +454,80 @@ balades: [
     ],
   },
 
+  // TODO Philippe: your own voice as a player is missing here. Each course has
+  // its verified factual card (holes, par, length, architect, year). What no
+  // golf website will say for you is which one is worth the drive, which one is
+  // overrated, and where to bring the full bag. Add a line or two per course.
+  golf: {
+    title: 'Golf',
+    intro:
+      'Six courses within an hour, in two countries, and no two of them alike: a links on the Mediterranean shore, nine holes among the vineyards of the Empordà, a championship course ranked number one in Spain, and two mountain courses including the oldest in France. You can play here in February as well as in August. You just change altitude.',
+    sections: [
+      {
+        title: 'Within an hour, on the French side',
+        maps: 'Pyrénées-Orientales, France',
+        items: [
+          {
+            name: 'Saint-Cyprien Golf Resort',
+            time: '35 min',
+            url: 'https://www.golf-saint-cyprien.com/fr',
+            desc: 'The local benchmark: 27 holes opened in 1976, designed by Scottish architects Tomlinson and Wright, about ten kilometres from Perpignan and a few hundred metres from the beach. The Canigou-Étang eighteen is links in style and serves as a qualifying course for the European tour; the nine-hole La Forêt course is highly technical and runs through the pines. Mount Canigou stands behind you for much of the round.',
+          },
+          {
+            name: 'Golf Club de Montescot',
+            url: 'https://golfclubdemontescot.fr/',
+            desc: 'Nine holes, par 36, over 3,000 metres, opened in 2007 ten minutes south of Perpignan on gently rolling ground with bunkers and water hazards. Eighteen different tee boxes, nine out and nine back, so you can play a full round without repeating yourself. A 360-degree panorama over the Canigou and the plain. The right format when you do not want to give up the whole day.',
+          },
+        ],
+      },
+      {
+        title: 'Across the border',
+        maps: 'Catalonia, Spain',
+        items: [
+          {
+            name: 'Club de Golf Peralada',
+            time: '30 min',
+            url: 'https://www.golfperalada.com/en/golf-course',
+            desc: 'Eighteen holes, par 71, 5,990 metres, laid out in 1993 by Jordi Soler Peix among the oaks, pines and vineyards of the Empordà. Both nines start and finish at the clubhouse. The course belongs to the Peralada Resort, alongside the castle, the winery and the casino, and several holes are played with vines lining the fairway. It was the first golf course to earn the European Union EMAS certification.',
+          },
+          {
+            name: 'Camiral Golf & Wellness, Stadium Course',
+            time: '1 hr',
+            url: 'https://www.camiral.com/',
+            desc: 'The championship course of the region, at Caldes de Malavella: eighteen holes opened in 1999, designed by Ángel Gallardo and Neil Coles, 6,705 metres from the back tees. Ranked number one in Spain and among the very best in continental Europe, it has hosted many European tour events. One thing to know when booking: the resort was called PGA Catalunya until its rebrand, and many guides and booking engines still use the old name. The Stadium Course itself has not changed.',
+          },
+        ],
+      },
+      {
+        title: 'The two mountain courses',
+        maps: 'Pyrenees',
+        items: [
+          {
+            name: 'Golf du Domaine de Falgos',
+            time: '1 hr',
+            url: 'https://www.falgos.com/en/golf-pyrenees',
+            desc: 'At Saint-Laurent-de-Cerdans, above 1,100 metres on a 650-hectare estate: eighteen holes, par 70, 5,117 metres, opened in 1993, with six par 3s, eight par 4s and four par 5s. A technical, steep course, slope 137, where the elevation change matters as much as the tee shot. The estate claims the southernmost eighteen-hole course in France, and the view reaches as far as the Bay of Roses. Hotel, restaurant and spa on site, which makes it more of a two-day trip than a day out.',
+          },
+          {
+            name: 'Golf de Font-Romeu',
+            time: '1 hr 30',
+            url: 'https://www.mairie-fontromeu.fr/mairie-font-romeu-golf/',
+            desc: 'The oldest mountain golf course in France, created in 1928 by the Midi railway company, back when you reached the Cerdagne by train. Nine holes, par 34, 2,348 metres, between 1,750 and 1,840 metres of altitude, in the forest above the resort, redesigned in 1985 by Jean Garialde. At that altitude the ball carries noticeably further, which pleasantly distorts every distance in your bag.',
+          },
+        ],
+      },
+      {
+        title: 'Good to know',
+        items: [
+          'The season is not the same everywhere. On the coast and in the plain, Saint-Cyprien and Montescot play year round. Falgos also advertises year-round play, at 1,100 metres. Font-Romeu, between 1,750 and 1,840 metres, is a summer course: check before driving up out of season.',
+          'We do not publish green fees, as they change with the season and the day of the week. Rates are on the official websites above, and booking is direct with the clubs.',
+          'Peralada and Camiral are in Spain, about thirty minutes\' drive for the former. No formalities at the border. Just check that your insurance covers your equipment abroad.',
+          'Parking at the villa is private, shaded and behind an electric gate. Tell us when you book if you are travelling with the bags and we will sort the arrangements.',
+        ],
+      },
+    ],
+  },
+
   bouger: {
     title: 'Move',
     intro:
@@ -555,7 +636,7 @@ balades: [
         title: 'Golf',
         tab: 'Golf',
         items: [
-          { name: 'Six courses within 60 km', maps: false, to: { href: '/golf/', label: 'See the golf page' }, desc: 'In France and Spain: Saint-Cyprien, Falgos, Peralada, and PGA Catalunya, ranked number one in Spain. Each course is detailed on the golf page.' },
+          { name: 'Six courses within an hour', maps: false, to: { href: '/golf/', label: 'See the golf page' }, desc: 'In France and Catalonia: Saint-Cyprien and its 27 seaside holes, Montescot, Peralada among the vineyards, the Stadium Course at Camiral ranked number one in Spain, and two mountain courses, Falgos and Font-Romeu.' },
         ],
       },
       {
