@@ -545,7 +545,7 @@ balades: [
           { name: 'Jonquères d\'Oriola, Château de Corneilla (Corneilla-del-Vercol)', url: 'https://jonqueresdoriola.fr', desc: 'La même famille fait du vin ici depuis 1485. Quatre-vingt-quinze hectares aujourd\'hui, du Collioure au Muscat de Rivesaltes en passant par les Côtes du Roussillon, plus un verger de six mille oliviers en bio. Leur histoire est autant celle de la vigne que du cheval, au point qu\'une de leurs cuvées s\'appelle Cavalcade. Le caveau est au château, 3 rue du Château, ouvert du mardi au samedi de 10 h à 12 h et de 15 h à 18 h 30, avec des horaires élargis en juillet et en août.' },
           { name: 'Mas Cristine (Argelès, 10 min)', url: 'https://mascristine.com', desc: 'Tout près, sympa, avec des soirées l\'été (concerts, guinguette), chemin de Saint-André à Argelès-sur-Mer.' },
           { name: 'Clos Saint Sebastien (Banyuls, 30 min)', desc: 'Collioure et Banyuls Grand Cru, avec restaurant attenant face au port et les vins au prix cave, 10 avenue Pierre Fabre.' },
-          { name: 'Les Clos de Paulilles (Port-Vendres, 30 min)', desc: 'Le domaine de la Maison Cazes dans la baie de Paulilles : restaurant à ne pas manquer, dans les vignes en regardant la plage.' },
+          { name: 'Les Clos de Paulilles (Port-Vendres, 30 min)', desc: 'Le domaine de la Maison Cazes dans l\'anse de Paulilles : restaurant à ne pas manquer, dans les vignes en regardant la plage.' },
           { name: 'Domaine Lafage (entre Perpignan et Canet, 30 min)', desc: 'Belle boutique au Mas Miraflors, dégustation gratuite et soirées à thème l\'été (Apéro Sunset le jeudi).' },
           { name: 'Les Salicaires, Vincent Lafage (Canet-en-Roussillon)', url: 'https://www.vinalia.fr/les-salicaires.html', time: '30 min', desc: 'Vincent Lafage est de la famille du Domaine Lafage juste à côté, la génération d\'après celle de Jean-Marc qui le dirige, et il est parti faire sa propre trace. Il s\'installe en 2016 sur vingt hectares familiaux, chemin du Mas Durand, à quelques kilomètres de la mer. Culture bio, vendanges à la main, et une vinification sans intrant : levures indigènes, ni collage ni filtration, une partie élevée en amphores de terre cuite. Une quinzaine de milliers de bouteilles par an, en rouge, en blanc et en orange. Son père Yves, que je connais, résume bien l\'esprit de la maison : du vin nature fait par des vignerons qui savent faire, pas parce que c\'est à la mode. Le domaine n\'a pas de site, le lien mène au caviste qui le distribue.' },
           { name: 'Château de Jau (Cases-de-Pène, 40 min)', desc: 'Déjeuner au Grill (cuisine catalane à la plancha depuis 1978) et grande exposition d\'art chaque été. Prévoyez un conducteur raisonnable pour le retour.' },
@@ -639,12 +639,6 @@ balades: [
     ],
   },
 
-  // TODO Philippe : il manque ta voix de joueur sur cette page. Chaque parcours
-  // a sa fiche factuelle (trous, par, longueur, architecte, année), vérifiée en
-  // ligne. Ce qu'aucun site de golf ne dira à ta place, c'est lequel vaut le
-  // détour, lequel est surcoté, où sortir la totalité du sac. Ajoute une phrase
-  // ou deux par parcours, ou un bloc « Ce que j'en pense, honnêtement » comme
-  // sur la page Village.
   golf: {
     title: 'Golf',
     intro:
@@ -687,6 +681,8 @@ balades: [
       },
       {
         title: 'Les deux golfs de montagne',
+        intro:
+          'Ce que j\'en pense, honnêtement : je ne joue pas au golf, je n\'aime pas ça, et je ne vais donc pas vous raconter les greens. Ce que je peux dire, c\'est que jouer en montagne, dans un massif qui n\'a rien à voir avec un parcours de bord de mer, me paraît de loin le plus singulier de ce qui se propose ici. Les deux parcours ci-dessous sont là pour ça.',
         maps: 'Pyrénées',
         items: [
           {
@@ -725,6 +721,8 @@ balades: [
     sections: [
       {
         title: 'Les randonnées incontournables au départ de Laroque',
+        intro:
+          'Le département vit aujourd\'hui de l\'agriculture et du tourisme, mais il a eu un passé industriel, et la montagne en garde la trace. On a tiré du fer du massif du Canigou depuis l\'époque romaine jusqu\'en 1987, date de la fermeture des mines de Batère, les plus productives que les Pyrénées-Orientales aient connues. On a extrait à la pioche, puis à la dynamite, celle-là même qu\'on fabriquait à Paulilles, sur la côte. Conséquence pour nous : la montagne est criblée de sentiers, aujourd\'hui doublés de pistes DFCI qui permettent aux pompiers de monter. Le terrain de jeu est immense, et il commence au bout de la rue.',
         tab: 'À pied',
         archives: [
           {
@@ -737,6 +735,7 @@ balades: [
         items: [
           { name: 'Le col de l\'Ouillat', desc: 'La montée classique du village, à 936 m au-dessus de nous. On part à pied de Laroque et on remonte la rivière jusqu\'à sa source, au col : deux bonnes heures de montée. Les anciens y grimpaient pour faire le repas là-haut sur un feu de sarments, puis la sieste avant de redescendre, et le programme reste valable. Bon plan : monter à pied et se faire récupérer en voiture en haut, à condition que quelqu\'un veuille bien faire le tour par Le Perthus et la D71, la seule route qui monte au col.' },
           { name: 'Le pic Néoulous', desc: 'Le point culminant des Albères, 1 256 m, sur la frontière même : au sommet, une tour de pierre et un relais de télévision. La grande course locale part de l\'église du vieux village et passe par le col de l\'Ouillat, 17 km et 1 227 m de dénivelé, sept heures annoncées : c\'est une vraie journée. En haut, la plaine du Roussillon et la mer d\'un côté, la chaîne des Pyrénées à l\'ouest, et sur l\'autre versant la plaine de l\'Ampurdan jusqu\'à la baie de Rosas.' },
+          { name: 'Le puits à glace', desc: 'Sur les chemins qui montent vers le col, un grand cylindre de pierre de plusieurs mètres de profondeur, qu\'on remplissait de neige tassée tout l\'hiver. Elle se transformait en glace et tenait jusqu\'aux grosses chaleurs. La tradition locale veut qu\'elle descendait ensuite en carriole à cheval vers les bonnes tables de Perpignan. Le village en a fait une randonnée balisée, « le puits à glace et casot del Guarda ». Mon arrière-grand-mère, elle, montait sur ces mêmes sentiers chercher du bois et redescendait avec les fagots sur le dos, la sangle passée sur le front. Elle ne savait pas ce qu\'était le dénivelé positif, elle en a fait toute sa vie.' },
           { name: 'Le Chalet de l\'Albère', desc: 'Le refuge du col de l\'Ouillat, sur le GR10 : restaurant, terrasse panoramique sur les Pyrénées, et 24 places pour dormir. Ouvert à l\'année, ce qui en fait une belle arrivée de randonnée.' },
         ],
       },
@@ -747,7 +746,7 @@ balades: [
           { name: 'Rando 66, le portail du Département', maps: false, url: 'https://rando66.fr/', desc: 'La source de première main pour préparer une sortie : le Département recense là ses itinéraires labellisés GR, GRP et PR, ainsi que les circuits équestres et VTT, sur un réseau de plus de 800 km de sentiers balisés qu\'il entretient. En accès libre.' },
           { name: 'La tour de la Madeloc depuis le Fort Saint-Elme', desc: 'Pour les jambes solides : au départ de Collioure, la boucle passe par le Fort Saint-Elme puis monte à travers les vignes en terrasses jusqu\'à la tour à signaux médiévale, environ 15 km et 700 m de dénivelé. En haut, toute la plaine, la Côte Vermeille et l\'Espagne d\'un seul regard. Version courte pour les autres : on y monte aussi par la petite route vertigineuse, puis quelques minutes à pied.' },
           { name: 'Au départ de la villa', desc: 'Pic Néoulous (17 km, 1 227 m de dénivelé), col de l\'Ouillat, et tout le réseau de sentiers des Albères.' },
-          { name: 'Sentiers côtiers', desc: 'Le sentier littoral d\'Argelès à Cerbère : criques tranquilles même en août.' },
+          { name: 'Sentiers côtiers', desc: 'Le sentier littoral d\'Argelès à Cerbère, ses criques tranquilles même en août. Avant d\'être une balade, c\'était un chemin de travail : on y a longtemps croisé les contrebandiers, et les douaniers qui leur couraient après, à l\'époque où il allait plus vite d\'aller à pied qu\'à cheval.' },
           { name: 'Le Canigou', desc: 'L\'ascension de la montagne sacrée des Catalans (2 784 m).' },
           { name: 'Font-Romeu à la journée', desc: 'Randonnées à 2 000 m d\'altitude, à 1 h 30 de route.' },
         ],
@@ -756,7 +755,7 @@ balades: [
         title: 'Courses, trail et swimrun',
         tab: 'À pied',
         intro:
-          'Venir courir ici est une très bonne façon de découvrir la région : on traverse en une matinée des paysages qu\'on mettrait des jours à trouver en voiture. Et il y en a vraiment pour tous les goûts, de la balade découverte de 10 km et 500 m de dénivelé à l\'ultra de 175 km. Les épreuves en montagne se concentrent sur l\'été.',
+          'Venir courir ici est une très bonne façon de découvrir la région : on traverse en une matinée des paysages qu\'on mettrait des jours à trouver en voiture. Et il y en a vraiment pour tous les goûts, de la balade découverte de 10 km et 500 m de dénivelé à l\'ultra de 175 km. Les épreuves en montagne se concentrent sur l\'été. Le trail, quand on y pense, c\'est une randonnée courue, rien de plus intimidant que ça. Et pour ceux qui préfèrent le bitume, les épreuves sur route ne manquent pas, tous niveaux et toutes saisons.',
         items: [
           { name: '100 Miles Pyrénées Méditerranée', url: 'https://www.100miles-pyrenees-mediterranee.org/', desc: 'La grande traversée du département, de Bolquère à Argelès-sur-Mer, de la montagne à la mer. Toutes les arrivées sont jugées au château de Valmy, à dix minutes de la villa. Quatre formats : 175 km et 7 670 m de dénivelé pour le 100 Miles, 117 km et 5 566 m pour la Grande Traversée, 73 km et 3 600 m pour la Traversée, et 36 km et 1 700 m pour les Foulées des Albères. Édition 2026 du 2 au 4 octobre.' },
           { name: 'Swimrun Côte Vermeille', url: 'https://www.swimruncotevermeille.com/', desc: 'Le premier swimrun de France : on alterne nage en mer et course à pied le long de la Côte Vermeille, entre Cerbère, Banyuls, Port-Vendres, Collioure et Argelès. Le départ est donné à l\'anse de Paulilles. Sept épreuves, de la Kids à l\'Ultra Ötillö, en équipes. Édition 2026 les 12 et 13 juin.' },
@@ -813,6 +812,8 @@ balades: [
       },
       {
         title: 'CrossFit',
+        intro:
+          'Entretenir son cardio avec des sports d\'endurance, c\'est bien. Protéger sa masse musculaire compte tout autant, et ça se néglige plus facilement. La région ne manque pas de salles de fitness classiques, mais je suis tombé dans la marmite du CrossFit il y a une dizaine d\'années et je n\'en suis jamais ressorti. Toujours prêt à prêcher les quatre mouvements fondamentaux, squat, soulevé de terre, développé couché et développé militaire. J\'ai trouvé mon bonheur à quelques kilomètres de la villa.',
         tab: 'CrossFit',
         items: [
           { name: 'La box Imperium', url: 'https://labox-imperium.fr', desc: 'La salle où je m\'entraîne quand je suis à Laroque, à cinq minutes en voiture : chemin de la Carrerasse, dans la zone artisanale de Saint-André. WOD, haltérophilie, gymnastique, cardio, et de la programmation personnalisée si vous préparez quelque chose. Les séances à l\'unité pour les vacanciers sont les bienvenues, prévenez-les de votre passage. Ouvert du lundi au vendredi de 9 h à 20 h, et le samedi matin de 10 h à 12 h.' },

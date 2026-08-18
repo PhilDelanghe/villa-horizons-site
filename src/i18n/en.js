@@ -454,10 +454,6 @@ balades: [
     ],
   },
 
-  // TODO Philippe: your own voice as a player is missing here. Each course has
-  // its verified factual card (holes, par, length, architect, year). What no
-  // golf website will say for you is which one is worth the drive, which one is
-  // overrated, and where to bring the full bag. Add a line or two per course.
   golf: {
     title: 'Golf',
     intro:
@@ -500,6 +496,8 @@ balades: [
       },
       {
         title: 'The two mountain courses',
+        intro:
+          'What I honestly think: I do not play golf, I do not like it, so I am not going to talk you through the greens. What I can say is that playing up in the mountains, in a range that has nothing in common with a seaside course, strikes me as by far the most unusual thing on offer around here. The two courses below are exactly that.',
         maps: 'Pyrenees',
         items: [
           {
@@ -538,6 +536,8 @@ balades: [
     sections: [
       {
         title: 'The classic hikes straight from Laroque',
+        intro:
+          'The department lives on farming and tourism today, but it had an industrial past, and the mountain still carries the marks. Iron was pulled out of the Canigou massif from Roman times until 1987, when the Batère mines closed, the most productive the Pyrénées-Orientales ever had. It was cut by pick, then by dynamite, the very dynamite made down at Paulilles on the coast. What that leaves us is a mountain riddled with paths, now doubled by forestry tracks that let the fire crews get up there. The playground is vast, and it starts at the end of our road.',
         tab: 'On foot',
         archives: [
           {
@@ -550,6 +550,7 @@ balades: [
         items: [
           { name: 'Col de l\'Ouillat', desc: 'The village\'s classic climb, at 936 m right above us. You set off on foot from Laroque and follow the river up to its source, at the pass: a good two hours of climbing. The old-timers went up to cook lunch at the top over a fire of vine cuttings, then nap before heading back down, and the programme still holds. Best trick: walk up and get picked up by car at the top, provided someone is willing to go round via Le Perthus and the D71, the only road up to the pass.' },
           { name: 'Pic Néoulous', desc: 'The highest point of the Albères at 1,256 m, right on the border: a stone tower and a television relay at the top. The big local walk starts from the church in the old village and goes over the Col de l\'Ouillat, 17 km and 1,227 m of climb, seven hours on the sign: a full day out. From the summit, the Roussillon plain and the sea on one side, the Pyrenees to the west, and on the far slope the Ampurdan plain all the way to the bay of Roses.' },
+          { name: 'The ice well', desc: 'On the paths climbing to the pass, a great stone cylinder several metres deep, packed with snow all winter. It turned to ice and held until the real heat arrived. Local tradition has it going down by horse and cart to the good restaurants of Perpignan. The village has made a waymarked walk of it. My great-grandmother climbed these same paths for firewood and came back down with the bundles on her back, the strap across her forehead. She had no idea what elevation gain was; she did it all her life.' },
           { name: 'Chalet de l\'Albère', desc: 'The refuge at the Col de l\'Ouillat, on the GR10 long-distance path: restaurant, panoramic terrace over the Pyrenees, and 24 beds. Open all year, which makes it a fine place to end a hike.' },
         ],
       },
@@ -560,7 +561,7 @@ balades: [
           { name: 'Rando 66, the department\'s portal', maps: false, url: 'https://rando66.fr/', desc: 'The first-hand source for planning a walk: the department lists its waymarked GR, GRP and PR routes here, along with the bridleways and mountain-bike circuits, across the 800 km of marked trails it maintains. Free to use.' },
           { name: 'The Madeloc tower from Fort Saint-Elme', desc: 'For strong legs: from Collioure, the loop goes past Fort Saint-Elme then climbs through the terraced vineyards to the medieval signal tower, about 15 km and 700 m of elevation gain. From the top, the whole plain, the Côte Vermeille and Spain in a single glance. Short version for everyone else: you can also drive up the vertiginous little road, then walk the last few minutes.' },
           { name: 'From the villa', desc: 'Pic Néoulous (17 km, 1,227 m elevation gain), Col de l\'Ouillat, and the whole Albères trail network.' },
-          { name: 'Coastal paths', desc: 'The coastal trail from Argelès to Cerbère: quiet coves even in August.' },
+          { name: 'Coastal paths', desc: 'The coastal trail from Argelès to Cerbère, its quiet coves even in August. Before it was a walk it was a working road: smugglers used it for a long time, and the customs men who chased them, back when going on foot was quicker than going on horseback.' },
           { name: 'The Canigou', desc: 'The ascent of the Catalans\' sacred mountain (2,784 m).' },
           { name: 'Font-Romeu as a day trip', desc: 'Hikes at 2,000 m altitude, 1 h 30 by road.' },
         ],
@@ -569,7 +570,7 @@ balades: [
         title: 'Races, trail running and swimrun',
         tab: 'On foot',
         intro:
-          'Coming here to race is a very good way to discover the region: in one morning you cross landscapes it would take days to find by car. And there really is something for everyone, from a 10 km discovery run with 500 m of climbing to a 175 km ultra. Mountain races cluster in the summer.',
+          'Coming here to race is a very good way to discover the region: in one morning you cross landscapes it would take days to find by car. And there really is something for everyone, from a 10 km discovery run with 500 m of climbing to a 175 km ultra. Mountain races cluster in the summer. Trail running, when you think about it, is just a hike at a run, nothing more intimidating than that. And for anyone who prefers tarmac, road races are plentiful, at every level and in every season.',
         items: [
           { name: '100 Miles Pyrénées Méditerranée', url: 'https://www.100miles-pyrenees-mediterranee.org/', desc: 'The full crossing of the department, from Bolquère to Argelès-sur-Mer, mountain to sea. Every finish is judged at Château de Valmy, ten minutes from the villa. Four formats: 175 km and 7,670 m of climbing for the 100 Miles, 117 km and 5,566 m for the Grande Traversée, 73 km and 3,600 m for the Traversée, and 36 km and 1,700 m for the Foulées des Albères. 2026 edition, 2 to 4 October.' },
           { name: 'Swimrun Côte Vermeille', url: 'https://www.swimruncotevermeille.com/', desc: 'France\'s first swimrun: you alternate open-water swimming and running along the Côte Vermeille, through Cerbère, Banyuls, Port-Vendres, Collioure and Argelès. The start is given at the Anse de Paulilles. Seven races, from the Kids to the Ötillö Ultra, in teams. 2026 edition, 12 and 13 June.' },
@@ -626,6 +627,8 @@ balades: [
       },
       {
         title: 'CrossFit',
+        intro:
+          'Looking after your heart with endurance sport is good. Protecting your muscle mass matters just as much, and it is the easier one to neglect. The region is not short of ordinary gyms, but I fell into CrossFit about ten years ago and never climbed back out. Always ready to preach the four fundamental lifts: squat, deadlift, bench press and strict press. I found what I wanted a few kilometres from the villa.',
         tab: 'CrossFit',
         items: [
           { name: 'La box Imperium', url: 'https://labox-imperium.fr', desc: 'The gym where I train when I am in Laroque, five minutes away by car: chemin de la Carrerasse, in the Saint-André industrial zone. WOD, weightlifting, gymnastics, cardio, and personalised programming if you are working towards something. Holiday drop-ins are welcome, just let them know you are coming. Open Monday to Friday from 9 am to 8 pm, and Saturday morning from 10 am to noon.' },
