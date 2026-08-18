@@ -682,7 +682,7 @@ balades: [
       {
         title: 'Les deux golfs de montagne',
         intro:
-          'Ce que j\'en pense, honnêtement : je ne joue pas au golf, je n\'aime pas ça, et je ne vais donc pas vous raconter les greens. Ce que je peux dire, c\'est que jouer en montagne, dans un massif qui n\'a rien à voir avec un parcours de bord de mer, me paraît de loin le plus singulier de ce qui se propose ici. Les deux parcours ci-dessous sont là pour ça.',
+          'Ce que j\'en pense, honnêtement : je ne joue pas au golf, je n\'aime pas ça, et je ne vais donc pas vous raconter les greens. Mais s\'il faut en retenir un, c\'est Falgos. Un parcours à plus de mille mètres d\'altitude, posé sur un domaine de 650 hectares au fond du Vallespir, avec la vue qui porte jusqu\'à la baie de Rosas. Ça n\'a rien à voir avec un parcours de bord de mer, et je ne crois pas qu\'on trouve beaucoup d\'équivalents.',
         maps: 'Pyrénées',
         items: [
           {

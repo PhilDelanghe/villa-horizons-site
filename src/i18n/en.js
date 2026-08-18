@@ -497,7 +497,7 @@ balades: [
       {
         title: 'The two mountain courses',
         intro:
-          'What I honestly think: I do not play golf, I do not like it, so I am not going to talk you through the greens. What I can say is that playing up in the mountains, in a range that has nothing in common with a seaside course, strikes me as by far the most unusual thing on offer around here. The two courses below are exactly that.',
+          'What I honestly think: I do not play golf, I do not like it, so I am not going to talk you through the greens. But if you only keep one, keep Falgos. A course above a thousand metres, set on a 650-hectare estate at the far end of the Vallespir, with the view running all the way to the bay of Roses. It has nothing in common with a seaside course, and I doubt there are many equivalents.',
         maps: 'Pyrenees',
         items: [
           {
