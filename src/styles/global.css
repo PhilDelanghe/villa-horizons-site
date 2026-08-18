@@ -355,9 +355,14 @@ a { color: var(--accent); }
    défaut : sans JavaScript la page reste une suite de rubriques lisibles, et on
    n'affiche jamais des boutons qui ne feraient rien. Le script ajoute .tabs-on. */
 .tablist { display: none; }
+/* Mêmes gouttières que .section (5vw, max 1100px) pour que la barre se cale
+   exactement sur les titres du panneau en dessous. */
 .tabs-on .tablist {
   display: flex; flex-wrap: wrap; gap: 0.4rem;
-  max-width: var(--wide, 1100px); margin: 2rem auto 0; padding: 0 1.2rem;
+  max-width: var(--max); margin: 2.5rem auto 0;
+  /* On retire la gouttière interne du bouton pour que le texte du premier
+     onglet tombe pile sur le bord des titres, et pas 15 px plus loin. */
+  padding: 0 calc(5vw - 0.9rem);
   border-bottom: 1px solid var(--bg-alt);
 }
 .tabs-on .tab {
