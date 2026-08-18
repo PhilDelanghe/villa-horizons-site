@@ -42,7 +42,7 @@ export default {
       path: 'golf/',
       metaTitle: 'Golf. Six courses between sea and mountains around Villa Horizons',
       metaDescription:
-        'Six courses within an hour of Laroque-des-Albères, in France and Catalonia: Saint-Cyprien and its 27 seaside holes, Montescot, Peralada among the vineyards, the Stadium Course at Camiral (Spain\'s #1), Falgos at 1,100 m and Font-Romeu, the oldest mountain course in France.',
+        'Six courses within an hour of Laroque-des-Albères, in France and Catalonia: Saint-Cyprien and its 27 seaside holes, Montescot, Peralada among the vineyards, the Stadium Course at Camiral (Spain\'s #1), Falgos at 1,100 m and Font-Romeu, founded in 1928.',
     },
     espagne: {
       path: 'espagne/',
@@ -461,7 +461,7 @@ balades: [
   golf: {
     title: 'Golf',
     intro:
-      'Six courses within an hour, in two countries, and no two of them alike: a links on the Mediterranean shore, nine holes among the vineyards of the Empordà, a championship course ranked number one in Spain, and two mountain courses including the oldest in France. You can play here in February as well as in August. You just change altitude.',
+      'Six courses within an hour, in two countries, and no two of them alike: a links on the Mediterranean shore, nine holes among the vineyards of the Empordà, a championship course ranked among the very best in Spain, and two mountain courses, one of them founded in 1928. You can play here in February as well as in August. You just change altitude.',
     sections: [
       {
         title: 'Within an hour, on the French side',
@@ -471,12 +471,12 @@ balades: [
             name: 'Saint-Cyprien Golf Resort',
             time: '35 min',
             url: 'https://www.golf-saint-cyprien.com/fr',
-            desc: 'The local benchmark: 27 holes opened in 1976, designed by Scottish architects Tomlinson and Wright, about ten kilometres from Perpignan and a few hundred metres from the beach. The Canigou-Étang eighteen is links in style and serves as a qualifying course for the European tour; the nine-hole La Forêt course is highly technical and runs through the pines. Mount Canigou stands behind you for much of the round.',
+            desc: 'The local benchmark: 27 holes opened in 1976, designed by Scottish architects Ben Wright and Barry Tomlinson, about ten kilometres from Perpignan and a few hundred metres from the beach. The eighteen-hole L\'Étang is links in style and is played inside a bird sanctuary; the nine-hole La Forêt runs through the pines. Mount Canigou stands behind you for much of the round.',
           },
           {
             name: 'Golf Club de Montescot',
             url: 'https://golfclubdemontescot.fr/',
-            desc: 'Nine holes, par 36, over 3,000 metres, opened in 2007 ten minutes south of Perpignan on gently rolling ground with bunkers and water hazards. Eighteen different tee boxes, nine out and nine back, so you can play a full round without repeating yourself. A 360-degree panorama over the Canigou and the plain. The right format when you do not want to give up the whole day.',
+            desc: 'Nine holes, par 36, over 3,000 metres, ten minutes south of Perpignan on gently rolling ground. The club advertises a 360-degree panorama: the Canigou, the Albères range, the Madeloc and Massane towers, Fort Saint-Elme, Cap Béar and Elne cathedral. The right format when you do not want to give up the whole day.',
           },
         ],
       },
@@ -488,13 +488,13 @@ balades: [
             name: 'Club de Golf Peralada',
             time: '30 min',
             url: 'https://www.golfperalada.com/en/golf-course',
-            desc: 'Eighteen holes, par 71, 5,990 metres, laid out in 1993 by Jordi Soler Peix among the oaks, pines and vineyards of the Empordà. Both nines start and finish at the clubhouse. The course belongs to the Peralada Resort, alongside the castle, the winery and the casino, and several holes are played with vines lining the fairway. It was the first golf course to earn the European Union EMAS certification.',
+            desc: 'Eighteen holes, par 71, 6,039 metres, among the oaks, pines and vineyards of the Empordà. Both nines start and finish at the clubhouse. The course belongs to the Peralada Resort, alongside the castle, the winery and the casino, and several holes are played with vines lining the fairway.',
           },
           {
             name: 'Camiral Golf & Wellness, Stadium Course',
             time: '1 hr',
             url: 'https://www.camiral.com/',
-            desc: 'The championship course of the region, at Caldes de Malavella: eighteen holes opened in 1999, designed by Ángel Gallardo and Neil Coles, 6,705 metres from the back tees. Ranked number one in Spain and among the very best in continental Europe, it has hosted many European tour events. One thing to know when booking: the resort was called PGA Catalunya until its rebrand, and many guides and booking engines still use the old name. The Stadium Course itself has not changed.',
+            desc: 'The championship course of the region, at Caldes de Malavella: eighteen holes opened in 1999, shaped under Neil Coles and Ángel Gallardo, 7,333 yards from the back tees, a little over 6,700 metres. The resort presents it as Spain\'s number one on the top100golfcourses.com ranking from 2012 to 2019. One thing to know when booking: it was called PGA Catalunya, and many guides and booking engines still use the old name. The Stadium Course itself has not changed.',
           },
         ],
       },
@@ -512,7 +512,7 @@ balades: [
             name: 'Golf de Font-Romeu',
             time: '1 hr 30',
             url: 'https://www.mairie-fontromeu.fr/mairie-font-romeu-golf/',
-            desc: 'The oldest mountain golf course in France, created in 1928 by the Midi railway company, back when you reached the Cerdagne by train. Nine holes, par 34, 2,348 metres, between 1,750 and 1,840 metres of altitude, in the forest above the resort, redesigned in 1985 by Jean Garialde. At that altitude the ball carries noticeably further, which pleasantly distorts every distance in your bag.',
+            desc: 'Founded in 1928 by the Compagnie des chemins de fer du Midi, back when you reached the Cerdagne by train, and inaugurated that September. The commune presents it as the first eight-hole mountain course in France, and the French golf heritage association as the oldest course in Languedoc-Roussillon. It is played in the forest above the resort. At that altitude the ball carries noticeably further, which pleasantly distorts every distance in your bag.',
           },
         ],
       },
@@ -549,7 +549,7 @@ balades: [
         maps: 'Pyrénées-Orientales',
         items: [
           { name: 'Col de l\'Ouillat', desc: 'The village\'s classic climb, at 936 m right above us. You set off on foot from Laroque and follow the river up to its source, at the pass: a good two hours of climbing. The old-timers went up to cook lunch at the top over a fire of vine cuttings, then nap before heading back down, and the programme still holds. Best trick: walk up and get picked up by car at the top, provided someone is willing to go round via Le Perthus and the D71, the only road up to the pass.' },
-          { name: 'Pic Néoulous', desc: 'The highest point of the Albères at 1,256 m, right on the border: a stone tower and a television relay at the top. The big local walk starts from the church in the old village and goes over the Col de l\'Ouillat, 16.7 km and 1,227 m of climb, seven hours on the sign: a full day out. From the summit, the Roussillon plain and the sea on one side, the Pyrenees to the west, and on the far slope the Ampurdan plain all the way to the bay of Roses.' },
+          { name: 'Pic Néoulous', desc: 'The highest point of the Albères at 1,256 m, right on the border: a stone tower and a television relay at the top. The big local walk starts from the church in the old village and goes over the Col de l\'Ouillat, 17 km and 1,227 m of climb, seven hours on the sign: a full day out. From the summit, the Roussillon plain and the sea on one side, the Pyrenees to the west, and on the far slope the Ampurdan plain all the way to the bay of Roses.' },
           { name: 'Chalet de l\'Albère', desc: 'The refuge at the Col de l\'Ouillat, on the GR10 long-distance path: restaurant, panoramic terrace over the Pyrenees, and 24 beds. Open all year, which makes it a fine place to end a hike.' },
         ],
       },
@@ -559,7 +559,7 @@ balades: [
         items: [
           { name: 'Rando 66, the department\'s portal', maps: false, url: 'https://rando66.fr/', desc: 'The first-hand source for planning a walk: the department lists its waymarked GR, GRP and PR routes here, along with the bridleways and mountain-bike circuits, across the 800 km of marked trails it maintains. Free to use.' },
           { name: 'The Madeloc tower from Fort Saint-Elme', desc: 'For strong legs: from Collioure, the loop goes past Fort Saint-Elme then climbs through the terraced vineyards to the medieval signal tower, about 15 km and 700 m of elevation gain. From the top, the whole plain, the Côte Vermeille and Spain in a single glance. Short version for everyone else: you can also drive up the vertiginous little road, then walk the last few minutes.' },
-          { name: 'From the villa', desc: 'Pic Néoulous (14 km, 1,000 m elevation gain), Col de l\'Ouillat, and the whole Albères trail network.' },
+          { name: 'From the villa', desc: 'Pic Néoulous (17 km, 1,227 m elevation gain), Col de l\'Ouillat, and the whole Albères trail network.' },
           { name: 'Coastal paths', desc: 'The coastal trail from Argelès to Cerbère: quiet coves even in August.' },
           { name: 'The Canigou', desc: 'The ascent of the Catalans\' sacred mountain (2,784 m).' },
           { name: 'Font-Romeu as a day trip', desc: 'Hikes at 2,000 m altitude, 1 h 30 by road.' },

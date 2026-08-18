@@ -42,7 +42,7 @@ export default {
       path: 'golf/',
       metaTitle: 'Golf. Six parcours entre mer et montagne autour de Villa Horizons',
       metaDescription:
-        'Six parcours dans l\'heure autour de Laroque-des-Albères, en France et en Catalogne : Saint-Cyprien et ses 27 trous en bord de mer, Montescot, Peralada dans les vignes, le Stadium Course de Camiral (n°1 en Espagne), Falgos à 1 100 m et Font-Romeu, le plus ancien golf de montagne de France.',
+        'Six parcours dans l\'heure autour de Laroque-des-Albères, en France et en Catalogne : Saint-Cyprien et ses 27 trous en bord de mer, Montescot, Peralada dans les vignes, le Stadium Course de Camiral, Falgos à 1 100 m et Font-Romeu, créé en 1928.',
     },
     espagne: {
       path: 'espagne/',
@@ -648,7 +648,7 @@ balades: [
   golf: {
     title: 'Golf',
     intro:
-      'Six parcours dans l\'heure, deux pays, et des terrains qui n\'ont rien à voir entre eux : un links en bord de Méditerranée, un neuf trous dans les vignes de l\'Empordà, un parcours de championnat classé n°1 en Espagne, et deux golfs de montagne dont le plus ancien de France. On peut jouer ici en février comme en août, il suffit de changer d\'altitude.',
+      'Six parcours dans l\'heure, deux pays, et des terrains qui n\'ont rien à voir entre eux : un links en bord de Méditerranée, un neuf trous dans les vignes de l\'Empordà, un parcours de championnat classé parmi les tout premiers d\'Espagne, et deux golfs de montagne dont un créé en 1928. On peut jouer ici en février comme en août, il suffit de changer d\'altitude.',
     sections: [
       {
         title: 'À moins d\'une heure, côté français',
@@ -658,12 +658,12 @@ balades: [
             name: 'Saint-Cyprien Golf Resort',
             time: '35 min',
             url: 'https://www.golf-saint-cyprien.com/fr',
-            desc: 'La référence locale : 27 trous ouverts en 1976, dessinés par les architectes écossais Tomlinson et Wright, à une dizaine de kilomètres de Perpignan et à quelques centaines de mètres de la plage. Le 18 trous Canigou-Étang est de style links et sert de parcours qualificatif pour le circuit européen ; le 9 trous de La Forêt, très technique, se joue au milieu des pins. Le Canigou est en toile de fond sur une bonne partie du parcours.',
+            desc: 'La référence locale : 27 trous ouverts en 1976, dessinés par les architectes écossais Ben Wright et Barry Tomlinson, à une dizaine de kilomètres de Perpignan et à quelques centaines de mètres de la plage. Le 18 trous de L\'Étang est de style links et se joue dans une réserve ornithologique ; le 9 trous de La Forêt se joue au milieu des pins. Le Canigou est en toile de fond sur une bonne partie du parcours.',
           },
           {
             name: 'Golf Club de Montescot',
             url: 'https://golfclubdemontescot.fr/',
-            desc: 'Neuf trous par 36 de plus de 3 000 mètres, ouverts en 2007 à dix minutes au sud de Perpignan, sur un terrain légèrement vallonné avec bunkers et obstacles d\'eau. Dix-huit départs différents, neuf à l\'aller et neuf au retour, ce qui permet de faire un vrai parcours complet sans changer de boucle. Panorama à 360 degrés sur le Canigou et la plaine. Le format idéal quand on ne veut pas y passer la journée.',
+            desc: 'Neuf trous par 36 de plus de 3 000 mètres, à dix minutes au sud de Perpignan, sur un terrain légèrement vallonné. Le club annonce un panorama à 360 degrés : le Canigou, la chaîne des Albères, les tours de Madeloc et de la Massane, le fort Saint-Elme, le cap Béar et la cathédrale d\'Elne. Le format idéal quand on ne veut pas y passer la journée.',
           },
         ],
       },
@@ -675,13 +675,13 @@ balades: [
             name: 'Club de Golf Peralada',
             time: '30 min',
             url: 'https://www.golfperalada.com/fr/',
-            desc: 'Dix-huit trous par 71 sur 5 990 mètres, tracés en 1993 par Jordi Soler Peix au milieu des chênes, des pins et des vignes de l\'Empordà. Les deux boucles de neuf partent et reviennent au club-house. Le parcours fait partie du Peralada Resort, avec le château, la cave et le casino, et certains trous se jouent la vigne en bordure de fairway. C\'est le premier golf à avoir obtenu la certification européenne EMAS.',
+            desc: 'Dix-huit trous par 71 sur 6 039 mètres, au milieu des chênes, des pins et des vignes de l\'Empordà. Les deux boucles de neuf partent et reviennent au club-house. Le parcours fait partie du Peralada Resort, avec le château, la cave et le casino, et certains trous se jouent la vigne en bordure de fairway.',
           },
           {
             name: 'Camiral Golf & Wellness, Stadium Course',
             time: '1 h',
             url: 'https://www.camiral.com/',
-            desc: 'Le parcours de championnat de la région, à Caldes de Malavella : 18 trous ouverts en 1999, dessinés par Ángel Gallardo et Neil Coles, 6 705 mètres des départs arrière. Classé n°1 en Espagne et dans les tout premiers d\'Europe continentale, il a reçu de nombreuses épreuves du circuit européen. Attention pour réserver : le resort s\'appelait PGA Catalunya jusqu\'à son changement de nom, beaucoup de guides et de moteurs de réservation utilisent encore l\'ancien nom. Le Stadium Course, lui, n\'a pas changé.',
+            desc: 'Le parcours de championnat de la région, à Caldes de Malavella : 18 trous ouverts en 1999, dessinés sous la houlette de Neil Coles et Ángel Gallardo, 7 333 yards des départs arrière, soit un peu plus de 6 700 mètres. Le resort le présente comme le n°1 espagnol au classement top100golfcourses.com de 2012 à 2019. Attention pour réserver : il s\'appelait PGA Catalunya, et beaucoup de guides et de moteurs de réservation utilisent encore l\'ancien nom. Le Stadium Course, lui, n\'a pas changé.',
           },
         ],
       },
@@ -699,7 +699,7 @@ balades: [
             name: 'Golf de Font-Romeu',
             time: '1 h 30',
             url: 'https://www.mairie-fontromeu.fr/mairie-font-romeu-golf/',
-            desc: 'Le plus ancien golf de montagne de France, créé en 1928 par la Compagnie des chemins de fer du Midi, à l\'époque où l\'on montait en Cerdagne en train. Neuf trous par 34 sur 2 348 mètres, entre 1 750 et 1 840 mètres d\'altitude, dans la forêt au-dessus de la station, redessinés en 1985 par Jean Garialde. À cette altitude la balle porte nettement plus loin, ce qui fausse agréablement toutes les distances de votre sac.',
+            desc: 'Créé en 1928 par la Compagnie des chemins de fer du Midi, à l\'époque où l\'on montait en Cerdagne en train, et inauguré en septembre de la même année. La commune le présente comme le premier golf 8 trous de montagne de France, et l\'Association pour le patrimoine golfique français comme le plus ancien golf du Languedoc-Roussillon. Il se joue dans la forêt au-dessus de la station. À cette altitude la balle porte nettement plus loin, ce qui fausse agréablement toutes les distances de votre sac.',
           },
         ],
       },
@@ -736,7 +736,7 @@ balades: [
         maps: 'Pyrénées-Orientales',
         items: [
           { name: 'Le col de l\'Ouillat', desc: 'La montée classique du village, à 936 m au-dessus de nous. On part à pied de Laroque et on remonte la rivière jusqu\'à sa source, au col : deux bonnes heures de montée. Les anciens y grimpaient pour faire le repas là-haut sur un feu de sarments, puis la sieste avant de redescendre, et le programme reste valable. Bon plan : monter à pied et se faire récupérer en voiture en haut, à condition que quelqu\'un veuille bien faire le tour par Le Perthus et la D71, la seule route qui monte au col.' },
-          { name: 'Le pic Néoulous', desc: 'Le point culminant des Albères, 1 256 m, sur la frontière même : au sommet, une tour de pierre et un relais de télévision. La grande course locale part de l\'église du vieux village et passe par le col de l\'Ouillat, 16,7 km et 1 227 m de dénivelé, sept heures annoncées : c\'est une vraie journée. En haut, la plaine du Roussillon et la mer d\'un côté, la chaîne des Pyrénées à l\'ouest, et sur l\'autre versant la plaine de l\'Ampurdan jusqu\'à la baie de Rosas.' },
+          { name: 'Le pic Néoulous', desc: 'Le point culminant des Albères, 1 256 m, sur la frontière même : au sommet, une tour de pierre et un relais de télévision. La grande course locale part de l\'église du vieux village et passe par le col de l\'Ouillat, 17 km et 1 227 m de dénivelé, sept heures annoncées : c\'est une vraie journée. En haut, la plaine du Roussillon et la mer d\'un côté, la chaîne des Pyrénées à l\'ouest, et sur l\'autre versant la plaine de l\'Ampurdan jusqu\'à la baie de Rosas.' },
           { name: 'Le Chalet de l\'Albère', desc: 'Le refuge du col de l\'Ouillat, sur le GR10 : restaurant, terrasse panoramique sur les Pyrénées, et 24 places pour dormir. Ouvert à l\'année, ce qui en fait une belle arrivée de randonnée.' },
         ],
       },
@@ -746,7 +746,7 @@ balades: [
         items: [
           { name: 'Rando 66, le portail du Département', maps: false, url: 'https://rando66.fr/', desc: 'La source de première main pour préparer une sortie : le Département recense là ses itinéraires labellisés GR, GRP et PR, ainsi que les circuits équestres et VTT, sur un réseau de plus de 800 km de sentiers balisés qu\'il entretient. En accès libre.' },
           { name: 'La tour de la Madeloc depuis le Fort Saint-Elme', desc: 'Pour les jambes solides : au départ de Collioure, la boucle passe par le Fort Saint-Elme puis monte à travers les vignes en terrasses jusqu\'à la tour à signaux médiévale, environ 15 km et 700 m de dénivelé. En haut, toute la plaine, la Côte Vermeille et l\'Espagne d\'un seul regard. Version courte pour les autres : on y monte aussi par la petite route vertigineuse, puis quelques minutes à pied.' },
-          { name: 'Au départ de la villa', desc: 'Pic Néoulous (14 km, 1 000 m de dénivelé), col de l\'Ouillat, et tout le réseau de sentiers des Albères.' },
+          { name: 'Au départ de la villa', desc: 'Pic Néoulous (17 km, 1 227 m de dénivelé), col de l\'Ouillat, et tout le réseau de sentiers des Albères.' },
           { name: 'Sentiers côtiers', desc: 'Le sentier littoral d\'Argelès à Cerbère : criques tranquilles même en août.' },
           { name: 'Le Canigou', desc: 'L\'ascension de la montagne sacrée des Catalans (2 784 m).' },
           { name: 'Font-Romeu à la journée', desc: 'Randonnées à 2 000 m d\'altitude, à 1 h 30 de route.' },
