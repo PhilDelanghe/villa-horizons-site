@@ -391,6 +391,31 @@ balades: [
       'Le coin est un concentré d\'art et de patrimoine catalan : les fauvistes ont inventé la couleur à Collioure, Picasso a séjourné à Céret, Dalí est né à Figueres, et les abbayes romanes jalonnent les Albères.',
     features: [
       {
+        title: 'Les Fenouillèdes, le nord sauvage',
+        time: '1 h',
+        image: '/photos/lieux/galamus-route-corniche.jpg',
+        imageAlt: 'Les gorges de Galamus, la route en corniche accrochée à la paroi et l\'Agly au fond du couloir de calcaire',
+        images: [
+          {
+            src: '/photos/lieux/galamus-vasques-agly.jpg',
+            alt: 'Vue plongeante depuis la route sur les vasques et les cascades de l\'Agly, au fond des gorges de Galamus',
+            caption: 'Depuis la route, le regard tombe droit sur l\'enfilade de vasques et de cascades.',
+          },
+        ],
+        paragraphs: [
+          'On a parlé de la mer, on a parlé des Albères, mais il y a une autre région et elle ne ressemble à ni l\'une ni l\'autre : les Fenouillèdes. Saint-Paul-de-Fenouillet est à une heure de route de la villa, et de là on s\'approche de l\'Aude, d\'Axat, de Quillan et de Limoux, et des châteaux cathares.',
+          'Mais avant ça il y a Tautavel, habité par nos ancêtres il y a 450 000 ans. Le crâne trouvé en 1971 dans la Caune de l\'Arago par l\'équipe d\'Henry de Lumley est daté de cette époque, et le musée de Préhistoire du village raconte toute l\'histoire. La grotte elle-même ne se visite pas.',
+          'Il y a aussi Maury et ses vins doux naturels, nés sur des schistes noirs. L\'appellation couvre quatre communes du coin, dont Saint-Paul-de-Fenouillet et Tautavel.',
+          'Et il y a les fantastiques gorges de Galamus, où l\'Agly s\'est taillé un couloir dans le calcaire. Le site est classé depuis 1927. Pour en profiter pleinement il faut le faire en canyoning, mais déjà la vue depuis la route et un petit bain de pieds dans les vasques bleues et vertes valent le déplacement. La D7 traverse les gorges en corniche, de Saint-Paul-de-Fenouillet à Cubières-sur-Cinoble, et l\'ermitage Saint-Antoine est accroché dans la falaise à 376 mètres, sa chapelle installée dans une grotte que des franciscains ont aménagée au XVe siècle.',
+          'Et si vous êtes nostalgique d\'Alphonse Daudet, Cucugnan est à deux pas, avec le château de Quéribus au-dessus. À défaut du curé, vous pouvez y acheter du pain fait avec de la farine de blé locale : au moulin d\'Omer, la maison Les Maîtres de mon Moulin, fondée par Roland Feuillas, tient toute la chaîne de la semence au pain et vend ses farines de blés anciens sur place.',
+        ],
+        links: [
+          { label: 'Musée de Préhistoire de Tautavel', url: 'https://450000ans.com/' },
+          { label: 'Les gorges de Galamus', url: 'https://www.tourismefenouilledes.com/' },
+          { label: 'Les Maîtres de mon Moulin', url: 'https://lesmaitresdemonmoulin.com/' },
+        ],
+      },
+      {
         title: 'Paulilles, une plage qui était une usine de dynamite',
         time: '30 mn',
         image: '/photos/lieux/paulilles-plage.jpg',

@@ -391,6 +391,31 @@ balades: [
       'This corner of Catalonia is packed with art and heritage: the Fauvists invented color in Collioure, Picasso stayed in Céret, Dalí was born in Figueres, and Romanesque abbeys dot the Albères.',
     features: [
       {
+        title: 'The Fenouillèdes, the wild north',
+        time: '1 hr',
+        image: '/photos/lieux/galamus-route-corniche.jpg',
+        imageAlt: 'The Galamus gorges, the corniche road clinging to the cliff and the Agly at the bottom of the limestone corridor',
+        images: [
+          {
+            src: '/photos/lieux/galamus-vasques-agly.jpg',
+            alt: 'Looking straight down from the road onto the pools and waterfalls of the Agly, deep in the Galamus gorges',
+            caption: 'From the road, your eye drops straight onto the run of pools and waterfalls.',
+          },
+        ],
+        paragraphs: [
+          'We have talked about the sea, we have talked about the Albères, but there is another region and it looks like neither: the Fenouillèdes. Saint-Paul-de-Fenouillet is an hour\'s drive from the villa, and from there you are closing in on the Aude, on Axat, Quillan and Limoux, and on the Cathar castles.',
+          'Before that, though, comes Tautavel, where our ancestors lived 450,000 years ago. The skull found in 1971 in the Caune de l\'Arago by Henry de Lumley\'s team dates from that era, and the village prehistory museum tells the whole story. The cave itself is not open to visitors.',
+          'There is Maury too, and its vins doux naturels, grown on black schist. The appellation covers four communes around here, including Saint-Paul-de-Fenouillet and Tautavel.',
+          'And there are the magnificent Galamus gorges, where the Agly has cut itself a corridor through the limestone. The site has been protected since 1927. To make the most of it you want to go through it canyoning, but even the view from the road and a quick paddle in the blue and green pools are worth the drive. The D7 crosses the gorges as a corniche, from Saint-Paul-de-Fenouillet to Cubières-sur-Cinoble, and the Saint-Antoine hermitage hangs in the cliff at 376 metres, its chapel set inside a cave that Franciscans fitted out in the 15th century.',
+          'And if you feel nostalgic for Alphonse Daudet, Cucugnan is a stone\'s throw away, with the castle of Quéribus above it. The priest of the story is long gone, but you can buy bread made with local wheat flour: at the moulin d\'Omer, Les Maîtres de mon Moulin, founded by Roland Feuillas, runs the whole chain from seed to loaf and sells its ancient-grain flours on site.',
+        ],
+        links: [
+          { label: 'Tautavel Prehistory Museum', url: 'https://450000ans.com/' },
+          { label: 'The Galamus gorges', url: 'https://www.tourismefenouilledes.com/' },
+          { label: 'Les Maîtres de mon Moulin', url: 'https://lesmaitresdemonmoulin.com/' },
+        ],
+      },
+      {
         title: 'Paulilles, a beach that used to be a dynamite factory',
         time: '30 min',
         image: '/photos/lieux/paulilles-plage.jpg',
