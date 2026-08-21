@@ -391,6 +391,38 @@ balades: [
       'This corner of Catalonia is packed with art and heritage: the Fauvists invented color in Collioure, Picasso stayed in Céret, Dalí was born in Figueres, and Romanesque abbeys dot the Albères.',
     features: [
       {
+        title: 'Collioure, the postcard and what lies behind it',
+        time: '15 min',
+        image: '/photos/lieux/collioure-chateau-royal-clocher.jpg',
+        imageAlt: 'The royal castle of Collioure and the bell tower of Notre-Dame-des-Anges seen from the bay',
+        images: [
+          {
+            src: '/photos/lieux/collioure-barques-catalanes-senyeras.jpg',
+            alt: 'Catalan boats flying senyera flags in the harbour of Collioure',
+            caption: 'The Catalan boats, rigged and flying their flags, a few metres from the terraces.',
+          },
+          {
+            src: '/photos/lieux/collioure-facades-illuminees-nuit.jpg',
+            alt: 'The colourful facades of Collioure lit up after dark',
+            caption: 'After dark, the facades shift from red to ochre.',
+          },
+        ],
+        paragraphs: [
+          'Collioure really is a postcard and, being one, it gets very busy in season. In fact from the first ray of sunshine onwards, which here means almost all the time.',
+          'But go in the morning and you understand what drew Derain and his friends: that insane light, those dense blues, and also the red of the bougainvillea and the ochre of the stone. Just the walk along the ramparts, the Catalan boats, or the soldiers training to swim fully dressed with a rifle between their teeth.',
+          'And as a reminder that this was not always a holiday resort but a hard place to live, the cannons are still there on the beach, along with a Christ eaten by rust facing the sea beside the Saint-Vincent chapel, at the end of the jetty, and Vauban\'s fortifications on the royal castle. The castle was the summer residence of the kings of Majorca, and Vauban had the ramparts raised at the end of the 17th century, the defensive works being completed in 1690. The price was old Collioure itself, razed to make room for them.',
+          'The rest of the time you can daydream at the sea in the morning, while making sure a hungry gull does not make off with your croissant. Browse the design shops, taste ten kinds of anchovy, taste wine, look at the paintings of Max Rovira, known for his portraits of Dalí in saturated colour, and those of his daughter, who paints under the name Pitu. Or spend three hours at the table at La Balette, the restaurant of the Relais des Trois Mas, where Michelin-starred chef Laurent Lemal cooks. Anything goes.',
+          'One thing about the anchovies: most of them are no longer caught here. Anchovies worth fishing have become scarce in the Mediterranean, and the salting houses now work with fish from the Bay of Biscay or further afield. The craft, though, has stayed in the village.',
+          'For the energetic, you can climb up to Fort Saint-Elme, and the view is stunning. The fort itself is privately owned and has been closed to visitors since 2023, undergoing works: you go up for the path and the panorama, not for the inside. On the way there is the Cortina windmill, a 14th-century mill, probably one of the first built in Catalan country, its entire wooden frame rebuilt using traditional methods during the restoration completed in June 2001. It no longer grinds grain, it presses olives. The Amis du Moulin association opens it on Wednesdays and Sundays from 10 a.m. to noon, April to September.',
+          'Our own favourite spots: Le Neptune, open all year, Casa Rico, brand new, and Chez Simone. But that is very much a matter of taste, and it is worth wandering to find the spot of the moment.',
+        ],
+        links: [
+          { label: 'Collioure tourist office', url: 'https://www.tourisme-collioure.com/' },
+          { label: 'Galerie Max Rovira', url: 'https://maxrovira.com/' },
+          { label: 'La Balette, Relais des Trois Mas', url: 'https://www.relaisdestroismas.com/restaurant-la-balette/' },
+        ],
+      },
+      {
         title: 'The Fenouillèdes, the wild north',
         time: '1 hr',
         image: '/photos/lieux/galamus-route-corniche.jpg',

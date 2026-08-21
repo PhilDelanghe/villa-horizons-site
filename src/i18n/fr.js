@@ -391,6 +391,38 @@ balades: [
       'Le coin est un concentré d\'art et de patrimoine catalan : les fauvistes ont inventé la couleur à Collioure, Picasso a séjourné à Céret, Dalí est né à Figueres, et les abbayes romanes jalonnent les Albères.',
     features: [
       {
+        title: 'Collioure, la carte postale et ce qu\'il y a derrière',
+        time: '15 mn',
+        image: '/photos/lieux/collioure-chateau-royal-clocher.jpg',
+        imageAlt: 'Le château royal de Collioure et le clocher de Notre-Dame-des-Anges vus depuis la baie',
+        images: [
+          {
+            src: '/photos/lieux/collioure-barques-catalanes-senyeras.jpg',
+            alt: 'Barques catalanes pavoisées de senyeras dans le port de Collioure',
+            caption: 'Les barques catalanes, gréées et pavoisées, à quelques mètres des terrasses.',
+          },
+          {
+            src: '/photos/lieux/collioure-facades-illuminees-nuit.jpg',
+            alt: 'Les façades colorées de Collioure illuminées à la nuit tombée',
+            caption: 'À la nuit tombée, les façades passent du rouge à l\'ocre.',
+          },
+        ],
+        paragraphs: [
+          'Collioure est vraiment une carte postale et, en tant que telle, c\'est très fréquenté en saison. En fait, dès qu\'il y a un rayon de soleil, donc pratiquement tout le temps.',
+          'Mais quand on y va le matin, on comprend ce qui a séduit Derain et ses copains : cette lumière de dingue, ces bleus denses, mais aussi le rouge des bougainvillées et l\'ocre des pierres. Rien que la balade sur les remparts, les barques catalanes, ou les militaires qui s\'entraînent à nager tout habillés, le fusil entre les dents.',
+          'Et pour nous rappeler que ça n\'a pas toujours été un lieu de villégiature, mais plutôt un monde dur, il y a toujours les canons sur la plage, un christ rongé par la rouille face à la mer à côté de la chapelle Saint-Vincent, au bout de la jetée, et les fortifications de Vauban sur le château royal. Le château a été la résidence d\'été des rois de Majorque, et Vauban a fait rehausser les remparts à la fin du XVIIe siècle, l\'ensemble défensif étant achevé en 1690. Le prix à payer a été le vieux Collioure, rasé pour l\'occasion.',
+          'Le reste du temps, on peut rêvasser en regardant la mer le matin, en veillant à ne pas se faire piquer son croissant par une mouette affamée. Flâner dans les boutiques de déco, goûter dix sortes d\'anchois, déguster du vin, regarder les tableaux de Max Rovira, que ses portraits de Dalí en couleurs saturées ont fait connaître, et ceux de sa fille qui peint sous le nom de Pitu. Ou se faire trois heures de table à La Balette, le restaurant du Relais des Trois Mas, où officie le chef étoilé Laurent Lemal. Tout est possible.',
+          'Une précision sur les anchois : la plupart ne sont plus pêchés ici. Les anchois exploitables se font rares en Méditerranée, et les salaisons travaillent aujourd\'hui du poisson venu du golfe de Gascogne ou de plus loin. Le savoir-faire, lui, est resté au village.',
+          'Pour les courageux, on peut monter au Fort Saint-Elme, et la vue est de dingue. Le fort lui-même est privé et fermé à la visite depuis 2023, en travaux : on monte pour le chemin et pour le panorama, pas pour l\'intérieur. Sur le passage, il y a le moulin de la Cortina, un moulin à vent du XIVe siècle, probablement un des premiers construits en Pays catalan, avec toute son ossature en bois refaite à l\'ancienne lors de la restauration achevée en juin 2001. Il ne moud plus le grain, il presse les olives. L\'association des Amis du Moulin le fait visiter les mercredis et dimanches de 10 h à midi, d\'avril à septembre.',
+          'Nos spots préférés : Le Neptune, ouvert toute l\'année, la Casa Rico, toute nouvelle, et Chez Simone. Mais c\'est très subjectif, et ça vaut la peine de flâner pour trouver le spot du moment.',
+        ],
+        links: [
+          { label: 'Office de tourisme de Collioure', url: 'https://www.tourisme-collioure.com/' },
+          { label: 'Galerie Max Rovira', url: 'https://maxrovira.com/' },
+          { label: 'La Balette, Relais des Trois Mas', url: 'https://www.relaisdestroismas.com/restaurant-la-balette/' },
+        ],
+      },
+      {
         title: 'Les Fenouillèdes, le nord sauvage',
         time: '1 h',
         image: '/photos/lieux/galamus-route-corniche.jpg',
