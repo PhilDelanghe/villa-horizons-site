@@ -609,7 +609,7 @@ balades: [
           { name: 'Tour Madeloc, from Banyuls', desc: '9.62 km for 647 m of climbing, 6.73% average and pitches at 20%, up to 656 m at the foot of the medieval signal tower. A first-category climb, with the whole Côte Vermeille beneath your wheels. Note that the climb starts from Banyuls, not from Laroque.' },
           { name: 'Col de l\'Ouillat', desc: 'The D71 from Le Perthus, the only road up to the pass, at 936 m. At the top, the Chalet de l\'Albère and its panoramic terrace to refuel before the descent.' },
           { name: 'EuroVelo 8', maps: false, desc: 'The Mediterranean cycle route passes nearby: flat riding, family friendly, without ever looking up at a pass.' },
-          { name: 'Mountain biking', desc: 'The whole network of tracks and trails in the Albères, straight from the village. Bikes can be lent.' },
+          { name: 'Mountain biking', desc: 'Electric assistance has put mountain biking within everyone\'s reach, and you can ride genuinely spectacular routes straight from the villa. For instance Laroque, Valmy, Collioure and the criques de Porteils, then back through Argelès and the greenway. Or climb up to the col de l\'Ouillat. All the DFCI forest tracks are easy on a mountain bike and call for no particular technical skill. You even see people riding up the Madeloc on an electric bike but, how shall I put it, that is not playing fair. The whole network of tracks and trails in the Albères starts from the village, and bikes can be lent.' },
           { name: 'Electric bikes', desc: 'A rental shop in the village, details provided on booking.' },
         ],
       },

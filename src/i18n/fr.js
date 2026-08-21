@@ -794,7 +794,7 @@ balades: [
           { name: 'La tour Madeloc, depuis Banyuls', desc: '9,62 km pour 647 m de dénivelé, 6,73 % de moyenne et des passages à 20 %, jusqu\'à 656 m au pied de la tour à signaux. Une première catégorie, avec toute la Côte Vermeille sous les roues. À noter que la montée part de Banyuls, pas de Laroque.' },
           { name: 'Le col de l\'Ouillat', desc: 'La D71 depuis Le Perthus, la seule route qui mène au col, à 936 m. En haut, le Chalet de l\'Albère et sa terrasse panoramique pour se refaire avant de redescendre.' },
           { name: 'L\'EuroVelo 8', maps: false, desc: 'La véloroute de la Méditerranée passe à proximité : de quoi rouler à plat, en famille, sans jamais lever les yeux vers un col.' },
-          { name: 'VTT', desc: 'Tout le réseau de pistes et de sentiers des Albères, au départ du village. Prêt de VTT possible.' },
+          { name: 'VTT', desc: 'L\'électrification a rendu le VTT accessible à tous, et on peut faire des randonnées très spectaculaires au départ de la villa. Par exemple Laroque, Valmy, Collioure, les criques de Porteils, puis le retour par Argelès et la voie verte. Ou monter au col de l\'Ouillat. Toutes les pistes DFCI se font facilement en VTT et ne demandent aucune technicité particulière. On en voit même qui montent la Madeloc en VTT électrique mais, comment dire, ce n\'est pas du jeu. Tout le réseau de pistes et de sentiers des Albères part du village, et le prêt de VTT est possible.' },
           { name: 'Vélos électriques', desc: 'Un loueur au village, coordonnées fournies à la réservation.' },
         ],
       },
